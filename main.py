@@ -157,12 +157,33 @@ LATEST NEWS:
 {news}
 
 Please provide:
+
 1. Overall market sentiment (Bullish/Bearish/Neutral) with reasoning
-2. Gold Analysis: trend, support (2 levels), resistance (2 levels), best entry zone, risk factors
-3. S&P 500 Analysis: trend, support (2 levels), resistance (2 levels), outlook
-4. Magnificent 7 Summary: brief 1-line outlook for each stock (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA)
-5. Watchlist Summary: brief 1-line outlook for each (ASTS, UNH, EOSE, RKLB, OKLO, ONDS)
+
+2. Gold (XAU/USD) Analysis:
+   - Trend direction and strength
+   - Support (2 levels) and Resistance (2 levels)
+   - ACTION: clearly state BUY or SELL signal with reasoning
+   - If BUY: exact entry price zone and stop loss
+   - If SELL: exact exit/sell price target and stop loss
+   - Risk factors to watch
+
+3. S&P 500 Analysis:
+   - Trend direction
+   - Support (2 levels) and Resistance (2 levels)
+   - Best buy entry price zone for today
+   - Outlook
+
+4. Magnificent 7 — for each stock (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA):
+   - 1-line sentiment
+   - Recommended buy entry price zone
+
+5. Watchlist — for each stock (ASTS, UNH, EOSE, RKLB, OKLO, ONDS):
+   - 1-line sentiment
+   - Recommended buy entry price zone
+
 6. Top 3 most important news affecting markets today
+
 7. Overall recommendation and risk warning
 
 Write the entire response in Thai language. Be specific with price numbers."""
