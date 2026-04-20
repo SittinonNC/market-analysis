@@ -3,3 +3,5 @@ feedparser
 requests
 groq
 pytz
+ta
+pandas

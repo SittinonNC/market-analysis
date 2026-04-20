@@ -7,6 +7,7 @@ import feedparser
 import yfinance as yf
 from groq import Groq
 from config import PORTFOLIO
+from technicals import fetch_all_indicators, format_indicators
 
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
@@ -243,6 +244,45 @@ def fetch_news() -> str:
 
 # ── Groq Analysis ─────────────────────────────────────────────────────────────
 
+def build_technical_context(prices: dict, technicals: dict) -> str:
+    """Build technical analysis section for all symbols."""
+    all_symbols = {
+        "GC=F": ("gold", "Gold (XAU/USD)"),
+        "^GSPC": ("sp500", "S&P 500"),
+        "BTC-USD": ("btc", "Bitcoin"),
+        "ETH-USD": ("eth", "Ethereum"),
+    }
+    mag7_map = {s: s for s in ["AAPL", "MSFT", "NVDA", "AMZN", "META", "GOOGL", "TSLA"]}
+    watch_map = {s: s for s in ["ASTS", "UNH", "EOSE", "RKLB", "OKLO", "ONDS"]}
+
+    lines = []
+
+    for symbol, (price_key, label) in all_symbols.items():
+        ind = technicals.get(symbol, {})
+        price = prices.get(price_key, {}).get("price", 0)
+        current_price = price if isinstance(price, float) else 0
+        lines.append(format_indicators(label, ind, current_price))
+        lines.append("")
+
+    lines.append("── Magnificent 7 ──")
+    for symbol in mag7_map:
+        ind = technicals.get(symbol, {})
+        price = prices["mag7"].get(symbol, {}).get("price", 0)
+        current_price = price if isinstance(price, float) else 0
+        lines.append(format_indicators(symbol, ind, current_price))
+        lines.append("")
+
+    lines.append("── Watchlist ──")
+    for symbol in watch_map:
+        ind = technicals.get(symbol, {})
+        price = prices["watchlist"].get(symbol, {}).get("price", 0)
+        current_price = price if isinstance(price, float) else 0
+        lines.append(format_indicators(symbol, ind, current_price))
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def build_price_context(prices: dict, fear_greed: dict) -> str:
     gold = prices["gold"]
     sp500 = prices["sp500"]
@@ -274,11 +314,12 @@ def build_price_context(prices: dict, fear_greed: dict) -> str:
     return "\n".join(lines)
 
 
-def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str) -> str:
+def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str, technicals: dict) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
         price_context = build_price_context(prices, fear_greed)
+        technical_context = build_technical_context(prices, technicals)
 
         calendar_text = ""
         if calendar:
@@ -289,10 +330,13 @@ def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str)
         else:
             calendar_text = "No high-impact USD economic events today."
 
-        user_prompt = f"""Analyze the following market data and provide a comprehensive briefing.
+        user_prompt = f"""Analyze the following market data and technical indicators. Provide a comprehensive briefing.
 
-MARKET DATA:
+MARKET DATA (Price + Macro):
 {price_context}
+
+TECHNICAL INDICATORS (RSI, MACD, Bollinger Bands, EMA, ATR):
+{technical_context}
 
 ECONOMIC CALENDAR:
 {calendar_text}
@@ -300,45 +344,46 @@ ECONOMIC CALENDAR:
 LATEST NEWS:
 {news}
 
-Please provide:
+Please provide a precise analysis using BOTH price data AND technical indicators:
 
 1. Overall market sentiment (Bullish/Bearish/Neutral)
-   - Use Fear & Greed, VIX, and DXY to support your reasoning
+   - Reference Fear & Greed, VIX, DXY, and overall EMA/MACD signals
 
-2. Gold (XAU/USD) — Full Analysis:
-   - Trend direction and strength
-   - Support (2 levels) and Resistance (2 levels)
-   - ACTION SIGNAL: state clearly BUY or SELL
-   - If BUY: exact entry price zone + stop loss + take profit target
-   - If SELL: exact sell/exit price + stop loss + downside target
+2. Gold (XAU/USD) — Full Technical Analysis:
+   - Trend direction (based on EMA alignment)
+   - RSI and MACD interpretation
+   - Bollinger Band position
+   - Support (2 levels from BB lower + EMA) and Resistance (2 levels from BB upper + EMA)
+   - ACTION SIGNAL: BUY or SELL (must be clearly stated)
+   - If BUY: exact entry zone + stop loss (use ATR) + take profit target
+   - If SELL: exact exit price + stop loss (use ATR) + downside target
    - Key risk factors
 
-3. S&P 500 Analysis:
-   - Trend direction
-   - Support (2 levels) and Resistance (2 levels)
-   - Best buy entry price zone today
-   - Outlook
+3. S&P 500 — Technical Analysis:
+   - EMA trend, RSI, MACD interpretation
+   - Support and Resistance (2 each)
+   - Best entry zone today with stop loss
 
 4. Crypto (BTC & ETH):
-   - Brief sentiment for each
-   - Recommended buy entry zone for each
+   - RSI and MACD for each
+   - Recommended entry zone with stop loss
 
 5. Magnificent 7 — for each (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA):
-   - 1-line sentiment
-   - Recommended buy entry price zone
+   - RSI signal + MACD trend
+   - EMA position (bullish/bearish)
+   - Recommended buy entry zone
 
 6. Watchlist — for each (ASTS, UNH, EOSE, RKLB, OKLO, ONDS):
-   - 1-line sentiment
-   - Recommended buy entry price zone
+   - RSI signal + MACD trend
+   - Recommended buy entry zone
 
-7. Economic Calendar Impact:
-   - Which events today could move markets and how
+7. Economic Calendar: which events today could move markets and direction
 
 8. Top 3 most important news affecting markets
 
 9. Overall recommendation and risk warning
 
-Write entirely in Thai language. Be specific with price numbers."""
+Write entirely in Thai language. Always reference specific indicator values when giving entry/exit levels."""
 
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
@@ -346,9 +391,12 @@ Write entirely in Thai language. Be specific with price numbers."""
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert financial analyst specializing in gold, US equities, crypto, and macro indicators. "
-                        "Provide actionable trading insights with specific price levels. "
-                        "Use Fear & Greed, VIX, and DXY as supporting signals for your analysis. "
+                        "You are an expert quantitative financial analyst specializing in gold, US equities, crypto, and macro indicators. "
+                        "You have access to real technical indicators: RSI, MACD, Bollinger Bands, EMA (20/50/200), and ATR. "
+                        "Always use these indicator values to support your BUY/SELL signals and entry/exit levels. "
+                        "Use ATR for stop loss calculation. Use Bollinger Bands for support/resistance. "
+                        "Use RSI for overbought/oversold. Use MACD for momentum and crossover signals. "
+                        "Use EMA alignment for trend direction. "
                         "Write in Thai language. Do NOT use Markdown formatting like ** or *. Plain text only."
                     ),
                 },
@@ -485,23 +533,31 @@ def send_line(message: str):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    print("[1/6] Fetching prices...")
+    print("[1/7] Fetching prices...")
     prices = fetch_prices()
 
-    print("[2/6] Fetching Fear & Greed Index...")
+    print("[2/7] Fetching Fear & Greed Index...")
     fear_greed = fetch_fear_greed()
 
-    print("[3/6] Fetching economic calendar...")
+    print("[3/7] Fetching economic calendar...")
     calendar = fetch_economic_calendar()
 
-    print("[4/6] Fetching news...")
+    print("[4/7] Fetching news...")
     news = fetch_news()
 
-    print("[5/6] Calculating portfolio P&L...")
+    print("[5/7] Computing technical indicators (RSI, MACD, BB, EMA, ATR)...")
+    all_symbols = (
+        ["GC=F", "^GSPC", "DX-Y.NYB", "^VIX", "BTC-USD", "ETH-USD"]
+        + list(MAG7.keys())
+        + list(WATCHLIST.keys())
+    )
+    technicals = fetch_all_indicators(all_symbols, period="1y")
+
+    print("[6/7] Calculating portfolio P&L...")
     pnl = calculate_portfolio_pnl(prices)
 
-    print("[6/6] Calling Groq API...")
-    analysis = get_groq_analysis(prices, fear_greed, calendar, news)
+    print("[7/7] Calling Groq API...")
+    analysis = get_groq_analysis(prices, fear_greed, calendar, news, technicals)
 
     message = build_line_message(prices, fear_greed, calendar, pnl, analysis)
     send_line(message)
