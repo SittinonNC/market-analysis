@@ -166,9 +166,10 @@ def build_line_message(prices: dict, analysis: str) -> str:
     gold_price_fmt = f"${gold_price:,.2f}" if isinstance(gold_price, float) else str(gold_price)
     sp500_price_fmt = f"{sp500_price:,.2f}" if isinstance(sp500_price, float) else str(sp500_price)
 
+    time_str = now_bangkok.strftime("%H:%M")
     message = (
         f"📊 Daily Market Briefing\n"
-        f"📅 {date_str} | ⏰ 09:00 AM (Bangkok Time)\n\n"
+        f"📅 {date_str} | ⏰ {time_str} (Bangkok Time)\n\n"
         f"💰 GOLD (XAU/USD): {gold_price_fmt} ({fmt_change(gold_change)})\n"
         f"📈 S&P 500: {sp500_price_fmt} ({fmt_change(sp500_change)})\n"
         f"━━━━━━━━━━━━━━━━━━\n"
