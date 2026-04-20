@@ -6,21 +6,21 @@
 
 PORTFOLIO = {
     # Magnificent 7
-    "AAPL":  {"shares": 0, "avg_cost": 0.0},
-    "MSFT":  {"shares": 0, "avg_cost": 0.0},
-    "NVDA":  {"shares": 0, "avg_cost": 0.0},
-    "AMZN":  {"shares": 0, "avg_cost": 0.0},
-    "META":  {"shares": 0, "avg_cost": 0.0},
-    "GOOGL": {"shares": 0, "avg_cost": 0.0},
-    "TSLA":  {"shares": 0, "avg_cost": 0.0},
+    "AAPL":  {"shares": 0,          "avg_cost": 0.0},
+    "MSFT":  {"shares": 1.0529435,  "avg_cost": 470.5950},
+    "NVDA":  {"shares": 0.8876384,  "avg_cost": 181.9885},
+    "AMZN":  {"shares": 0,          "avg_cost": 0.0},
+    "META":  {"shares": 0,          "avg_cost": 0.0},
+    "GOOGL": {"shares": 0,          "avg_cost": 0.0},
+    "TSLA":  {"shares": 0,          "avg_cost": 0.0},
 
     # Watchlist
-    "ASTS":  {"shares": 0, "avg_cost": 0.0},
-    "UNH":   {"shares": 0, "avg_cost": 0.0},
-    "EOSE":  {"shares": 0, "avg_cost": 0.0},
-    "RKLB":  {"shares": 0, "avg_cost": 0.0},
-    "OKLO":  {"shares": 0, "avg_cost": 0.0},
-    "ONDS":  {"shares": 0, "avg_cost": 0.0},
+    "ASTS":  {"shares": 0.6984658,  "avg_cost": 86.6900},
+    "UNH":   {"shares": 1.2832871,  "avg_cost": 298.0414},
+    "EOSE":  {"shares": 14.475,     "avg_cost": 8.7628},
+    "RKLB":  {"shares": 0,          "avg_cost": 0.0},
+    "OKLO":  {"shares": 2.5849752,  "avg_cost": 115.4673},
+    "ONDS":  {"shares": 6.138,      "avg_cost": 11.3850},
 
     # ทองคำ (ออนซ์)
     "GOLD_OZ": {"oz": 0, "avg_cost": 0.0},
