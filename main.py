@@ -330,12 +330,12 @@ def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str,
         else:
             calendar_text = "No high-impact USD economic events today."
 
-        user_prompt = f"""Analyze the following market data and technical indicators. Provide a comprehensive briefing.
+        user_prompt = f"""Analyze the following market data and technical indicators. Format your response EXACTLY as shown in the template below. Use plain text only — no **, no #, no markdown.
 
-MARKET DATA (Price + Macro):
+MARKET DATA:
 {price_context}
 
-TECHNICAL INDICATORS (RSI, MACD, Bollinger Bands, EMA, ATR):
+TECHNICAL INDICATORS:
 {technical_context}
 
 ECONOMIC CALENDAR:
@@ -344,46 +344,84 @@ ECONOMIC CALENDAR:
 LATEST NEWS:
 {news}
 
-Please provide a precise analysis using BOTH price data AND technical indicators:
+OUTPUT FORMAT (follow this structure exactly, write content in Thai):
 
-1. Overall market sentiment (Bullish/Bearish/Neutral)
-   - Reference Fear & Greed, VIX, DXY, and overall EMA/MACD signals
+════════════════════
+📊 ภาพรวมตลาด
+════════════════════
+ความเชื่อมั่น: [Bullish/Bearish/Neutral]
+เหตุผล: [อธิบาย 1-2 ประโยค อ้างอิง Fear&Greed VIX DXY EMA MACD]
 
-2. Gold (XAU/USD) — Full Technical Analysis:
-   - Trend direction (based on EMA alignment)
-   - RSI and MACD interpretation
-   - Bollinger Band position
-   - Support (2 levels from BB lower + EMA) and Resistance (2 levels from BB upper + EMA)
-   - ACTION SIGNAL: BUY or SELL (must be clearly stated)
-   - If BUY: exact entry zone + stop loss (use ATR) + take profit target
-   - If SELL: exact exit price + stop loss (use ATR) + downside target
-   - Key risk factors
+════════════════════
+💰 ทองคำ (XAU/USD)
+════════════════════
+แนวโน้ม: [ทิศทาง + EMA alignment]
+RSI: [ค่า] → [สัญญาณ] | MACD: [Bullish/Bearish] | BB: [ตำแหน่ง]
+แนวรับ: [ระดับ 1] / [ระดับ 2]
+แนวต้าน: [ระดับ 1] / [ระดับ 2]
 
-3. S&P 500 — Technical Analysis:
-   - EMA trend, RSI, MACD interpretation
-   - Support and Resistance (2 each)
-   - Best entry zone today with stop loss
+[🟢 สัญญาณ: BUY  หรือ  🔴 สัญญาณ: SELL]
+จุดเข้า: $[ราคา] – $[ราคา]
+Stop Loss: $[ราคา]  (ATR=[ค่า])
+เป้าหมาย: $[ราคา]
+ความเสี่ยง: [ปัจจัยเสี่ยง 1 ประโยค]
 
-4. Crypto (BTC & ETH):
-   - RSI and MACD for each
-   - Recommended entry zone with stop loss
+════════════════════
+📈 S&P 500
+════════════════════
+แนวโน้ม: [ทิศทาง + EMA]
+RSI: [ค่า] → [สัญญาณ] | MACD: [Bullish/Bearish]
+แนวรับ: [ระดับ 1] / [ระดับ 2]
+แนวต้าน: [ระดับ 1] / [ระดับ 2]
+จุดเข้า: [ระดับ] | Stop Loss: [ระดับ]
 
-5. Magnificent 7 — for each (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA):
-   - RSI signal + MACD trend
-   - EMA position (bullish/bearish)
-   - Recommended buy entry zone
+════════════════════
+₿ Crypto
+════════════════════
+BTC — RSI: [ค่า] | MACD: [สัญญาณ]
+จุดเข้า: $[ราคา] | Stop Loss: $[ราคา]
 
-6. Watchlist — for each (ASTS, UNH, EOSE, RKLB, OKLO, ONDS):
-   - RSI signal + MACD trend
-   - Recommended buy entry zone
+ETH — RSI: [ค่า] | MACD: [สัญญาณ]
+จุดเข้า: $[ราคา] | Stop Loss: $[ราคา]
 
-7. Economic Calendar: which events today could move markets and direction
+════════════════════
+🏆 Magnificent 7
+════════════════════
+AAPL  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+MSFT  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+NVDA  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+AMZN  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+META  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+GOOGL RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+TSLA  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
 
-8. Top 3 most important news affecting markets
+════════════════════
+👁 Watchlist
+════════════════════
+ASTS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+UNH   RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+EOSE  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+RKLB  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+OKLO  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
+ONDS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
 
-9. Overall recommendation and risk warning
+════════════════════
+📅 Economic Calendar
+════════════════════
+[ชื่อ event] — ผลกระทบ: [คาด Bullish/Bearish ต่อ USD/ตลาด]
+[ถ้าไม่มี event: ไม่มีข้อมูลเศรษฐกิจสำคัญวันนี้]
 
-Write entirely in Thai language. Always reference specific indicator values when giving entry/exit levels."""
+════════════════════
+📰 ข่าวสำคัญ
+════════════════════
+1. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
+2. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
+3. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
+
+════════════════════
+⚡ สรุปคำแนะนำ
+════════════════════
+[สรุป 2-3 ประโยค พร้อมคำเตือนความเสี่ยง]"""
 
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
@@ -430,53 +468,66 @@ def build_line_message(prices: dict, fear_greed: dict, calendar: list, pnl: dict
     fg_score = fear_greed["score"]
     fg_rating = fear_greed["rating"]
 
+    def fg_emoji(score):
+        if not isinstance(score, float):
+            return "❓"
+        if score <= 25: return "😱"
+        if score <= 45: return "😨"
+        if score <= 55: return "😐"
+        if score <= 75: return "😀"
+        return "🤩"
+
     lines = [
-        "📊 Daily Market Briefing",
-        f"📅 {date_str} | ⏰ {time_str} (Bangkok Time)",
+        "╔══════════════════════╗",
+        "   📊 Market Briefing",
+        f"   📅 {date_str}  ⏰ {time_str}",
+        "╚══════════════════════╝",
         "",
-        "── Market Indicators ──",
-        f"😱 Fear & Greed: {fg_score} — {fg_rating}",
-        f"📉 VIX: {fmt_price(vix['price'], prefix='')} ({fmt_change(vix['change'])})",
-        f"💵 DXY: {fmt_price(dxy['price'], prefix='')} ({fmt_change(dxy['change'])})",
+        "── Macro Indicators ─────────",
+        f"{fg_emoji(fg_score)} Fear & Greed : {fg_score}  {fg_rating}",
+        f"📉 VIX          : {fmt_price(vix['price'], prefix='')}  ({fmt_change(vix['change'])})",
+        f"💵 DXY          : {fmt_price(dxy['price'], prefix='')}  ({fmt_change(dxy['change'])})",
         "",
-        "── Commodities & Indices ──",
-        f"💰 GOLD: {fmt_price(gold['price'])} ({fmt_change(gold['change'])})",
-        f"📈 S&P 500: {fmt_price(sp500['price'], prefix='')} ({fmt_change(sp500['change'])})",
+        "── Commodities & Index ──────",
+        f"💰 GOLD  : {fmt_price(gold['price'])}  ({fmt_change(gold['change'])})",
+        f"📈 S&P500: {fmt_price(sp500['price'], prefix='')}  ({fmt_change(sp500['change'])})",
         "",
-        "── Crypto ──",
-        f"{arrow(btc['change'])} BTC: {fmt_price(btc['price'])} ({fmt_change(btc['change'])})",
-        f"{arrow(eth['change'])} ETH: {fmt_price(eth['price'])} ({fmt_change(eth['change'])})",
+        "── Crypto ───────────────────",
+        f"{arrow(btc['change'])} BTC : {fmt_price(btc['price'])}  ({fmt_change(btc['change'])})",
+        f"{arrow(eth['change'])} ETH : {fmt_price(eth['price'])}  ({fmt_change(eth['change'])})",
         "",
-        "── Magnificent 7 ──",
+        "── Magnificent 7 ────────────",
     ]
 
     for symbol, d in prices["mag7"].items():
-        lines.append(f"{arrow(d['change'])} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+        pad = " " * max(0, 5 - len(symbol))
+        lines.append(f"{arrow(d['change'])} {symbol}{pad}: {fmt_price(d['price'])}  ({fmt_change(d['change'])})")
 
-    lines += ["", "── Watchlist ──"]
+    lines += ["", "── Watchlist ────────────────"]
     for symbol, d in prices["watchlist"].items():
-        lines.append(f"{arrow(d['change'])} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+        pad = " " * max(0, 5 - len(symbol))
+        lines.append(f"{arrow(d['change'])} {symbol}{pad}: {fmt_price(d['price'])}  ({fmt_change(d['change'])})")
 
     # Portfolio P&L
     if pnl and "__total__" in pnl:
         total = pnl["__total__"]
         gain_emoji = "📈" if total["gain"] >= 0 else "📉"
-        lines += [
-            "",
-            "── Portfolio P&L ──",
-        ]
+        lines += ["", "── Portfolio P&L ────────────"]
         for symbol, data in pnl.items():
             if symbol == "__total__":
                 continue
             if isinstance(data.get("gain"), float):
-                g_emoji = "▲" if data["gain"] >= 0 else "▼"
+                g = "▲" if data["gain"] >= 0 else "▼"
+                pad = " " * max(0, 5 - len(symbol))
                 lines.append(
-                    f"{g_emoji} {symbol}: ${data['current_price']:,.2f} | "
-                    f"P&L: ${data['gain']:+,.2f} ({data['gain_pct']:+.2f}%)"
+                    f"{g} {symbol}{pad}: {fmt_price(data['current_price'])}  "
+                    f"P&L {data['gain']:+,.2f} ({data['gain_pct']:+.2f}%)"
                 )
-        lines.append(
-            f"{gain_emoji} รวม: ${total['value']:,.2f} | กำไร/ขาดทุน: ${total['gain']:+,.2f} ({total['gain_pct']:+.2f}%)"
-        )
+        lines += [
+            "─────────────────────────────",
+            f"{gain_emoji} รวม  : ${total['value']:,.2f}",
+            f"   กำไร/ขาดทุน: ${total['gain']:+,.2f} ({total['gain_pct']:+.2f}%)",
+        ]
 
     # Economic Calendar
     if calendar:
