@@ -129,7 +129,7 @@ Write the entire response in Thai language. Be specific with price numbers."""
                     "content": (
                         "You are an expert financial analyst specializing in gold (XAU/USD) and US stock markets. "
                         "Your job is to analyze current market data and news to provide actionable trading insights. "
-                        "Always be specific with price levels. Format your response in a clear, structured way suitable for Telegram. "
+                        "Always be specific with price levels. Format your response in a clear, structured way. "
                         "Use emojis sparingly but effectively. Write in Thai language."
                     ),
                 },
@@ -146,7 +146,7 @@ Write the entire response in Thai language. Be specific with price numbers."""
         return f"⚠️ การวิเคราะห์ AI ไม่สำเร็จ: {e}\n\nข้อมูลราคาแสดงอยู่ด้านบน กรุณาวิเคราะห์เองจากข้อมูลดิบ"
 
 
-def build_telegram_message(prices: dict, analysis: str) -> str:
+def build_line_message(prices: dict, analysis: str) -> str:
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
     date_str = now_bangkok.strftime("%d %b %Y")
 
@@ -165,48 +165,54 @@ def build_telegram_message(prices: dict, analysis: str) -> str:
     sp500_price_fmt = f"{sp500_price:,.2f}" if isinstance(sp500_price, float) else str(sp500_price)
 
     message = (
-        f"📊 *Daily Market Briefing*\n"
-        f"📅 {date_str} | ⏰ 09:00 AM \\(Bangkok Time\\)\n\n"
-        f"💰 *GOLD \\(XAU/USD\\):* {gold_price_fmt} \\({fmt_change(gold_change)}\\)\n"
-        f"📈 *S&P 500:* {sp500_price_fmt} \\({fmt_change(sp500_change)}\\)\n"
+        f"📊 Daily Market Briefing\n"
+        f"📅 {date_str} | ⏰ 09:00 AM (Bangkok Time)\n\n"
+        f"💰 GOLD (XAU/USD): {gold_price_fmt} ({fmt_change(gold_change)})\n"
+        f"📈 S&P 500: {sp500_price_fmt} ({fmt_change(sp500_change)})\n"
         f"━━━━━━━━━━━━━━━━━━\n"
         f"{analysis}\n"
         f"━━━━━━━━━━━━━━━━━━\n"
-        f"⚠️ _This is AI\\-generated analysis\\. Not financial advice\\. Trade at your own risk\\._"
+        f"⚠️ This is AI-generated analysis. Not financial advice. Trade at your own risk."
     )
     return message
 
 
-def send_telegram(message: str):
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+def send_line(message: str):
+    token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
+    user_id = os.environ.get("LINE_USER_ID")
 
-    if not token or not chat_id:
-        print("  Error: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set")
+    if not token or not user_id:
+        print("  Error: LINE_CHANNEL_ACCESS_TOKEN or LINE_USER_ID not set")
         return
 
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    max_len = 4096
+    url = "https://api.line.me/v2/bot/message/push"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+
+    # LINE text message limit is 5000 characters; split if needed
+    max_len = 5000
     chunks = [message[i:i + max_len] for i in range(0, len(message), max_len)]
 
     for i, chunk in enumerate(chunks):
         try:
             response = requests.post(
                 url,
+                headers=headers,
                 json={
-                    "chat_id": chat_id,
-                    "text": chunk,
-                    "parse_mode": "MarkdownV2",
+                    "to": user_id,
+                    "messages": [{"type": "text", "text": chunk}],
                 },
                 timeout=30,
             )
             response.raise_for_status()
-            print(f"  Telegram chunk {i + 1}/{len(chunks)} sent successfully")
+            print(f"  LINE chunk {i + 1}/{len(chunks)} sent successfully")
         except requests.exceptions.HTTPError as e:
-            print(f"  Error sending Telegram chunk {i + 1}: {e}")
+            print(f"  Error sending LINE chunk {i + 1}: {e}")
             print(f"  Response: {response.text}")
         except Exception as e:
-            print(f"  Error sending Telegram chunk {i + 1}: {e}")
+            print(f"  Error sending LINE chunk {i + 1}: {e}")
 
         if i < len(chunks) - 1:
             time.sleep(1)
@@ -222,11 +228,11 @@ def main():
     print("[3/5] Calling Groq API for analysis...")
     analysis = get_groq_analysis(prices, news)
 
-    print("[4/5] Building Telegram message...")
-    message = build_telegram_message(prices, analysis)
+    print("[4/5] Building LINE message...")
+    message = build_line_message(prices, analysis)
 
-    print("[5/5] Sending to Telegram...")
-    send_telegram(message)
+    print("[5/5] Sending to LINE...")
+    send_line(message)
 
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
     print(f"\n✅ Execution complete at {now_bangkok.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
