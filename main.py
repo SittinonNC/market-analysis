@@ -17,52 +17,81 @@ RSS_FEEDS = [
     ("Investing.com Gold", "https://www.investing.com/rss/news_14.rss"),
 ]
 
+# Magnificent 7
+MAG7 = {
+    "AAPL": "Apple",
+    "MSFT": "Microsoft",
+    "NVDA": "Nvidia",
+    "AMZN": "Amazon",
+    "META": "Meta",
+    "GOOGL": "Alphabet",
+    "TSLA": "Tesla",
+}
+
+# Additional watchlist
+WATCHLIST = {
+    "ASTS": "AST SpaceMobile",
+    "UNH": "UnitedHealth",
+    "EOSE": "Eos Energy",
+    "RKLB": "Rocket Lab",
+    "OKLO": "Oklo",
+    "ONDS": "Ondas Holdings",
+}
+
+
+def fetch_single(symbol: str) -> dict:
+    ticker = yf.Ticker(symbol)
+    hist = ticker.history(period="2d")
+    if hist.empty or len(hist) < 1:
+        raise ValueError(f"No data for {symbol}")
+    current = round(hist["Close"].iloc[-1], 2)
+    high = round(hist["High"].iloc[-1], 2)
+    low = round(hist["Low"].iloc[-1], 2)
+    prev_close = round(hist["Close"].iloc[-2], 2) if len(hist) >= 2 else current
+    change_pct = round(((current - prev_close) / prev_close) * 100, 2) if prev_close else 0.0
+    return {"price": current, "change": change_pct, "high": high, "low": low}
+
 
 def fetch_prices() -> dict:
     prices = {}
-    tickers = {
-        "gold": "GC=F",
-        "sp500": "^GSPC",
-    }
 
-    for key, symbol in tickers.items():
+    # Gold & S&P 500
+    for key, symbol in [("gold", "GC=F"), ("sp500", "^GSPC")]:
         try:
-            ticker = yf.Ticker(symbol)
-            hist = ticker.history(period="2d")
-            if hist.empty or len(hist) < 1:
-                raise ValueError(f"No data returned for {symbol}")
-
-            current = round(hist["Close"].iloc[-1], 2)
-            high = round(hist["High"].iloc[-1], 2)
-            low = round(hist["Low"].iloc[-1], 2)
-
-            if len(hist) >= 2:
-                prev_close = round(hist["Close"].iloc[-2], 2)
-            else:
-                prev_close = current
-
-            change_pct = round(((current - prev_close) / prev_close) * 100, 2) if prev_close else 0.0
-
-            prices[f"{key}_price"] = current
-            prices[f"{key}_change"] = change_pct
-            prices[f"{key}_high"] = high
-            prices[f"{key}_low"] = low
-
-            print(f"  {symbol}: ${current} ({change_pct:+.2f}%)")
-
+            data = fetch_single(symbol)
+            prices[key] = data
+            print(f"  {symbol}: ${data['price']} ({data['change']:+.2f}%)")
         except Exception as e:
             print(f"  Warning: Failed to fetch {symbol}: {e}")
-            prices[f"{key}_price"] = "N/A"
-            prices[f"{key}_change"] = "N/A"
-            prices[f"{key}_high"] = "N/A"
-            prices[f"{key}_low"] = "N/A"
+            prices[key] = {"price": "N/A", "change": "N/A", "high": "N/A", "low": "N/A"}
+
+    # Magnificent 7
+    prices["mag7"] = {}
+    for symbol, name in MAG7.items():
+        try:
+            data = fetch_single(symbol)
+            prices["mag7"][symbol] = {"name": name, **data}
+            print(f"  {symbol}: ${data['price']} ({data['change']:+.2f}%)")
+        except Exception as e:
+            print(f"  Warning: Failed to fetch {symbol}: {e}")
+            prices["mag7"][symbol] = {"name": name, "price": "N/A", "change": "N/A", "high": "N/A", "low": "N/A"}
+
+    # Watchlist
+    prices["watchlist"] = {}
+    for symbol, name in WATCHLIST.items():
+        try:
+            data = fetch_single(symbol)
+            prices["watchlist"][symbol] = {"name": name, **data}
+            print(f"  {symbol}: ${data['price']} ({data['change']:+.2f}%)")
+        except Exception as e:
+            print(f"  Warning: Failed to fetch {symbol}: {e}")
+            prices["watchlist"][symbol] = {"name": name, "price": "N/A", "change": "N/A", "high": "N/A", "low": "N/A"}
 
     return prices
 
 
 def fetch_news() -> str:
     articles = []
-
     for source_name, url in RSS_FEEDS:
         try:
             feed = feedparser.parse(url)
@@ -80,45 +109,61 @@ def fetch_news() -> str:
     return combined[:3000]
 
 
+def fmt_change(v):
+    if isinstance(v, float):
+        sign = "+" if v >= 0 else ""
+        return f"{sign}{v:.2f}%"
+    return str(v)
+
+
+def fmt_price(v, prefix="$"):
+    if isinstance(v, float):
+        return f"{prefix}{v:,.2f}"
+    return str(v)
+
+
+def build_price_context(prices: dict) -> str:
+    gold = prices["gold"]
+    sp500 = prices["sp500"]
+
+    lines = [
+        f"Gold (XAU/USD): {fmt_price(gold['price'])} | Change: {fmt_change(gold['change'])} | High: {gold['high']} | Low: {gold['low']}",
+        f"S&P 500: {fmt_price(sp500['price'], prefix='')} | Change: {fmt_change(sp500['change'])} | High: {sp500['high']} | Low: {sp500['low']}",
+        "",
+        "Magnificent 7:",
+    ]
+    for symbol, d in prices["mag7"].items():
+        lines.append(f"  {symbol} ({d['name']}): {fmt_price(d['price'])} | Change: {fmt_change(d['change'])}")
+
+    lines += ["", "Watchlist:"]
+    for symbol, d in prices["watchlist"].items():
+        lines.append(f"  {symbol} ({d['name']}): {fmt_price(d['price'])} | Change: {fmt_change(d['change'])}")
+
+    return "\n".join(lines)
+
+
 def get_groq_analysis(prices: dict, news: str) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-        gold_price = prices.get("gold_price", "N/A")
-        gold_change = prices.get("gold_change", "N/A")
-        gold_high = prices.get("gold_high", "N/A")
-        gold_low = prices.get("gold_low", "N/A")
-        sp500_price = prices.get("sp500_price", "N/A")
-        sp500_change = prices.get("sp500_change", "N/A")
-        sp500_high = prices.get("sp500_high", "N/A")
-        sp500_low = prices.get("sp500_low", "N/A")
+        price_context = build_price_context(prices)
 
-        change_fmt = lambda v: f"{v:+.2f}" if isinstance(v, float) else str(v)
-
-        user_prompt = f"""Analyze the following market data and news. Provide a comprehensive morning briefing.
+        user_prompt = f"""Analyze the following market data and news. Provide a comprehensive briefing.
 
 CURRENT PRICES:
-Gold (XAU/USD): {gold_price} USD | Change: {change_fmt(gold_change)}% | High: {gold_high} | Low: {gold_low}
-S&P 500: {sp500_price} | Change: {change_fmt(sp500_change)}% | High: {sp500_high} | Low: {sp500_low}
+{price_context}
 
 LATEST NEWS:
 {news}
 
 Please provide:
 1. Overall market sentiment (Bullish/Bearish/Neutral) with reasoning
-2. Gold Analysis:
-   - Trend direction and strength
-   - Key support levels (2 levels)
-   - Key resistance levels (2 levels)
-   - Best entry zone for today
-   - Risk factors to watch
-3. S&P 500 Analysis:
-   - Trend direction
-   - Key support levels (2 levels)
-   - Key resistance levels (2 levels)
-   - Market outlook for today
-4. Top 3 most important news items affecting markets today
-5. Overall recommendation and risk warning
+2. Gold Analysis: trend, support (2 levels), resistance (2 levels), best entry zone, risk factors
+3. S&P 500 Analysis: trend, support (2 levels), resistance (2 levels), outlook
+4. Magnificent 7 Summary: brief 1-line outlook for each stock (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA)
+5. Watchlist Summary: brief 1-line outlook for each (ASTS, UNH, EOSE, RKLB, OKLO, ONDS)
+6. Top 3 most important news affecting markets today
+7. Overall recommendation and risk warning
 
 Write the entire response in Thai language. Be specific with price numbers."""
 
@@ -128,7 +173,7 @@ Write the entire response in Thai language. Be specific with price numbers."""
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert financial analyst specializing in gold (XAU/USD) and US stock markets. "
+                        "You are an expert financial analyst specializing in gold, US stock markets, and individual equities. "
                         "Your job is to analyze current market data and news to provide actionable trading insights. "
                         "Always be specific with price levels. Format your response in a clear, structured way. "
                         "Use emojis sparingly but effectively. Write in Thai language. "
@@ -137,7 +182,7 @@ Write the entire response in Thai language. Be specific with price numbers."""
                 },
                 {"role": "user", "content": user_prompt},
             ],
-            max_tokens=2000,
+            max_tokens=3000,
             temperature=0.3,
         )
 
@@ -151,33 +196,40 @@ Write the entire response in Thai language. Be specific with price numbers."""
 def build_line_message(prices: dict, analysis: str) -> str:
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
     date_str = now_bangkok.strftime("%d %b %Y")
-
-    gold_price = prices.get("gold_price", "N/A")
-    gold_change = prices.get("gold_change", "N/A")
-    sp500_price = prices.get("sp500_price", "N/A")
-    sp500_change = prices.get("sp500_change", "N/A")
-
-    def fmt_change(v):
-        if isinstance(v, float):
-            sign = "+" if v >= 0 else ""
-            return f"{sign}{v:.2f}%"
-        return str(v)
-
-    gold_price_fmt = f"${gold_price:,.2f}" if isinstance(gold_price, float) else str(gold_price)
-    sp500_price_fmt = f"{sp500_price:,.2f}" if isinstance(sp500_price, float) else str(sp500_price)
-
     time_str = now_bangkok.strftime("%H:%M")
-    message = (
-        f"📊 Daily Market Briefing\n"
-        f"📅 {date_str} | ⏰ {time_str} (Bangkok Time)\n\n"
-        f"💰 GOLD (XAU/USD): {gold_price_fmt} ({fmt_change(gold_change)})\n"
-        f"📈 S&P 500: {sp500_price_fmt} ({fmt_change(sp500_change)})\n"
-        f"━━━━━━━━━━━━━━━━━━\n"
-        f"{analysis}\n"
-        f"━━━━━━━━━━━━━━━━━━\n"
-        f"⚠️ This is AI-generated analysis. Not financial advice. Trade at your own risk."
-    )
-    return message
+
+    gold = prices["gold"]
+    sp500 = prices["sp500"]
+
+    # Header
+    lines = [
+        "📊 Daily Market Briefing",
+        f"📅 {date_str} | ⏰ {time_str} (Bangkok Time)",
+        "",
+        f"💰 GOLD (XAU/USD): {fmt_price(gold['price'])} ({fmt_change(gold['change'])})",
+        f"📈 S&P 500: {fmt_price(sp500['price'], prefix='')} ({fmt_change(sp500['change'])})",
+        "",
+        "── Magnificent 7 ──",
+    ]
+
+    for symbol, d in prices["mag7"].items():
+        arrow = "▲" if isinstance(d["change"], float) and d["change"] >= 0 else "▼"
+        lines.append(f"{arrow} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+
+    lines += ["", "── Watchlist ──"]
+    for symbol, d in prices["watchlist"].items():
+        arrow = "▲" if isinstance(d["change"], float) and d["change"] >= 0 else "▼"
+        lines.append(f"{arrow} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+
+    lines += [
+        "",
+        "━━━━━━━━━━━━━━━━━━",
+        analysis,
+        "━━━━━━━━━━━━━━━━━━",
+        "⚠️ This is AI-generated analysis. Not financial advice. Trade at your own risk.",
+    ]
+
+    return "\n".join(lines)
 
 
 def send_line(message: str):
@@ -194,7 +246,6 @@ def send_line(message: str):
         "Content-Type": "application/json",
     }
 
-    # LINE text message limit is 5000 characters; split if needed
     max_len = 5000
     chunks = [message[i:i + max_len] for i in range(0, len(message), max_len)]
 
@@ -203,10 +254,7 @@ def send_line(message: str):
             response = requests.post(
                 url,
                 headers=headers,
-                json={
-                    "to": user_id,
-                    "messages": [{"type": "text", "text": chunk}],
-                },
+                json={"to": user_id, "messages": [{"type": "text", "text": chunk}]},
                 timeout=30,
             )
             response.raise_for_status()
