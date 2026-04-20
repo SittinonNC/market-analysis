@@ -6,6 +6,7 @@ import requests
 import feedparser
 import yfinance as yf
 from groq import Groq
+from config import PORTFOLIO
 
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
@@ -17,7 +18,6 @@ RSS_FEEDS = [
     ("Investing.com Gold", "https://www.investing.com/rss/news_14.rss"),
 ]
 
-# Magnificent 7
 MAG7 = {
     "AAPL": "Apple",
     "MSFT": "Microsoft",
@@ -28,7 +28,6 @@ MAG7 = {
     "TSLA": "Tesla",
 }
 
-# Additional watchlist
 WATCHLIST = {
     "ASTS": "AST SpaceMobile",
     "UNH": "UnitedHealth",
@@ -38,6 +37,29 @@ WATCHLIST = {
     "ONDS": "Ondas Holdings",
 }
 
+
+# ── Helpers ──────────────────────────────────────────────────────────────────
+
+def fmt_change(v):
+    if isinstance(v, float):
+        sign = "+" if v >= 0 else ""
+        return f"{sign}{v:.2f}%"
+    return str(v)
+
+
+def fmt_price(v, prefix="$"):
+    if isinstance(v, float):
+        return f"{prefix}{v:,.2f}"
+    return str(v)
+
+
+def arrow(v):
+    if isinstance(v, float):
+        return "▲" if v >= 0 else "▼"
+    return "•"
+
+
+# ── Price Fetching ────────────────────────────────────────────────────────────
 
 def fetch_single(symbol: str) -> dict:
     ticker = yf.Ticker(symbol)
@@ -55,12 +77,20 @@ def fetch_single(symbol: str) -> dict:
 def fetch_prices() -> dict:
     prices = {}
 
-    # Gold & S&P 500
-    for key, symbol in [("gold", "GC=F"), ("sp500", "^GSPC")]:
+    # Core indices & commodities
+    core = {
+        "gold": "GC=F",
+        "sp500": "^GSPC",
+        "dxy": "DX-Y.NYB",
+        "vix": "^VIX",
+        "btc": "BTC-USD",
+        "eth": "ETH-USD",
+    }
+    for key, symbol in core.items():
         try:
             data = fetch_single(symbol)
             prices[key] = data
-            print(f"  {symbol}: ${data['price']} ({data['change']:+.2f}%)")
+            print(f"  {symbol}: {data['price']} ({data['change']:+.2f}%)")
         except Exception as e:
             print(f"  Warning: Failed to fetch {symbol}: {e}")
             prices[key] = {"price": "N/A", "change": "N/A", "high": "N/A", "low": "N/A"}
@@ -90,6 +120,109 @@ def fetch_prices() -> dict:
     return prices
 
 
+# ── Fear & Greed ──────────────────────────────────────────────────────────────
+
+def fetch_fear_greed() -> dict:
+    try:
+        url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+        headers = {"User-Agent": "Mozilla/5.0"}
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        fg = data["fear_and_greed"]
+        score = round(fg["score"], 1)
+        rating = fg["rating"]
+        print(f"  Fear & Greed: {score} ({rating})")
+        return {"score": score, "rating": rating}
+    except Exception as e:
+        print(f"  Warning: Failed to fetch Fear & Greed: {e}")
+        return {"score": "N/A", "rating": "N/A"}
+
+
+# ── Economic Calendar ─────────────────────────────────────────────────────────
+
+def fetch_economic_calendar() -> list:
+    try:
+        url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+        headers = {"User-Agent": "Mozilla/5.0"}
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        events = resp.json()
+
+        today_str = datetime.datetime.now(BANGKOK_TZ).strftime("%Y-%m-%d")
+        high_impact = [
+            e for e in events
+            if e.get("country") == "USD"
+            and e.get("impact") == "High"
+            and e.get("date", "").startswith(today_str)
+        ]
+        print(f"  Economic calendar: {len(high_impact)} high-impact USD events today")
+        return high_impact
+    except Exception as e:
+        print(f"  Warning: Failed to fetch economic calendar: {e}")
+        return []
+
+
+# ── Portfolio P&L ─────────────────────────────────────────────────────────────
+
+def calculate_portfolio_pnl(prices: dict) -> dict:
+    pnl = {}
+    total_value = 0.0
+    total_cost = 0.0
+    has_holdings = False
+
+    all_stocks = {**{s: prices["mag7"][s] for s in prices["mag7"]},
+                  **{s: prices["watchlist"][s] for s in prices["watchlist"]}}
+
+    for symbol, holding in PORTFOLIO.items():
+        if symbol == "GOLD_OZ":
+            shares = holding.get("oz", 0)
+            avg_cost = holding.get("avg_cost", 0.0)
+            current_price = prices["gold"]["price"]
+        else:
+            shares = holding.get("shares", 0)
+            avg_cost = holding.get("avg_cost", 0.0)
+            current_price = all_stocks.get(symbol, {}).get("price", "N/A")
+
+        if shares == 0 or avg_cost == 0:
+            continue
+
+        has_holdings = True
+
+        if not isinstance(current_price, float):
+            pnl[symbol] = {"value": "N/A", "cost": shares * avg_cost, "gain": "N/A", "gain_pct": "N/A"}
+            continue
+
+        cost = shares * avg_cost
+        value = shares * current_price
+        gain = value - cost
+        gain_pct = (gain / cost) * 100 if cost else 0.0
+
+        pnl[symbol] = {
+            "shares": shares,
+            "avg_cost": avg_cost,
+            "current_price": current_price,
+            "value": value,
+            "cost": cost,
+            "gain": gain,
+            "gain_pct": gain_pct,
+        }
+        total_value += value
+        total_cost += cost
+
+    if has_holdings:
+        pnl["__total__"] = {
+            "value": total_value,
+            "cost": total_cost,
+            "gain": total_value - total_cost,
+            "gain_pct": ((total_value - total_cost) / total_cost * 100) if total_cost else 0.0,
+        }
+
+    return pnl
+
+
+# ── News ──────────────────────────────────────────────────────────────────────
+
 def fetch_news() -> str:
     articles = []
     for source_name, url in RSS_FEEDS:
@@ -105,30 +238,29 @@ def fetch_news() -> str:
         except Exception as e:
             print(f"  Warning: Failed to fetch {source_name}: {e}")
 
-    combined = "\n\n".join(articles)
-    return combined[:3000]
+    return "\n\n".join(articles)[:3000]
 
 
-def fmt_change(v):
-    if isinstance(v, float):
-        sign = "+" if v >= 0 else ""
-        return f"{sign}{v:.2f}%"
-    return str(v)
+# ── Groq Analysis ─────────────────────────────────────────────────────────────
 
-
-def fmt_price(v, prefix="$"):
-    if isinstance(v, float):
-        return f"{prefix}{v:,.2f}"
-    return str(v)
-
-
-def build_price_context(prices: dict) -> str:
+def build_price_context(prices: dict, fear_greed: dict) -> str:
     gold = prices["gold"]
     sp500 = prices["sp500"]
+    dxy = prices["dxy"]
+    vix = prices["vix"]
+    btc = prices["btc"]
+    eth = prices["eth"]
 
     lines = [
+        f"Fear & Greed Index: {fear_greed['score']} ({fear_greed['rating']})",
+        f"VIX: {fmt_price(vix['price'], prefix='')} ({fmt_change(vix['change'])})",
+        f"DXY (US Dollar): {fmt_price(dxy['price'], prefix='')} ({fmt_change(dxy['change'])})",
+        "",
         f"Gold (XAU/USD): {fmt_price(gold['price'])} | Change: {fmt_change(gold['change'])} | High: {gold['high']} | Low: {gold['low']}",
         f"S&P 500: {fmt_price(sp500['price'], prefix='')} | Change: {fmt_change(sp500['change'])} | High: {sp500['high']} | Low: {sp500['low']}",
+        "",
+        f"BTC: {fmt_price(btc['price'])} ({fmt_change(btc['change'])})",
+        f"ETH: {fmt_price(eth['price'])} ({fmt_change(eth['change'])})",
         "",
         "Magnificent 7:",
     ]
@@ -142,51 +274,71 @@ def build_price_context(prices: dict) -> str:
     return "\n".join(lines)
 
 
-def get_groq_analysis(prices: dict, news: str) -> str:
+def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-        price_context = build_price_context(prices)
+        price_context = build_price_context(prices, fear_greed)
 
-        user_prompt = f"""Analyze the following market data and news. Provide a comprehensive briefing.
+        calendar_text = ""
+        if calendar:
+            cal_lines = ["High-Impact USD Events Today:"]
+            for e in calendar:
+                cal_lines.append(f"  {e.get('time','?')} - {e.get('title','?')} | Forecast: {e.get('forecast','?')} | Previous: {e.get('previous','?')}")
+            calendar_text = "\n".join(cal_lines)
+        else:
+            calendar_text = "No high-impact USD economic events today."
 
-CURRENT PRICES:
+        user_prompt = f"""Analyze the following market data and provide a comprehensive briefing.
+
+MARKET DATA:
 {price_context}
+
+ECONOMIC CALENDAR:
+{calendar_text}
 
 LATEST NEWS:
 {news}
 
 Please provide:
 
-1. Overall market sentiment (Bullish/Bearish/Neutral) with reasoning
+1. Overall market sentiment (Bullish/Bearish/Neutral)
+   - Use Fear & Greed, VIX, and DXY to support your reasoning
 
-2. Gold (XAU/USD) Analysis:
+2. Gold (XAU/USD) — Full Analysis:
    - Trend direction and strength
    - Support (2 levels) and Resistance (2 levels)
-   - ACTION: clearly state BUY or SELL signal with reasoning
-   - If BUY: exact entry price zone and stop loss
-   - If SELL: exact exit/sell price target and stop loss
-   - Risk factors to watch
+   - ACTION SIGNAL: state clearly BUY or SELL
+   - If BUY: exact entry price zone + stop loss + take profit target
+   - If SELL: exact sell/exit price + stop loss + downside target
+   - Key risk factors
 
 3. S&P 500 Analysis:
    - Trend direction
    - Support (2 levels) and Resistance (2 levels)
-   - Best buy entry price zone for today
+   - Best buy entry price zone today
    - Outlook
 
-4. Magnificent 7 — for each stock (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA):
+4. Crypto (BTC & ETH):
+   - Brief sentiment for each
+   - Recommended buy entry zone for each
+
+5. Magnificent 7 — for each (AAPL, MSFT, NVDA, AMZN, META, GOOGL, TSLA):
    - 1-line sentiment
    - Recommended buy entry price zone
 
-5. Watchlist — for each stock (ASTS, UNH, EOSE, RKLB, OKLO, ONDS):
+6. Watchlist — for each (ASTS, UNH, EOSE, RKLB, OKLO, ONDS):
    - 1-line sentiment
    - Recommended buy entry price zone
 
-6. Top 3 most important news affecting markets today
+7. Economic Calendar Impact:
+   - Which events today could move markets and how
 
-7. Overall recommendation and risk warning
+8. Top 3 most important news affecting markets
 
-Write the entire response in Thai language. Be specific with price numbers."""
+9. Overall recommendation and risk warning
+
+Write entirely in Thai language. Be specific with price numbers."""
 
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
@@ -194,11 +346,10 @@ Write the entire response in Thai language. Be specific with price numbers."""
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert financial analyst specializing in gold, US stock markets, and individual equities. "
-                        "Your job is to analyze current market data and news to provide actionable trading insights. "
-                        "Always be specific with price levels. Format your response in a clear, structured way. "
-                        "Use emojis sparingly but effectively. Write in Thai language. "
-                        "Do NOT use any Markdown formatting such as ** or * for bold/italic. Use plain text only."
+                        "You are an expert financial analyst specializing in gold, US equities, crypto, and macro indicators. "
+                        "Provide actionable trading insights with specific price levels. "
+                        "Use Fear & Greed, VIX, and DXY as supporting signals for your analysis. "
+                        "Write in Thai language. Do NOT use Markdown formatting like ** or *. Plain text only."
                     ),
                 },
                 {"role": "user", "content": user_prompt},
@@ -211,47 +362,92 @@ Write the entire response in Thai language. Be specific with price numbers."""
 
     except Exception as e:
         print(f"  Warning: Groq API failed: {e}")
-        return f"⚠️ การวิเคราะห์ AI ไม่สำเร็จ: {e}\n\nข้อมูลราคาแสดงอยู่ด้านบน กรุณาวิเคราะห์เองจากข้อมูลดิบ"
+        return f"⚠️ การวิเคราะห์ AI ไม่สำเร็จ: {e}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
 
 
-def build_line_message(prices: dict, analysis: str) -> str:
+# ── Build Message ─────────────────────────────────────────────────────────────
+
+def build_line_message(prices: dict, fear_greed: dict, calendar: list, pnl: dict, analysis: str) -> str:
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
     date_str = now_bangkok.strftime("%d %b %Y")
     time_str = now_bangkok.strftime("%H:%M")
 
     gold = prices["gold"]
     sp500 = prices["sp500"]
+    dxy = prices["dxy"]
+    vix = prices["vix"]
+    btc = prices["btc"]
+    eth = prices["eth"]
 
-    # Header
+    fg_score = fear_greed["score"]
+    fg_rating = fear_greed["rating"]
+
     lines = [
         "📊 Daily Market Briefing",
         f"📅 {date_str} | ⏰ {time_str} (Bangkok Time)",
         "",
-        f"💰 GOLD (XAU/USD): {fmt_price(gold['price'])} ({fmt_change(gold['change'])})",
+        "── Market Indicators ──",
+        f"😱 Fear & Greed: {fg_score} — {fg_rating}",
+        f"📉 VIX: {fmt_price(vix['price'], prefix='')} ({fmt_change(vix['change'])})",
+        f"💵 DXY: {fmt_price(dxy['price'], prefix='')} ({fmt_change(dxy['change'])})",
+        "",
+        "── Commodities & Indices ──",
+        f"💰 GOLD: {fmt_price(gold['price'])} ({fmt_change(gold['change'])})",
         f"📈 S&P 500: {fmt_price(sp500['price'], prefix='')} ({fmt_change(sp500['change'])})",
+        "",
+        "── Crypto ──",
+        f"{arrow(btc['change'])} BTC: {fmt_price(btc['price'])} ({fmt_change(btc['change'])})",
+        f"{arrow(eth['change'])} ETH: {fmt_price(eth['price'])} ({fmt_change(eth['change'])})",
         "",
         "── Magnificent 7 ──",
     ]
 
     for symbol, d in prices["mag7"].items():
-        arrow = "▲" if isinstance(d["change"], float) and d["change"] >= 0 else "▼"
-        lines.append(f"{arrow} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+        lines.append(f"{arrow(d['change'])} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
 
     lines += ["", "── Watchlist ──"]
     for symbol, d in prices["watchlist"].items():
-        arrow = "▲" if isinstance(d["change"], float) and d["change"] >= 0 else "▼"
-        lines.append(f"{arrow} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+        lines.append(f"{arrow(d['change'])} {symbol}: {fmt_price(d['price'])} ({fmt_change(d['change'])})")
+
+    # Portfolio P&L
+    if pnl and "__total__" in pnl:
+        total = pnl["__total__"]
+        gain_emoji = "📈" if total["gain"] >= 0 else "📉"
+        lines += [
+            "",
+            "── Portfolio P&L ──",
+        ]
+        for symbol, data in pnl.items():
+            if symbol == "__total__":
+                continue
+            if isinstance(data.get("gain"), float):
+                g_emoji = "▲" if data["gain"] >= 0 else "▼"
+                lines.append(
+                    f"{g_emoji} {symbol}: ${data['current_price']:,.2f} | "
+                    f"P&L: ${data['gain']:+,.2f} ({data['gain_pct']:+.2f}%)"
+                )
+        lines.append(
+            f"{gain_emoji} รวม: ${total['value']:,.2f} | กำไร/ขาดทุน: ${total['gain']:+,.2f} ({total['gain_pct']:+.2f}%)"
+        )
+
+    # Economic Calendar
+    if calendar:
+        lines += ["", "── Economic Calendar (วันนี้) ──"]
+        for e in calendar:
+            lines.append(f"⏰ {e.get('time','?')} | {e.get('title','?')} | Forecast: {e.get('forecast','?')}")
 
     lines += [
         "",
         "━━━━━━━━━━━━━━━━━━",
         analysis,
         "━━━━━━━━━━━━━━━━━━",
-        "⚠️ This is AI-generated analysis. Not financial advice. Trade at your own risk.",
+        "⚠️ AI-generated analysis. Not financial advice. Trade at your own risk.",
     ]
 
     return "\n".join(lines)
 
+
+# ── Send LINE ─────────────────────────────────────────────────────────────────
 
 def send_line(message: str):
     token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
@@ -262,27 +458,23 @@ def send_line(message: str):
         return
 
     url = "https://api.line.me/v2/bot/message/push"
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
+    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
     max_len = 5000
     chunks = [message[i:i + max_len] for i in range(0, len(message), max_len)]
 
     for i, chunk in enumerate(chunks):
         try:
-            response = requests.post(
+            resp = requests.post(
                 url,
                 headers=headers,
                 json={"to": user_id, "messages": [{"type": "text", "text": chunk}]},
                 timeout=30,
             )
-            response.raise_for_status()
+            resp.raise_for_status()
             print(f"  LINE chunk {i + 1}/{len(chunks)} sent successfully")
         except requests.exceptions.HTTPError as e:
-            print(f"  Error sending LINE chunk {i + 1}: {e}")
-            print(f"  Response: {response.text}")
+            print(f"  Error sending LINE chunk {i + 1}: {e} — {resp.text}")
         except Exception as e:
             print(f"  Error sending LINE chunk {i + 1}: {e}")
 
@@ -290,24 +482,32 @@ def send_line(message: str):
             time.sleep(1)
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def main():
-    print("[1/5] Fetching prices...")
+    print("[1/6] Fetching prices...")
     prices = fetch_prices()
 
-    print("[2/5] Fetching news...")
+    print("[2/6] Fetching Fear & Greed Index...")
+    fear_greed = fetch_fear_greed()
+
+    print("[3/6] Fetching economic calendar...")
+    calendar = fetch_economic_calendar()
+
+    print("[4/6] Fetching news...")
     news = fetch_news()
 
-    print("[3/5] Calling Groq API for analysis...")
-    analysis = get_groq_analysis(prices, news)
+    print("[5/6] Calculating portfolio P&L...")
+    pnl = calculate_portfolio_pnl(prices)
 
-    print("[4/5] Building LINE message...")
-    message = build_line_message(prices, analysis)
+    print("[6/6] Calling Groq API...")
+    analysis = get_groq_analysis(prices, fear_greed, calendar, news)
 
-    print("[5/5] Sending to LINE...")
+    message = build_line_message(prices, fear_greed, calendar, pnl, analysis)
     send_line(message)
 
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
-    print(f"\n✅ Execution complete at {now_bangkok.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
+    print(f"\n✅ Done at {now_bangkok.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
 
 
 if __name__ == "__main__":
