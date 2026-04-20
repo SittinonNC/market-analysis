@@ -10,9 +10,10 @@ from groq import Groq
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
 RSS_FEEDS = [
-    ("Reuters Business", "https://feeds.reuters.com/reuters/businessNews"),
+    ("BBC Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
     ("CNBC", "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
     ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+    ("Yahoo Finance", "https://finance.yahoo.com/rss/topstories"),
     ("Investing.com Gold", "https://www.investing.com/rss/news_14.rss"),
 ]
 
