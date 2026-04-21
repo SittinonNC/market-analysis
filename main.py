@@ -11,9 +11,9 @@ from config import PORTFOLIO
 from technicals import fetch_all_indicators, format_indicators
 
 # Truth Social: username → known account ID (fallback if RSS fails)
-TRUTH_SOCIAL_ACCOUNTS = {
-    "realDonaldTrump": "107780257626128497",
-}
+TRUTH_SOCIAL_ACCOUNTS = [
+    "realDonaldTrump",
+]
 
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
@@ -236,54 +236,26 @@ def strip_html(text: str) -> str:
     return text.strip()
 
 
-def fetch_truth_social(username: str, account_id: str, limit: int = 5) -> list:
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Accept": "application/json, text/html, */*",
-    }
+def fetch_truth_social(username: str, limit: int = 5) -> list:
     posts = []
-
-    # Method 1: RSS feed (Mastodon-compatible, no auth needed)
     try:
         rss_url = f"https://truthsocial.com/@{username}.rss"
         feed = feedparser.parse(rss_url)
-        if feed.entries:
-            for entry in feed.entries[:limit]:
-                content = strip_html(entry.get("summary", entry.get("title", "")))
-                date = entry.get("published", "")[:10]
-                if content:
-                    posts.append(f"[Truth Social @{username} {date}] {content[:500]}")
-            print(f"  Fetched {len(posts)} posts via RSS from @{username}")
-            return posts
+        for entry in feed.entries[:limit]:
+            content = strip_html(entry.get("summary", entry.get("title", "")))
+            date = entry.get("published", "")[:10]
+            if content:
+                posts.append(f"[Truth Social @{username} {date}] {content[:500]}")
+        print(f"  Fetched {len(posts)} posts from Truth Social @{username}")
     except Exception as e:
-        print(f"  RSS failed for @{username}: {e}, trying API...")
-
-    # Method 2: Direct API with known account ID
-    try:
-        resp = requests.get(
-            f"https://truthsocial.com/api/v1/accounts/{account_id}/statuses"
-            f"?limit={limit}&exclude_replies=true&exclude_reblogs=true",
-            headers=headers, timeout=15,
-        )
-        resp.raise_for_status()
-        statuses = resp.json()
-        if isinstance(statuses, list):
-            for s in statuses:
-                content = strip_html(s.get("content", ""))
-                created = s.get("created_at", "")[:10]
-                if content:
-                    posts.append(f"[Truth Social @{username} {created}] {content[:500]}")
-            print(f"  Fetched {len(posts)} posts via API from @{username}")
-    except Exception as e:
-        print(f"  Warning: Truth Social @{username} API also failed: {e}")
-
+        print(f"  Warning: Truth Social @{username} failed: {e}")
     return posts
 
 
 def fetch_all_truth_social() -> str:
     all_posts = []
-    for username, account_id in TRUTH_SOCIAL_ACCOUNTS.items():
-        all_posts.extend(fetch_truth_social(username, account_id))
+    for username in TRUTH_SOCIAL_ACCOUNTS:
+        all_posts.extend(fetch_truth_social(username))
     return "\n\n".join(all_posts)
 
 
