@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import datetime
 import pytz
@@ -8,6 +9,10 @@ import yfinance as yf
 from groq import Groq
 from config import PORTFOLIO
 from technicals import fetch_all_indicators, format_indicators
+
+TRUTH_SOCIAL_ACCOUNTS = [
+    "realDonaldTrump",
+]
 
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
@@ -222,6 +227,55 @@ def calculate_portfolio_pnl(prices: dict) -> dict:
     return pnl
 
 
+# ── Truth Social ──────────────────────────────────────────────────────────────
+
+def strip_html(text: str) -> str:
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
+
+
+def fetch_truth_social(username: str, limit: int = 5) -> list:
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; MarketBot/1.0)"}
+    posts = []
+    try:
+        # Lookup account ID
+        lookup = requests.get(
+            f"https://truthsocial.com/api/v1/accounts/lookup?acct={username}",
+            headers=headers, timeout=15,
+        )
+        lookup.raise_for_status()
+        account_id = lookup.json()["id"]
+
+        # Fetch recent statuses
+        resp = requests.get(
+            f"https://truthsocial.com/api/v1/accounts/{account_id}/statuses"
+            f"?limit={limit}&exclude_replies=true&exclude_reblogs=true",
+            headers=headers, timeout=15,
+        )
+        resp.raise_for_status()
+        statuses = resp.json()
+
+        for s in statuses:
+            content = strip_html(s.get("content", ""))
+            if not content:
+                continue
+            created = s.get("created_at", "")[:10]
+            posts.append(f"[Truth Social @{username} {created}] {content}")
+
+        print(f"  Fetched {len(posts)} posts from Truth Social @{username}")
+    except Exception as e:
+        print(f"  Warning: Truth Social @{username} failed: {e}")
+    return posts
+
+
+def fetch_all_truth_social() -> str:
+    all_posts = []
+    for username in TRUTH_SOCIAL_ACCOUNTS:
+        all_posts.extend(fetch_truth_social(username))
+    return "\n\n".join(all_posts)
+
+
 # ── News ──────────────────────────────────────────────────────────────────────
 
 def fetch_news() -> str:
@@ -232,14 +286,21 @@ def fetch_news() -> str:
             entries = feed.entries[:5]
             for entry in entries:
                 title = entry.get("title", "No title").strip()
-                summary = entry.get("summary", entry.get("description", "")).strip()
-                summary = summary[:200] if summary else ""
-                articles.append(f"[{source_name}] {title}\n{summary}")
+
+                # Try to get full content first, fall back to summary
+                content = ""
+                if hasattr(entry, "content") and entry.content:
+                    content = strip_html(entry.content[0].get("value", ""))
+                if not content:
+                    content = strip_html(entry.get("summary", entry.get("description", "")))
+
+                content = content[:600] if content else ""
+                articles.append(f"[{source_name}]\nหัวข้อ: {title}\nเนื้อหา: {content}")
             print(f"  Fetched {len(entries)} articles from {source_name}")
         except Exception as e:
             print(f"  Warning: Failed to fetch {source_name}: {e}")
 
-    return "\n\n".join(articles)[:3000]
+    return "\n\n".join(articles)[:6000]
 
 
 # ── Groq Analysis ─────────────────────────────────────────────────────────────
@@ -314,7 +375,7 @@ def build_price_context(prices: dict, fear_greed: dict) -> str:
     return "\n".join(lines)
 
 
-def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str, technicals: dict) -> str:
+def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str, truth_posts: str, technicals: dict) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
@@ -330,6 +391,8 @@ def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str,
         else:
             calendar_text = "No high-impact USD economic events today."
 
+        truth_section = f"\nTRUTH SOCIAL POSTS (Trump):\n{truth_posts}" if truth_posts.strip() else ""
+
         user_prompt = f"""Analyze the following market data and technical indicators. Format your response EXACTLY as shown in the template below. Use plain text only — no **, no #, no markdown.
 
 MARKET DATA:
@@ -340,8 +403,8 @@ TECHNICAL INDICATORS:
 
 ECONOMIC CALENDAR:
 {calendar_text}
-
-LATEST NEWS:
+{truth_section}
+LATEST NEWS (full content from all sources):
 {news}
 
 OUTPUT FORMAT (follow this structure exactly, write content in Thai):
@@ -412,11 +475,36 @@ ONDS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$
 [ถ้าไม่มี event: ไม่มีข้อมูลเศรษฐกิจสำคัญวันนี้]
 
 ════════════════════
-📰 ข่าวสำคัญ
+🐦 Trump Truth Social
 ════════════════════
-1. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
-2. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
-3. [หัวข้อข่าว] — ผลกระทบ: [อธิบายสั้น]
+[สรุปโพสต์ล่าสุดของ Trump ที่เกี่ยวกับเศรษฐกิจ/ตลาด/นโยบาย]
+ผลต่อตลาด: [🟢 Bullish / 🔴 Bearish / 🟡 Neutral] — [เหตุผล 1 ประโยค]
+[ถ้าไม่มีโพสต์ที่เกี่ยวข้อง: ไม่มีโพสต์ที่กระทบตลาดล่าสุด]
+
+════════════════════
+📰 วิเคราะห์ข่าวทุกแหล่ง
+════════════════════
+รวมข่าวจากทุกแหล่ง วิเคราะห์และสรุปภาพรวม:
+
+ข่าวที่ 1:
+หัวข้อ: [ชื่อข่าว] — [แหล่งข่าว]
+สรุป: [สรุปเนื้อหาสำคัญ 2-3 ประโยค]
+ผลต่อตลาด: [🟢 ข่าวดี / 🔴 ข่าวร้าย / 🟡 Neutral]
+กระทบ: [ระบุหุ้น/สินทรัพย์ที่ได้รับผลกระทบ]
+
+ข่าวที่ 2:
+หัวข้อ: [ชื่อข่าว] — [แหล่งข่าว]
+สรุป: [สรุปเนื้อหาสำคัญ 2-3 ประโยค]
+ผลต่อตลาด: [🟢 ข่าวดี / 🔴 ข่าวร้าย / 🟡 Neutral]
+กระทบ: [ระบุหุ้น/สินทรัพย์ที่ได้รับผลกระทบ]
+
+ข่าวที่ 3:
+หัวข้อ: [ชื่อข่าว] — [แหล่งข่าว]
+สรุป: [สรุปเนื้อหาสำคัญ 2-3 ประโยค]
+ผลต่อตลาด: [🟢 ข่าวดี / 🔴 ข่าวร้าย / 🟡 Neutral]
+กระทบ: [ระบุหุ้น/สินทรัพย์ที่ได้รับผลกระทบ]
+
+ภาพรวมข่าววันนี้: [🟢 Bullish dominant / 🔴 Bearish dominant / 🟡 Mixed] — [สรุป 1 ประโยค]
 
 ════════════════════
 ⚡ สรุปคำแนะนำ
@@ -596,6 +684,9 @@ def main():
     print("[4/7] Fetching news...")
     news = fetch_news()
 
+    print("[4.5/7] Fetching Truth Social posts...")
+    truth_posts = fetch_all_truth_social()
+
     print("[5/7] Computing technical indicators (RSI, MACD, BB, EMA, ATR)...")
     all_symbols = (
         ["GC=F", "^GSPC", "DX-Y.NYB", "^VIX", "BTC-USD", "ETH-USD"]
@@ -608,7 +699,7 @@ def main():
     pnl = calculate_portfolio_pnl(prices)
 
     print("[7/7] Calling Groq API...")
-    analysis = get_groq_analysis(prices, fear_greed, calendar, news, technicals)
+    analysis = get_groq_analysis(prices, fear_greed, calendar, news, truth_posts, technicals)
 
     message = build_line_message(prices, fear_greed, calendar, pnl, analysis)
     send_line(message)
