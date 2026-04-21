@@ -16,7 +16,7 @@ PORTFOLIO = {
 
     # Watchlist
     "ASTS":  {"shares": 0.6984658,  "avg_cost": 86.6900},
-    "UNH":   {"shares": 1.2832871,  "avg_cost": 298.0414},
+    "UNH":   {"shares": 0,  "avg_cost": 0.0},
     "EOSE":  {"shares": 14.475,     "avg_cost": 8.7628},
     "RKLB":  {"shares": 0,          "avg_cost": 0.0},
     "OKLO":  {"shares": 2.5849752,  "avg_cost": 115.4673},
