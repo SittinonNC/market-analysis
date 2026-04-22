@@ -19,7 +19,7 @@ PORTFOLIO = {
     "UNH":   {"shares": 0,  "avg_cost": 0.0},
     "EOSE":  {"shares": 14.475,     "avg_cost": 8.7628},
     "RKLB":  {"shares": 0,          "avg_cost": 0.0},
-    "OKLO":  {"shares": 2.5849752,  "avg_cost": 115.4673},
+    "OKLO":  {"shares": 4.0405409,  "avg_cost": 96.9202},
     "ONDS":  {"shares": 6.138,      "avg_cost": 11.3850},
 
     # ทองคำ (ออนซ์)
