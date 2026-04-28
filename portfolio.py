@@ -1,25 +1,38 @@
 """
-portfolio.py — Portfolio Analysis & Financial Planning
-รันแยกจาก main.py โดยเฉพาะ ส่ง LINE รายงานพอร์ต + วางแผนการเงิน
+portfolio.py — Portfolio Analysis & Financial Planning + News Summary
+รันแยกจาก main.py โดยเฉพาะ ส่ง LINE รายงานพอร์ต + วิเคราะห์ข่าว + วางแผนการเงิน
 """
 
 import os
+import re
 import math
 import time
 import datetime
 import pytz
 import requests
+import feedparser
 import yfinance as yf
 from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 
 BANGKOK_TZ = pytz.timezone("Asia/Bangkok")
 
-MAG7 = {"AAPL", "MSFT", "NVDA", "AMZN", "META", "GOOGL", "TSLA"}
+MAG7      = {"AAPL", "MSFT", "NVDA", "AMZN", "META", "GOOGL", "TSLA"}
 WATCHLIST = {"ASTS", "UNH", "EOSE", "RKLB", "OKLO", "ONDS"}
+
+RSS_FEEDS = [
+    ("BBC Business",  "https://feeds.bbci.co.uk/news/business/rss.xml"),
+    ("CNBC",          "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
+    ("MarketWatch",   "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+    ("Yahoo Finance", "https://finance.yahoo.com/rss/topstories"),
+]
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
 
 def fmt_price(v, prefix="$"):
     return f"{prefix}{v:,.2f}" if isinstance(v, float) else str(v)
@@ -30,6 +43,32 @@ def fmt_pct(v):
 def arrow(v):
     return ("▲" if v >= 0 else "▼") if isinstance(v, float) else "•"
 
+def gain_bar(pct: float, width: int = 8) -> str:
+    """แสดงแท่ง mini progress bar สำหรับ P&L %"""
+    if not isinstance(pct, float):
+        return ""
+    filled = min(abs(int(pct / 5)), width)
+    bar = "█" * filled + "░" * (width - filled)
+    return f"[{bar}]"
+
+
+# ── Fetch News ────────────────────────────────────────────────────────────────
+
+def fetch_news() -> str:
+    articles = []
+    for source_name, url in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(url)
+            for entry in feed.entries[:4]:
+                title = entry.get("title", "").strip()
+                summary = strip_html(entry.get("summary", entry.get("description", "")))[:400]
+                if title:
+                    articles.append(f"[{source_name}] {title}\n{summary}")
+            print(f"  News: {len(feed.entries[:4])} from {source_name}")
+        except Exception as e:
+            print(f"  Warning: {source_name} failed: {e}")
+    return "\n\n".join(articles)[:5000]
+
 
 # ── Fetch Prices ──────────────────────────────────────────────────────────────
 
@@ -37,7 +76,6 @@ def fetch_holding_prices() -> dict:
     """ดึงราคาเฉพาะหุ้นที่ถือ + Gold"""
     prices = {}
     symbols_needed = set()
-
     for symbol, h in PORTFOLIO.items():
         if symbol == "GOLD_OZ":
             if h.get("oz", 0) > 0:
@@ -51,15 +89,14 @@ def fetch_holding_prices() -> dict:
             hist = yf.Ticker(symbol).history(period="5d")
             if hist.empty:
                 raise ValueError("No data")
-            current = round(hist["Close"].iloc[-1], 2)
-            prev = round(hist["Close"].iloc[-2], 2) if len(hist) >= 2 else current
+            current = round(float(hist["Close"].iloc[-1]), 2)
+            prev    = round(float(hist["Close"].iloc[-2]), 2) if len(hist) >= 2 else current
             change_pct = round(((current - prev) / prev) * 100, 2) if prev else 0.0
             prices[symbol] = {"price": current, "change": change_pct}
             print(f"  {symbol}: ${current} ({change_pct:+.2f}%)")
         except Exception as e:
             print(f"  Warning: {symbol} failed: {e}")
             prices[symbol] = {"price": "N/A", "change": "N/A"}
-
     return prices
 
 
@@ -67,53 +104,52 @@ def fetch_holding_prices() -> dict:
 
 def calculate_pnl(prices: dict) -> dict:
     pnl = {}
-    total_value = 0.0
-    total_cost = 0.0
+    total_value = total_cost = 0.0
 
     for symbol, holding in PORTFOLIO.items():
         if symbol == "GOLD_OZ":
-            qty = holding.get("oz", 0)
+            qty      = holding.get("oz", 0)
             avg_cost = holding.get("avg_cost", 0.0)
-            current_price = prices.get("GC=F", {}).get("price", "N/A")
+            price_key = "GC=F"
         else:
-            qty = holding.get("shares", 0)
+            qty      = holding.get("shares", 0)
             avg_cost = holding.get("avg_cost", 0.0)
-            current_price = prices.get(symbol, {}).get("price", "N/A")
+            price_key = symbol
 
         if qty == 0 or avg_cost == 0:
             continue
 
+        current_price = prices.get(price_key, {}).get("price", "N/A")
+        today_change  = prices.get(price_key, {}).get("change", "N/A")
+
         if not isinstance(current_price, float):
-            pnl[symbol] = {"qty": qty, "avg_cost": avg_cost, "current_price": "N/A",
-                           "value": "N/A", "cost": qty * avg_cost, "gain": "N/A", "gain_pct": "N/A"}
+            pnl[symbol] = {
+                "qty": qty, "avg_cost": avg_cost, "current_price": "N/A",
+                "value": "N/A", "cost": qty * avg_cost,
+                "gain": "N/A", "gain_pct": "N/A", "today_change": "N/A",
+            }
             continue
 
-        cost = qty * avg_cost
+        cost  = qty * avg_cost
         value = qty * current_price
-        gain = value - cost
+        gain  = value - cost
         gain_pct = (gain / cost * 100) if cost else 0.0
 
         pnl[symbol] = {
-            "qty": qty,
-            "avg_cost": avg_cost,
-            "current_price": current_price,
-            "value": value,
-            "cost": cost,
-            "gain": gain,
-            "gain_pct": gain_pct,
-            "today_change": prices.get(symbol if symbol != "GOLD_OZ" else "GC=F", {}).get("change", "N/A"),
+            "qty": qty, "avg_cost": avg_cost, "current_price": current_price,
+            "value": value, "cost": cost,
+            "gain": gain, "gain_pct": gain_pct, "today_change": today_change,
         }
         total_value += value
-        total_cost += cost
+        total_cost  += cost
 
     if total_cost > 0:
         pnl["__total__"] = {
-            "value": total_value,
-            "cost": total_cost,
-            "gain": total_value - total_cost,
-            "gain_pct": ((total_value - total_cost) / total_cost * 100),
+            "value":    total_value,
+            "cost":     total_cost,
+            "gain":     total_value - total_cost,
+            "gain_pct": (total_value - total_cost) / total_cost * 100,
         }
-
     return pnl
 
 
@@ -125,7 +161,6 @@ def calculate_allocation(pnl: dict) -> dict:
         return {}
 
     class_values = {"mag7": 0.0, "watchlist": 0.0, "crypto": 0.0, "gold": 0.0}
-
     for symbol, data in pnl.items():
         if symbol == "__total__":
             continue
@@ -142,22 +177,18 @@ def calculate_allocation(pnl: dict) -> dict:
     result = {}
     for cls, val in class_values.items():
         current_pct = (val / total * 100) if total else 0.0
-        target_pct = TARGET_ALLOCATION.get(cls, 0)
-        diff = current_pct - target_pct
+        target_pct  = TARGET_ALLOCATION.get(cls, 0)
+        diff   = current_pct - target_pct
         status = "Overweight" if diff > 2 else ("Underweight" if diff < -2 else "On Target")
         result[cls] = {
-            "value": val,
-            "current_pct": round(current_pct, 1),
-            "target_pct": target_pct,
-            "diff": round(diff, 1),
-            "status": status,
+            "value": val, "current_pct": round(current_pct, 1),
+            "target_pct": target_pct, "diff": round(diff, 1), "status": status,
         }
-
     result["__total__"] = total
     return result
 
 
-# ── Groq Analysis ─────────────────────────────────────────────────────────────
+# ── Context Builders ──────────────────────────────────────────────────────────
 
 def build_pnl_context(pnl: dict) -> str:
     lines = []
@@ -165,17 +196,17 @@ def build_pnl_context(pnl: dict) -> str:
         if symbol == "__total__":
             continue
         if isinstance(d.get("gain"), float):
-            today = f"  วันนี้: {fmt_pct(d.get('today_change', 'N/A'))}" if isinstance(d.get("today_change"), float) else ""
+            today = f" | วันนี้: {fmt_pct(d['today_change'])}" if isinstance(d.get("today_change"), float) else ""
             lines.append(
                 f"{symbol}: ราคา {fmt_price(d['current_price'])} | ทุน {fmt_price(d['avg_cost'])} | "
-                f"P&L {fmt_price(d['gain'], prefix='$')} ({fmt_pct(d['gain_pct'])}){today}"
+                f"P&L {d['gain']:+,.2f} ({fmt_pct(d['gain_pct'])}){today}"
             )
     total = pnl.get("__total__", {})
     if isinstance(total.get("value"), float):
         lines += [
             "",
             f"รวมพอร์ต: {fmt_price(total['value'])} | ต้นทุน: {fmt_price(total['cost'])} | "
-            f"P&L: {fmt_price(total['gain'], prefix='$')} ({fmt_pct(total['gain_pct'])})",
+            f"P&L: {total['gain']:+,.2f} ({fmt_pct(total['gain_pct'])})",
         ]
     return "\n".join(lines)
 
@@ -183,11 +214,10 @@ def build_pnl_context(pnl: dict) -> str:
 def build_allocation_context(allocation: dict) -> str:
     if not allocation or "__total__" not in allocation:
         return "ไม่มีข้อมูล"
-    total = allocation["__total__"]
-    lines = [f"มูลค่าพอร์ตรวม: ${total:,.2f}", ""]
+    lines = [f"มูลค่าพอร์ตรวม: ${allocation['__total__']:,.2f}", ""]
     for cls in ["mag7", "watchlist", "crypto", "gold"]:
         d = allocation.get(cls)
-        if d is None:
+        if not d:
             continue
         lines.append(
             f"  {cls:12s}: {d['current_pct']:5.1f}% (เป้า {d['target_pct']}%) "
@@ -199,82 +229,101 @@ def build_allocation_context(allocation: dict) -> str:
 def build_goals_context(allocation: dict) -> str:
     if not allocation or "__total__" not in allocation:
         return ""
-    total_val = allocation["__total__"]
-    g = FINANCIAL_GOALS
-    target_val = g["target_portfolio_value"]
-    monthly = g["monthly_investment"]
-    risk = g["risk_profile"]
-    target_date = g["target_date"]
+    total_val   = allocation["__total__"]
+    target_val  = FINANCIAL_GOALS["target_portfolio_value"]
+    monthly     = FINANCIAL_GOALS["monthly_investment"]
+    risk        = FINANCIAL_GOALS["risk_profile"]
+    target_date = FINANCIAL_GOALS["target_date"]
 
     lines = [
         f"เป้าหมาย: ${target_val:,.0f} ภายใน {target_date}",
-        f"ลงทุนรายเดือน: ${monthly}/mo | Risk profile: {risk}",
+        f"ลงทุนรายเดือน: ${monthly} | Risk: {risk}",
         f"ความคืบหน้า: ${total_val:,.0f} / ${target_val:,.0f} ({total_val/target_val*100:.1f}%)",
     ]
-
     if target_val > total_val > 0 and monthly > 0:
-        gap = target_val - total_val
+        gap          = target_val - total_val
         monthly_rate = 0.10 / 12
         try:
-            n = math.log((gap * monthly_rate / monthly) + 1) / math.log(1 + monthly_rate)
+            n         = math.log((gap * monthly_rate / monthly) + 1) / math.log(1 + monthly_rate)
             est_years = round(n / 12, 1)
             lines.append(f"ประมาณถึงเป้า: ~{est_years} ปี (ผลตอบแทน 10%/ปี + ${monthly}/เดือน)")
         except (ValueError, ZeroDivisionError):
             pass
-
     return "\n".join(lines)
 
 
-def get_portfolio_analysis(pnl: dict, allocation: dict) -> str:
+# ── Groq Analysis ─────────────────────────────────────────────────────────────
+
+def get_portfolio_analysis(pnl: dict, allocation: dict, news: str) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-        pnl_ctx = build_pnl_context(pnl)
-        alloc_ctx = build_allocation_context(allocation)
-        goals_ctx = build_goals_context(allocation)
-
-        user_prompt = f"""วิเคราะห์พอร์ตการลงทุนต่อไปนี้และให้คำแนะนำ ใช้ภาษาไทย ห้ามใช้ ** หรือ # หรือ Markdown ใดๆ
+        user_prompt = f"""วิเคราะห์พอร์ตการลงทุนและข่าวต่อไปนี้ ใช้ภาษาไทยทั้งหมด ห้ามใช้ ** # หรือ Markdown
 
 PORTFOLIO P&L:
-{pnl_ctx}
+{build_pnl_context(pnl)}
 
 ASSET ALLOCATION vs TARGET:
-{alloc_ctx}
+{build_allocation_context(allocation)}
 
 FINANCIAL GOALS:
-{goals_ctx}
+{build_goals_context(allocation)}
 
-ตอบตาม format นี้เท่านั้น:
+ข่าวตลาดล่าสุด:
+{news}
+
+ตอบตาม format นี้เท่านั้น ห้ามเพิ่มข้อความนอก format:
 
 ════════════════════
 💼 สรุป Portfolio วันนี้
 ════════════════════
-มูลค่ารวม: $[X,XXX] | P&L รวม: $[±X,XXX] ([±X.XX]%)
-สถานะ: [ดีขึ้น/แย่ลง/ทรงตัว] เมื่อเทียบกับทุน
+มูลค่ารวม: $[X,XXX.XX] | P&L รวม: $[±X,XXX.XX] ([±X.XX]%)
+สถานะ: [ดีขึ้น/แย่ลง/ทรงตัว] เมื่อเทียบกับทุนที่ลงไป
+ประเมิน: [ประเมินสั้นๆ ว่าพอร์ตโดยรวมเป็นอย่างไร 1 ประโยค]
 
 ════════════════════
 📊 วิเคราะห์รายหุ้น
 ════════════════════
-[ชื่อหุ้น]: [ราคา] P&L [±$XXX] ([±%]) → [แนะนำ: ถือ/ซื้อเพิ่ม/ลดความเสี่ยง] — [เหตุผล 1 ประโยค]
-(ทำทุกหุ้นในพอร์ต)
-
-════════════════════
-🎯 Allocation vs เป้าหมาย
-════════════════════
-[asset class]: [XX%] (เป้า [YY%]) → [Overweight/Underweight/On Target]
-[วิเคราะห์สั้น: ว่าควรปรับอะไร]
+[ทำทุกหุ้นในพอร์ต ตาม format นี้:]
+[SYMBOL] [ราคา] — P&L [±$XXX.XX] ([±XX.XX]%)
+แนะนำ: [ถือ / ซื้อเพิ่ม / ลดความเสี่ยง]
+เหตุผล: [1-2 ประโยค อธิบายว่าทำไม]
 
 ════════════════════
 ⚖️ Rebalancing แนะนำ
 ════════════════════
-[ระบุชัดเจน: ซื้อเพิ่ม/ขายทำกำไร/ถือ ตัวไหน เท่าไหร่ เพราะอะไร]
+Allocation ปัจจุบัน:
+mag7     : [XX.X]% (เป้า [XX]%) → [สถานะ]
+watchlist: [XX.X]% (เป้า [XX]%) → [สถานะ]
+crypto   : [XX.X]% (เป้า [XX]%) → [สถานะ]
+gold     : [XX.X]% (เป้า [XX]%) → [สถานะ]
+
+ควรปรับ:
+[ระบุชัดเจน ซื้อเพิ่ม/ขาย/เพิ่มประเภทสินทรัพย์อะไร เท่าไหร่ เพราะอะไร]
+
+════════════════════
+📰 สรุปข่าวกระทบพอร์ต
+════════════════════
+ข่าวที่ 1:
+หัวข้อ: [ชื่อข่าว]
+ผลต่อพอร์ต: [🟢 บวก / 🔴 ลบ / 🟡 กลางๆ] — [สรุป 1-2 ประโยค ว่ากระทบหุ้นในพอร์ตอย่างไร]
+
+ข่าวที่ 2:
+หัวข้อ: [ชื่อข่าว]
+ผลต่อพอร์ต: [🟢 บวก / 🔴 ลบ / 🟡 กลางๆ] — [สรุป 1-2 ประโยค ว่ากระทบหุ้นในพอร์ตอย่างไร]
+
+ข่าวที่ 3:
+หัวข้อ: [ชื่อข่าว]
+ผลต่อพอร์ต: [🟢 บวก / 🔴 ลบ / 🟡 กลางๆ] — [สรุป 1-2 ประโยค ว่ากระทบหุ้นในพอร์ตอย่างไร]
 
 ════════════════════
 🏆 ความคืบหน้าสู่เป้าหมาย
 ════════════════════
-มูลค่าปัจจุบัน: $[X,XXX] | เป้า: $[XX,XXX] ภายใน [YYYY]
-คืบหน้า: [X.X]% | ประมาณถึงเป้า: ~[X] ปี
-คำแนะนำ: [2-3 ประโยค อิง risk profile และสถานะพอร์ตปัจจุบัน]"""
+มูลค่าปัจจุบัน : $[X,XXX]
+เป้าหมาย      : $[XX,XXX] ภายใน [YYYY]
+คืบหน้า        : [X.X]%
+ประมาณถึงเป้า  : ~[X.X] ปี
+คำแนะนำ: [2 ประโยค อิง risk profile และสถานะพอร์ตตอนนี้]"""
 
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
@@ -282,19 +331,21 @@ FINANCIAL GOALS:
                 {
                     "role": "system",
                     "content": (
-                        "You are an expert portfolio manager and financial planner. "
-                        "Analyze the user's portfolio P&L, asset allocation vs targets, and financial goals. "
-                        "Give concrete, actionable advice in Thai language. "
-                        "Be specific: name exact stocks to buy/hold/reduce and why. "
-                        "Do NOT use Markdown formatting like ** or *. Plain text only."
+                        "You are an expert portfolio manager and financial planner specializing in US equities. "
+                        "Analyze the portfolio P&L, allocation vs targets, financial goals, and latest news. "
+                        "Give concrete, actionable advice in Thai. Name exact stocks to buy/hold/reduce and why. "
+                        "Connect news to specific holdings in the portfolio. "
+                        "IMPORTANT: Output ONLY the formatted sections as instructed. "
+                        "Do NOT add any text before or after the sections. "
+                        "Do NOT use Markdown formatting. Plain text only."
                     ),
                 },
                 {"role": "user", "content": user_prompt},
             ],
-            max_tokens=2000,
+            max_tokens=2500,
             temperature=0.3,
         )
-        return response.choices[0].message.content
+        return response.choices[0].message.content.strip()
 
     except Exception as e:
         print(f"  Warning: Groq API failed: {e}")
@@ -304,86 +355,90 @@ FINANCIAL GOALS:
 # ── Build LINE Message ────────────────────────────────────────────────────────
 
 def build_portfolio_message(pnl: dict, allocation: dict, analysis: str) -> str:
-    now = datetime.datetime.now(BANGKOK_TZ)
+    now      = datetime.datetime.now(BANGKOK_TZ)
     date_str = now.strftime("%d %b %Y")
     time_str = now.strftime("%H:%M")
 
-    total = pnl.get("__total__", {})
-    gain = total.get("gain", 0.0)
-    gain_pct = total.get("gain_pct", 0.0)
+    total     = pnl.get("__total__", {})
+    gain      = total.get("gain", 0.0)
+    gain_pct  = total.get("gain_pct", 0.0)
     total_val = total.get("value", 0.0)
+
     header_emoji = "📈" if isinstance(gain, float) and gain >= 0 else "📉"
+    gain_sign    = "+" if isinstance(gain, float) and gain >= 0 else ""
 
     lines = [
         "╔══════════════════════╗",
         "   💼 Portfolio Report",
         f"   📅 {date_str}  ⏰ {time_str}",
         "╚══════════════════════╝",
-        "",
     ]
 
-    # P&L Summary
+    # ── P&L Summary ──
     if isinstance(total_val, float):
         lines += [
-            "── P&L Summary ──────────────",
-            f"{header_emoji} มูลค่ารวม : ${total_val:,.2f}",
-            f"   P&L รวม  : ${gain:+,.2f} ({gain_pct:+.2f}%)",
             "",
+            "┌─ P&L Summary ────────────────┐",
+            f"│ {header_emoji} มูลค่ารวม  : ${total_val:>10,.2f}      │",
+            f"│    ต้นทุนรวม : ${total['cost']:>10,.2f}      │",
+            f"│    กำไร/ขาดทุน: {gain_sign}${abs(gain):>8,.2f} ({gain_pct:+.2f}%) │",
+            "└──────────────────────────────┘",
         ]
 
-    # Per-holding detail
-    lines.append("── รายหุ้น ──────────────────")
+    # ── Per-holding detail ──
+    lines += ["", "── รายหุ้น ──────────────────────"]
     for symbol, d in pnl.items():
-        if symbol == "__total__":
+        if symbol == "__total__" or not isinstance(d.get("gain"), float):
             continue
-        if isinstance(d.get("gain"), float):
-            g_arrow = "▲" if d["gain"] >= 0 else "▼"
-            pad = " " * max(0, 5 - len(symbol))
-            today_str = f"  วันนี้: {d['today_change']:+.2f}%" if isinstance(d.get("today_change"), float) else ""
-            lines.append(
-                f"{g_arrow} {symbol}{pad}: {fmt_price(d['current_price'])}"
-                f"  P&L {d['gain']:+,.2f} ({d['gain_pct']:+.2f}%){today_str}"
-            )
+        g_arrow   = "▲" if d["gain"] >= 0 else "▼"
+        pad       = " " * max(0, 5 - len(symbol))
+        today_str = f"  วันนี้ {d['today_change']:+.2f}%" if isinstance(d.get("today_change"), float) else ""
+        bar       = gain_bar(d["gain_pct"])
+        lines.append(
+            f"{g_arrow} {symbol}{pad}: {fmt_price(d['current_price'])}  "
+            f"P&L {d['gain']:+,.2f} ({d['gain_pct']:+.2f}%) {bar}{today_str}"
+        )
 
-    # Allocation
+    # ── Allocation ──
     if allocation and "__total__" in allocation:
-        lines += ["", "── Allocation vs Target ─────"]
+        lines += ["", "── Allocation vs Target ─────────"]
         alloc_emoji = {"Overweight": "🔴", "Underweight": "🟡", "On Target": "🟢"}
-        label_map = {
-            "mag7": "Mag7    ",
-            "watchlist": "Watch   ",
-            "crypto": "Crypto  ",
-            "gold": "Gold    ",
-        }
+        label_map   = {"mag7": "Mag7    ", "watchlist": "Watch   ", "crypto": "Crypto  ", "gold": "Gold    "}
         for cls in ["mag7", "watchlist", "crypto", "gold"]:
             d = allocation.get(cls)
-            if d is None:
+            if not d:
                 continue
             emoji = alloc_emoji.get(d["status"], "⚪")
-            lbl = label_map.get(cls, cls)
+            lbl   = label_map.get(cls, cls)
+            # mini bar for deviation
+            dev_bar = "█" * min(int(abs(d["diff"]) / 5) + 1, 5)
+            direction = "▲ over" if d["diff"] > 0 else "▼ under"
             lines.append(
-                f"{emoji} {lbl}: {d['current_pct']:5.1f}% (เป้า {d['target_pct']}%)  {d['status']}"
+                f"{emoji} {lbl}: {d['current_pct']:5.1f}% › เป้า {d['target_pct']}%  "
+                f"{direction} {abs(d['diff']):.1f}%"
             )
 
-    # Goals progress
-    g = FINANCIAL_GOALS
-    target_val = g["target_portfolio_value"]
+    # ── Goals progress ──
+    target_val = FINANCIAL_GOALS["target_portfolio_value"]
     if isinstance(total_val, float) and target_val > 0:
         progress_pct = total_val / target_val * 100
+        filled_blocks = min(int(progress_pct / 10), 10)
+        progress_bar  = "█" * filled_blocks + "░" * (10 - filled_blocks)
         lines += [
             "",
-            "── เป้าหมาย ─────────────────",
-            f"   เป้า : ${target_val:,.0f}  ภายใน {g['target_date']}",
-            f"   ปัจจุบัน: ${total_val:,.0f}  ({progress_pct:.1f}%)",
-            f"   ลงทุน/เดือน: ${g['monthly_investment']}  |  Risk: {g['risk_profile']}",
+            "── เป้าหมาย ──────────────────────",
+            f"   เป้า      : ${target_val:,.0f}  ภายใน {FINANCIAL_GOALS['target_date']}",
+            f"   ปัจจุบัน  : ${total_val:,.0f}",
+            f"   คืบหน้า   : [{progress_bar}] {progress_pct:.1f}%",
+            f"   ลงทุน/เดือน: ${FINANCIAL_GOALS['monthly_investment']}  |  Risk: {FINANCIAL_GOALS['risk_profile']}",
         ]
 
     lines += [
         "",
-        "━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
         analysis,
-        "━━━━━━━━━━━━━━━━━━",
-        "⚠️ AI-generated analysis. Not financial advice.",
+        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+        "⚠️ AI-generated. ไม่ใช่คำแนะนำทางการเงิน",
     ]
 
     return "\n".join(lines)
@@ -392,15 +447,15 @@ def build_portfolio_message(pnl: dict, allocation: dict, analysis: str) -> str:
 # ── Send LINE ─────────────────────────────────────────────────────────────────
 
 def send_line(message: str):
-    token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
+    token   = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
     user_id = os.environ.get("LINE_USER_ID")
     if not token or not user_id:
         print("  Error: LINE credentials not set")
         return
 
-    url = "https://api.line.me/v2/bot/message/push"
+    url     = "https://api.line.me/v2/bot/message/push"
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    chunks = [message[i:i + 5000] for i in range(0, len(message), 5000)]
+    chunks  = [message[i:i + 5000] for i in range(0, len(message), 5000)]
 
     for i, chunk in enumerate(chunks):
         try:
@@ -421,17 +476,20 @@ def send_line(message: str):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    print("[1/4] Fetching portfolio prices...")
+    print("[1/5] Fetching portfolio prices...")
     prices = fetch_holding_prices()
 
-    print("[2/4] Calculating P&L & allocation...")
-    pnl = calculate_pnl(prices)
+    print("[2/5] Calculating P&L & allocation...")
+    pnl        = calculate_pnl(prices)
     allocation = calculate_allocation(pnl)
 
-    print("[3/4] Calling Groq for portfolio analysis...")
-    analysis = get_portfolio_analysis(pnl, allocation)
+    print("[3/5] Fetching news...")
+    news = fetch_news()
 
-    print("[4/4] Sending LINE message...")
+    print("[4/5] Calling Groq for portfolio + news analysis...")
+    analysis = get_portfolio_analysis(pnl, allocation, news)
+
+    print("[5/5] Sending LINE message...")
     message = build_portfolio_message(pnl, allocation, analysis)
     send_line(message)
 
