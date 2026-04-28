@@ -1,0 +1,26 @@
+name: Portfolio Analysis
+
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'  # 20:00 Bangkok — US pre-market, ดูพอร์ตก่อนตลาดเปิด
+  workflow_dispatch:          # กด run เองได้ตลอด
+
+jobs:
+  portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run portfolio analysis
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+        run: python portfolio.py
