@@ -33,3 +33,33 @@ PORTFOLIO = {
 ALERT_THRESHOLD_STOCKS = 2.0   # หุ้น: แจ้งเตือนถ้าเคลื่อนเกิน 2%
 ALERT_THRESHOLD_GOLD   = 1.0   # ทอง: แจ้งเตือนถ้าเคลื่อนเกิน 1%
 ALERT_THRESHOLD_CRYPTO = 3.0   # Crypto: แจ้งเตือนถ้าเคลื่อนเกิน 3%
+
+# ─────────────────────────────────────────────────────────────
+# Financial Goals — แก้ตามเป้าหมายจริงของคุณ
+# target_portfolio_value = มูลค่าพอร์ตที่ต้องการ (USD)
+# target_date            = วันที่อยากถึงเป้า (YYYY-MM-DD)
+# monthly_investment     = เงินที่จะลงทุนเพิ่มต่อเดือน (USD)
+# risk_profile           = conservative / moderate / aggressive
+# ─────────────────────────────────────────────────────────────
+
+FINANCIAL_GOALS = {
+    "target_portfolio_value": 50000,
+    "target_date": "2030-01-01",
+    "monthly_investment": 500,
+    "risk_profile": "moderate",
+}
+
+# ─────────────────────────────────────────────────────────────
+# Target Allocation — สัดส่วนที่ต้องการ (รวมกันต้อง = 100)
+# mag7      = Magnificent 7 (AAPL MSFT NVDA AMZN META GOOGL TSLA)
+# watchlist = Watchlist (ASTS UNH EOSE RKLB OKLO ONDS)
+# crypto    = BTC + ETH
+# gold      = ทองคำ
+# ─────────────────────────────────────────────────────────────
+
+TARGET_ALLOCATION = {
+    "mag7":      40,   # %
+    "watchlist": 35,   # %
+    "crypto":    15,   # %
+    "gold":      10,   # %
+}

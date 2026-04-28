@@ -5,3 +5,4 @@ groq
 pytz
 ta
 pandas
+beautifulsoup4

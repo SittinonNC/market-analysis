@@ -15,15 +15,18 @@
    - Bollinger Bands(20,2) — Support/Resistance แบบ dynamic
    - EMA 20/50/200 — Trend direction
    - ATR(14) — ความผันผวน ใช้คำนวณ Stop Loss
-4. ดึง **Economic Calendar** — high-impact USD events วันนั้น
-5. ดึงข่าวจาก BBC, CNBC, MarketWatch, Yahoo Finance, Investing.com
-6. ส่งทุกอย่างให้ **Groq AI (llama-3.3-70b-versatile)** วิเคราะห์เป็นภาษาไทย พร้อม:
+4. ดึง **ForexFactory Calendar** — High-impact events วันนี้ (USD/EUR/GBP/JPY/CNY/AUD/CAD) + upcoming 3 วัน USD
+5. ดึง **ForexFactory Flash News** (best-effort scraping)
+6. ดึงข่าวจาก BBC, CNBC, MarketWatch, Yahoo Finance, Investing.com
+7. ดึงโพสต์ล่าสุดจาก **Trump Truth Social** วิเคราะห์ sentiment
+8. ส่งทุกอย่างให้ **Groq AI (llama-3.3-70b-versatile)** วิเคราะห์เป็นภาษาไทย พร้อม:
    - สัญญาณ **BUY / SELL** ชัดเจน
    - จุดเข้าซื้อ (Entry Zone) อิงจาก Bollinger Bands + EMA
    - Stop Loss อิงจาก ATR
    - Take Profit target
-7. คำนวณ **Portfolio P&L** ตาม `config.py`
-8. ส่งทั้งหมดมาที่ **LINE**
+   - **วิเคราะห์พอร์ต & วางแผนการเงิน** — Allocation vs Target, Rebalancing, ความคืบหน้าสู่เป้าหมาย
+9. คำนวณ **Portfolio P&L** และ **Asset Allocation** ตาม `config.py`
+10. ส่งทั้งหมดมาที่ **LINE**
 
 ### แจ้งเตือนราคา (ทุกชั่วโมงช่วง market hours)
 - ตรวจสอบทุกสินทรัพย์ทุกชั่วโมง
@@ -112,7 +115,7 @@ market-analysis/
 
 ---
 
-### 5. ตั้งค่า Portfolio
+### 5. ตั้งค่า Portfolio, Financial Goals และ Allocation Target
 
 แก้ `config.py` ใส่จำนวนหุ้นและราคาทุนจริง:
 
@@ -122,6 +125,26 @@ PORTFOLIO = {
     "ASTS": {"shares": 100, "avg_cost": 15.50},
     "GOLD_OZ": {"oz": 2, "avg_cost": 3200.00},
     # ตัวที่ไม่ได้ถือ ปล่อย shares: 0 ไว้
+}
+```
+
+ตั้งเป้าหมายการเงิน:
+```python
+FINANCIAL_GOALS = {
+    "target_portfolio_value": 50000,  # เป้าหมายมูลค่าพอร์ต (USD)
+    "target_date": "2030-01-01",      # วันที่อยากถึงเป้า
+    "monthly_investment": 500,        # เงินลงทุนเพิ่มต่อเดือน (USD)
+    "risk_profile": "moderate",       # conservative / moderate / aggressive
+}
+```
+
+ตั้ง Target Allocation (รวมกันต้องได้ 100):
+```python
+TARGET_ALLOCATION = {
+    "mag7":      40,   # % — Magnificent 7
+    "watchlist": 35,   # % — Watchlist
+    "crypto":    15,   # % — BTC + ETH
+    "gold":      10,   # % — ทองคำ
 }
 ```
 
@@ -168,6 +191,7 @@ ALERT_THRESHOLD_CRYPTO = 3.0   # % ที่จะแจ้งเตือน Cr
 - [yfinance](https://github.com/ranaroussi/yfinance) — ราคาและข้อมูลย้อนหลัง
 - [ta](https://technical-analysis-library-in-python.readthedocs.io/) — Technical Analysis (RSI, MACD, BB, EMA, ATR)
 - [feedparser](https://feedparser.readthedocs.io/) — RSS news
+- [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/) — ForexFactory news scraping
 - [Groq](https://groq.com/) — AI analysis (llama-3.3-70b-versatile)
 - LINE Messaging API — การแจ้งเตือน
 - GitHub Actions — scheduler

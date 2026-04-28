@@ -1,13 +1,15 @@
 import os
 import re
+import math
 import time
 import datetime
 import pytz
 import requests
 import feedparser
 import yfinance as yf
+from bs4 import BeautifulSoup
 from groq import Groq
-from config import PORTFOLIO
+from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 from technicals import fetch_all_indicators, format_indicators
 
 # Truth Social: username → known account ID (fallback if RSS fails)
@@ -148,7 +150,8 @@ def fetch_fear_greed() -> dict:
 
 # ── Economic Calendar ─────────────────────────────────────────────────────────
 
-def fetch_economic_calendar() -> list:
+def fetch_economic_calendar() -> dict:
+    """ดึง ForexFactory Calendar — วันนี้ทุกสกุล + 3 วันข้างหน้า USD"""
     try:
         url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
         headers = {"User-Agent": "Mozilla/5.0"}
@@ -156,18 +159,75 @@ def fetch_economic_calendar() -> list:
         resp.raise_for_status()
         events = resp.json()
 
-        today_str = datetime.datetime.now(BANGKOK_TZ).strftime("%Y-%m-%d")
-        high_impact = [
+        now = datetime.datetime.now(BANGKOK_TZ)
+        today_str = now.strftime("%Y-%m-%d")
+        major_currencies = {"USD", "EUR", "GBP", "JPY", "CNY", "AUD", "CAD"}
+
+        today_events = [
             e for e in events
-            if e.get("country") == "USD"
-            and e.get("impact") == "High"
+            if e.get("impact") == "High"
+            and e.get("country") in major_currencies
             and e.get("date", "").startswith(today_str)
         ]
-        print(f"  Economic calendar: {len(high_impact)} high-impact USD events today")
-        return high_impact
+
+        upcoming_events = []
+        for day_offset in range(1, 4):
+            future_str = (now + datetime.timedelta(days=day_offset)).strftime("%Y-%m-%d")
+            upcoming_events += [
+                e for e in events
+                if e.get("impact") == "High"
+                and e.get("country") == "USD"
+                and e.get("date", "").startswith(future_str)
+            ]
+
+        print(f"  ForexFactory calendar: {len(today_events)} today, {len(upcoming_events)} upcoming (3-day USD)")
+        return {"today": today_events, "upcoming": upcoming_events}
     except Exception as e:
-        print(f"  Warning: Failed to fetch economic calendar: {e}")
-        return []
+        print(f"  Warning: Failed to fetch ForexFactory calendar: {e}")
+        return {"today": [], "upcoming": []}
+
+
+def fetch_forexfactory_news() -> str:
+    """Scrape Flash News จาก ForexFactory (best-effort — JS-heavy site)"""
+    try:
+        url = "https://www.forexfactory.com/news"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        }
+        resp = requests.get(url, headers=headers, timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+
+        headlines = []
+
+        # ลอง selector หลายแบบ เพราะ ForexFactory อาจเปลี่ยน HTML structure
+        for item in soup.select(".flashes__item, .news__item, .flash-item, article.news")[:10]:
+            text = item.get_text(separator=" ", strip=True)
+            if len(text) > 20:
+                headlines.append(text[:300])
+
+        # Fallback: ดึง <h3>/<h4> ถ้าไม่เจอ container
+        if not headlines:
+            for tag in soup.find_all(["h3", "h4"])[:10]:
+                t = tag.get_text(strip=True)
+                if len(t) > 15:
+                    headlines.append(t)
+
+        # Fallback สุดท้าย: ดึง meta description
+        if not headlines:
+            for meta in soup.find_all("meta", attrs={"name": "description"})[:3]:
+                content = meta.get("content", "").strip()
+                if len(content) > 20:
+                    headlines.append(content[:300])
+
+        result = "\n".join(f"• {h}" for h in headlines)
+        print(f"  ForexFactory news: {len(headlines)} items scraped")
+        return result if result else ""
+    except Exception as e:
+        print(f"  Warning: ForexFactory news scraping failed: {e}")
+        return ""
 
 
 # ── Portfolio P&L ─────────────────────────────────────────────────────────────
@@ -226,6 +286,107 @@ def calculate_portfolio_pnl(prices: dict) -> dict:
         }
 
     return pnl
+
+
+# ── Portfolio Allocation & Financial Planning ─────────────────────────────────
+
+def calculate_allocation(pnl: dict) -> dict:
+    """คำนวณ % allocation ปัจจุบันแต่ละ asset class vs TARGET_ALLOCATION"""
+    total = pnl.get("__total__", {}).get("value", 0.0)
+    if not isinstance(total, float) or total == 0:
+        return {}
+
+    mag7_symbols = set(MAG7.keys())
+    watch_symbols = set(WATCHLIST.keys())
+    class_values = {"mag7": 0.0, "watchlist": 0.0, "crypto": 0.0, "gold": 0.0}
+
+    for symbol, data in pnl.items():
+        if symbol == "__total__":
+            continue
+        val = data.get("value", 0.0)
+        if not isinstance(val, float):
+            continue
+        if symbol in mag7_symbols:
+            class_values["mag7"] += val
+        elif symbol == "GOLD_OZ":
+            class_values["gold"] += val
+        elif symbol in watch_symbols:
+            class_values["watchlist"] += val
+        # crypto ใน portfolio จริงยังไม่มี → 0
+
+    result = {}
+    for cls, val in class_values.items():
+        current_pct = (val / total * 100) if total else 0.0
+        target_pct = TARGET_ALLOCATION.get(cls, 0)
+        diff = current_pct - target_pct
+        if diff > 2:
+            status = "Overweight"
+        elif diff < -2:
+            status = "Underweight"
+        else:
+            status = "On Target"
+        result[cls] = {
+            "value": val,
+            "current_pct": round(current_pct, 1),
+            "target_pct": target_pct,
+            "diff": round(diff, 1),
+            "status": status,
+        }
+
+    result["__total__"] = total
+    return result
+
+
+def build_portfolio_planning_context(pnl: dict, allocation: dict) -> str:
+    """สร้าง context สำหรับ Groq prompt — portfolio planning"""
+    if not allocation or "__total__" not in allocation:
+        return "ไม่มีข้อมูลพอร์ต"
+
+    total_val = allocation["__total__"]
+    goal = FINANCIAL_GOALS
+    target_val = goal["target_portfolio_value"]
+    target_date = goal["target_date"]
+    monthly = goal["monthly_investment"]
+    risk = goal["risk_profile"]
+
+    lines = [
+        f"Total Portfolio Value: ${total_val:,.2f}",
+        f"Goal: ${target_val:,.0f} by {target_date} | Monthly Investment: ${monthly}/mo | Risk Profile: {risk}",
+        "",
+        "Current Allocation vs Target:",
+    ]
+    for cls, d in allocation.items():
+        if cls == "__total__":
+            continue
+        lines.append(
+            f"  {cls:12s}: {d['current_pct']:5.1f}% (target {d['target_pct']}%) "
+            f"→ {d['status']} ({d['diff']:+.1f}%)"
+        )
+
+    if isinstance(target_val, (int, float)) and target_val > total_val > 0:
+        gap = target_val - total_val
+        annual_rate = 0.10
+        monthly_rate = annual_rate / 12
+        if monthly > 0:
+            try:
+                n = math.log((gap * monthly_rate / monthly) + 1) / math.log(1 + monthly_rate)
+                est_years = round(n / 12, 1)
+            except (ValueError, ZeroDivisionError):
+                est_years = None
+        else:
+            est_years = None
+        progress_pct = total_val / target_val * 100
+        lines += [
+            "",
+            f"Progress: ${total_val:,.0f} / ${target_val:,.0f} ({progress_pct:.1f}%)",
+        ]
+        if est_years is not None:
+            lines.append(
+                f"Estimated to reach goal: ~{est_years} yrs "
+                f"(assuming 10% annual return + ${monthly}/mo contributions)"
+            )
+
+    return "\n".join(lines)
 
 
 # ── Truth Social ──────────────────────────────────────────────────────────────
@@ -358,22 +519,59 @@ def build_price_context(prices: dict, fear_greed: dict) -> str:
     return "\n".join(lines)
 
 
-def get_groq_analysis(prices: dict, fear_greed: dict, calendar: list, news: str, truth_posts: str, technicals: dict) -> str:
+def get_groq_analysis(
+    prices: dict,
+    fear_greed: dict,
+    calendar: dict,
+    news: str,
+    truth_posts: str,
+    technicals: dict,
+    ff_news: str = "",
+    allocation: dict = None,
+) -> str:
     try:
         client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
         price_context = build_price_context(prices, fear_greed)
         technical_context = build_technical_context(prices, technicals)
 
-        calendar_text = ""
-        if calendar:
-            cal_lines = ["High-Impact USD Events Today:"]
-            for e in calendar:
-                cal_lines.append(f"  {e.get('time','?')} - {e.get('title','?')} | Forecast: {e.get('forecast','?')} | Previous: {e.get('previous','?')}")
-            calendar_text = "\n".join(cal_lines)
-        else:
-            calendar_text = "No high-impact USD economic events today."
+        # ── ForexFactory Calendar ────────────────────────────────
+        today_events = calendar.get("today", [])
+        upcoming_events = calendar.get("upcoming", [])
 
+        if today_events:
+            cal_lines = ["วันนี้ — High-Impact (USD/EUR/GBP/JPY/CNY/AUD/CAD):"]
+            for e in today_events:
+                cal_lines.append(
+                    f"  [{e.get('country','?')}] {e.get('time','?')} {e.get('title','?')} "
+                    f"| Forecast: {e.get('forecast','?')} | Previous: {e.get('previous','?')}"
+                )
+        else:
+            cal_lines = ["วันนี้: ไม่มี High-Impact events"]
+
+        if upcoming_events:
+            cal_lines.append("3 วันข้างหน้า — High-Impact USD:")
+            for e in upcoming_events:
+                cal_lines.append(
+                    f"  {e.get('date','?')[:10]} {e.get('title','?')} "
+                    f"| Forecast: {e.get('forecast','?')} | Previous: {e.get('previous','?')}"
+                )
+        calendar_text = "\n".join(cal_lines)
+
+        # ── ForexFactory News ────────────────────────────────────
+        ff_news_section = (
+            f"FOREXFACTORY NEWS:\n{ff_news}" if ff_news.strip()
+            else "FOREXFACTORY NEWS:\nไม่สามารถดึงข่าวได้ (JS-rendered site)"
+        )
+
+        # ── Portfolio Planning ───────────────────────────────────
+        portfolio_planning = (
+            build_portfolio_planning_context({}, allocation)
+            if allocation
+            else "ไม่มีข้อมูลพอร์ต"
+        )
+
+        # ── Truth Social ─────────────────────────────────────────
         truth_section = f"\nTRUTH SOCIAL POSTS (Trump):\n{truth_posts}" if truth_posts.strip() else ""
 
         user_prompt = f"""Analyze the following market data and technical indicators. Format your response EXACTLY as shown in the template below. Use plain text only — no **, no #, no markdown.
@@ -384,11 +582,16 @@ MARKET DATA:
 TECHNICAL INDICATORS:
 {technical_context}
 
-ECONOMIC CALENDAR:
+FOREXFACTORY CALENDAR:
 {calendar_text}
+
+{ff_news_section}
 {truth_section}
 LATEST NEWS (full content from all sources):
 {news}
+
+PORTFOLIO FINANCIAL PLANNING:
+{portfolio_planning}
 
 OUTPUT FORMAT (follow this structure exactly, write content in Thai):
 
@@ -452,10 +655,15 @@ OKLO  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$
 ONDS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$[ราคา]
 
 ════════════════════
-📅 Economic Calendar
+🏦 ForexFactory Calendar & Upcoming Events
 ════════════════════
-[ชื่อ event] — ผลกระทบ: [คาด Bullish/Bearish ต่อ USD/ตลาด]
-[ถ้าไม่มี event: ไม่มีข้อมูลเศรษฐกิจสำคัญวันนี้]
+วันนี้ (High-Impact ทุกสกุล):
+[event] — [สกุลเงิน] — ผลคาด: [Bullish/Bearish/Mixed ต่อ USD/ตลาด]
+[ถ้าไม่มี: ไม่มีข้อมูลเศรษฐกิจสำคัญวันนี้]
+
+สัปดาห์นี้ USD สำคัญ (upcoming):
+[event] — [วัน] — คาดว่าจะกระทบ [อธิบายสั้น]
+[ถ้าไม่มี: ไม่มี USD events สำคัญใน 3 วันข้างหน้า]
 
 ════════════════════
 🐦 Trump Truth Social
@@ -488,6 +696,24 @@ ONDS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$
 กระทบ: [ระบุหุ้น/สินทรัพย์ที่ได้รับผลกระทบ]
 
 ภาพรวมข่าววันนี้: [🟢 Bullish dominant / 🔴 Bearish dominant / 🟡 Mixed] — [สรุป 1 ประโยค]
+
+════════════════════
+💼 วิเคราะห์พอร์ต & วางแผนการเงิน
+════════════════════
+Allocation ปัจจุบัน vs เป้าหมาย:
+mag7    : [XX%] (เป้า [YY%]) → [Overweight/Underweight/On Target]
+watchlist: [XX%] (เป้า [YY%]) → [Overweight/Underweight/On Target]
+crypto  : [XX%] (เป้า [YY%]) → [Overweight/Underweight/On Target]
+gold    : [XX%] (เป้า [YY%]) → [Overweight/Underweight/On Target]
+
+Rebalancing แนะนำ:
+[ซื้อ/ขาย/ถือ อะไร เท่าไหร่ อิงจาก allocation ปัจจุบัน vs target]
+
+ความคืบหน้าสู่เป้าหมาย:
+มูลค่าปัจจุบัน: $[X,XXX] | เป้า: $[XX,XXX] ภายใน [YYYY]
+ประมาณถึงเป้า: ~[X] ปี (ลงทุน $[X]/เดือน + ผลตอบแทน 10%/ปี)
+
+คำแนะนำ: [2-3 ประโยค อิง risk profile และสภาพตลาดปัจจุบัน]
 
 ════════════════════
 ⚡ สรุปคำแนะนำ
@@ -524,7 +750,7 @@ ONDS  RSI:[ค่า] MACD:[สัญญาณ] เข้า:$[ราคา]–$
 
 # ── Build Message ─────────────────────────────────────────────────────────────
 
-def build_line_message(prices: dict, fear_greed: dict, calendar: list, pnl: dict, analysis: str) -> str:
+def build_line_message(prices: dict, fear_greed: dict, calendar: dict, pnl: dict, allocation: dict, analysis: str) -> str:
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
     date_str = now_bangkok.strftime("%d %b %Y")
     time_str = now_bangkok.strftime("%H:%M")
@@ -600,11 +826,36 @@ def build_line_message(prices: dict, fear_greed: dict, calendar: list, pnl: dict
             f"   กำไร/ขาดทุน: ${total['gain']:+,.2f} ({total['gain_pct']:+.2f}%)",
         ]
 
-    # Economic Calendar
-    if calendar:
-        lines += ["", "── Economic Calendar (วันนี้) ──"]
-        for e in calendar:
-            lines.append(f"⏰ {e.get('time','?')} | {e.get('title','?')} | Forecast: {e.get('forecast','?')}")
+    # Portfolio Allocation
+    if allocation and "__total__" in allocation:
+        lines += ["", "── Portfolio Allocation ─────────"]
+        alloc_emoji = {"Overweight": "🔴", "Underweight": "🟡", "On Target": "🟢"}
+        label_map = {"mag7": "Mag7    ", "watchlist": "Watch   ", "crypto": "Crypto  ", "gold": "Gold    "}
+        for cls in ["mag7", "watchlist", "crypto", "gold"]:
+            d = allocation.get(cls)
+            if d is None:
+                continue
+            emoji = alloc_emoji.get(d["status"], "⚪")
+            lbl = label_map.get(cls, cls)
+            lines.append(
+                f"{emoji} {lbl}: {d['current_pct']:5.1f}% (เป้า {d['target_pct']}%)  {d['status']}"
+            )
+
+    # ForexFactory Calendar
+    today_events = calendar.get("today", [])
+    upcoming_events = calendar.get("upcoming", [])
+    if today_events or upcoming_events:
+        lines += ["", "── ForexFactory Calendar ────────"]
+        if today_events:
+            for e in today_events:
+                lines.append(
+                    f"⏰ [{e.get('country','?')}] {e.get('time','?')} {e.get('title','?')} "
+                    f"| Fcst: {e.get('forecast','?')}"
+                )
+        if upcoming_events:
+            lines.append("  Upcoming USD (3 วัน):")
+            for e in upcoming_events[:5]:
+                lines.append(f"  • {e.get('date','?')[:10]} — {e.get('title','?')}")
 
     lines += [
         "",
@@ -655,22 +906,25 @@ def send_line(message: str):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    print("[1/7] Fetching prices...")
+    print("[1/9] Fetching prices...")
     prices = fetch_prices()
 
-    print("[2/7] Fetching Fear & Greed Index...")
+    print("[2/9] Fetching Fear & Greed Index...")
     fear_greed = fetch_fear_greed()
 
-    print("[3/7] Fetching economic calendar...")
+    print("[3/9] Fetching ForexFactory calendar...")
     calendar = fetch_economic_calendar()
 
-    print("[4/7] Fetching news...")
+    print("[4/9] Fetching news (RSS feeds)...")
     news = fetch_news()
 
-    print("[4.5/7] Fetching Truth Social posts...")
+    print("[4.5/9] Fetching Truth Social posts...")
     truth_posts = fetch_all_truth_social()
 
-    print("[5/7] Computing technical indicators (RSI, MACD, BB, EMA, ATR)...")
+    print("[5/9] Fetching ForexFactory news...")
+    ff_news = fetch_forexfactory_news()
+
+    print("[5.5/9] Computing technical indicators (RSI, MACD, BB, EMA, ATR)...")
     all_symbols = (
         ["GC=F", "^GSPC", "DX-Y.NYB", "^VIX", "BTC-USD", "ETH-USD"]
         + list(MAG7.keys())
@@ -678,13 +932,19 @@ def main():
     )
     technicals = fetch_all_indicators(all_symbols, period="1y")
 
-    print("[6/7] Calculating portfolio P&L...")
+    print("[6/9] Calculating portfolio P&L...")
     pnl = calculate_portfolio_pnl(prices)
 
-    print("[7/7] Calling Groq API...")
-    analysis = get_groq_analysis(prices, fear_greed, calendar, news, truth_posts, technicals)
+    print("[6.5/9] Calculating portfolio allocation...")
+    allocation = calculate_allocation(pnl)
 
-    message = build_line_message(prices, fear_greed, calendar, pnl, analysis)
+    print("[7/9] Calling Groq API...")
+    analysis = get_groq_analysis(
+        prices, fear_greed, calendar, news, truth_posts, technicals,
+        ff_news=ff_news, allocation=allocation,
+    )
+
+    message = build_line_message(prices, fear_greed, calendar, pnl, allocation, analysis)
     send_line(message)
 
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
