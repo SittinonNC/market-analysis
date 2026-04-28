@@ -43,9 +43,9 @@ ALERT_THRESHOLD_CRYPTO = 3.0   # Crypto: แจ้งเตือนถ้าเ
 # ─────────────────────────────────────────────────────────────
 
 FINANCIAL_GOALS = {
-    "target_portfolio_value": 50000,
+    "target_portfolio_value": 3000,
     "target_date": "2030-01-01",
-    "monthly_investment": 500,
+    "monthly_investment": 200,
     "risk_profile": "moderate",
 }
 
@@ -58,8 +58,8 @@ FINANCIAL_GOALS = {
 # ─────────────────────────────────────────────────────────────
 
 TARGET_ALLOCATION = {
-    "mag7":      40,   # %
-    "watchlist": 35,   # %
+    "mag7":      20,   # %
+    "watchlist": 50,   # %
     "crypto":    15,   # %
-    "gold":      10,   # %
+    "gold":      15,   # %
 }
