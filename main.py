@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 from technicals import fetch_all_indicators, format_indicators
-from line_flex import build_market_bubble, build_portfolio_bubble, send_flex, send_text
+from line_flex import build_market_bubble, send_flex, send_text
 from dashboard_data import save_snapshot
 
 # Truth Social: username → known account ID (fallback if RSS fails)
@@ -795,14 +795,10 @@ def main():
     date_str = now_bangkok.strftime("%d %b %Y")
     time_str = now_bangkok.strftime("%H:%M")
 
-    print("[8/9] Sending Flex bubbles to LINE...")
+    print("[8/9] Sending Market Flex bubble to LINE...")
     send_flex(
         f"📊 Market Briefing {date_str} {time_str}",
         build_market_bubble(prices, fear_greed, date_str, time_str),
-    )
-    send_flex(
-        f"💼 Portfolio {date_str} {time_str}",
-        build_portfolio_bubble(pnl, allocation, calendar, FINANCIAL_GOALS, date_str, time_str),
     )
 
     print("[9/9] Sending Groq analysis as text...")
