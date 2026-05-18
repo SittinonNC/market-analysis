@@ -343,18 +343,145 @@ function renderLivePnl() {
 }
 
 // ── Render: ANALYSIS ─────────────────────────────────────────────────────────
+// Section headers in Groq output start with an emoji + Thai text (e.g. "📊 ภาพรวมตลาด").
+const SECTION_EMOJI_RE = /^(\p{Extended_Pictographic}|[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}])/u;
+const SIGNAL_RULES = [
+  { re: /\b(STRONG\s+BUY|BUY|ซื้อเพิ่ม|Bullish|ขาขึ้น|เข้าซื้อ|Overweight)\b/gi,  cls: 'sig-buy' },
+  { re: /\b(STRONG\s+SELL|SELL|ขายออก|Bearish|ขาลง|ลดความเสี่ยง|Underweight)\b/gi, cls: 'sig-sell' },
+  { re: /\b(HOLD|ถือ|Neutral|รอ|On Target|Wait)\b/gi,                              cls: 'sig-hold' },
+];
+const PRICE_RE   = /(\$[\d,]+\.?\d*|\d+\.\d+%|[-+]\d+\.\d+%)/g;
+// note: text has been HTML-escaped before this regex runs, so "&" appears as "&amp;"
+const TICKER_RE  = /\b(AAPL|MSFT|NVDA|AMZN|META|GOOGL|TSLA|BTC|ETH|S&amp;P\s?500|XAU\/USD|DXY|VIX|ASTS|UNH|EOSE|RKLB|OKLO|ONDS|GOLD)\b/g;
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function inlineFormat(text) {
+  // safe-escape first, then apply inline replacements that emit known-safe tags
+  let html = escapeHtml(text);
+
+  // **bold** → <strong>
+  html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  // *italic* (single-asterisk) → <em>  (skip if already inside a tag)
+  html = html.replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, '$1<em>$2</em>');
+  // `code` → <code>
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+
+  // signal keywords → colored spans
+  for (const { re, cls } of SIGNAL_RULES) {
+    html = html.replace(re, m => `<span class="${cls}">${m}</span>`);
+  }
+  // prices / % → highlighted
+  html = html.replace(PRICE_RE, '<span class="num">$1</span>');
+  // tickers → mono badge
+  html = html.replace(TICKER_RE, '<span class="tk">$1</span>');
+
+  return html;
+}
+
+function renderAnalysisHtml(text) {
+  if (!text || !String(text).trim()) return '<p class="muted">(ไม่มีข้อความวิเคราะห์)</p>';
+
+  // normalize line endings, drop leading/trailing whitespace
+  const lines = String(text).replace(/\r\n/g, '\n').trim().split('\n');
+  const out = [];
+  let i = 0;
+
+  // helper: flush a paragraph buffer
+  const flushP = (buf) => { if (buf.length) out.push(`<p>${inlineFormat(buf.join(' '))}</p>`); };
+
+  while (i < lines.length) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    if (!trimmed) { i++; continue; }
+
+    // ── Section header: emoji-led line, short (<80 chars), not ending with sentence punctuation
+    if (SECTION_EMOJI_RE.test(trimmed) && trimmed.length < 100 && !/[।.!?]$/.test(trimmed)) {
+      // peek next non-empty line — if header is "EMOJI Title — body", split on em-dash
+      const emDashIdx = trimmed.indexOf('—');
+      if (emDashIdx > 0 && emDashIdx < 60) {
+        const head = trimmed.slice(0, emDashIdx).trim();
+        const tail = trimmed.slice(emDashIdx + 1).trim();
+        out.push(`<h3>${inlineFormat(head)}</h3>`);
+        if (tail) out.push(`<p>${inlineFormat(tail)}</p>`);
+      } else {
+        out.push(`<h3>${inlineFormat(trimmed)}</h3>`);
+      }
+      i++;
+      continue;
+    }
+
+    // ── Markdown-style heading
+    if (/^#{1,4}\s/.test(trimmed)) {
+      const m = trimmed.match(/^(#{1,4})\s+(.+)$/);
+      const level = Math.min(m[1].length + 2, 5); // ## → h4, ### → h5
+      out.push(`<h${level}>${inlineFormat(m[2])}</h${level}>`);
+      i++;
+      continue;
+    }
+
+    // ── Bullet list
+    if (/^[-•·*]\s+/.test(trimmed)) {
+      const items = [];
+      while (i < lines.length && /^[-•·*]\s+/.test(lines[i].trim())) {
+        items.push(lines[i].trim().replace(/^[-•·*]\s+/, ''));
+        i++;
+      }
+      out.push(`<ul>${items.map(it => `<li>${inlineFormat(it)}</li>`).join('')}</ul>`);
+      continue;
+    }
+
+    // ── Numbered list
+    if (/^\d+[.)]\s+/.test(trimmed)) {
+      const items = [];
+      while (i < lines.length && /^\d+[.)]\s+/.test(lines[i].trim())) {
+        items.push(lines[i].trim().replace(/^\d+[.)]\s+/, ''));
+        i++;
+      }
+      out.push(`<ol>${items.map(it => `<li>${inlineFormat(it)}</li>`).join('')}</ol>`);
+      continue;
+    }
+
+    // ── Key: value (label followed by colon → definition-style)
+    //    only if short label, value on same line
+    const kvMatch = trimmed.match(/^([^:：]{2,30})[:：]\s*(.+)$/);
+    if (kvMatch && /[฀-๿a-zA-Z]/.test(kvMatch[1])) {
+      out.push(`<p class="kv"><span class="k">${inlineFormat(kvMatch[1])}:</span> ${inlineFormat(kvMatch[2])}</p>`);
+      i++;
+      continue;
+    }
+
+    // ── Paragraph: collect consecutive non-empty, non-special lines
+    const buf = [];
+    while (i < lines.length) {
+      const t = lines[i].trim();
+      if (!t) break;
+      if (SECTION_EMOJI_RE.test(t) && t.length < 100) break;
+      if (/^#{1,4}\s/.test(t) || /^[-•·*]\s+/.test(t) || /^\d+[.)]\s+/.test(t)) break;
+      buf.push(t);
+      i++;
+    }
+    flushP(buf);
+  }
+
+  return out.join('\n');
+}
+
 function renderAnalysis() {
   if (snapMarket) {
     $('#marketMeta').textContent = `บันทึก: ${formatTs(snapMarket.ts)}`;
-    $('#marketAnalysis').textContent = snapMarket.analysis || '(ไม่มีข้อความวิเคราะห์)';
+    $('#marketAnalysis').innerHTML = renderAnalysisHtml(snapMarket.analysis);
   } else {
-    $('#marketAnalysis').textContent = 'ยังไม่มีข้อมูล — รอ workflow รันครั้งแรก';
+    $('#marketAnalysis').innerHTML = '<p class="muted">ยังไม่มีข้อมูล — รอ workflow รันครั้งแรก</p>';
   }
   if (snapPortfolio) {
     $('#portfolioMeta').textContent = `บันทึก: ${formatTs(snapPortfolio.ts)}`;
-    $('#portfolioAnalysis').textContent = snapPortfolio.analysis || '(ไม่มีข้อความวิเคราะห์)';
+    $('#portfolioAnalysis').innerHTML = renderAnalysisHtml(snapPortfolio.analysis);
   } else {
-    $('#portfolioAnalysis').textContent = 'ยังไม่มีข้อมูล';
+    $('#portfolioAnalysis').innerHTML = '<p class="muted">ยังไม่มีข้อมูล</p>';
   }
 }
 
@@ -422,10 +549,6 @@ function renderNews() {
     }
     cb.innerHTML = blocks.join('');
   }
-}
-
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
 // ── Render: HISTORY ──────────────────────────────────────────────────────────
