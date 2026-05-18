@@ -12,6 +12,7 @@ from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 from technicals import fetch_all_indicators, format_indicators
 from line_flex import build_market_bubble, build_portfolio_bubble, send_flex, send_text
+from dashboard_data import save_snapshot
 
 # Truth Social: username → known account ID (fallback if RSS fails)
 TRUTH_SOCIAL_ACCOUNTS = [
@@ -807,6 +808,19 @@ def main():
     print("[9/9] Sending Groq analysis as text...")
     disclaimer = "⚠️ AI-generated analysis. Not financial advice."
     send_text(f"📝 วิเคราะห์ตลาด\n\n{analysis}\n\n{disclaimer}")
+
+    save_snapshot("market", {
+        "prices": prices,
+        "fear_greed": fear_greed,
+        "calendar": calendar,
+        "pnl": pnl,
+        "allocation": allocation,
+        "news": news,
+        "truth_posts": truth_posts,
+        "ff_news": ff_news,
+        "analysis": analysis,
+    })
+
 
     print(f"\n✅ Done at {now_bangkok.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
 

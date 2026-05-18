@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Analysis Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">📊</span>
+      <div>
+        <h1>Market Analysis</h1>
+        <p class="subtitle" id="lastUpdated">—</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="reloadBtn" class="ghost" title="โหลดข้อมูลใหม่จาก GitHub">↻</button>
+      <button id="settingsBtn" class="ghost" title="ตั้งค่า PAT">⚙</button>
+      <button id="saveBtn" class="primary" disabled>บันทึก</button>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button data-tab="holdings" class="tab active">💼 พอร์ต</button>
+    <button data-tab="goals" class="tab">🎯 เป้าหมาย & Allocation</button>
+    <button data-tab="alerts" class="tab">🚨 Alert Thresholds</button>
+    <button data-tab="livepnl" class="tab">📈 Live P&L</button>
+    <button data-tab="analysis" class="tab">📝 วิเคราะห์ล่าสุด</button>
+    <button data-tab="news" class="tab">📰 ข่าว</button>
+    <button data-tab="history" class="tab">🗂 ประวัติ</button>
+  </nav>
+
+  <main>
+    <!-- HOLDINGS -->
+    <section id="tab-holdings" class="tab-pane active">
+      <div class="card">
+        <div class="card-head">
+          <h2>หุ้น / Crypto / ทอง</h2>
+          <button id="addHoldingBtn" class="primary small">+ เพิ่ม</button>
+        </div>
+        <div class="table-wrap">
+          <table id="holdingsTable" class="data-table">
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th class="right">จำนวน</th>
+                <th class="right">ต้นทุน/หน่วย</th>
+                <th class="right">ราคาปัจจุบัน</th>
+                <th class="right">มูลค่า</th>
+                <th class="right">P&L</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+              <tr>
+                <td colspan="4" class="right strong">รวม</td>
+                <td class="right strong" id="totalValue">—</td>
+                <td class="right strong" id="totalPnl">—</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p class="hint">
+          GOLD ใส่ symbol = <code>GOLD_OZ</code> และจำนวนเป็นออนซ์ ·
+          BTC/ETH ใช้ ticker <code>BTC-USD</code> / <code>ETH-USD</code>
+        </p>
+      </div>
+    </section>
+
+    <!-- GOALS & ALLOCATION -->
+    <section id="tab-goals" class="tab-pane">
+      <div class="card">
+        <h2>🎯 เป้าหมายการเงิน</h2>
+        <div class="grid-2">
+          <label>เป้ามูลค่าพอร์ต (USD)
+            <input type="number" id="goal_target" min="0" step="100" />
+          </label>
+          <label>วันที่อยากถึงเป้า
+            <input type="date" id="goal_date" />
+          </label>
+          <label>ลงทุนเพิ่ม/เดือน (USD)
+            <input type="number" id="goal_monthly" min="0" step="10" />
+          </label>
+          <label>Risk Profile
+            <select id="goal_risk">
+              <option value="conservative">Conservative</option>
+              <option value="moderate">Moderate</option>
+              <option value="aggressive">Aggressive</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>⚖️ Target Allocation (รวม = 100%)</h2>
+        <div class="grid-2">
+          <label>Magnificent 7 (%) <input type="number" id="alloc_mag7" min="0" max="100" /></label>
+          <label>Watchlist (%) <input type="number" id="alloc_watchlist" min="0" max="100" /></label>
+          <label>Crypto (%) <input type="number" id="alloc_crypto" min="0" max="100" /></label>
+          <label>Gold (%) <input type="number" id="alloc_gold" min="0" max="100" /></label>
+        </div>
+        <p id="allocSum" class="hint"></p>
+      </div>
+    </section>
+
+    <!-- ALERTS -->
+    <section id="tab-alerts" class="tab-pane">
+      <div class="card">
+        <h2>🚨 Alert Thresholds (% เปลี่ยนแปลงที่จะแจ้งเตือน LINE)</h2>
+        <div class="grid-2">
+          <label>หุ้น (%) <input type="number" id="th_stocks" min="0" step="0.1" /></label>
+          <label>ทอง (%) <input type="number" id="th_gold" min="0" step="0.1" /></label>
+          <label>Crypto (%) <input type="number" id="th_crypto" min="0" step="0.1" /></label>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE P&L -->
+    <section id="tab-livepnl" class="tab-pane">
+      <div class="card">
+        <h2>📈 P&L (ตามราคาล่าสุดจาก workflow)</h2>
+        <div class="kv-grid" id="pnlSummary"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+      <div class="card">
+        <h2>⚖️ Allocation ปัจจุบัน vs Target</h2>
+        <div id="allocBars"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+      <div class="card">
+        <h2>🎯 ความคืบหน้าสู่เป้าหมาย</h2>
+        <div id="goalProgress"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+    </section>
+
+    <!-- ANALYSIS -->
+    <section id="tab-analysis" class="tab-pane">
+      <div class="card">
+        <h2>📝 Market Analysis (ล่าสุด)</h2>
+        <div class="meta" id="marketMeta"></div>
+        <pre id="marketAnalysis" class="analysis-body">รอข้อมูล…</pre>
+      </div>
+      <div class="card">
+        <h2>💼 Portfolio Analysis (ล่าสุด)</h2>
+        <div class="meta" id="portfolioMeta"></div>
+        <pre id="portfolioAnalysis" class="analysis-body">รอข้อมูล…</pre>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="tab-news" class="tab-pane">
+      <div class="card">
+        <h2>📰 ข่าวจาก workflow ล่าสุด</h2>
+        <div id="newsBody"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+      <div class="card">
+        <h2>🐦 Trump Truth Social</h2>
+        <div id="truthBody"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+      <div class="card">
+        <h2>🏦 ForexFactory Calendar</h2>
+        <div id="calendarBody"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section id="tab-history" class="tab-pane">
+      <div class="card">
+        <h2>🗂 ประวัติ snapshots</h2>
+        <div id="historyList"><p class="hint">รอข้อมูล…</p></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PAT modal -->
+  <div id="patModal" class="modal hidden">
+    <div class="modal-body">
+      <h3>GitHub Personal Access Token</h3>
+      <p>
+        ต้องใช้ fine-grained PAT ของ repo
+        <code>SittinonNC/market-analysis</code>
+        permission <strong>Contents: Read &amp; Write</strong>.
+        Token จะถูกเก็บใน localStorage ของ browser คุณเท่านั้น
+        (<a href="https://github.com/settings/personal-access-tokens/new" target="_blank">สร้างที่นี่</a>)
+      </p>
+      <input type="password" id="patInput" placeholder="github_pat_..." autocomplete="off" />
+      <div class="modal-actions">
+        <button id="patClear" class="ghost">ลบ</button>
+        <button id="patCancel" class="ghost">ยกเลิก</button>
+        <button id="patSave" class="primary">บันทึก</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

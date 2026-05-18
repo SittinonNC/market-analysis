@@ -1,0 +1,35 @@
+{
+  "portfolio": {
+    "AAPL":    {"shares": 0,         "avg_cost": 0.0},
+    "MSFT":    {"shares": 1.0529435, "avg_cost": 470.595},
+    "NVDA":    {"shares": 0.8876384, "avg_cost": 181.9885},
+    "AMZN":    {"shares": 0,         "avg_cost": 0.0},
+    "META":    {"shares": 0,         "avg_cost": 0.0},
+    "GOOGL":   {"shares": 0,         "avg_cost": 0.0},
+    "TSLA":    {"shares": 0,         "avg_cost": 0.0},
+    "ASTS":    {"shares": 0.6984658, "avg_cost": 86.69},
+    "UNH":     {"shares": 0,         "avg_cost": 0.0},
+    "EOSE":    {"shares": 14.475,    "avg_cost": 8.7628},
+    "RKLB":    {"shares": 0,         "avg_cost": 0.0},
+    "OKLO":    {"shares": 4.0405409, "avg_cost": 96.9202},
+    "ONDS":    {"shares": 6.138,     "avg_cost": 11.385},
+    "GOLD_OZ": {"oz": 0,             "avg_cost": 0.0}
+  },
+  "financial_goals": {
+    "target_portfolio_value": 3000,
+    "target_date": "2030-01-01",
+    "monthly_investment": 200,
+    "risk_profile": "moderate"
+  },
+  "target_allocation": {
+    "mag7": 20,
+    "watchlist": 50,
+    "crypto": 15,
+    "gold": 15
+  },
+  "alert_thresholds": {
+    "stocks": 2.0,
+    "gold": 1.0,
+    "crypto": 3.0
+  }
+}

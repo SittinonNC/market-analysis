@@ -1,65 +1,22 @@
-# ─────────────────────────────────────────────────────────────
-# Portfolio Holdings — แก้ตัวเลขให้ตรงกับพอร์ตจริงของคุณ
-# shares = จำนวนหุ้น | avg_cost = ราคาทุนเฉลี่ยต่อหุ้น (USD)
-# ถ้าไม่ได้ถือหุ้นตัวไหน ให้ปล่อย shares: 0 ไว้
-# ─────────────────────────────────────────────────────────────
+"""
+Loads runtime config from portfolio.json so the dashboard (docs/) can edit it
+without touching code. Re-exports the same names the rest of the codebase imports:
+PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION,
+ALERT_THRESHOLD_STOCKS, ALERT_THRESHOLD_GOLD, ALERT_THRESHOLD_CRYPTO.
+"""
+import json
+from pathlib import Path
 
-PORTFOLIO = {
-    # Magnificent 7
-    "AAPL":  {"shares": 0,          "avg_cost": 0.0},
-    "MSFT":  {"shares": 1.0529435,  "avg_cost": 470.5950},
-    "NVDA":  {"shares": 0.8876384,  "avg_cost": 181.9885},
-    "AMZN":  {"shares": 0,          "avg_cost": 0.0},
-    "META":  {"shares": 0,          "avg_cost": 0.0},
-    "GOOGL": {"shares": 0,          "avg_cost": 0.0},
-    "TSLA":  {"shares": 0,          "avg_cost": 0.0},
+_CONFIG_PATH = Path(__file__).parent / "portfolio.json"
 
-    # Watchlist
-    "ASTS":  {"shares": 0.6984658,  "avg_cost": 86.6900},
-    "UNH":   {"shares": 0,  "avg_cost": 0.0},
-    "EOSE":  {"shares": 14.475,     "avg_cost": 8.7628},
-    "RKLB":  {"shares": 0,          "avg_cost": 0.0},
-    "OKLO":  {"shares": 4.0405409,  "avg_cost": 96.9202},
-    "ONDS":  {"shares": 6.138,      "avg_cost": 11.3850},
+with _CONFIG_PATH.open("r", encoding="utf-8") as f:
+    _data = json.load(f)
 
-    # ทองคำ (ออนซ์)
-    "GOLD_OZ": {"oz": 0, "avg_cost": 0.0},
-}
+PORTFOLIO         = _data["portfolio"]
+FINANCIAL_GOALS   = _data["financial_goals"]
+TARGET_ALLOCATION = _data["target_allocation"]
 
-# ─────────────────────────────────────────────────────────────
-# Alert Thresholds — % การเคลื่อนไหวที่จะกระตุ้นแจ้งเตือน
-# ─────────────────────────────────────────────────────────────
-
-ALERT_THRESHOLD_STOCKS = 2.0   # หุ้น: แจ้งเตือนถ้าเคลื่อนเกิน 2%
-ALERT_THRESHOLD_GOLD   = 1.0   # ทอง: แจ้งเตือนถ้าเคลื่อนเกิน 1%
-ALERT_THRESHOLD_CRYPTO = 3.0   # Crypto: แจ้งเตือนถ้าเคลื่อนเกิน 3%
-
-# ─────────────────────────────────────────────────────────────
-# Financial Goals — แก้ตามเป้าหมายจริงของคุณ
-# target_portfolio_value = มูลค่าพอร์ตที่ต้องการ (USD)
-# target_date            = วันที่อยากถึงเป้า (YYYY-MM-DD)
-# monthly_investment     = เงินที่จะลงทุนเพิ่มต่อเดือน (USD)
-# risk_profile           = conservative / moderate / aggressive
-# ─────────────────────────────────────────────────────────────
-
-FINANCIAL_GOALS = {
-    "target_portfolio_value": 3000,
-    "target_date": "2030-01-01",
-    "monthly_investment": 200,
-    "risk_profile": "moderate",
-}
-
-# ─────────────────────────────────────────────────────────────
-# Target Allocation — สัดส่วนที่ต้องการ (รวมกันต้อง = 100)
-# mag7      = Magnificent 7 (AAPL MSFT NVDA AMZN META GOOGL TSLA)
-# watchlist = Watchlist (ASTS UNH EOSE RKLB OKLO ONDS)
-# crypto    = BTC + ETH
-# gold      = ทองคำ
-# ─────────────────────────────────────────────────────────────
-
-TARGET_ALLOCATION = {
-    "mag7":      20,   # %
-    "watchlist": 50,   # %
-    "crypto":    15,   # %
-    "gold":      15,   # %
-}
+_t = _data["alert_thresholds"]
+ALERT_THRESHOLD_STOCKS = float(_t["stocks"])
+ALERT_THRESHOLD_GOLD   = float(_t["gold"])
+ALERT_THRESHOLD_CRYPTO = float(_t["crypto"])

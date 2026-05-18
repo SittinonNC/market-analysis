@@ -3,7 +3,10 @@ name: Portfolio Analysis
 on:
   schedule:
     - cron: '0 13 * * 1-5'  # 20:00 Bangkok — US pre-market, ดูพอร์ตก่อนตลาดเปิด
-  workflow_dispatch:          # กด run เองได้ตลอด
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   portfolio:
@@ -24,3 +27,15 @@ jobs:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: python portfolio.py
+
+      - name: Commit data snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): portfolio snapshot $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push
+          fi

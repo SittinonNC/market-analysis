@@ -5,7 +5,10 @@ on:
     - cron: '0 2 * * 1-5'   # 09:00 AM Bangkok — Asia morning session
     - cron: '30 14 * * 1-5' # 21:30 Bangkok — US market open (9:30 AM ET)
     - cron: '30 20 * * 1-5' # 03:30 Bangkok — US market close (4:00 PM ET)
-  workflow_dispatch:  # Allow manual trigger for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   analyze:
@@ -26,3 +29,15 @@ jobs:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: python main.py
+
+      - name: Commit data snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore(data): market snapshot $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push
+          fi

@@ -31,7 +31,15 @@ Three independent entry points share `config.py` and (for `main.py`) `technicals
 - **`portfolio.py`** — Portfolio-only flow. Same shape but scoped to symbols actually held (`shares > 0` / `oz > 0` in `PORTFOLIO`). Computes per-position P&L, current vs `TARGET_ALLOCATION`, and progress vs `FINANCIAL_GOALS`. Reuses RSS feed list but does not call `technicals.py`.
 - **`alert.py`** — Threshold-only check; no Groq, no news. Reads `ALERT_THRESHOLD_*` from config and posts to LINE only when a symbol moves beyond its threshold since previous close.
 - **`technicals.py`** — Pure computation using `ta` library. `fetch_all_indicators(symbols)` batch-downloads 1Y of daily bars via `yf.download(..., group_by='ticker')` and returns a dict keyed by symbol; `format_indicators` renders the dict into the Thai text block that gets embedded in the Groq prompt.
-- **`config.py`** — The only user-editable file in normal use. `PORTFOLIO` uses `{"shares", "avg_cost"}` for equities/crypto and `{"oz", "avg_cost"}` for `GOLD_OZ` (note the different key). `TARGET_ALLOCATION` percentages must sum to 100. Symbols with `shares: 0` are still valid — `main.py` tracks them for analysis; `portfolio.py` filters them out.
+- **`portfolio.json`** — Single source of truth for portfolio, goals, target allocation, and alert thresholds. Edited via the dashboard or directly. `portfolio` uses `{"shares", "avg_cost"}` for equities/crypto and `{"oz", "avg_cost"}` for `GOLD_OZ` (note the different key). `target_allocation` percentages must sum to 100. Symbols with `shares: 0` are still valid — `main.py` tracks them for analysis; `portfolio.py` filters them out.
+- **`config.py`** — Thin loader that reads `portfolio.json` and re-exports the legacy names (`PORTFOLIO`, `FINANCIAL_GOALS`, `TARGET_ALLOCATION`, `ALERT_THRESHOLD_*`). Don't put data here.
+- **`dashboard_data.py`** — `save_snapshot(kind, payload)` writes `data/latest_<kind>.json` + `data/history/<ts>-<kind>.json` and updates `data/index.json`. Workflows commit the `data/` dir back via `permissions: contents: write`.
+
+## Dashboard (`docs/`)
+
+Static GitHub Pages app (`docs/index.html` + `style.css` + `app.js`) that reads and writes the same `portfolio.json` the workflows use. Reads via GitHub Contents API; writes require a fine-grained PAT (Contents: Read & Write) stored in browser localStorage. Workflows commit `data/latest_*.json` + `data/history/*.json` snapshots back to the repo via `permissions: contents: write` so the dashboard can render P&L, news, calendar, Truth Social, and the full Groq analysis without re-fetching anything.
+
+Snapshot rotation lives in `dashboard_data.py` (`MAX_HISTORY=60`). LINE sending and snapshot writing are independent: a LINE failure does not block snapshot save (or vice-versa) — they're sequential calls in `main()` / `portfolio()`.
 
 ## Things to know before editing
 

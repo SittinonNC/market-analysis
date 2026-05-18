@@ -15,6 +15,7 @@ import yfinance as yf
 from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 from line_flex import build_portfolio_bubble, send_flex, send_text
+from dashboard_data import save_snapshot
 
 BANGKOK_TZ = pytz.timezone("Asia/Bangkok")
 
@@ -370,6 +371,13 @@ def main():
         build_portfolio_bubble(pnl, allocation, {}, FINANCIAL_GOALS, date_str, time_str),
     )
     send_text(f"📝 วิเคราะห์พอร์ต\n\n{analysis}\n\n⚠️ AI-generated. ไม่ใช่คำแนะนำทางการเงิน")
+
+    save_snapshot("portfolio", {
+        "pnl": pnl,
+        "allocation": allocation,
+        "news": news,
+        "analysis": analysis,
+    })
 
     now = datetime.datetime.now(BANGKOK_TZ)
     print(f"\n✅ Done at {now.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
