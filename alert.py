@@ -8,6 +8,7 @@ import requests
 import pytz
 import yfinance as yf
 from config import ALERT_THRESHOLD_STOCKS, ALERT_THRESHOLD_GOLD, ALERT_THRESHOLD_CRYPTO
+from line_flex import build_alert_bubble, send_flex
 
 BANGKOK_TZ = pytz.timezone('Asia/Bangkok')
 
@@ -44,24 +45,6 @@ def fetch_change(symbol: str) -> tuple:
     return current, change_pct
 
 
-def send_line(message: str):
-    token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
-    user_id = os.environ.get("LINE_USER_ID")
-    if not token or not user_id:
-        print("LINE credentials not set")
-        return
-    try:
-        resp = requests.post(
-            "https://api.line.me/v2/bot/message/push",
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-            json={"to": user_id, "messages": [{"type": "text", "text": message}]},
-            timeout=30,
-        )
-        resp.raise_for_status()
-        print("Alert sent to LINE")
-    except Exception as e:
-        print(f"Failed to send LINE alert: {e}")
-
 
 def main():
     now = datetime.datetime.now(BANGKOK_TZ)
@@ -72,28 +55,21 @@ def main():
             price, change_pct = fetch_change(symbol)
             print(f"  {symbol}: {price} ({change_pct:+.2f}%)")
             if abs(change_pct) >= threshold:
-                direction = "▲ ขึ้น" if change_pct > 0 else "▼ ลง"
-                triggered.append(
-                    f"{label}: {prefix}{price:,.2f} | {direction} {abs(change_pct):.2f}% (threshold: {threshold}%)"
-                )
+                triggered.append({
+                    "label": label, "price": price, "prefix": prefix,
+                    "change_pct": change_pct, "threshold": threshold,
+                })
         except Exception as e:
             print(f"  Warning: {symbol}: {e}")
 
     if triggered:
-        time_str = now.strftime("%d %b %Y %H:%M")
-        lines = [
-            "🚨 Price Alert!",
-            f"⏰ {time_str} (Bangkok Time)",
-            "",
-            "สินทรัพย์ที่เคลื่อนไหวผิดปกติ:",
-            "",
-        ] + triggered + [
-            "",
-            "⚠️ Not financial advice.",
-        ]
-        message = "\n".join(lines)
+        date_str = now.strftime("%d %b %Y")
+        time_str = now.strftime("%H:%M")
         print(f"\n{len(triggered)} alert(s) triggered")
-        send_line(message)
+        send_flex(
+            f"🚨 Price Alert {date_str} {time_str}",
+            build_alert_bubble(triggered, date_str, time_str),
+        )
     else:
         print("\nNo alerts triggered — all assets within normal range")
 

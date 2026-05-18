@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
 from technicals import fetch_all_indicators, format_indicators
+from line_flex import build_market_bubble, build_portfolio_bubble, send_flex, send_text
 
 # Truth Social: username → known account ID (fallback if RSS fails)
 TRUTH_SOCIAL_ACCOUNTS = [
@@ -748,161 +749,6 @@ Rebalancing แนะนำ:
         return f"⚠️ การวิเคราะห์ AI ไม่สำเร็จ: {e}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
 
 
-# ── Build Message ─────────────────────────────────────────────────────────────
-
-def build_line_message(prices: dict, fear_greed: dict, calendar: dict, pnl: dict, allocation: dict, analysis: str) -> str:
-    now_bangkok = datetime.datetime.now(BANGKOK_TZ)
-    date_str = now_bangkok.strftime("%d %b %Y")
-    time_str = now_bangkok.strftime("%H:%M")
-
-    gold = prices["gold"]
-    sp500 = prices["sp500"]
-    dxy = prices["dxy"]
-    vix = prices["vix"]
-    btc = prices["btc"]
-    eth = prices["eth"]
-
-    fg_score = fear_greed["score"]
-    fg_rating = fear_greed["rating"]
-
-    def fg_emoji(score):
-        if not isinstance(score, float):
-            return "❓"
-        if score <= 25: return "😱"
-        if score <= 45: return "😨"
-        if score <= 55: return "😐"
-        if score <= 75: return "😀"
-        return "🤩"
-
-    lines = [
-        "╔══════════════════════╗",
-        "   📊 Market Briefing",
-        f"   📅 {date_str}  ⏰ {time_str}",
-        "╚══════════════════════╝",
-        "",
-        "── Macro Indicators ─────────",
-        f"{fg_emoji(fg_score)} Fear & Greed : {fg_score}  {fg_rating}",
-        f"📉 VIX          : {fmt_price(vix['price'], prefix='')}  ({fmt_change(vix['change'])})",
-        f"💵 DXY          : {fmt_price(dxy['price'], prefix='')}  ({fmt_change(dxy['change'])})",
-        "",
-        "── Commodities & Index ──────",
-        f"💰 GOLD  : {fmt_price(gold['price'])}  ({fmt_change(gold['change'])})",
-        f"📈 S&P500: {fmt_price(sp500['price'], prefix='')}  ({fmt_change(sp500['change'])})",
-        "",
-        "── Crypto ───────────────────",
-        f"{arrow(btc['change'])} BTC : {fmt_price(btc['price'])}  ({fmt_change(btc['change'])})",
-        f"{arrow(eth['change'])} ETH : {fmt_price(eth['price'])}  ({fmt_change(eth['change'])})",
-        "",
-        "── Magnificent 7 ────────────",
-    ]
-
-    for symbol, d in prices["mag7"].items():
-        pad = " " * max(0, 5 - len(symbol))
-        lines.append(f"{arrow(d['change'])} {symbol}{pad}: {fmt_price(d['price'])}  ({fmt_change(d['change'])})")
-
-    lines += ["", "── Watchlist ────────────────"]
-    for symbol, d in prices["watchlist"].items():
-        pad = " " * max(0, 5 - len(symbol))
-        lines.append(f"{arrow(d['change'])} {symbol}{pad}: {fmt_price(d['price'])}  ({fmt_change(d['change'])})")
-
-    # Portfolio P&L
-    if pnl and "__total__" in pnl:
-        total = pnl["__total__"]
-        gain_emoji = "📈" if total["gain"] >= 0 else "📉"
-        lines += ["", "── Portfolio P&L ────────────"]
-        for symbol, data in pnl.items():
-            if symbol == "__total__":
-                continue
-            if isinstance(data.get("gain"), float):
-                g = "▲" if data["gain"] >= 0 else "▼"
-                pad = " " * max(0, 5 - len(symbol))
-                lines.append(
-                    f"{g} {symbol}{pad}: {fmt_price(data['current_price'])}  "
-                    f"P&L {data['gain']:+,.2f} ({data['gain_pct']:+.2f}%)"
-                )
-        lines += [
-            "─────────────────────────────",
-            f"{gain_emoji} รวม  : ${total['value']:,.2f}",
-            f"   กำไร/ขาดทุน: ${total['gain']:+,.2f} ({total['gain_pct']:+.2f}%)",
-        ]
-
-    # Portfolio Allocation
-    if allocation and "__total__" in allocation:
-        lines += ["", "── Portfolio Allocation ─────────"]
-        alloc_emoji = {"Overweight": "🔴", "Underweight": "🟡", "On Target": "🟢"}
-        label_map = {"mag7": "Mag7    ", "watchlist": "Watch   ", "crypto": "Crypto  ", "gold": "Gold    "}
-        for cls in ["mag7", "watchlist", "crypto", "gold"]:
-            d = allocation.get(cls)
-            if d is None:
-                continue
-            emoji = alloc_emoji.get(d["status"], "⚪")
-            lbl = label_map.get(cls, cls)
-            lines.append(
-                f"{emoji} {lbl}: {d['current_pct']:5.1f}% (เป้า {d['target_pct']}%)  {d['status']}"
-            )
-
-    # ForexFactory Calendar
-    today_events = calendar.get("today", [])
-    upcoming_events = calendar.get("upcoming", [])
-    if today_events or upcoming_events:
-        lines += ["", "── ForexFactory Calendar ────────"]
-        if today_events:
-            for e in today_events:
-                lines.append(
-                    f"⏰ [{e.get('country','?')}] {e.get('time','?')} {e.get('title','?')} "
-                    f"| Fcst: {e.get('forecast','?')}"
-                )
-        if upcoming_events:
-            lines.append("  Upcoming USD (3 วัน):")
-            for e in upcoming_events[:5]:
-                lines.append(f"  • {e.get('date','?')[:10]} — {e.get('title','?')}")
-
-    lines += [
-        "",
-        "━━━━━━━━━━━━━━━━━━",
-        analysis,
-        "━━━━━━━━━━━━━━━━━━",
-        "⚠️ AI-generated analysis. Not financial advice. Trade at your own risk.",
-    ]
-
-    return "\n".join(lines)
-
-
-# ── Send LINE ─────────────────────────────────────────────────────────────────
-
-def send_line(message: str):
-    token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
-    user_id = os.environ.get("LINE_USER_ID")
-
-    if not token or not user_id:
-        print("  Error: LINE_CHANNEL_ACCESS_TOKEN or LINE_USER_ID not set")
-        return
-
-    url = "https://api.line.me/v2/bot/message/push"
-    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-
-    max_len = 5000
-    chunks = [message[i:i + max_len] for i in range(0, len(message), max_len)]
-
-    for i, chunk in enumerate(chunks):
-        try:
-            resp = requests.post(
-                url,
-                headers=headers,
-                json={"to": user_id, "messages": [{"type": "text", "text": chunk}]},
-                timeout=30,
-            )
-            resp.raise_for_status()
-            print(f"  LINE chunk {i + 1}/{len(chunks)} sent successfully")
-        except requests.exceptions.HTTPError as e:
-            print(f"  Error sending LINE chunk {i + 1}: {e} — {resp.text}")
-        except Exception as e:
-            print(f"  Error sending LINE chunk {i + 1}: {e}")
-
-        if i < len(chunks) - 1:
-            time.sleep(1)
-
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -944,10 +790,24 @@ def main():
         ff_news=ff_news, allocation=allocation,
     )
 
-    message = build_line_message(prices, fear_greed, calendar, pnl, allocation, analysis)
-    send_line(message)
-
     now_bangkok = datetime.datetime.now(BANGKOK_TZ)
+    date_str = now_bangkok.strftime("%d %b %Y")
+    time_str = now_bangkok.strftime("%H:%M")
+
+    print("[8/9] Sending Flex bubbles to LINE...")
+    send_flex(
+        f"📊 Market Briefing {date_str} {time_str}",
+        build_market_bubble(prices, fear_greed, date_str, time_str),
+    )
+    send_flex(
+        f"💼 Portfolio {date_str} {time_str}",
+        build_portfolio_bubble(pnl, allocation, calendar, FINANCIAL_GOALS, date_str, time_str),
+    )
+
+    print("[9/9] Sending Groq analysis as text...")
+    disclaimer = "⚠️ AI-generated analysis. Not financial advice."
+    send_text(f"📝 วิเคราะห์ตลาด\n\n{analysis}\n\n{disclaimer}")
+
     print(f"\n✅ Done at {now_bangkok.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
 
 

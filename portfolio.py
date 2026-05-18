@@ -14,6 +14,7 @@ import feedparser
 import yfinance as yf
 from groq import Groq
 from config import PORTFOLIO, FINANCIAL_GOALS, TARGET_ALLOCATION
+from line_flex import build_portfolio_bubble, send_flex, send_text
 
 BANGKOK_TZ = pytz.timezone("Asia/Bangkok")
 
@@ -39,18 +40,6 @@ def fmt_price(v, prefix="$"):
 
 def fmt_pct(v):
     return f"{v:+.2f}%" if isinstance(v, float) else str(v)
-
-def arrow(v):
-    return ("▲" if v >= 0 else "▼") if isinstance(v, float) else "•"
-
-def gain_bar(pct: float, width: int = 8) -> str:
-    """แสดงแท่ง mini progress bar สำหรับ P&L %"""
-    if not isinstance(pct, float):
-        return ""
-    filled = min(abs(int(pct / 5)), width)
-    bar = "█" * filled + "░" * (width - filled)
-    return f"[{bar}]"
-
 
 # ── Fetch News ────────────────────────────────────────────────────────────────
 
@@ -354,124 +343,6 @@ gold     : [XX.X]% (เป้า [XX]%) → [สถานะ]
 
 # ── Build LINE Message ────────────────────────────────────────────────────────
 
-def build_portfolio_message(pnl: dict, allocation: dict, analysis: str) -> str:
-    now      = datetime.datetime.now(BANGKOK_TZ)
-    date_str = now.strftime("%d %b %Y")
-    time_str = now.strftime("%H:%M")
-
-    total     = pnl.get("__total__", {})
-    gain      = total.get("gain", 0.0)
-    gain_pct  = total.get("gain_pct", 0.0)
-    total_val = total.get("value", 0.0)
-
-    header_emoji = "📈" if isinstance(gain, float) and gain >= 0 else "📉"
-    gain_sign    = "+" if isinstance(gain, float) and gain >= 0 else ""
-
-    lines = [
-        "╔══════════════════════╗",
-        "   💼 Portfolio Report",
-        f"   📅 {date_str}  ⏰ {time_str}",
-        "╚══════════════════════╝",
-    ]
-
-    # ── P&L Summary ──
-    if isinstance(total_val, float):
-        lines += [
-            "",
-            "┌─ P&L Summary ────────────────┐",
-            f"│ {header_emoji} มูลค่ารวม  : ${total_val:>10,.2f}      │",
-            f"│    ต้นทุนรวม : ${total['cost']:>10,.2f}      │",
-            f"│    กำไร/ขาดทุน: {gain_sign}${abs(gain):>8,.2f} ({gain_pct:+.2f}%) │",
-            "└──────────────────────────────┘",
-        ]
-
-    # ── Per-holding detail ──
-    lines += ["", "── รายหุ้น ──────────────────────"]
-    for symbol, d in pnl.items():
-        if symbol == "__total__" or not isinstance(d.get("gain"), float):
-            continue
-        g_arrow   = "▲" if d["gain"] >= 0 else "▼"
-        pad       = " " * max(0, 5 - len(symbol))
-        today_str = f"  วันนี้ {d['today_change']:+.2f}%" if isinstance(d.get("today_change"), float) else ""
-        bar       = gain_bar(d["gain_pct"])
-        lines.append(
-            f"{g_arrow} {symbol}{pad}: {fmt_price(d['current_price'])}  "
-            f"P&L {d['gain']:+,.2f} ({d['gain_pct']:+.2f}%) {bar}{today_str}"
-        )
-
-    # ── Allocation ──
-    if allocation and "__total__" in allocation:
-        lines += ["", "── Allocation vs Target ─────────"]
-        alloc_emoji = {"Overweight": "🔴", "Underweight": "🟡", "On Target": "🟢"}
-        label_map   = {"mag7": "Mag7    ", "watchlist": "Watch   ", "crypto": "Crypto  ", "gold": "Gold    "}
-        for cls in ["mag7", "watchlist", "crypto", "gold"]:
-            d = allocation.get(cls)
-            if not d:
-                continue
-            emoji = alloc_emoji.get(d["status"], "⚪")
-            lbl   = label_map.get(cls, cls)
-            # mini bar for deviation
-            dev_bar = "█" * min(int(abs(d["diff"]) / 5) + 1, 5)
-            direction = "▲ over" if d["diff"] > 0 else "▼ under"
-            lines.append(
-                f"{emoji} {lbl}: {d['current_pct']:5.1f}% › เป้า {d['target_pct']}%  "
-                f"{direction} {abs(d['diff']):.1f}%"
-            )
-
-    # ── Goals progress ──
-    target_val = FINANCIAL_GOALS["target_portfolio_value"]
-    if isinstance(total_val, float) and target_val > 0:
-        progress_pct = total_val / target_val * 100
-        filled_blocks = min(int(progress_pct / 10), 10)
-        progress_bar  = "█" * filled_blocks + "░" * (10 - filled_blocks)
-        lines += [
-            "",
-            "── เป้าหมาย ──────────────────────",
-            f"   เป้า      : ${target_val:,.0f}  ภายใน {FINANCIAL_GOALS['target_date']}",
-            f"   ปัจจุบัน  : ${total_val:,.0f}",
-            f"   คืบหน้า   : [{progress_bar}] {progress_pct:.1f}%",
-            f"   ลงทุน/เดือน: ${FINANCIAL_GOALS['monthly_investment']}  |  Risk: {FINANCIAL_GOALS['risk_profile']}",
-        ]
-
-    lines += [
-        "",
-        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-        analysis,
-        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-        "⚠️ AI-generated. ไม่ใช่คำแนะนำทางการเงิน",
-    ]
-
-    return "\n".join(lines)
-
-
-# ── Send LINE ─────────────────────────────────────────────────────────────────
-
-def send_line(message: str):
-    token   = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
-    user_id = os.environ.get("LINE_USER_ID")
-    if not token or not user_id:
-        print("  Error: LINE credentials not set")
-        return
-
-    url     = "https://api.line.me/v2/bot/message/push"
-    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    chunks  = [message[i:i + 5000] for i in range(0, len(message), 5000)]
-
-    for i, chunk in enumerate(chunks):
-        try:
-            resp = requests.post(
-                url,
-                headers=headers,
-                json={"to": user_id, "messages": [{"type": "text", "text": chunk}]},
-                timeout=30,
-            )
-            resp.raise_for_status()
-            print(f"  LINE chunk {i+1}/{len(chunks)} sent OK")
-        except Exception as e:
-            print(f"  Error sending LINE chunk {i+1}: {e}")
-        if i < len(chunks) - 1:
-            time.sleep(1)
-
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
@@ -489,9 +360,16 @@ def main():
     print("[4/5] Calling Groq for portfolio + news analysis...")
     analysis = get_portfolio_analysis(pnl, allocation, news)
 
-    print("[5/5] Sending LINE message...")
-    message = build_portfolio_message(pnl, allocation, analysis)
-    send_line(message)
+    print("[5/5] Sending Flex + analysis to LINE...")
+    now      = datetime.datetime.now(BANGKOK_TZ)
+    date_str = now.strftime("%d %b %Y")
+    time_str = now.strftime("%H:%M")
+
+    send_flex(
+        f"💼 Portfolio {date_str} {time_str}",
+        build_portfolio_bubble(pnl, allocation, {}, FINANCIAL_GOALS, date_str, time_str),
+    )
+    send_text(f"📝 วิเคราะห์พอร์ต\n\n{analysis}\n\n⚠️ AI-generated. ไม่ใช่คำแนะนำทางการเงิน")
 
     now = datetime.datetime.now(BANGKOK_TZ)
     print(f"\n✅ Done at {now.strftime('%Y-%m-%d %H:%M:%S')} Bangkok time")
