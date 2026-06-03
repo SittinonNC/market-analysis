@@ -42,8 +42,8 @@
     "gold": 15
   },
   "alert_thresholds": {
-    "stocks": 2,
-    "gold": 1,
-    "crypto": 3
+    "stocks": 10,
+    "gold": 5,
+    "crypto": 10
   }
 }
