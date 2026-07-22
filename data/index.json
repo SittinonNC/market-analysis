@@ -1,5 +1,10 @@
 [
   {
+    "ts": "2026-07-22T15-00-13Z",
+    "kind": "portfolio",
+    "file": "history/2026-07-22T15-00-13Z-portfolio.json"
+  },
+  {
     "ts": "2026-07-22T05-12-40Z",
     "kind": "market",
     "file": "history/2026-07-22T05-12-40Z-market.json"
@@ -293,10 +298,5 @@
     "ts": "2026-07-01T15-37-15Z",
     "kind": "portfolio",
     "file": "history/2026-07-01T15-37-15Z-portfolio.json"
-  },
-  {
-    "ts": "2026-07-01T06-18-48Z",
-    "kind": "market",
-    "file": "history/2026-07-01T06-18-48Z-market.json"
   }
 ]
