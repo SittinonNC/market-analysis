@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-12T21-30-35Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 541.15,
+      "value": 569.800375025,
+      "cost": 495.50994638250006,
+      "gain": 74.29042864249993,
+      "gain_pct": 14.992721979621528,
+      "today_change": 1.14
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 226.32,
+      "value": 200.890322688,
+      "cost": 161.5399809584,
+      "gain": 39.35034172959999,
+      "gain_pct": 24.359506232536663,
+      "today_change": -1.29
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 51.46,
+      "value": 150.746656408,
+      "cost": 214.47007443188,
+      "gain": -63.72341802387999,
+      "gain_pct": -29.712032409500484,
+      "today_change": 0.96
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 32.21,
+      "value": 160.65161383600002,
+      "cost": 452.6500120422,
+      "gain": -291.99839820619997,
+      "gain_pct": -64.50864695414552,
+      "today_change": -7.18
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.67,
+      "value": 40.942727133,
+      "cost": 69.8849997615,
+      "gain": -28.9422726285,
+      "gain_pct": -41.41414141414141,
+      "today_change": -0.89
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 16.66,
+      "value": 69.521523596,
+      "cost": 61.19646719899999,
+      "gain": 8.325056397000004,
+      "gain_pct": 13.6038186157518,
+      "today_change": -3.31
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 12.64,
+      "value": 136.691379296,
+      "cost": 61.09909999086,
+      "gain": 75.59227930514001,
+      "gain_pct": 123.72077381900566,
+      "today_change": 0.72
+    },
+    "__total__": {
+      "value": 1329.244597982,
+      "cost": 1516.3505807663398,
+      "gain": -187.10598278433986,
+      "gain_pct": -12.339229803293868
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 770.690697713,
+      "current_pct": 58.0,
+      "target_pct": 20,
+      "diff": 38.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 352.34099737700006,
+      "current_pct": 26.5,
+      "target_pct": 50,
+      "diff": -23.5,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1329.244597982
+  },
+  "news": "[BBC Business] Healey faces £35bn Budget challenge to meet spending pledges, says think tank\nThe Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.\n\n[BBC Business] How to avoid getting stung if you miss credit card payments\nPeople are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.\n\n[BBC Business] Fridges in French supermarkets hit by cyber attack\nHundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.\n\n[BBC Business] AI minister warns 'likely' UK's cyber defences will be breached\nKanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.\n\n[CNBC] Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'\nUkraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"\n\n[CNBC] Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor\nMusk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.\n\n[CNBC] Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'\nThe Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.\n\n[CNBC] Trump 'not happy' with Kimberly Guilfoyle, weighs firing her\nThe former Fox News personality Guilfoyle was previously engaged to the president's son, Donald Trump Jr.\n\n[MarketWatch] Nvidia and AMD shares fall as new AI announcements fail to re-energize investors\nThe chip makers introduced hardware and software designs for future AI data centers, but the revenue potential is still far out, an analyst says.\n\n[MarketWatch] ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\n“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch] Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday\nThe sharp moves could partly be a reaction to recent cautious commentary on AI spending.\n\n[MarketWatch] ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\n“I’m in my 60s, recently retired and living my best life.”",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}

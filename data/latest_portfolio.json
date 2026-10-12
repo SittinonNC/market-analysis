@@ -1,97 +1,97 @@
 {
-  "ts": "2026-10-09T18-36-56Z",
+  "ts": "2026-10-12T21-30-35Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 534.65,
-      "value": 562.956242275,
+      "current_price": 541.15,
+      "value": 569.800375025,
       "cost": 495.50994638250006,
-      "gain": 67.44629589249996,
-      "gain_pct": 13.611491834804864,
-      "today_change": 2.3
+      "gain": 74.29042864249993,
+      "gain_pct": 14.992721979621528,
+      "today_change": 1.14
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 229.63,
-      "value": 203.828405792,
+      "current_price": 226.32,
+      "value": 200.890322688,
       "cost": 161.5399809584,
-      "gain": 42.288424833600004,
-      "gain_pct": 26.1783024751564,
-      "today_change": -0.37
+      "gain": 39.35034172959999,
+      "gain_pct": 24.359506232536663,
+      "today_change": -1.29
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 49.17,
-      "value": 144.038342316,
+      "current_price": 51.46,
+      "value": 150.746656408,
       "cost": 214.47007443188,
-      "gain": -70.43173211587998,
-      "gain_pct": -32.839887943551076,
-      "today_change": -13.63
+      "gain": -63.72341802387999,
+      "gain_pct": -29.712032409500484,
+      "today_change": 0.96
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 34.36,
-      "value": 171.375021776,
+      "current_price": 32.21,
+      "value": 160.65161383600002,
       "cost": 452.6500120422,
-      "gain": -281.2749902662,
-      "gain_pct": -62.13961842112513,
-      "today_change": -0.61
+      "gain": -291.99839820619997,
+      "gain_pct": -64.50864695414552,
+      "today_change": -7.18
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.71,
-      "value": 41.188260729,
+      "current_price": 6.67,
+      "value": 40.942727133,
       "cost": 69.8849997615,
-      "gain": -28.6967390325,
-      "gain_pct": -41.06280193236715,
-      "today_change": -2.04
+      "gain": -28.9422726285,
+      "gain_pct": -41.41414141414141,
+      "today_change": -0.89
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 16.59,
-      "value": 69.229416354,
+      "current_price": 16.66,
+      "value": 69.521523596,
       "cost": 61.19646719899999,
-      "gain": 8.032949155000004,
-      "gain_pct": 13.126491646778051,
-      "today_change": -9.98
+      "gain": 8.325056397000004,
+      "gain_pct": 13.6038186157518,
+      "today_change": -3.31
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.6,
-      "value": 136.25881164,
+      "current_price": 12.64,
+      "value": 136.691379296,
       "cost": 61.09909999086,
-      "gain": 75.15971164914001,
-      "gain_pct": 123.01279668666704,
-      "today_change": 4.83
+      "gain": 75.59227930514001,
+      "gain_pct": 123.72077381900566,
+      "today_change": 0.72
     },
     "__total__": {
-      "value": 1328.874500882,
+      "value": 1329.244597982,
       "cost": 1516.3505807663398,
-      "gain": -187.47607988433992,
-      "gain_pct": -12.363636896527744
+      "gain": -187.10598278433986,
+      "gain_pct": -12.339229803293868
     }
   },
   "allocation": {
     "mag7": {
-      "value": 766.784648067,
-      "current_pct": 57.7,
+      "value": 770.690697713,
+      "current_pct": 58.0,
       "target_pct": 20,
-      "diff": 37.7,
+      "diff": 38.0,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 356.60162482100003,
-      "current_pct": 26.8,
+      "value": 352.34099737700006,
+      "current_pct": 26.5,
       "target_pct": 50,
-      "diff": -23.2,
+      "diff": -23.5,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1328.874500882
+    "__total__": 1329.244597982
   },
-  "news": "[BBC Business] Burnham promises to curb non-compete rules in job contracts\nThe prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".\n\n[BBC Business] Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned\nThe Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.\n\n[BBC Business] Trump wants to reduce the cost of fuel as the midterms loom - will it work?\nThe price of fuel has soared as the cost of living emerges as a key issue for millions of Americans.\n\n[BBC Business] I've been with my boyfriend for two years and don't know his salary\nTalking about salary, spending habits and debt can be some of dating's trickier conversations.\n\n[CNBC] Americans' debt problems are flashing a warning not seen since the Great Recession\nResearchers found that while wealth disparities narrowed somewhat, the ability to meet debt payments deteriorated significantly.\n\n[CNBC] Tanker attacks in Strait of Hormuz surge to wartime high as Iran tries to choke off oil exports\nThe escalating attacks are testing whether a rebound in crude oil exports from the Middle East can be sustained under high risk conditions.\n\n[CNBC] Trump Media advisor Katie Zacharia offered White House press secretary role\nThe White House has tapped Katie Zacharia to be its next press secretary, a White House official confirmed to CNBC.\n\n[CNBC] Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?\nTrump’s bid to fire the Fed's Lisa Cook follows a Supreme Court ruling and could affect Jerome Powell, central bank independence and interest rates.\n\n[MarketWatch] ‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?\n“I presume these are sophisticated investors taking a profit.”\n\n[MarketWatch] As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat\nTelecommunications stocks were seeing their worst daily drops in over a decade.\n\n[MarketWatch] Microsoft is nearing a big milestone that solidifies its revival\nMicrosoft is close to reclaiming a $4 trillion market cap — and fresh records are also in sight.\n\n[MarketWatch] Why you need to take a closer look at your favorite stock index\nAlso in Weekend Reads: A positive case for the bond market, how prediction markets can pull you in, and a warning to those who benefit from GLP-1s.",
+  "news": "[BBC Business] Healey faces £35bn Budget challenge to meet spending pledges, says think tank\nThe Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.\n\n[BBC Business] How to avoid getting stung if you miss credit card payments\nPeople are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.\n\n[BBC Business] Fridges in French supermarkets hit by cyber attack\nHundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.\n\n[BBC Business] AI minister warns 'likely' UK's cyber defences will be breached\nKanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.\n\n[CNBC] Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'\nUkraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"\n\n[CNBC] Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor\nMusk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.\n\n[CNBC] Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'\nThe Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.\n\n[CNBC] Trump 'not happy' with Kimberly Guilfoyle, weighs firing her\nThe former Fox News personality Guilfoyle was previously engaged to the president's son, Donald Trump Jr.\n\n[MarketWatch] Nvidia and AMD shares fall as new AI announcements fail to re-energize investors\nThe chip makers introduced hardware and software designs for future AI data centers, but the revenue potential is still far out, an analyst says.\n\n[MarketWatch] ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\n“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch] Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday\nThe sharp moves could partly be a reaction to recent cautious commentary on AI spending.\n\n[MarketWatch] ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\n“I’m in my 60s, recently retired and living my best life.”",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
