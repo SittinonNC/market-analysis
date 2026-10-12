@@ -1,136 +1,136 @@
 {
-  "ts": "2026-10-12T08-20-26Z",
+  "ts": "2026-10-12T22-11-01Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4201.8,
+      "price": 4196.5,
       "change": 0.0,
-      "high": 4242.3,
-      "low": 4201.2
+      "high": 4198.1,
+      "low": 4195.4
     },
     "sp500": {
-      "price": 7811.54,
-      "change": 0.59,
-      "high": 7820.57,
-      "low": 7779.34
+      "price": 7807.24,
+      "change": -0.06,
+      "high": 7821.67,
+      "low": 7796.94
     },
     "dxy": {
-      "price": 102.29,
+      "price": 102.57,
       "change": 0.0,
-      "high": 102.3,
+      "high": 102.61,
       "low": 102.1
     },
     "vix": {
-      "price": 15.39,
-      "change": 3.71,
-      "high": 15.41,
-      "low": 15.36
+      "price": 15.21,
+      "change": 2.49,
+      "high": 15.53,
+      "low": 15.11
     },
     "btc": {
-      "price": 83491.58,
-      "change": -0.22,
+      "price": 82615.86,
+      "change": -1.27,
       "high": 84230.83,
-      "low": 83418.74
+      "low": 82285.1
     },
     "eth": {
-      "price": 2550.83,
-      "change": 0.64,
+      "price": 2493.18,
+      "change": -1.64,
       "high": 2575.38,
-      "low": 2531.77
+      "low": 2487.71
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 336.64,
-        "change": -1.11,
-        "high": 338.61,
-        "low": 330.7
+        "price": 340.97,
+        "change": 1.29,
+        "high": 342.62,
+        "low": 337.6
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 535.07,
-        "change": 2.38,
-        "high": 537.22,
-        "low": 526.24
+        "price": 541.15,
+        "change": 1.14,
+        "high": 542.74,
+        "low": 535.7
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 229.28,
-        "change": -0.52,
-        "high": 233.92,
-        "low": 229.11
+        "price": 226.32,
+        "change": -1.29,
+        "high": 228.86,
+        "low": 224.92
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 262.43,
-        "change": 3.29,
-        "high": 262.8,
-        "low": 256.0
+        "price": 259.53,
+        "change": -1.11,
+        "high": 263.7,
+        "low": 259.27
       },
       "META": {
         "name": "Meta",
-        "price": 718.67,
-        "change": -0.31,
-        "high": 728.07,
-        "low": 716.2
+        "price": 742.96,
+        "change": 3.38,
+        "high": 752.2,
+        "low": 727.78
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 351.66,
-        "change": 0.97,
-        "high": 354.7,
-        "low": 350.31
+        "price": 352.72,
+        "change": 0.3,
+        "high": 356.5,
+        "low": 350.5
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 382.7,
-        "change": 2.05,
-        "high": 388.56,
-        "low": 379.71
+        "price": 378.03,
+        "change": -1.22,
+        "high": 382.61,
+        "low": 377.58
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 50.97,
-        "change": -10.47,
-        "high": 55.85,
-        "low": 47.57
+        "price": 51.46,
+        "change": 0.96,
+        "high": 54.67,
+        "low": 51.32
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 379.3,
-        "change": 2.25,
-        "high": 387.52,
-        "low": 373.02
+        "price": 378.52,
+        "change": -0.21,
+        "high": 382.98,
+        "low": 373.67
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 2.52,
-        "change": -9.03,
-        "high": 2.77,
-        "low": 2.44
+        "price": 2.39,
+        "change": -5.16,
+        "high": 2.49,
+        "low": 2.35
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 68.21,
-        "change": -0.28,
-        "high": 69.25,
-        "low": 66.98
+        "price": 65.71,
+        "change": -3.67,
+        "high": 68.07,
+        "low": 65.11
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 34.7,
-        "change": 0.38,
-        "high": 35.13,
-        "low": 34.1
+        "price": 32.21,
+        "change": -7.18,
+        "high": 34.0,
+        "low": 32.19
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.73,
-        "change": -1.75,
-        "high": 6.91,
-        "low": 6.64
+        "price": 6.67,
+        "change": -0.89,
+        "high": 7.06,
+        "low": 6.61
       }
     }
   },
@@ -186,7 +186,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "High",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "1.4%"
       },
       {
@@ -194,7 +194,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "High",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "0.4%"
       },
       {
@@ -219,47 +219,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 535.07,
-      "value": 563.3984785450001,
+      "current_price": 541.15,
+      "value": 569.800375025,
       "cost": 495.50994638250006,
-      "gain": 67.88853216250004,
-      "gain_pct": 13.700740551854572
+      "gain": 74.29042864249993,
+      "gain_pct": 14.992721979621528
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 229.28,
-      "value": 203.51773235200002,
+      "current_price": 226.32,
+      "value": 200.890322688,
       "cost": 161.5399809584,
-      "gain": 41.977751393600016,
-      "gain_pct": 25.985982630770632
+      "gain": 39.35034172959999,
+      "gain_pct": 24.359506232536663
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 50.97,
-      "value": 149.31125295599998,
+      "current_price": 51.46,
+      "value": 150.746656408,
       "cost": 214.47007443188,
-      "gain": -65.15882147588002,
-      "gain_pct": -30.38131154124058
+      "gain": -63.72341802387999,
+      "gain_pct": -29.712032409500484
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 34.7,
-      "value": 173.07081652000002,
+      "current_price": 32.21,
+      "value": 160.65161383600002,
       "cost": 452.6500120422,
-      "gain": -279.57919552219994,
-      "gain_pct": -61.764981350787
+      "gain": -291.99839820619997,
+      "gain_pct": -64.50864695414552
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.73,
-      "value": 41.311027527,
+      "current_price": 6.67,
+      "value": 40.942727133,
       "cost": 69.8849997615,
-      "gain": -28.573972234499998,
-      "gain_pct": -40.88713219148001
+      "gain": -28.9422726285,
+      "gain_pct": -41.41414141414141
     },
     "ARQQ": {
       "value": "N/A",
@@ -274,25 +274,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1130.6093079000002,
+      "value": 1123.03169509,
       "cost": 1394.05501357648,
-      "gain": -263.44570567647975,
-      "gain_pct": -18.897798373150554
+      "gain": -271.02331848647987,
+      "gain_pct": -19.441364641067025
     }
   },
   "allocation": {
     "mag7": {
-      "value": 766.9162108970002,
-      "current_pct": 67.8,
+      "value": 770.690697713,
+      "current_pct": 68.6,
       "target_pct": 20,
-      "diff": 47.8,
+      "diff": 48.6,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 363.693097003,
-      "current_pct": 32.2,
+      "value": 352.34099737700006,
+      "current_pct": 31.4,
       "target_pct": 50,
-      "diff": -17.8,
+      "diff": -18.6,
       "status": "Underweight"
     },
     "crypto": {
@@ -309,9 +309,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1130.6093079000002
+    "__total__": 1123.03169509
   },
-  "news": "[BBC Business]\nหัวข้อ: Healey faces £35bn Budget challenge to meet spending pledges, says think tank\nเนื้อหา: The Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.\n\n[BBC Business]\nหัวข้อ: Documents falsified to evade tax on Abramovich's wealth, BBC finds\nเนื้อหา: Backdated paperwork also made the Russian oligarch’s yachts and mansions disappear from accounts, investigation finds.\n\n[BBC Business]\nหัวข้อ: Trump faces growing backlash over plans to import diesel from Russia\nเนื้อหา: Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.\n\n[BBC Business]\nหัวข้อ: Debt advice that may leave you owing even more money\nเนื้อหา: People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.\n\n[BBC Business]\nหัวข้อ: Roofing scammers con homeowners out of thousands of pounds\nเนื้อหา: One in 10 scams reported to Citizens Advice relate to fraudsters charging for work not done, or done badly.\n\n[CNBC]\nหัวข้อ: Oil falls after Trump declares 'energy ceasefire' between Russia and Ukraine\nเนื้อหา: Ukrainian President Volodymyr Zelenskyy said in a post on social media that \"Ukraine supports the ceasefire, and it is important that Russia support it as well.\"\n\n[CNBC]\nหัวข้อ: Judge orders Trump administration to immediately stop taxpayer-funded TV ads\nเนื้อหา: The ads featuring President Trump have been criticized as government propaganda and as aimed at influencing the outcome of the midterm election.\n\n[CNBC]\nหัวข้อ: World Bank jobs council urges 'crisis-era' support measures as IMF warns of AI ‘tsunami’ hit\nเนื้อหา: IMF Chief Kristalina Georgieva warned AI is hitting the global labor market like a “slow-moving tsunami,” with young workers entering the job market the most exposed.\n\n[CNBC]\nหัวข้อ: TikTok CEO sees major scientific breakthroughs from AI within three years\nเนื้อหา: Chew cautioned that AI's growing capabilities would require stronger safeguards, particularly as autonomous systems become more widely adopted.\n\n[CNBC]\nหัวข้อ: Why China is importing a record amount of gold — and what it means for prices\nเนื้อหา: Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.\n\n[MarketWatch]\nหัวข้อ: ‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.\nเนื้อหา: “The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”\n\n[MarketWatch]\nหัวข้อ: ‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?\nเนื้อหา: “I presume these are sophisticated investors taking a profit.”\n\n[MarketWatch]\nหัวข้อ: My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?\nเนื้อหา: “Both properties will be solely in his name.”\n\n[MarketWatch]\nหัวข้อ: I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?\nเนื้อหา: “I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”\n\n[MarketWatch]\nหัวข้อ: Millions of Americans will have fewer options during Medicare open enrollment this year\nเนื้อหา: There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.\n\n[Investing.com Gold]\nหัวข้อ: Oil falls, CPI and bank earnings in focus - what’s moving markets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Burnham’s water industry plan may cost £105 billion, study says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: EU to push climate action package at Turkey summit next month - report\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Take Five: Bangkok blues\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar steady near 18-month high as Mideast conflict, US inflation in focus\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Healey faces £35bn Budget challenge to meet spending pledges, says think tank\nเนื้อหา: The Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.\n\n[BBC Business]\nหัวข้อ: How to avoid getting stung if you miss credit card payments\nเนื้อหา: People are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.\n\n[BBC Business]\nหัวข้อ: Fridges in French supermarkets hit by cyber attack\nเนื้อหา: Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.\n\n[BBC Business]\nหัวข้อ: AI minister warns 'likely' UK's cyber defences will be breached\nเนื้อหา: Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.\n\n[BBC Business]\nหัวข้อ: Roofing scammers con homeowners out of thousands of pounds\nเนื้อหา: One in 10 scams reported to Citizens Advice relate to fraudsters charging for work not done, or done badly.\n\n[CNBC]\nหัวข้อ: Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'\nเนื้อหา: Ukraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"\n\n[CNBC]\nหัวข้อ: Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor\nเนื้อหา: Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.\n\n[CNBC]\nหัวข้อ: Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'\nเนื้อหา: The Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.\n\n[CNBC]\nหัวข้อ: Trump 'not happy' with Kimberly Guilfoyle, weighs firing her as ambassador to Greece\nเนื้อหา: The former Fox News personality Guilfoyle was previously engaged to the president's son, Donald Trump Jr.\n\n[CNBC]\nหัวข้อ: Earnings beats are now the norm. What the stock market needs to keep rallying\nเนื้อหา: Blockbuster profits are coming for the S&amp;P 500. It may not be enough to keep fueling the rally.\n\n[MarketWatch]\nหัวข้อ: ‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.\nเนื้อหา: “The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”\n\n[MarketWatch]\nหัวข้อ: Brazilian stocks are breaking out as investors look for opportunities beyond tech\nเนื้อหา: Brazil’s presidential election is powering optimism in the country’s stock market — and capturing the attention of investors wary of having too much exposure to the U.S. stock market.\n\n[MarketWatch]\nหัวข้อ: Nvidia and AMD shares fall as new AI announcements fail to re-energize investors\nเนื้อหา: The chip makers introduced hardware and software designs for future AI data centers, but the revenue potential is still far out, an analyst says.\n\n[MarketWatch]\nหัวข้อ: ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday\nเนื้อหา: The sharp moves could partly be a reaction to recent cautious commentary on AI spending.\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Hammack: Hope to cool demand, and inflation, without job market pain\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Fog of war\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Hammack backs restrictive policy, says better if it comes ’relatively quickly’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar holds 18-month high as Gulf tension, US inflation keep investors on edge\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Shipping costs reach one third of crude oil value, energy ministers say\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
