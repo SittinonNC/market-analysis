@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-13T20-18-04Z",
+  "ts": "2026-10-13T23-46-15Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4185.9,
-      "change": -0.11,
-      "high": 4224.8,
-      "low": 4170.5
+      "price": 4179.3,
+      "change": -0.27,
+      "high": 4186.1,
+      "low": 4178.1
     },
     "sp500": {
       "price": 7805.45,
@@ -15,26 +15,26 @@
       "low": 7786.11
     },
     "dxy": {
-      "price": 102.2,
-      "change": -0.37,
+      "price": 102.21,
+      "change": -0.36,
       "high": 102.57,
       "low": 102.16
     },
     "vix": {
-      "price": 15.28,
-      "change": 0.46,
+      "price": 15.27,
+      "change": 0.39,
       "high": 15.61,
       "low": 15.17
     },
     "btc": {
-      "price": 83150.08,
-      "change": 1.7,
+      "price": 83179.51,
+      "change": 1.73,
       "high": 84059.52,
       "low": 81197.99
     },
     "eth": {
-      "price": 2504.99,
-      "change": 2.48,
+      "price": 2498.99,
+      "change": 2.23,
       "high": 2534.02,
       "low": 2419.05
     },
@@ -328,7 +328,7 @@
     },
     "__total__": 1112.617784508
   },
-  "news": "[BBC Business]\nหัวข้อ: Three things we've learnt about the UK economy from the IMF\nเนื้อหา: The influential economics body has upgraded its UK growth forecast for this year, but risks remain.\n\n[BBC Business]\nหัวข้อ: Bumble bought for $1.3bn in 'bet on the future of humanity'\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Poundland in rescue talks as owners seek buyer\nเนื้อหา: The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.\n\n[BBC Business]\nหัวข้อ: BA flight forced to turn back over cracked window\nเนื้อหา: British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.\n\n[BBC Business]\nหัวข้อ: Heating oil customers face tough winter despite shake-up promise\nเนื้อหา: Heating oil customers facing soaring bills are promised better regulation of the sector by the government.\n\n[CNBC]\nหัวข้อ: More Republicans come out against Trump's diesel deal with Putin\nเนื้อหา: Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"\n\n[CNBC]\nหัวข้อ: Bank of America hit with more than $1.2 billion in penalties over money-laundering violations\nเนื้อหา: \n\n[CNBC]\nหัวข้อ: The latest inflation data is expected to show price increases are accelerating\nเนื้อหา: Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.\n\n[CNBC]\nหัวข้อ: Six Flags shares decline following deadly roller coaster incident\nเนื้อหา: One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts\nเนื้อหา: JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: How you can prepare for 6% bond yields\nเนื้อหา: Savers and investors at current yields stand to benefit, but fears are growing about the rest of the economy outside of the AI boom\n\n[MarketWatch]\nหัวข้อ: Midterm voters haven’t seen this many housing proposals on the ballot in 20 years\nเนื้อหา: Ballot measures aim to fix the housing crisis in various ways, from making it easier to build new homes, to cutting property taxes.\n\n[MarketWatch]\nหัวข้อ: Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties\nเนื้อหา: Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.\n\n[MarketWatch]\nหัวข้อ: Gen Z renters are the only group more likely to feel successful by investing than buying a house\nเนื้อหา: “Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Williams sees no need for rate hike in 2027, Bloomberg News reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: World stocks slip as AI spending worries hit chipmakers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI limiting European workers’ bargaining power, ECB’s Lane says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Major US banks post solid third quarter loan growth, but see more competition for deposits\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: NY Fed’s Williams sees one more rate hike this year, disinflation ahead\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Royal Mail losing 400 postal workers a week, says union\nเนื้อหา: The CWU says more posties are leaving since a new delivery system was brought in, that it claims is not working in hundreds of offices.\n\n[BBC Business]\nหัวข้อ: Is it OK for jobseekers or employers to use AI?\nเนื้อหา: Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.\n\n[BBC Business]\nหัวข้อ: Three things we've learnt about the UK economy from the IMF\nเนื้อหา: The influential economics body has upgraded its UK growth forecast for this year, but risks remain.\n\n[BBC Business]\nหัวข้อ: Bumble bought for $1.3bn in 'bet on the future of humanity'\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Saudi man charged with planting 'sophisticated' recording device in OpenAI office\nเนื้อหา: Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.\n\n[CNBC]\nหัวข้อ: More Republicans come out against Trump's diesel deal with Putin\nเนื้อหา: Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"\n\n[CNBC]\nหัวข้อ: FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room\nเนื้อหา: The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.\n\n[CNBC]\nหัวข้อ: Bank of America fined $1.2 billion over money-laundering violations\nเนื้อหา: The action by the Treasury Department was announced less than a day before Bank of America reports quarterly earnings.\n\n[CNBC]\nหัวข้อ: Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting\nเนื้อหา: Anthropic is asking a federal court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models.\n\n[CNBC]\nหัวข้อ: Goldman says investors are looking for 'profitable' Chinese business growth overseas\nเนื้อหา: Sluggish consumer demand in China has pushed many companies, such as electric car brands, to accelerate plans for entering other countries.\n\n[MarketWatch]\nหัวข้อ: Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market\nเนื้อหา: Anticipation is building for Anthropic’s investor day, as Wall Street grows less patient with heavy AI spending.\n\n[MarketWatch]\nหัวข้อ: ‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”\n\n[MarketWatch]\nหัวข้อ: The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions\nเนื้อหา: Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.\n\n[MarketWatch]\nหัวข้อ: Six Flags’ stock slumps near 17-year low after fatal incident\nเนื้อหา: A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.\n\n[MarketWatch]\nหัวข้อ: AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans\nเนื้อหา: AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.\n\n[Investing.com Gold]\nหัวข้อ: Fed Governor Cook’s lawyer denounces Trump’s latest attempt to remove her\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: World stocks dip on AI spending concerns; Brent settles lower\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic warns AI models may soon self-replicate and could wreak havoc on the web\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Earnings season debuts to mixed reviews\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Collins sees another rate hike on the table before end of 2026\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

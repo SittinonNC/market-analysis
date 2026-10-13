@@ -1,0 +1,335 @@
+{
+  "ts": "2026-10-13T23-46-15Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4179.3,
+      "change": -0.27,
+      "high": 4186.1,
+      "low": 4178.1
+    },
+    "sp500": {
+      "price": 7805.45,
+      "change": -0.02,
+      "high": 7814.15,
+      "low": 7786.11
+    },
+    "dxy": {
+      "price": 102.21,
+      "change": -0.36,
+      "high": 102.57,
+      "low": 102.16
+    },
+    "vix": {
+      "price": 15.27,
+      "change": 0.39,
+      "high": 15.61,
+      "low": 15.17
+    },
+    "btc": {
+      "price": 83179.51,
+      "change": 1.73,
+      "high": 84059.52,
+      "low": 81197.99
+    },
+    "eth": {
+      "price": 2498.99,
+      "change": 2.23,
+      "high": 2534.02,
+      "low": 2419.05
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 341.27,
+        "change": 0.09,
+        "high": 348.15,
+        "low": 340.74
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 543.45,
+        "change": 0.43,
+        "high": 551.15,
+        "low": 543.06
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 228.52,
+        "change": 0.97,
+        "high": 228.64,
+        "low": 223.06
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 258.58,
+        "change": -0.37,
+        "high": 262.83,
+        "low": 258.42
+      },
+      "META": {
+        "name": "Meta",
+        "price": 762.5,
+        "change": 2.63,
+        "high": 771.27,
+        "low": 734.84
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 353.78,
+        "change": 0.3,
+        "high": 358.58,
+        "low": 351.6
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 375.23,
+        "change": -0.74,
+        "high": 377.05,
+        "low": 371.3
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 47.06,
+        "change": -8.55,
+        "high": 48.82,
+        "low": 46.24
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 377.76,
+        "change": -0.2,
+        "high": 399.86,
+        "low": 372.88
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 2.32,
+        "change": -2.93,
+        "high": 2.38,
+        "low": 2.29
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 64.22,
+        "change": -2.27,
+        "high": 64.56,
+        "low": 63.08
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 31.78,
+        "change": -1.33,
+        "high": 32.0,
+        "low": 31.02
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.71,
+        "change": 0.6,
+        "high": 6.75,
+        "low": 6.48
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Core CPI m/m",
+        "country": "USD",
+        "date": "2026-10-14T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "Core CPI y/y",
+        "country": "USD",
+        "date": "2026-10-14T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "2.5%",
+        "previous": "2.4%"
+      },
+      {
+        "title": "CPI m/m",
+        "country": "USD",
+        "date": "2026-10-14T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.6%",
+        "previous": "0.4%"
+      },
+      {
+        "title": "CPI y/y",
+        "country": "USD",
+        "date": "2026-10-14T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.6%",
+        "previous": "3.4%"
+      },
+      {
+        "title": "Employment Change",
+        "country": "AUD",
+        "date": "2026-10-14T20:30:00-04:00",
+        "impact": "High",
+        "forecast": "19.6K",
+        "previous": "39.5K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "AUD",
+        "date": "2026-10-14T20:30:00-04:00",
+        "impact": "High",
+        "forecast": "4.6%",
+        "previous": "4.6%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-10-15T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-10-15T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.6%",
+        "previous": "1.4%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-10-15T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.6%",
+        "previous": "0.4%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-10-15T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "1.2%"
+      },
+      {
+        "title": "Fed Chairman Warsh Speaks",
+        "country": "USD",
+        "date": "2026-10-15T23:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 543.45,
+      "value": 572.2221450750001,
+      "cost": 495.50994638250006,
+      "gain": 76.71219869250001,
+      "gain_pct": 15.481464953941288
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 228.52,
+      "value": 202.84312716800002,
+      "cost": 161.5399809584,
+      "gain": 41.303146209600015,
+      "gain_pct": 25.568373825818675
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 47.06,
+      "value": 137.857319288,
+      "cost": 214.47007443188,
+      "gain": -76.61275514387998,
+      "gain_pct": -35.72188583737063
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 31.78,
+      "value": 158.50693224800003,
+      "cost": 452.6500120422,
+      "gain": -294.14307979419993,
+      "gain_pct": -64.98245266074959
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.71,
+      "value": 41.188260729,
+      "cost": 69.8849997615,
+      "gain": -28.6967390325,
+      "gain_pct": -41.06280193236715
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1112.617784508,
+      "cost": 1394.05501357648,
+      "gain": -281.43722906847984,
+      "gain_pct": -20.188387569185394
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 775.0652722430001,
+      "current_pct": 69.7,
+      "target_pct": 20,
+      "diff": 49.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 337.552512265,
+      "current_pct": 30.3,
+      "target_pct": 50,
+      "diff": -19.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1112.617784508
+  },
+  "news": "[BBC Business]\nหัวข้อ: Royal Mail losing 400 postal workers a week, says union\nเนื้อหา: The CWU says more posties are leaving since a new delivery system was brought in, that it claims is not working in hundreds of offices.\n\n[BBC Business]\nหัวข้อ: Is it OK for jobseekers or employers to use AI?\nเนื้อหา: Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.\n\n[BBC Business]\nหัวข้อ: Three things we've learnt about the UK economy from the IMF\nเนื้อหา: The influential economics body has upgraded its UK growth forecast for this year, but risks remain.\n\n[BBC Business]\nหัวข้อ: Bumble bought for $1.3bn in 'bet on the future of humanity'\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Saudi man charged with planting 'sophisticated' recording device in OpenAI office\nเนื้อหา: Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.\n\n[CNBC]\nหัวข้อ: More Republicans come out against Trump's diesel deal with Putin\nเนื้อหา: Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"\n\n[CNBC]\nหัวข้อ: FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room\nเนื้อหา: The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.\n\n[CNBC]\nหัวข้อ: Bank of America fined $1.2 billion over money-laundering violations\nเนื้อหา: The action by the Treasury Department was announced less than a day before Bank of America reports quarterly earnings.\n\n[CNBC]\nหัวข้อ: Anthropic urges court in Washington, D.C. to rehear appeal of Pentagon blacklisting\nเนื้อหา: Anthropic is asking a federal court in Washington, D.C. to rehear its appeal in a case concerning the Pentagon's blacklisting of the company's AI models.\n\n[CNBC]\nหัวข้อ: Goldman says investors are looking for 'profitable' Chinese business growth overseas\nเนื้อหา: Sluggish consumer demand in China has pushed many companies, such as electric car brands, to accelerate plans for entering other countries.\n\n[MarketWatch]\nหัวข้อ: Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market\nเนื้อหา: Anticipation is building for Anthropic’s investor day, as Wall Street grows less patient with heavy AI spending.\n\n[MarketWatch]\nหัวข้อ: ‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”\n\n[MarketWatch]\nหัวข้อ: The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions\nเนื้อหา: Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.\n\n[MarketWatch]\nหัวข้อ: Six Flags’ stock slumps near 17-year low after fatal incident\nเนื้อหา: A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.\n\n[MarketWatch]\nหัวข้อ: AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans\nเนื้อหา: AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.\n\n[Investing.com Gold]\nหัวข้อ: Fed Governor Cook’s lawyer denounces Trump’s latest attempt to remove her\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: World stocks dip on AI spending concerns; Brent settles lower\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic warns AI models may soon self-replicate and could wreak havoc on the web\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Earnings season debuts to mixed reviews\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Collins sees another rate hike on the table before end of 2026\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
