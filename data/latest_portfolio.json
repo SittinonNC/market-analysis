@@ -1,97 +1,97 @@
 {
-  "ts": "2026-10-12T21-30-35Z",
+  "ts": "2026-10-13T19-41-49Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 541.15,
-      "value": 569.800375025,
+      "current_price": 545.5,
+      "value": 574.3806792500001,
       "cost": 495.50994638250006,
-      "gain": 74.29042864249993,
-      "gain_pct": 14.992721979621528,
-      "today_change": 1.14
+      "gain": 78.87073286750001,
+      "gain_pct": 15.91708369192193,
+      "today_change": 0.8
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 226.32,
-      "value": 200.890322688,
+      "current_price": 227.93,
+      "value": 202.31942051200002,
       "cost": 161.5399809584,
-      "gain": 39.35034172959999,
-      "gain_pct": 24.359506232536663,
-      "today_change": -1.29
+      "gain": 40.779439553600014,
+      "gain_pct": 25.24417751671123,
+      "today_change": 0.71
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 51.46,
-      "value": 150.746656408,
+      "current_price": 47.26,
+      "value": 138.443198248,
       "cost": 214.47007443188,
-      "gain": -63.72341802387999,
-      "gain_pct": -29.712032409500484,
-      "today_change": 0.96
+      "gain": -76.02687618388,
+      "gain_pct": -35.44871068155836,
+      "today_change": -8.16
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 32.21,
-      "value": 160.65161383600002,
+      "current_price": 31.86,
+      "value": 158.90594277600002,
       "cost": 452.6500120422,
-      "gain": -291.99839820619997,
-      "gain_pct": -64.50864695414552,
-      "today_change": -7.18
+      "gain": -293.7440692662,
+      "gain_pct": -64.89430276184652,
+      "today_change": -1.09
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.67,
-      "value": 40.942727133,
+      "current_price": 6.7,
+      "value": 41.12687733,
       "cost": 69.8849997615,
-      "gain": -28.9422726285,
-      "gain_pct": -41.41414141414141,
-      "today_change": -0.89
+      "gain": -28.7581224315,
+      "gain_pct": -41.150636802810716,
+      "today_change": 0.45
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 16.66,
-      "value": 69.521523596,
+      "current_price": 17.09,
+      "value": 71.315896654,
       "cost": 61.19646719899999,
-      "gain": 8.325056397000004,
-      "gain_pct": 13.6038186157518,
-      "today_change": -3.31
+      "gain": 10.11942945500001,
+      "gain_pct": 16.53596999659054,
+      "today_change": 2.58
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.64,
-      "value": 136.691379296,
+      "current_price": 12.66,
+      "value": 136.907663124,
       "cost": 61.09909999086,
-      "gain": 75.59227930514001,
-      "gain_pct": 123.72077381900566,
-      "today_change": 0.72
+      "gain": 75.80856313314001,
+      "gain_pct": 124.07476238517499,
+      "today_change": 0.16
     },
     "__total__": {
-      "value": 1329.244597982,
+      "value": 1323.3996778940002,
       "cost": 1516.3505807663398,
-      "gain": -187.10598278433986,
-      "gain_pct": -12.339229803293868
+      "gain": -192.9509028723396,
+      "gain_pct": -12.724689482746479
     }
   },
   "allocation": {
     "mag7": {
-      "value": 770.690697713,
-      "current_pct": 58.0,
+      "value": 776.700099762,
+      "current_pct": 58.7,
       "target_pct": 20,
-      "diff": 38.0,
+      "diff": 38.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 352.34099737700006,
-      "current_pct": 26.5,
+      "value": 338.476018354,
+      "current_pct": 25.6,
       "target_pct": 50,
-      "diff": -23.5,
+      "diff": -24.4,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1329.244597982
+    "__total__": 1323.3996778940002
   },
-  "news": "[BBC Business] Healey faces £35bn Budget challenge to meet spending pledges, says think tank\nThe Institute for Fiscal Studies says the government will need a \"top-up\" of billions of pounds if it wants to meet its spending plans.\n\n[BBC Business] How to avoid getting stung if you miss credit card payments\nPeople are increasingly falling behind on credit card repayments, so here's the best way to get debt advice.\n\n[BBC Business] Fridges in French supermarkets hit by cyber attack\nHundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.\n\n[BBC Business] AI minister warns 'likely' UK's cyber defences will be breached\nKanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.\n\n[CNBC] Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'\nUkraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"\n\n[CNBC] Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor\nMusk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.\n\n[CNBC] Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'\nThe Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.\n\n[CNBC] Trump 'not happy' with Kimberly Guilfoyle, weighs firing her\nThe former Fox News personality Guilfoyle was previously engaged to the president's son, Donald Trump Jr.\n\n[MarketWatch] Nvidia and AMD shares fall as new AI announcements fail to re-energize investors\nThe chip makers introduced hardware and software designs for future AI data centers, but the revenue potential is still far out, an analyst says.\n\n[MarketWatch] ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\n“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch] Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday\nThe sharp moves could partly be a reaction to recent cautious commentary on AI spending.\n\n[MarketWatch] ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\n“I’m in my 60s, recently retired and living my best life.”",
+  "news": "[BBC Business] Three things we've learnt about the UK economy from the IMF\nThe influential economics body has upgraded its UK growth forecast for this year, but risks remain.\n\n[BBC Business] Bumble bought for $1.3bn in 'bet on the future of humanity'\nThe dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.\n\n[BBC Business] Poundland in rescue talks as owners seek buyer\nThe leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.\n\n[BBC Business] BA flight forced to turn back over cracked window\nBritish Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.\n\n[CNBC] More Republicans come out against Trump's diesel deal with Putin\nSenators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"\n\n[CNBC] The latest inflation data is expected to show price increases are accelerating\nEconomists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.\n\n[CNBC] Airport attacks put aviation in crosshairs of geopolitical conflicts\nDeadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.\n\n[CNBC] JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts\nJPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.\n\n[MarketWatch] Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties\nFintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.\n\n[MarketWatch] Gen Z renters are the only group more likely to feel successful by investing than buying a house\n“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”\n\n[MarketWatch] New SEC rules would fleece everyday investors to enrich Wall Street\nNew proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.\n\n[MarketWatch] ‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\n“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
