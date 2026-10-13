@@ -1,136 +1,136 @@
 {
-  "ts": "2026-10-13T08-45-19Z",
+  "ts": "2026-10-13T20-18-04Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4216.3,
-      "change": 0.61,
+      "price": 4185.9,
+      "change": -0.11,
       "high": 4224.8,
-      "low": 4173.7
+      "low": 4170.5
     },
     "sp500": {
-      "price": 7807.24,
-      "change": -0.06,
-      "high": 7821.67,
-      "low": 7796.94
+      "price": 7805.45,
+      "change": -0.02,
+      "high": 7814.15,
+      "low": 7786.11
     },
     "dxy": {
-      "price": 102.29,
-      "change": -0.28,
+      "price": 102.2,
+      "change": -0.37,
       "high": 102.57,
-      "low": 102.25
+      "low": 102.16
     },
     "vix": {
-      "price": 15.41,
-      "change": 1.31,
+      "price": 15.28,
+      "change": 0.46,
       "high": 15.61,
-      "low": 15.41
+      "low": 15.17
     },
     "btc": {
-      "price": 83676.67,
-      "change": 2.34,
+      "price": 83150.08,
+      "change": 1.7,
       "high": 84059.52,
       "low": 81197.99
     },
     "eth": {
-      "price": 2525.12,
-      "change": 3.3,
+      "price": 2504.99,
+      "change": 2.48,
       "high": 2534.02,
       "low": 2419.05
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 340.97,
-        "change": 1.29,
-        "high": 342.63,
-        "low": 337.6
+        "price": 341.27,
+        "change": 0.09,
+        "high": 348.15,
+        "low": 340.74
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 541.15,
-        "change": 1.14,
-        "high": 542.74,
-        "low": 535.7
+        "price": 543.45,
+        "change": 0.43,
+        "high": 551.15,
+        "low": 543.06
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 226.32,
-        "change": -1.29,
-        "high": 228.86,
-        "low": 224.9
+        "price": 228.52,
+        "change": 0.97,
+        "high": 228.64,
+        "low": 223.06
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 259.53,
-        "change": -1.11,
-        "high": 263.7,
-        "low": 259.27
+        "price": 258.58,
+        "change": -0.37,
+        "high": 262.83,
+        "low": 258.42
       },
       "META": {
         "name": "Meta",
-        "price": 742.96,
-        "change": 3.38,
-        "high": 752.24,
-        "low": 727.64
+        "price": 762.5,
+        "change": 2.63,
+        "high": 771.27,
+        "low": 734.84
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 352.72,
+        "price": 353.78,
         "change": 0.3,
-        "high": 356.5,
-        "low": 350.5
+        "high": 358.58,
+        "low": 351.6
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 378.03,
-        "change": -1.22,
-        "high": 382.7,
-        "low": 377.58
+        "price": 375.23,
+        "change": -0.74,
+        "high": 377.05,
+        "low": 371.3
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 51.46,
-        "change": 0.96,
-        "high": 54.67,
-        "low": 51.32
+        "price": 47.06,
+        "change": -8.55,
+        "high": 48.82,
+        "low": 46.24
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 378.52,
-        "change": -0.21,
-        "high": 382.98,
-        "low": 373.67
+        "price": 377.76,
+        "change": -0.2,
+        "high": 399.86,
+        "low": 372.88
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 2.39,
-        "change": -5.16,
-        "high": 2.49,
-        "low": 2.35
+        "price": 2.32,
+        "change": -2.93,
+        "high": 2.38,
+        "low": 2.29
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 65.71,
-        "change": -3.67,
-        "high": 68.07,
-        "low": 65.11
+        "price": 64.22,
+        "change": -2.27,
+        "high": 64.56,
+        "low": 63.08
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 32.21,
-        "change": -7.18,
-        "high": 34.0,
-        "low": 32.19
+        "price": 31.78,
+        "change": -1.33,
+        "high": 32.0,
+        "low": 31.02
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.67,
-        "change": -0.89,
-        "high": 7.08,
-        "low": 6.61
+        "price": 6.71,
+        "change": 0.6,
+        "high": 6.75,
+        "low": 6.48
       }
     }
   },
@@ -139,8 +139,7 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "title": "Core CPI m/m",
         "country": "USD",
@@ -173,6 +172,24 @@
         "forecast": "3.6%",
         "previous": "3.4%"
       },
+      {
+        "title": "Employment Change",
+        "country": "AUD",
+        "date": "2026-10-14T20:30:00-04:00",
+        "impact": "High",
+        "forecast": "19.6K",
+        "previous": "39.5K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "AUD",
+        "date": "2026-10-14T20:30:00-04:00",
+        "impact": "High",
+        "forecast": "4.6%",
+        "previous": "4.6%"
+      }
+    ],
+    "upcoming": [
       {
         "title": "Core PPI m/m",
         "country": "USD",
@@ -219,47 +236,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 541.15,
-      "value": 569.800375025,
+      "current_price": 543.45,
+      "value": 572.2221450750001,
       "cost": 495.50994638250006,
-      "gain": 74.29042864249993,
-      "gain_pct": 14.992721979621528
+      "gain": 76.71219869250001,
+      "gain_pct": 15.481464953941288
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 226.32,
-      "value": 200.890322688,
+      "current_price": 228.52,
+      "value": 202.84312716800002,
       "cost": 161.5399809584,
-      "gain": 39.35034172959999,
-      "gain_pct": 24.359506232536663
+      "gain": 41.303146209600015,
+      "gain_pct": 25.568373825818675
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 51.46,
-      "value": 150.746656408,
+      "current_price": 47.06,
+      "value": 137.857319288,
       "cost": 214.47007443188,
-      "gain": -63.72341802387999,
-      "gain_pct": -29.712032409500484
+      "gain": -76.61275514387998,
+      "gain_pct": -35.72188583737063
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 32.21,
-      "value": 160.65161383600002,
+      "current_price": 31.78,
+      "value": 158.50693224800003,
       "cost": 452.6500120422,
-      "gain": -291.99839820619997,
-      "gain_pct": -64.50864695414552
+      "gain": -294.14307979419993,
+      "gain_pct": -64.98245266074959
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.67,
-      "value": 40.942727133,
+      "current_price": 6.71,
+      "value": 41.188260729,
       "cost": 69.8849997615,
-      "gain": -28.9422726285,
-      "gain_pct": -41.41414141414141
+      "gain": -28.6967390325,
+      "gain_pct": -41.06280193236715
     },
     "ARQQ": {
       "value": "N/A",
@@ -274,25 +291,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1123.03169509,
+      "value": 1112.617784508,
       "cost": 1394.05501357648,
-      "gain": -271.02331848647987,
-      "gain_pct": -19.441364641067025
+      "gain": -281.43722906847984,
+      "gain_pct": -20.188387569185394
     }
   },
   "allocation": {
     "mag7": {
-      "value": 770.690697713,
-      "current_pct": 68.6,
+      "value": 775.0652722430001,
+      "current_pct": 69.7,
       "target_pct": 20,
-      "diff": 48.6,
+      "diff": 49.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 352.34099737700006,
-      "current_pct": 31.4,
+      "value": 337.552512265,
+      "current_pct": 30.3,
       "target_pct": 50,
-      "diff": -18.6,
+      "diff": -19.7,
       "status": "Underweight"
     },
     "crypto": {
@@ -309,9 +326,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1123.03169509
+    "__total__": 1112.617784508
   },
-  "news": "[BBC Business]\nหัวข้อ: UK growth forecast upgraded but energy prices and rates to hit in 2027\nเนื้อหา: The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.\n\n[BBC Business]\nหัวข้อ: I earn £120,000 a year making social media videos go viral\nเนื้อหา: Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.\n\n[BBC Business]\nหัวข้อ: Heating oil customers face tough winter despite shake-up promise\nเนื้อหา: Heating oil customers facing soaring bills are promised better regulation of the sector by the government.\n\n[BBC Business]\nหัวข้อ: Dating app Bumble in $1bn takeover talks, say reports\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule could be bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Publicly owned rail is popular. But is it making the trains run on time?\nเนื้อหา: Meeting travellers' expectations could be challenging, experts warn.\n\n[CNBC]\nหัวข้อ: Micron, SoftBank and ASML slide as Wall Street chip rout spreads\nเนื้อหา: Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.\n\n[CNBC]\nหัวข้อ: IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen\nเนื้อหา: The IMF says risks in the government bond market have worsened and that yields could jump sharply and disorderly.\n\n[CNBC]\nหัวข้อ: Anthropic warns AI models could soon copy themselves across home devices\nเนื้อหา: Anthropic's latest research adds to the growing safety concerns around AI from the ability for models to carry out cyberattacks to the technology going rogue.\n\n[CNBC]\nหัวข้อ: Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict\nเนื้อหา: Oil prices fell as investors assess potential supply disruptions against prospects of more Russian diesel entering global markets.\n\n[CNBC]\nหัวข้อ: U.S. Treasury yields fall as energy prices pull back\nเนื้อหา: Bond yields fell on Tuesday as investors await more economic data releases this week.\n\n[MarketWatch]\nหัวข้อ: Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm\nเนื้อหา: The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps on both Monday and Tuesday.\n\n[MarketWatch]\nหัวข้อ: The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.\nเนื้อหา: IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead\n\n[MarketWatch]\nหัวข้อ: The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions\nเนื้อหา: Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.\n\n[MarketWatch]\nหัวข้อ: ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I’m in my 60s, recently retired and living my best life.”\n\n[Investing.com Gold]\nหัวข้อ: BlackRock cools on US stocks, turns bullish on short-dated Treasuries\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hedge funds are a top draw in Asia as investors look beyond bonds\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank earnings loom large; LVMH sales underwhelm - what’s moving markets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Growing debt burden poses significant risk to developing nations, G24 chair says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s exports seen growing at faster pace in September: Reuters Poll\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Three things we've learnt about the UK economy from the IMF\nเนื้อหา: The influential economics body has upgraded its UK growth forecast for this year, but risks remain.\n\n[BBC Business]\nหัวข้อ: Bumble bought for $1.3bn in 'bet on the future of humanity'\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule has been bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Poundland in rescue talks as owners seek buyer\nเนื้อหา: The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.\n\n[BBC Business]\nหัวข้อ: BA flight forced to turn back over cracked window\nเนื้อหา: British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.\n\n[BBC Business]\nหัวข้อ: Heating oil customers face tough winter despite shake-up promise\nเนื้อหา: Heating oil customers facing soaring bills are promised better regulation of the sector by the government.\n\n[CNBC]\nหัวข้อ: More Republicans come out against Trump's diesel deal with Putin\nเนื้อหา: Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"\n\n[CNBC]\nหัวข้อ: Bank of America hit with more than $1.2 billion in penalties over money-laundering violations\nเนื้อหา: \n\n[CNBC]\nหัวข้อ: The latest inflation data is expected to show price increases are accelerating\nเนื้อหา: Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.\n\n[CNBC]\nหัวข้อ: Six Flags shares decline following deadly roller coaster incident\nเนื้อหา: One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts\nเนื้อหา: JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: How you can prepare for 6% bond yields\nเนื้อหา: Savers and investors at current yields stand to benefit, but fears are growing about the rest of the economy outside of the AI boom\n\n[MarketWatch]\nหัวข้อ: Midterm voters haven’t seen this many housing proposals on the ballot in 20 years\nเนื้อหา: Ballot measures aim to fix the housing crisis in various ways, from making it easier to build new homes, to cutting property taxes.\n\n[MarketWatch]\nหัวข้อ: Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties\nเนื้อหา: Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.\n\n[MarketWatch]\nหัวข้อ: Gen Z renters are the only group more likely to feel successful by investing than buying a house\nเนื้อหา: “Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Williams sees no need for rate hike in 2027, Bloomberg News reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: World stocks slip as AI spending worries hit chipmakers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI limiting European workers’ bargaining power, ECB’s Lane says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Major US banks post solid third quarter loan growth, but see more competition for deposits\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: NY Fed’s Williams sees one more rate hike this year, disinflation ahead\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
