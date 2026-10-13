@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-13T02-07-51Z",
+  "ts": "2026-10-13T08-45-19Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4181.8,
-      "change": 0.0,
-      "high": 4201.7,
-      "low": 4173.8
+      "price": 4216.3,
+      "change": 0.61,
+      "high": 4224.8,
+      "low": 4173.7
     },
     "sp500": {
       "price": 7807.24,
@@ -15,27 +15,27 @@
       "low": 7796.94
     },
     "dxy": {
-      "price": 102.44,
-      "change": 0.0,
+      "price": 102.29,
+      "change": -0.28,
       "high": 102.57,
-      "low": 102.44
+      "low": 102.25
     },
     "vix": {
-      "price": 15.21,
-      "change": 2.49,
-      "high": 15.53,
-      "low": 15.11
+      "price": 15.41,
+      "change": 1.31,
+      "high": 15.61,
+      "low": 15.41
     },
     "btc": {
-      "price": 82379.01,
-      "change": 0.0,
-      "high": 82389.84,
+      "price": 83676.67,
+      "change": 2.34,
+      "high": 84059.52,
       "low": 81197.99
     },
     "eth": {
-      "price": 2463.54,
-      "change": 0.0,
-      "high": 2462.46,
+      "price": 2525.12,
+      "change": 3.3,
+      "high": 2534.02,
       "low": 2419.05
     },
     "mag7": {
@@ -311,7 +311,7 @@
     },
     "__total__": 1123.03169509
   },
-  "news": "[BBC Business]\nหัวข้อ: UK growth upgraded but energy prices and rates to bite in 2027\nเนื้อหา: The IMF report comes as final preparations are being made to the first Budget under Prime Minister Andy Burham.\n\n[BBC Business]\nหัวข้อ: I earn £120,000 a year making social media videos go viral\nเนื้อหา: Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.\n\n[BBC Business]\nหัวข้อ: Heating oil customers face tough winter despite shake-up promise\nเนื้อหา: Heating oil customers facing soaring bills are promised better regulation of the sector by the government.\n\n[BBC Business]\nหัวข้อ: Bumble shares soar after report dating firm in $1bn takeover talks\nเนื้อหา: The jump pushed Bumble's stock market valuation to more than $580m but that is still far below their peak of more than $14bn.\n\n[BBC Business]\nหัวข้อ: Publicly owned rail is popular. But is it making the trains run on time?\nเนื้อหา: Meeting travellers' expectations could be challenging, experts warn.\n\n[CNBC]\nหัวข้อ: Global economy to slow less than expected in 2026 as AI boom offsets war hit: IMF\nเนื้อหา: The IMF raised its 2026 global growth forecast to 3.1%, as AI investment helped offset the war’s energy shock.\n\n[CNBC]\nหัวข้อ: Trump defends Russia diesel deal after bipartisan pushback: 'I made the right choice'\nเนื้อหา: Ukraine President Volodymyr Zelenskyy said that the U.S. easing sanctions on Moscow \"plays into Russia's hands.\"\n\n[CNBC]\nหัวข้อ: Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'\nเนื้อหา: The Minnesota Democrat, a Muslim who was born in Somalia, has been targeted for criticism in the past by President Donald Trump.\n\n[CNBC]\nหัวข้อ: Trump 'not happy' with Kimberly Guilfoyle, weighs firing her as ambassador to Greece\nเนื้อหา: The former Fox News personality Guilfoyle was previously engaged to the president's son, Donald Trump Jr.\n\n[CNBC]\nหัวข้อ: Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor\nเนื้อหา: Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.\n\n[MarketWatch]\nหัวข้อ: The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.\nเนื้อหา: IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead\n\n[MarketWatch]\nหัวข้อ: The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions\nเนื้อหา: Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.\n\n[MarketWatch]\nหัวข้อ: ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I’m in my 60s, recently retired and living my best life.”\n\n[MarketWatch]\nหัวข้อ: Investors worry the bull market is getting old. But history shows it can continue to age gracefully.\nเนื้อหา: Contrary to a widespread current worry among some on Wall Street, bull markets do not die of old age,\n\n[Investing.com Gold]\nหัวข้อ: Asian stocks dive as focus on earnings, geopolitics\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar holds near 18-month high as geopolitical risks rise\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-US yield surge triggers mortgage hedging, adds to bond market pressure\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA minutes signal further rate hikes as inflation risks intensify\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s wholesale inflation remains elevated, keeps alive BOJ rate-hike view\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: UK growth forecast upgraded but energy prices and rates to hit in 2027\nเนื้อหา: The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.\n\n[BBC Business]\nหัวข้อ: I earn £120,000 a year making social media videos go viral\nเนื้อหา: Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.\n\n[BBC Business]\nหัวข้อ: Heating oil customers face tough winter despite shake-up promise\nเนื้อหา: Heating oil customers facing soaring bills are promised better regulation of the sector by the government.\n\n[BBC Business]\nหัวข้อ: Dating app Bumble in $1bn takeover talks, say reports\nเนื้อหา: The dating app which recently ditched its \"women-first\" chat rule could be bought by an investment firm.\n\n[BBC Business]\nหัวข้อ: Publicly owned rail is popular. But is it making the trains run on time?\nเนื้อหา: Meeting travellers' expectations could be challenging, experts warn.\n\n[CNBC]\nหัวข้อ: Micron, SoftBank and ASML slide as Wall Street chip rout spreads\nเนื้อหา: Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.\n\n[CNBC]\nหัวข้อ: IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen\nเนื้อหา: The IMF says risks in the government bond market have worsened and that yields could jump sharply and disorderly.\n\n[CNBC]\nหัวข้อ: Anthropic warns AI models could soon copy themselves across home devices\nเนื้อหา: Anthropic's latest research adds to the growing safety concerns around AI from the ability for models to carry out cyberattacks to the technology going rogue.\n\n[CNBC]\nหัวข้อ: Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict\nเนื้อหา: Oil prices fell as investors assess potential supply disruptions against prospects of more Russian diesel entering global markets.\n\n[CNBC]\nหัวข้อ: U.S. Treasury yields fall as energy prices pull back\nเนื้อหา: Bond yields fell on Tuesday as investors await more economic data releases this week.\n\n[MarketWatch]\nหัวข้อ: Was Broadcom CEO bullish or bearish on AI? ‘Gamblers’ comment creates storm\nเนื้อหา: The comments made by Broadcom’s CEO at a conference in Singapore have been cited as a reason for microchip stocks’ slumps on both Monday and Tuesday.\n\n[MarketWatch]\nหัวข้อ: The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.\nเนื้อหา: IMF sees a split global economy, with countries less exposed to the oil shock and benefiting from AI demand pulling ahead\n\n[MarketWatch]\nหัวข้อ: The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions\nเนื้อหา: Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.\n\n[MarketWatch]\nหัวข้อ: ‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: ‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I’m in my 60s, recently retired and living my best life.”\n\n[Investing.com Gold]\nหัวข้อ: BlackRock cools on US stocks, turns bullish on short-dated Treasuries\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hedge funds are a top draw in Asia as investors look beyond bonds\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank earnings loom large; LVMH sales underwhelm - what’s moving markets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Growing debt burden poses significant risk to developing nations, G24 chair says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s exports seen growing at faster pace in September: Reuters Poll\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
