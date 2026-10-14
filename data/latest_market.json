@@ -1,90 +1,90 @@
 {
-  "ts": "2026-10-14T18-46-16Z",
+  "ts": "2026-10-14T23-19-20Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4115.7,
-      "change": -1.47,
-      "high": 4193.5,
-      "low": 4095.0
+      "price": 4122.4,
+      "change": -1.31,
+      "high": 4133.0,
+      "low": 4122.7
     },
     "sp500": {
-      "price": 7703.17,
-      "change": -1.31,
+      "price": 7718.94,
+      "change": -1.11,
       "high": 7789.15,
       "low": 7693.31
     },
     "dxy": {
-      "price": 102.55,
-      "change": 0.36,
+      "price": 102.53,
+      "change": 0.34,
       "high": 102.94,
       "low": 102.07
     },
     "vix": {
-      "price": 17.04,
-      "change": 11.59,
+      "price": 16.87,
+      "change": 10.48,
       "high": 17.45,
       "low": 14.98
     },
     "btc": {
-      "price": 81526.07,
-      "change": -1.89,
+      "price": 81506.74,
+      "change": -1.91,
       "high": 84005.72,
-      "low": 81481.31
+      "low": 81378.02
     },
     "eth": {
-      "price": 2421.83,
-      "change": -3.0,
+      "price": 2417.3,
+      "change": -3.18,
       "high": 2523.05,
-      "low": 2416.07
+      "low": 2406.34
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 343.0,
-        "change": 0.51,
+        "price": 342.96,
+        "change": 0.5,
         "high": 347.07,
         "low": 341.72
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 534.02,
-        "change": -1.74,
+        "price": 533.69,
+        "change": -1.8,
         "high": 545.74,
-        "low": 533.57
+        "low": 532.54
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 220.32,
-        "change": -3.59,
+        "price": 221.3,
+        "change": -3.16,
         "high": 226.0,
-        "low": 220.21
+        "low": 219.64
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 253.29,
-        "change": -2.05,
+        "price": 254.08,
+        "change": -1.74,
         "high": 259.65,
-        "low": 253.02
+        "low": 252.66
       },
       "META": {
         "name": "Meta",
-        "price": 736.23,
-        "change": -3.45,
+        "price": 737.54,
+        "change": -3.27,
         "high": 761.48,
         "low": 734.29
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 347.26,
-        "change": -1.84,
+        "price": 347.64,
+        "change": -1.74,
         "high": 359.4,
-        "low": 346.92
+        "low": 346.34
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 364.44,
-        "change": -2.88,
+        "price": 367.16,
+        "change": -2.15,
         "high": 371.39,
         "low": 363.82
       }
@@ -92,45 +92,45 @@
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 42.28,
-        "change": -10.16,
+        "price": 42.14,
+        "change": -10.45,
         "high": 45.98,
-        "low": 42.22
+        "low": 42.0
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 392.85,
-        "change": 3.99,
-        "high": 395.5,
+        "price": 395.62,
+        "change": 4.73,
+        "high": 396.42,
         "low": 382.4
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.98,
-        "change": -14.66,
+        "price": 1.95,
+        "change": -15.95,
         "high": 2.25,
-        "low": 1.97
+        "low": 1.94
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 59.19,
-        "change": -7.83,
+        "price": 59.18,
+        "change": -7.85,
         "high": 63.56,
-        "low": 59.06
+        "low": 58.84
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 28.97,
-        "change": -8.84,
+        "price": 29.04,
+        "change": -8.62,
         "high": 31.09,
-        "low": 28.94
+        "low": 28.86
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.2,
-        "change": -7.6,
+        "price": 6.14,
+        "change": -8.49,
         "high": 6.67,
-        "low": 6.17
+        "low": 6.13
       }
     }
   },
@@ -203,47 +203,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 534.02,
-      "value": 562.29288787,
+      "current_price": 533.69,
+      "value": 561.945416515,
       "cost": 495.50994638250006,
-      "gain": 66.7829414874999,
-      "gain_pct": 13.477618759230314
+      "gain": 66.43547013249997,
+      "gain_pct": 13.407494767262712
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 220.32,
-      "value": 195.564492288,
+      "current_price": 221.3,
+      "value": 196.43437792000003,
       "cost": 161.5399809584,
-      "gain": 34.02451132959999,
-      "gain_pct": 21.062594614494863
+      "gain": 34.89439696160002,
+      "gain_pct": 21.601090178775046
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 42.28,
-      "value": 123.854812144,
+      "current_price": 42.14,
+      "value": 123.444696872,
       "cost": 214.47007443188,
-      "gain": -90.61526228788,
-      "gain_pct": -42.25077206128412
+      "gain": -91.02537755988,
+      "gain_pct": -42.44199467035271
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 28.97,
-      "value": 144.491687452,
+      "current_price": 29.04,
+      "value": 144.840821664,
       "cost": 452.6500120422,
-      "gain": -308.1583245902,
-      "gain_pct": -68.07871785972046
+      "gain": -307.8091903782,
+      "gain_pct": -68.00158669818026
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.2,
-      "value": 38.057707380000004,
+      "current_price": 6.14,
+      "value": 37.689406986,
       "cost": 69.8849997615,
-      "gain": -31.827292381499994,
-      "gain_pct": -45.54238032498901
+      "gain": -32.195592775499996,
+      "gain_pct": -46.06938954765042
     },
     "ARQQ": {
       "value": "N/A",
@@ -258,25 +258,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1064.261587134,
+      "value": 1064.354719957,
       "cost": 1394.05501357648,
-      "gain": -329.79342644248004,
-      "gain_pct": -23.657131406628455
+      "gain": -329.7002936194799,
+      "gain_pct": -23.65045069302009
     }
   },
   "allocation": {
     "mag7": {
-      "value": 757.857380158,
-      "current_pct": 71.2,
+      "value": 758.3797944350001,
+      "current_pct": 71.3,
       "target_pct": 20,
-      "diff": 51.2,
+      "diff": 51.3,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 306.404206976,
-      "current_pct": 28.8,
+      "value": 305.974925522,
+      "current_pct": 28.7,
       "target_pct": 50,
-      "diff": -21.2,
+      "diff": -21.3,
       "status": "Underweight"
     },
     "crypto": {
@@ -293,9 +293,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1064.261587134
+    "__total__": 1064.354719957
   },
-  "news": "[BBC Business]\nหัวข้อ: Drop-off charges at UK airports to be reviewed after sharp increase\nเนื้อหา: Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".\n\n[BBC Business]\nหัวข้อ: Netflix to shed 1,000 jobs in steepest cuts since 2022\nเนื้อหา: The cuts equate to around 6% of the streaming giant's total workforce worldwide.\n\n[BBC Business]\nหัวข้อ: Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer\nเนื้อหา: Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What surprise praise for UK economy tells us about the Budget\nเนื้อหา: On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.\n\n[BBC Business]\nหัวข้อ: Driving test waits fall to two-year low - but still average 20 weeks\nเนื้อหา: Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.\n\n[CNBC]\nหัวข้อ: CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge\nเนื้อหา: Shares of CoreWeave sank 15%, while yields in its bonds blew out further.\n\n[CNBC]\nหัวข้อ: How high inflation became a 'fact of life' in the U.S.\nเนื้อหา: U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.\n\n[CNBC]\nหัวข้อ: Container ship sinks in Strait of Hormuz as Iran steps up attacks\nเนื้อหา: Iran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports.\n\n[CNBC]\nหัวข้อ: Treasury says largest U.S. banks let politics influence who received banking services\nเนื้อหา: New Treasury Department findings may lend weight to President Donald Trump’s long-running grievance that major banks have discriminated against conservatives.\n\n[CNBC]\nหัวข้อ: Fannie Mae sharply raises mortgage rate forecast for 2027\nเนื้อหา: Fannie Mae just put out its latest forecast for mortgage rates, and they are much higher than previous estimates.\n\n[MarketWatch]\nหัวข้อ: Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma\nเนื้อหา: ‘I don’t think you should jack up rates into this environment right now,’ says head of fixed-income at Aptus Capital Advisors\n\n[MarketWatch]\nหัวข้อ: These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most.\nเนื้อหา: Social Security is projected to become insolvent in six years. These are some of the creative solutions that are on the table, beyond raising payroll taxes.\n\n[MarketWatch]\nหัวข้อ: Will mortgage rates stay above 7% in 2027?\nเนื้อหา: Two new forecasts spell bad news for home buyers and sellers\n\n[MarketWatch]\nหัวข้อ: Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful\nเนื้อหา: “Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”\n\n[MarketWatch]\nหัวข้อ: 3 things that are driving inflation higher\nเนื้อหา: Struggling with elevated prices? You don’t have to look much further than your local gas station.\n\n[Investing.com Gold]\nหัวข้อ: Fed survey shows price pressures intensifying amid rise in fuel costs\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street tumbles as hot inflation data feeds worries about Fed rate hikes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump administration cuts ACA subsidies for 189,000 enrollees\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Uganda central bank raises rates to 12% to support shilling\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Container ship sinks in Strait of Hormuz amid Iran attacks\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Drop-off charges at UK airports to be reviewed after sharp increase\nเนื้อหา: Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".\n\n[BBC Business]\nหัวข้อ: Netflix to shed 1,000 jobs in steepest cuts since 2022\nเนื้อหา: The cuts equate to around 6% of the streaming giant's total workforce worldwide.\n\n[BBC Business]\nหัวข้อ: Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer\nเนื้อหา: Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What surprise praise for UK economy tells us about the Budget\nเนื้อหา: On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.\n\n[BBC Business]\nหัวข้อ: Driving test waits fall to two-year low - but still average 20 weeks\nเนื้อหา: Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.\n\n[CNBC]\nหัวข้อ: How high inflation became a 'fact of life' in the U.S.\nเนื้อหา: U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest\nเนื้อหา: \"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday.\n\n[CNBC]\nหัวข้อ: Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'\nเนื้อหา: Barclays downgraded Dell, HPE, and NetApp on concerns that enterprise AI adoption is lagging.\n\n[CNBC]\nหัวข้อ: OpenAI sued by 8 states over ChatGPT safety concerns\nเนื้อหา: OpenAI is facing mounting scrutiny over its safety and security practices, including around how the company is working to protect children.\n\n[CNBC]\nหัวข้อ: CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge\nเนื้อหา: Shares of CoreWeave sank 15%, while yields in its bonds blew out further.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: Rocket Lab’s stock slides as the company pushes back Neutron’s first launch\nเนื้อหา: Neutron, a medium-lift rocket meant to rival SpaceX’s Falcon 9, will no longer launch this year.\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[MarketWatch]\nหัวข้อ: You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.\nเนื้อหา: For most of U.S. history, an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns.\n\n[MarketWatch]\nหัวข้อ: Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?\nเนื้อหา: The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living\n\n[Investing.com Gold]\nหัวข้อ: Dollar gains, Wall Street stocks fall after hot inflation data\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Daly sees rate hikes ahead but signals no urgency for October - Reuters\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Tech melt\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Goolsbee says September CPI data was discouraging - Yahoo Finance\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
