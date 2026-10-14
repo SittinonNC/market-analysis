@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-14T17-44-01Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 535.45,
+      "value": 563.7985970750001,
+      "cost": 495.50994638250006,
+      "gain": 68.28865069250003,
+      "gain_pct": 13.781489391090007,
+      "today_change": -1.47
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 221.39,
+      "value": 196.514265376,
+      "cost": 161.5399809584,
+      "gain": 34.97428441759999,
+      "gain_pct": 21.65054385304565,
+      "today_change": -3.12
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 42.63,
+      "value": 124.880100324,
+      "cost": 214.47007443188,
+      "gain": -89.58997410788,
+      "gain_pct": -41.77271553861262,
+      "today_change": -9.41
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 29.39,
+      "value": 146.586492724,
+      "cost": 452.6500120422,
+      "gain": -306.06351931819995,
+      "gain_pct": -67.61593089047925,
+      "today_change": -7.52
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.26,
+      "value": 38.426007774,
+      "cost": 69.8849997615,
+      "gain": -31.4589919875,
+      "gain_pct": -45.01537110232762,
+      "today_change": -6.71
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 15.55,
+      "value": 64.88953733,
+      "cost": 61.19646719899999,
+      "gain": 3.693070131000006,
+      "gain_pct": 6.034776679168099,
+      "today_change": -7.66
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 12.45,
+      "value": 134.63668293,
+      "cost": 61.09909999086,
+      "gain": 73.53758293914001,
+      "gain_pct": 120.3578824403972,
+      "today_change": -1.27
+    },
+    "__total__": {
+      "value": 1269.731683533,
+      "cost": 1516.3505807663398,
+      "gain": -246.6188972333398,
+      "gain_pct": -16.263976178167354
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 760.3128624510001,
+      "current_pct": 59.9,
+      "target_pct": 20,
+      "diff": 39.9,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 309.89260082199996,
+      "current_pct": 24.4,
+      "target_pct": 50,
+      "diff": -25.6,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1269.731683533
+  },
+  "news": "[BBC Business] Netflix to lay off 1,000 staff in steepest cuts since 2022\nThe cuts equate to around 6% of the streaming giant's total workforce worldwide.\n\n[BBC Business] Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer\nAbdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.\n\n[BBC Business] Faisal Islam: What surprise praise for UK economy tells us about the Budget\nOn three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.\n\n[BBC Business] Driving test waits fall to two-year low - but still average 20 weeks\nLearner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.\n\n[CNBC] CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge\nShares of CoreWeave sank 15%, while yields in its bonds blew out further.\n\n[CNBC] How high inflation became a 'fact of life' in the U.S.\nU.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.\n\n[CNBC] Container ship sinks in Strait of Hormuz as Iran steps up attacks\nIran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports.\n\n[CNBC] Treasury says largest U.S. banks let politics influence who received banking services\nNew Treasury Department findings may lend weight to President Donald Trump’s long-running grievance that major banks have discriminated against conservatives.\n\n[MarketWatch] 3 things that are driving inflation higher\nStruggling with elevated prices? You don’t have to look much further than your local gas station.\n\n[MarketWatch] Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma\nThere isn’t any way to spin Wednesday’s hot consumer-price index report as good, especially when looking at the bond market’s reaction.\n\n[MarketWatch] Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?\nThe 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living\n\n[MarketWatch] Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get\nConsumer inflation just came in hot. Thursday will provide more clues on the impact of record diesel prices ahead of the midterm elections.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
