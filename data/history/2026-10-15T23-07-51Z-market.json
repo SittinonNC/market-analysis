@@ -1,0 +1,245 @@
+{
+  "ts": "2026-10-15T23-07-51Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4185.2,
+      "change": 1.88,
+      "high": 4193.9,
+      "low": 4185.7
+    },
+    "sp500": {
+      "price": 7744.06,
+      "change": 0.33,
+      "high": 7754.15,
+      "low": 7669.66
+    },
+    "dxy": {
+      "price": 102.0,
+      "change": -0.54,
+      "high": 102.28,
+      "low": 101.88
+    },
+    "vix": {
+      "price": 16.46,
+      "change": -2.43,
+      "high": 18.01,
+      "low": 16.34
+    },
+    "btc": {
+      "price": 82211.3,
+      "change": 0.8,
+      "high": 82496.74,
+      "low": 79789.36
+    },
+    "eth": {
+      "price": 2446.04,
+      "change": 1.15,
+      "high": 2462.43,
+      "low": 2323.71
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 342.0,
+        "change": -0.28,
+        "high": 347.85,
+        "low": 341.6
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 539.44,
+        "change": 1.08,
+        "high": 541.13,
+        "low": 531.22
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 217.23,
+        "change": -1.84,
+        "high": 218.47,
+        "low": 212.85
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 254.76,
+        "change": 0.27,
+        "high": 255.6,
+        "low": 248.65
+      },
+      "META": {
+        "name": "Meta",
+        "price": 736.72,
+        "change": -0.11,
+        "high": 743.97,
+        "low": 715.58
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 349.22,
+        "change": 0.45,
+        "high": 352.13,
+        "low": 340.61
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 362.44,
+        "change": -1.29,
+        "high": 363.75,
+        "low": 355.23
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 44.46,
+        "change": 5.51,
+        "high": 44.94,
+        "low": 39.87
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 406.67,
+        "change": 2.79,
+        "high": 414.12,
+        "low": 400.0
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 2.16,
+        "change": 10.77,
+        "high": 2.18,
+        "low": 1.85
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 55.25,
+        "change": -6.64,
+        "high": 55.4,
+        "low": 49.69
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 30.01,
+        "change": 3.34,
+        "high": 30.12,
+        "low": 27.52
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.35,
+        "change": 3.42,
+        "high": 6.37,
+        "low": 5.8
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 539.44,
+      "value": 567.9998416400001,
+      "cost": 495.50994638250006,
+      "gain": 72.48989525750005,
+      "gain_pct": 14.62935220306209
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 217.23,
+      "value": 192.821689632,
+      "cost": 161.5399809584,
+      "gain": 31.28170867359998,
+      "gain_pct": 19.364685131203334
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 44.46,
+      "value": 130.24089280799998,
+      "cost": 214.47007443188,
+      "gain": -84.22918162388001,
+      "gain_pct": -39.27316286293027
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 30.01,
+      "value": 149.678824316,
+      "cost": 452.6500120422,
+      "gain": -302.9711877262,
+      "gain_pct": -66.93276917398036
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.35,
+      "value": 38.978458365,
+      "cost": 69.8849997615,
+      "gain": -30.906541396499996,
+      "gain_pct": -44.224857268335526
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1079.7197067610002,
+      "cost": 1394.05501357648,
+      "gain": -314.3353068154797,
+      "gain_pct": -22.54827132030072
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 760.8215312720001,
+      "current_pct": 70.5,
+      "target_pct": 20,
+      "diff": 50.5,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 318.898175489,
+      "current_pct": 29.5,
+      "target_pct": 50,
+      "diff": -20.5,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1079.7197067610002
+  },
+  "news": "[BBC Business]\nหัวข้อ: Banks say Healey is planning Budget tax raid on their profits\nเนื้อหา: Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business]\nหัวข้อ: Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm\nเนื้อหา: The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.\n\n[BBC Business]\nหัวข้อ: AI giant Anthropic woos potential investors ahead of stock market debut\nเนื้อหา: It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.\n\n[BBC Business]\nหัวข้อ: 'I paid thousands to a company for jobs that never came'\nเนื้อหา: Apurv Patel is one of several people who say they were promised job opportunities that did not appear.\n\n[BBC Business]\nหัวข้อ: How backlash against data centres could shape the US midterm elections\nเนื้อหา: Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.\n\n[CNBC]\nหัวข้อ: Netflix Chief Content Officer Bela Bajaria is leaving, will be replaced by Peter Rice\nเนื้อหา: Netflix announced Bela Bajaria will be replaced by former Disney exec Peter Rice as the company's chief content officer.\n\n[CNBC]\nหัวข้อ: CoreWeave credit default swaps hit distress levels as investors sour on AI debt\nเนื้อหา: Signs of distressed deepened in CoreWeave on Thursday.\n\n[CNBC]\nหัวข้อ: Trump says 'if Ken Paxton loses' Texas Senate race, blame Cornyn and Karl Rove\nเนื้อหา: Polls show GOP Attorney General Ken Paxton trailing Democratic Rep. James Talarico in the Texas Senate race.\n\n[CNBC]\nหัวข้อ: Nvidia, AMD, Dell sink in global tech rout on AI funding worries\nเนื้อหา: A sell-off in global technology hardware stocks deepened Thursday.\n\n[CNBC]\nหัวข้อ: Porsche reveals Mission S concept car that previews new design identity\nเนื้อหา: Porsche revealed a concept car called Mission S as part of a turnaround plan that includes efforts to boost profits through higher-end products and lower sales.\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[MarketWatch]\nหัวข้อ: I’m 64 years old, with two sons, but only one works in the family firm. Should I leave him 70% of the business?\nเนื้อหา: “I have some reservations about the long-term stability of my younger son’s marriage.”\n\n[MarketWatch]\nหัวข้อ: How a midterm sweep by Democrats could turn this tech selloff into a tech crash\nเนื้อหา: Popular AI names are under pressure again this week — but the pain could worsen after the Nov. 3 election.\n\n[MarketWatch]\nหัวข้อ: Nvidia and other chip stocks face renewed pressure as AI fears swell\nเนื้อหา: Reported details about Anthropic’s financial progress are adding to concerns about the health of the AI ecosystem.\n\n[MarketWatch]\nหัวข้อ: Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.\nเนื้อหา: Investors have a ‘love-hate relationship’ with tech stocks now — and experts recommend selectively hunting for bargains while also betting on the major cloud companies.\n\n[Investing.com Gold]\nหัวข้อ: Lula pledges free weekend transit nationwide as Brazil runoff nears\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Hammack warns inflation expectations deterioration could require Fed response\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: U.S. 10-year Treasury yield sees worst day in over a year as bonds rally\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Global stocks flat as AI and rate fears hit tech\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Global tech rout loses steam\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
