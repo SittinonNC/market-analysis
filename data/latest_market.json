@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-14T23-19-20Z",
+  "ts": "2026-10-15T06-46-52Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4122.4,
-      "change": -1.31,
-      "high": 4133.0,
-      "low": 4122.7
+      "price": 4155.6,
+      "change": 1.16,
+      "high": 4183.3,
+      "low": 4120.9
     },
     "sp500": {
       "price": 7718.94,
@@ -15,10 +15,10 @@
       "low": 7693.31
     },
     "dxy": {
-      "price": 102.53,
-      "change": 0.34,
-      "high": 102.94,
-      "low": 102.07
+      "price": 102.15,
+      "change": -0.39,
+      "high": 102.28,
+      "low": 101.88
     },
     "vix": {
       "price": 16.87,
@@ -27,30 +27,30 @@
       "low": 14.98
     },
     "btc": {
-      "price": 81506.74,
-      "change": -1.91,
-      "high": 84005.72,
-      "low": 81378.02
+      "price": 80760.21,
+      "change": 0.0,
+      "high": 81773.77,
+      "low": 80474.07
     },
     "eth": {
-      "price": 2417.3,
-      "change": -3.18,
-      "high": 2523.05,
-      "low": 2406.34
+      "price": 2354.67,
+      "change": 0.0,
+      "high": 2424.94,
+      "low": 2342.51
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
         "price": 342.96,
         "change": 0.5,
-        "high": 347.07,
+        "high": 347.09,
         "low": 341.72
       },
       "MSFT": {
         "name": "Microsoft",
         "price": 533.69,
         "change": -1.8,
-        "high": 545.74,
+        "high": 545.75,
         "low": 532.54
       },
       "NVDA": {
@@ -71,7 +71,7 @@
         "name": "Meta",
         "price": 737.54,
         "change": -3.27,
-        "high": 761.48,
+        "high": 761.5,
         "low": 734.29
       },
       "GOOGL": {
@@ -101,8 +101,8 @@
         "name": "UnitedHealth",
         "price": 395.62,
         "change": 4.73,
-        "high": 396.42,
-        "low": 382.4
+        "high": 396.44,
+        "low": 382.29
       },
       "EOSE": {
         "name": "Eos Energy",
@@ -295,7 +295,7 @@
     },
     "__total__": 1064.354719957
   },
-  "news": "[BBC Business]\nหัวข้อ: Drop-off charges at UK airports to be reviewed after sharp increase\nเนื้อหา: Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".\n\n[BBC Business]\nหัวข้อ: Netflix to shed 1,000 jobs in steepest cuts since 2022\nเนื้อหา: The cuts equate to around 6% of the streaming giant's total workforce worldwide.\n\n[BBC Business]\nหัวข้อ: Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer\nเนื้อหา: Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What surprise praise for UK economy tells us about the Budget\nเนื้อหา: On three occasions in the past 24 hours, top IMF officials have praised UK plans to reduce its annual levels of borrowing.\n\n[BBC Business]\nหัวข้อ: Driving test waits fall to two-year low - but still average 20 weeks\nเนื้อหา: Learner drivers in September had to wait an average of 19.7 weeks, or around five months, for a practical test.\n\n[CNBC]\nหัวข้อ: How high inflation became a 'fact of life' in the U.S.\nเนื้อหา: U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect booked one-way ticket to Saudi Arabia with family before arrest\nเนื้อหา: \"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday.\n\n[CNBC]\nหัวข้อ: Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'\nเนื้อหา: Barclays downgraded Dell, HPE, and NetApp on concerns that enterprise AI adoption is lagging.\n\n[CNBC]\nหัวข้อ: OpenAI sued by 8 states over ChatGPT safety concerns\nเนื้อหา: OpenAI is facing mounting scrutiny over its safety and security practices, including around how the company is working to protect children.\n\n[CNBC]\nหัวข้อ: CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge\nเนื้อหา: Shares of CoreWeave sank 15%, while yields in its bonds blew out further.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: Rocket Lab’s stock slides as the company pushes back Neutron’s first launch\nเนื้อหา: Neutron, a medium-lift rocket meant to rival SpaceX’s Falcon 9, will no longer launch this year.\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[MarketWatch]\nหัวข้อ: You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.\nเนื้อหา: For most of U.S. history, an all-stock and a 60-40 portfolio have run neck-and-neck for trailing 30-year returns.\n\n[MarketWatch]\nหัวข้อ: Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?\nเนื้อหา: The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living\n\n[Investing.com Gold]\nหัวข้อ: Dollar gains, Wall Street stocks fall after hot inflation data\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Daly sees rate hikes ahead but signals no urgency for October - Reuters\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Tech melt\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Goolsbee says September CPI data was discouraging - Yahoo Finance\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: UK economy grew 0.1% in August ahead of Healey's first Budget\nเนื้อหา: The uptick helped the economy grow by 0.7% over the three months to August, official figures show.\n\n[BBC Business]\nหัวข้อ: Anthropic flags revenue surge to investors ahead of stock market debut\nเนื้อหา: It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.\n\n[BBC Business]\nหัวข้อ: Drop-off charges at UK airports to be reviewed after sharp increase\nเนื้อหา: Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".\n\n[BBC Business]\nหัวข้อ: Netflix to shed 1,000 jobs in steepest cuts since 2022\nเนื้อหา: The cuts equate to around 6% of the streaming giant's total workforce worldwide.\n\n[BBC Business]\nหัวข้อ: How backlash against data centres could shape the US midterm elections\nเนื้อหา: Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.\n\n[CNBC]\nหัวข้อ: Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems\nเนื้อหา: \"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.\n\n[CNBC]\nหัวข้อ: TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom\nเนื้อหา: TSMC reported its third-quarter earnings on Thursday.\n\n[CNBC]\nหัวข้อ: Oil falls as investors assess Mideast tensions, International Energy Agency's report\nเนื้อหา: Oil fell Thursday, as traders assessed attacks on ships passing through Hormuz, while digesting the International Energy Agency's latest monthly report.\n\n[CNBC]\nหัวข้อ: Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO\nเนื้อหา: Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.\n\n[CNBC]\nหัวข้อ: India’s IDBI Bank falls 7% as government announces $5.5 billion stake sale to Canada's Fairfax\nเนื้อหา: The Indian government has been divesting its stake in several state-owned companies this year as it tries to keep its growth engine running amid deepening fiscal pressures.\n\n[MarketWatch]\nหัวข้อ: Anthropic’s slowing growth could be the AI trade’s latest red flag\nเนื้อหา: Anthropic’s revenue growth appears to be cooling as the company prepares for its public debut, further stoking investors’ AI jitters\n\n[MarketWatch]\nหัวข้อ: Rocket Lab’s stock slides as the company pushes back Neutron’s first launch\nเนื้อหา: Neutron, a medium-lift rocket meant to rival SpaceX’s Falcon 9, will no longer launch this year.\n\n[MarketWatch]\nหัวข้อ: The AI trade is splintering as inflation fears rattle hyped-up tech stocks\nเนื้อหา: Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[Investing.com Gold]\nหัวข้อ: Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Tech stocks tumble as data centre debt worries hit AI trades\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Is the AI rout making bonds safe again?\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BoE’s Pill says a rate hike need not be start of long series\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
