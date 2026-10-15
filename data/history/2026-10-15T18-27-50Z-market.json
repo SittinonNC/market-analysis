@@ -1,0 +1,245 @@
+{
+  "ts": "2026-10-15T18-27-50Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4176.7,
+      "change": 1.67,
+      "high": 4189.9,
+      "low": 4120.9
+    },
+    "sp500": {
+      "price": 7720.35,
+      "change": 0.02,
+      "high": 7745.15,
+      "low": 7669.66
+    },
+    "dxy": {
+      "price": 102.01,
+      "change": -0.53,
+      "high": 102.28,
+      "low": 101.88
+    },
+    "vix": {
+      "price": 16.82,
+      "change": -0.3,
+      "high": 18.01,
+      "low": 16.52
+    },
+    "btc": {
+      "price": 82094.69,
+      "change": 0.65,
+      "high": 82496.74,
+      "low": 79789.36
+    },
+    "eth": {
+      "price": 2436.91,
+      "change": 0.77,
+      "high": 2449.87,
+      "low": 2323.71
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 342.09,
+        "change": -0.25,
+        "high": 347.85,
+        "low": 341.77
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 538.98,
+        "change": 0.99,
+        "high": 540.88,
+        "low": 531.22
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 217.1,
+        "change": -1.9,
+        "high": 218.47,
+        "low": 212.85
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 253.53,
+        "change": -0.22,
+        "high": 254.92,
+        "low": 248.65
+      },
+      "META": {
+        "name": "Meta",
+        "price": 738.19,
+        "change": 0.09,
+        "high": 743.97,
+        "low": 715.58
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 349.11,
+        "change": 0.42,
+        "high": 352.13,
+        "low": 340.61
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 360.12,
+        "change": -1.92,
+        "high": 363.69,
+        "low": 355.23
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 43.46,
+        "change": 3.13,
+        "high": 43.81,
+        "low": 39.87
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 410.06,
+        "change": 3.65,
+        "high": 414.12,
+        "low": 400.0
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 2.01,
+        "change": 3.08,
+        "high": 2.03,
+        "low": 1.85
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 53.19,
+        "change": -10.12,
+        "high": 55.21,
+        "low": 49.69
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 29.08,
+        "change": 0.14,
+        "high": 29.5,
+        "low": 27.52
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.2,
+        "change": 0.98,
+        "high": 6.28,
+        "low": 5.8
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 538.98,
+      "value": 567.51548763,
+      "cost": 495.50994638250006,
+      "gain": 72.00554124749999,
+      "gain_pct": 14.531603608198129
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 217.1,
+      "value": 192.70629664,
+      "cost": 161.5399809584,
+      "gain": 31.166315681599997,
+      "gain_pct": 19.29325204614577
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 43.46,
+      "value": 127.311498008,
+      "cost": 214.47007443188,
+      "gain": -87.15857642387999,
+      "gain_pct": -40.63903864199167
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 29.08,
+      "value": 145.040326928,
+      "cost": 452.6500120422,
+      "gain": -307.6096851142,
+      "gain_pct": -67.9575117487287
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.2,
+      "value": 38.057707380000004,
+      "cost": 69.8849997615,
+      "gain": -31.827292381499994,
+      "gain_pct": -45.54238032498901
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1070.6313165860001,
+      "cost": 1394.05501357648,
+      "gain": -323.4236969904798,
+      "gain_pct": -23.200210453727284
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 760.2217842700001,
+      "current_pct": 71.0,
+      "target_pct": 20,
+      "diff": 51.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 310.409532316,
+      "current_pct": 29.0,
+      "target_pct": 50,
+      "diff": -21.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1070.6313165860001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Banks say Healey is planning Budget tax raid on their profits\nเนื้อหา: Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business]\nหัวข้อ: Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm\nเนื้อหา: The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.\n\n[BBC Business]\nหัวข้อ: AI giant Anthropic woos potential investors ahead of stock market debut\nเนื้อหา: It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.\n\n[BBC Business]\nหัวข้อ: 'I paid thousands to a company for jobs that never came'\nเนื้อหา: Apurv Patel is one of several people who say they were promised job opportunities that did not appear.\n\n[BBC Business]\nหัวข้อ: How backlash against data centres could shape the US midterm elections\nเนื้อหา: Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.\n\n[CNBC]\nหัวข้อ: Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries\nเนื้อหา: A sell-off in global technology hardware stocks deepened Thursday.\n\n[CNBC]\nหัวข้อ: Economists: Hot PPI shows Fed's work is not done\nเนื้อหา: 'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns\n\n[CNBC]\nหัวข้อ: Wholesale prices jumped 6.3% annually in September, biggest gain since 2022\nเนื้อหา: September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.\n\n[CNBC]\nหัวข้อ: Tesla plans next-generation Roadster reveal after almost a decade of delays\nเนื้อหา: Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.\n\n[CNBC]\nหัวข้อ: Southwest is overhauling its frequent flyer program. Here's what's changing\nเนื้อหา: Southwest Airlines is overhauling its loyalty program and replacing A-List and A-List Preferred with three new tiers.\n\n[MarketWatch]\nหัวข้อ: Big pharma stocks near all-time highs as tech selloff pushes investors toward safer bets\nเนื้อหา: Shares of AbbVie, Eli Lilly and Gilead Sciences are trading at or near record highs.\n\n[MarketWatch]\nหัวข้อ: My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?\nเนื้อหา: “I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”\n\n[MarketWatch]\nหัวข้อ: Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.\nเนื้อหา: Spending all your cash first can make your income surge in later years.\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: ‘I like the idea of a big return’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?\nเนื้อหา: “I know you’re not supposed to put money you can’t afford to lose into speculative stuff.”\n\n[Investing.com Gold]\nหัวข้อ: Global financial watchdog calls for more human oversight of agentic AI\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rout slows as investors buy the dip on tech\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic grants AI evaluator METR employee-level access to its models\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US issues fresh Iran-related sanctions, Treasury website shows\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
