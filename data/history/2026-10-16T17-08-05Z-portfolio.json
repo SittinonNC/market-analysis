@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-16T17-08-05Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 525.76,
+      "value": 553.59557456,
+      "cost": 495.50994638250006,
+      "gain": 58.085628177499984,
+      "gain_pct": 11.722393990586381,
+      "today_change": -2.54
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 215.73,
+      "value": 191.490232032,
+      "cost": 161.5399809584,
+      "gain": 29.950251073599986,
+      "gain_pct": 18.540457226692887,
+      "today_change": -0.69
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 41.38,
+      "value": 121.218356824,
+      "cost": 214.47007443188,
+      "gain": -93.25171760788,
+      "gain_pct": -43.48006026243937,
+      "today_change": -6.93
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 28.04,
+      "value": 139.85319006400002,
+      "cost": 452.6500120422,
+      "gain": -312.7968219782,
+      "gain_pct": -69.10346043446881,
+      "today_change": -6.56
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.05,
+      "value": 37.136956395,
+      "cost": 69.8849997615,
+      "gain": -32.7480433665,
+      "gain_pct": -46.85990338164252,
+      "today_change": -4.72
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 14.52,
+      "value": 60.591387911999995,
+      "cost": 61.19646719899999,
+      "gain": -0.6050792869999952,
+      "gain_pct": -0.9887487214456113,
+      "today_change": -8.68
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.92,
+      "value": 128.905161488,
+      "cost": 61.09909999086,
+      "gain": 67.80606149714,
+      "gain_pct": 110.9771854369104,
+      "today_change": -5.99
+    },
+    "__total__": {
+      "value": 1232.7908592750002,
+      "cost": 1516.3505807663398,
+      "gain": -283.5597214913396,
+      "gain_pct": -18.70014263772913
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 745.085806592,
+      "current_pct": 60.4,
+      "target_pct": 20,
+      "diff": 40.4,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 298.208503283,
+      "current_pct": 24.2,
+      "target_pct": 50,
+      "diff": -25.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1232.7908592750002
+  },
+  "news": "[BBC Business] Banks expect to be hit with higher taxes in Budget\nSenior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business] Watch: Did Tesla really just unveil a flying car?\nTesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.\n\n[BBC Business] I find it quite demoralising in store - why I do all my shopping online\nAfter Primark announced plans for home delivery, we hear from women who never go into clothes stores.\n\n[BBC Business] Ship attack reports near Hormuz reach record high as oil exports slow\nBBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.\n\n[CNBC] Why Trump and the GOP's billion-dollar midterm blitz isn’t working\nTrump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.\n\n[CNBC] U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says\nThe U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.\n\n[CNBC] OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton\nAI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"\n\n[CNBC] Here's how the CoreWeave sell-off is affecting OpenAI vs. Anthropic valuations\nThe spread is widening between AI leaders OpenAI and Anthropic as a sell-off in CoreWeave leads neocloud stocks lower.\n\n[MarketWatch] Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.\nSpending all your cash first can make your income surge in later years.\n\n[MarketWatch] Elon Musk may have just taken a major step toward consolidating his empire\nTesla’s newly unveiled flying sports car, which features SpaceX rocket thrusters, could help Musk push for a merger between his two biggest companies, analysts say,\n\n[MarketWatch] Many of 2026’s hottest stocks have seen dramatic comedowns this week\nMany of the best-performing stocks of 2026 fell this week, while this year’s biggest losers also changed course,\n\n[MarketWatch] Can a $55,000 robot load the dishwasher? Inside my afternoon with two humanoid housekeepers.\nTau Robotics’ humanoids vacuumed my floors and wiped my counters — with some help from humans behind the scenes",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
