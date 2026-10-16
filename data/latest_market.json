@@ -1,136 +1,136 @@
 {
-  "ts": "2026-10-16T18-14-19Z",
+  "ts": "2026-10-16T22-54-52Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4183.9,
-      "change": 0.33,
+      "price": 4186.7,
+      "change": 0.4,
       "high": 4220.3,
       "low": 4167.5
     },
     "sp500": {
-      "price": 7655.98,
-      "change": -1.14,
+      "price": 7659.44,
+      "change": -1.09,
       "high": 7756.84,
-      "low": 7648.42
+      "low": 7631.77
     },
     "dxy": {
-      "price": 101.88,
-      "change": -0.12,
+      "price": 101.78,
+      "change": -0.22,
       "high": 102.09,
       "low": 101.58
     },
     "vix": {
-      "price": 20.91,
-      "change": 27.04,
+      "price": 19.99,
+      "change": 21.45,
       "high": 22.31,
       "low": 15.72
     },
     "btc": {
-      "price": 81253.37,
-      "change": -1.08,
+      "price": 81682.05,
+      "change": -0.56,
       "high": 82717.27,
       "low": 80735.26
     },
     "eth": {
-      "price": 2413.8,
-      "change": -1.09,
+      "price": 2421.07,
+      "change": -0.8,
       "high": 2486.42,
       "low": 2391.26
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 342.64,
-        "change": 0.19,
+        "price": 343.46,
+        "change": 0.43,
         "high": 347.82,
-        "low": 342.03
+        "low": 340.46
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 527.14,
-        "change": -2.28,
+        "price": 529.05,
+        "change": -1.93,
         "high": 543.81,
         "low": 524.43
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 215.07,
-        "change": -0.99,
+        "price": 214.13,
+        "change": -1.43,
         "high": 218.68,
-        "low": 214.74
+        "low": 213.34
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 248.95,
-        "change": -2.28,
+        "price": 250.0,
+        "change": -1.87,
         "high": 255.54,
-        "low": 248.63
+        "low": 248.6
       },
       "META": {
         "name": "Meta",
-        "price": 706.51,
-        "change": -4.1,
+        "price": 709.33,
+        "change": -3.72,
         "high": 738.49,
-        "low": 706.27
+        "low": 702.71
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 340.89,
-        "change": -2.39,
+        "price": 340.59,
+        "change": -2.47,
         "high": 350.66,
-        "low": 340.73
+        "low": 339.08
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 352.68,
-        "change": -2.69,
-        "high": 370.58,
-        "low": 351.14
+        "price": 354.72,
+        "change": -2.13,
+        "high": 370.5,
+        "low": 349.33
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.2,
-        "change": -7.33,
+        "price": 40.66,
+        "change": -8.55,
         "high": 44.03,
-        "low": 41.12
+        "low": 40.02
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 401.95,
-        "change": -1.16,
+        "price": 401.43,
+        "change": -1.29,
         "high": 412.17,
         "low": 395.52
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.88,
-        "change": -12.96,
+        "price": 1.82,
+        "change": -15.74,
         "high": 2.11,
-        "low": 1.87
+        "low": 1.8
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 51.11,
-        "change": -7.49,
+        "price": 50.84,
+        "change": -7.98,
         "high": 54.85,
-        "low": 51.02
+        "low": 50.37
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 27.85,
-        "change": -7.2,
+        "price": 27.97,
+        "change": -6.8,
         "high": 30.23,
-        "low": 27.82
+        "low": 27.59
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.03,
-        "change": -5.04,
+        "price": 6.04,
+        "change": -4.88,
         "high": 6.41,
-        "low": 6.01
+        "low": 5.91
       }
     }
   },
@@ -146,47 +146,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 527.14,
-      "value": 555.04863659,
+      "current_price": 529.05,
+      "value": 557.059758675,
       "cost": 495.50994638250006,
-      "gain": 59.53869020749994,
-      "gain_pct": 12.015639775178217
+      "gain": 61.54981229249995,
+      "gain_pct": 12.421508940808964
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 215.07,
-      "value": 190.904390688,
+      "current_price": 214.13,
+      "value": 190.07001059200002,
       "cost": 161.5399809584,
-      "gain": 29.3644097296,
-      "gain_pct": 18.1777969487083
+      "gain": 28.53002963360001,
+      "gain_pct": 17.661280795215088
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.2,
-      "value": 120.69106576,
+      "current_price": 40.66,
+      "value": 119.10919256799998,
       "cost": 214.47007443188,
-      "gain": -93.77900867187999,
-      "gain_pct": -43.72591790267042
+      "gain": -95.36088186388001,
+      "gain_pct": -44.463490823363585
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.85,
-      "value": 138.90554006000002,
+      "current_price": 27.97,
+      "value": 139.504055852,
       "cost": 452.6500120422,
-      "gain": -313.74447198219997,
-      "gain_pct": -69.31281644436363
+      "gain": -313.14595619019997,
+      "gain_pct": -69.18059159600901
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.03,
-      "value": 37.014189597000005,
+      "current_price": 6.04,
+      "value": 37.075572996,
       "cost": 69.8849997615,
-      "gain": -32.87081016449999,
-      "gain_pct": -47.035573122529634
+      "gain": -32.8094267655,
+      "gain_pct": -46.94773825208608
     },
     "ARQQ": {
       "value": "N/A",
@@ -201,25 +201,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1042.563822695,
+      "value": 1042.818590683,
       "cost": 1394.05501357648,
-      "gain": -351.49119088147995,
-      "gain_pct": -25.213581060888067
+      "gain": -351.23642289348004,
+      "gain_pct": -25.195305742803864
     }
   },
   "allocation": {
     "mag7": {
-      "value": 745.953027278,
-      "current_pct": 71.5,
+      "value": 747.129769267,
+      "current_pct": 71.6,
       "target_pct": 20,
-      "diff": 51.5,
+      "diff": 51.6,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 296.610795417,
-      "current_pct": 28.5,
+      "value": 295.688821416,
+      "current_pct": 28.4,
       "target_pct": 50,
-      "diff": -21.5,
+      "diff": -21.6,
       "status": "Underweight"
     },
     "crypto": {
@@ -236,9 +236,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1042.563822695
+    "__total__": 1042.818590683
   },
-  "news": "[BBC Business]\nหัวข้อ: Banks expect to be hit with higher taxes in Budget\nเนื้อหา: Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business]\nหัวข้อ: Watch: Did Tesla really just unveil a flying car?\nเนื้อหา: Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.\n\n[BBC Business]\nหัวข้อ: I find it quite demoralising in store - why I do all my shopping online\nเนื้อหา: After Primark announced plans for home delivery, we hear from women who never go into clothes stores.\n\n[BBC Business]\nหัวข้อ: Ship attack reports near Hormuz reach record high as oil exports slow\nเนื้อหา: BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.\n\n[BBC Business]\nหัวข้อ: Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm\nเนื้อหา: The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.\n\n[CNBC]\nหัวข้อ: Why Trump and the GOP's billion-dollar midterm blitz isn’t working\nเนื้อหา: Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.\n\n[CNBC]\nหัวข้อ: U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year\nเนื้อหา: The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.\n\n[CNBC]\nหัวข้อ: U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says\nเนื้อหา: The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.\n\n[CNBC]\nหัวข้อ: Katie Zacharia out as Trump's White House press secretary: Reports\nเนื้อหา: Trump made the remarks about Zacharia before heading to Georgia for a rally aimed at boosting Republicans in the final days before the midterm elections.\n\n[CNBC]\nหัวข้อ: Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge\nเนื้อหา: Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.\n\n[MarketWatch]\nหัวข้อ: I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?\nเนื้อหา: “I have some reservations about the long-term stability of my younger son’s marriage.”\n\n[MarketWatch]\nหัวข้อ: Welcome to the ‘AI burnout trade’ — as investors grow tired of debating tech’s promises\nเนื้อหา: AI is likely to pay off eventually, but investors are getting sick of all the hand-wringing over near-term returns, analysts say.\n\n[MarketWatch]\nหัวข้อ: The U.S. budget deficit just hit almost $2 trillion — and Washington isn’t doing much about it\nเนื้อหา: \n\n[MarketWatch]\nหัวข้อ: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?\nเนื้อหา: “My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”\n\n[MarketWatch]\nหัวข้อ: Here’s how the Fed should reveal its outlook for the economy\nเนื้อหา: As Chairman Kevin Warsh looks to revamp the central bank’s communication strategy, the dot plot is ripe for change.\n\n[Investing.com Gold]\nหัวข้อ: Fed market review: hot inflation data raises October hike odds ahead of FOMC\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: European Commission to propose additional China import curbs\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: CoreWeave stock, bond set for weekly plunge as rate-hike fears hit AI bet\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US regional banks join bigger peers in signaling resilient economy as lending holds firm\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: CoreWeave’s CEO sold nearly $1 billion of stock since IPO, filings show\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Banks expect to be hit with higher taxes in Budget\nเนื้อหา: Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business]\nหัวข้อ: Watch: Did Tesla really just unveil a flying car?\nเนื้อหา: Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.\n\n[BBC Business]\nหัวข้อ: I find it quite demoralising in store - why I do all my shopping online\nเนื้อหา: After Primark announced plans for home delivery, we hear from women who never go into clothes stores.\n\n[BBC Business]\nหัวข้อ: Ship attack reports near Hormuz reach record high as oil exports slow\nเนื้อหา: BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.\n\n[BBC Business]\nหัวข้อ: Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm\nเนื้อหา: The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.\n\n[CNBC]\nหัวข้อ: Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries\nเนื้อหา: U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.\n\n[CNBC]\nหัวข้อ: Katie Zacharia out as Trump's White House press secretary\nเนื้อหา: Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.\n\n[CNBC]\nหัวข้อ: Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test\nเนื้อหา: Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.\n\n[CNBC]\nหัวข้อ: Wall Street's fear gauge is ripping. Traders see it going even higher\nเนื้อหา: The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.\n\n[CNBC]\nหัวข้อ: Why Trump and the GOP's billion-dollar midterm blitz isn’t working\nเนื้อหา: Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.\n\n[MarketWatch]\nหัวข้อ: Nowhere to hide: Tech selloff hits software and chip stocks alike\nเนื้อหา: The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.\n\n[MarketWatch]\nหัวข้อ: This Senate race where data centers are a crucial issue has more spending than any other midterm clash\nเนื้อหา: Money is pouring in and funding intense, negative ads: “It’s everywhere, and you can’t escape it.”\n\n[MarketWatch]\nหัวข้อ: Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.\nเนื้อหา: Anthropic and New York City’s comptroller have opened a line of communication to discuss “existential risks” posed by AI and what that could mean for the company’s future stock.\n\n[MarketWatch]\nหัวข้อ: The bond market shrugged off two inflation shocks. Why stock investors should pay attention.\nเนื้อหา: Hot CPI and PPI data should have pushed Treasury yields higher. Instead, bond buyers stepped in to suggest yields have risen high enough to become attractive for investors.\n\n[MarketWatch]\nหัวข้อ: New SEC rules would fleece everyday investors to enrich Wall Street\nเนื้อหา: New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.\n\n[Investing.com Gold]\nหัวข้อ: Brazil may offer credit lines to ease impact of tax, labor reforms, minister says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US air traffic controllers reach deal with FAA for 2.8% pay rise, WSJ reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks slip as dollar heads for weekly loss\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: CoreWeave’s CEO sold nearly $1 billion of stock since IPO, filings show\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US arms firm Anduril could make interceptors in Europe, executive says\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
