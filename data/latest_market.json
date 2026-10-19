@@ -1,40 +1,40 @@
 {
-  "ts": "2026-10-19T20-01-53Z",
+  "ts": "2026-10-19T23-49-19Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4162.1,
+      "price": 4154.6,
       "change": 0.0,
-      "high": 4211.2,
-      "low": 4155.6
+      "high": 4163.3,
+      "low": 4152.1
     },
     "sp500": {
-      "price": 7690.77,
+      "price": 7690.73,
       "change": 0.41,
       "high": 7731.18,
       "low": 7684.79
     },
     "dxy": {
-      "price": 101.99,
+      "price": 101.97,
       "change": 0.0,
       "high": 102.08,
       "low": 101.77
     },
     "vix": {
-      "price": 18.27,
-      "change": -8.6,
+      "price": 18.44,
+      "change": -7.75,
       "high": 18.93,
       "low": 17.39
     },
     "btc": {
-      "price": 81765.42,
-      "change": -0.31,
+      "price": 81890.72,
+      "change": -0.15,
       "high": 83014.36,
-      "low": 81738.05
+      "low": 81706.25
     },
     "eth": {
-      "price": 2392.85,
-      "change": -0.66,
+      "price": 2405.32,
+      "change": -0.14,
       "high": 2443.13,
       "low": 2388.36
     },
@@ -43,7 +43,7 @@
         "name": "Apple",
         "price": 342.94,
         "change": -0.15,
-        "high": 346.0,
+        "high": 345.99,
         "low": 340.11
       },
       "MSFT": {
@@ -92,14 +92,14 @@
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.85,
-        "change": 2.93,
+        "price": 41.87,
+        "change": 2.98,
         "high": 43.77,
         "low": 41.7
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 406.87,
+        "price": 406.88,
         "change": 1.36,
         "high": 408.4,
         "low": 399.2
@@ -120,8 +120,8 @@
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 27.23,
-        "change": -2.65,
+        "price": 27.24,
+        "change": -2.61,
         "high": 28.94,
         "low": 26.82
       },
@@ -164,20 +164,20 @@
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.85,
-      "value": 122.59517238,
+      "current_price": 41.87,
+      "value": 122.65376027599999,
       "cost": 214.47007443188,
-      "gain": -91.87490205188,
-      "gain_pct": -42.838098646280514
+      "gain": -91.81631415588001,
+      "gain_pct": -42.8107811306993
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.23,
-      "value": 135.813208468,
+      "current_price": 27.24,
+      "value": 135.863084784,
       "cost": 452.6500120422,
-      "gain": -316.83680357419996,
-      "gain_pct": -69.99597816086253
+      "gain": -316.78692725819997,
+      "gain_pct": -69.98495942349966
     },
     "ONDS": {
       "shares": 6.1383399,
@@ -201,10 +201,10 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1050.070557018,
+      "value": 1050.17902123,
       "cost": 1394.05501357648,
-      "gain": -343.9844565584799,
-      "gain_pct": -24.675099132277424
+      "gain": -343.87599234647996,
+      "gain_pct": -24.66731864937369
     }
   },
   "allocation": {
@@ -216,7 +216,7 @@
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 295.60672064199997,
+      "value": 295.715184854,
       "current_pct": 28.2,
       "target_pct": 50,
       "diff": -21.8,
@@ -236,9 +236,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1050.070557018
+    "__total__": 1050.17902123
   },
-  "news": "[BBC Business]\nหัวข้อ: Vinted blocks French looters listing stolen goods for sale\nเนื้อหา: The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[BBC Business]\nหัวข้อ: Bikes 'not for jousting,' says Lime after duel video\nเนื้อหา: Footage emerged on social media of hundreds of people gathered in east London to watch a bike joust.\n\n[BBC Business]\nหัวข้อ: Home sellers cut asking prices on 3,000 properties a day\nเนื้อหา: More property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.\n\n[BBC Business]\nหัวข้อ: Musk and Anthropic pledge public share giveaways\nเนื้อหา: Musk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.\n\n[BBC Business]\nหัวข้อ: Bereaved families could face 'unjust' tax bill after civil service pension delays\nเนื้อหา: The chairman of Parliament's Public Accounts Committee says families should not be taxed through no fault of their own.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect Alfozan ordered held without bail\nเนื้อหา: Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.\n\n[CNBC]\nหัวข้อ: Trump says he'd meet with Putin and Xi, criticizes Zelenskyy\nเนื้อหา: President Donald Trump said he would meet with Russian President Vladimir Putin and Chinese President Xi Jinping and criticized Ukraine's Volodymyr Zelenskyy.\n\n[CNBC]\nหัวข้อ: Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom\nเนื้อหา: Iran-backed Houthi militants have launched repeated volleys of missiles and drones at Saudi Arabia since a deadly airport attack earlier this month.\n\n[CNBC]\nหัวข้อ: Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop\nเนื้อหา: Apple sent invitations for an event next week, calling it \"Pro and tell.\"\n\n[CNBC]\nหัวข้อ: Anthropic is AI trade's last big hope for a major IPO this year\nเนื้อหา: On Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut. Others have postponed too.\n\n[MarketWatch]\nหัวข้อ: Colleges raced to build massive computer-science departments. Now the boom is turning to bust.\nเนื้อหา: “Computer science isn’t the ticket to the American dream like people thought it was.”\n\n[MarketWatch]\nหัวข้อ: SpaceX earnings will be all about AI — for better or for worse\nเนื้อหา: SpaceX has been renting out access to computing power, which is a big source of revenue growth but also one that comes at a high cost.\n\n[MarketWatch]\nหัวข้อ: Why the Treasury’s financing plans are sparking anxiety on Wall Street\nเนื้อหา: Yields on 10-year and 30-year bonds were rising again Monday after falling sharply last week.\n\n[MarketWatch]\nหัวข้อ: Why Elon Musk, Anthropic and other AI titans are giving away shares\nเนื้อหา: Gifts of stock can help with public relations and offer financial advantages to wealthy individuals.\n\n[MarketWatch]\nหัวข้อ: CoreWeave’s selloff is a lesson in ‘Finance 101’ — and Wall Street says the stock can recover\nเนื้อหา: Analysts argue CoreWeave’s underlying economics are far sturdier than nervous debt and equity investors realize.\n\n[Investing.com Gold]\nหัวข้อ: Indonesia faces rare MSCI exclusion that could cut it off from global capital\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed sees AI boom adding to inflation headache, but others may pay for the medicine\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq climbs as chip and AI-linked stocks bounce back\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s government says $4 billion budget reshuffle needed for Lula measures in 2027\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil budget shifts 1% of spending for election measures\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Burnham vows end to 'rip-off parking charges' under new rules\nเนื้อหา: Penalties are seen as too harsh on motorists who are penalised for parking on private land.\n\n[BBC Business]\nหัวข้อ: 'I'm fed up of swiping': Why singles now want to meet IRL\nเนื้อหา: The BBC hears from people who think dating events are better value for money than dating apps.\n\n[BBC Business]\nหัวข้อ: US bans DeepSeek AI from government use as tech tension with China continues\nเนื้อหา: DeepSeek is a powerful, popular and relatively inexpensive artificial intelligence model out of China.\n\n[BBC Business]\nหัวข้อ: Ex-OpenAI worker accused of planting device had Saudi support, says court filing\nเนื้อหา: The Saudi government did not immediately respond to BBC requests for comment.\n\n[BBC Business]\nหัวข้อ: Vinted blocks French looters listing stolen goods for sale\nเนื้อหา: The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[CNBC]\nหัวข้อ: Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets\nเนื้อหา: Timberland managers buying for pension funds and other institutional investors can wait decades for returns, but the market can also be a profit trap.\n\n[CNBC]\nหัวข้อ: China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround\nเนื้อหา: CXMT shares fell nearly 8% on Monday after the company released its earnings forecast for the first nine months of 2026.\n\n[CNBC]\nหัวข้อ: Trump's student loan overhaul could lead to more bankruptcy filings, former judge says\nเนื้อหา: After nearly three decades as a bankruptcy judge, Sarah Sharer Curley writes about the legal process in her new book, \"The Price of Forgiveness.\"\n\n[CNBC]\nหัวข้อ: 'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year\nเนื้อหา: Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.\n\n[CNBC]\nหัวข้อ: China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates\nเนื้อหา: China's economic growth accelerated in the third quarter, as foreign demand for the country's technological goods largely offset sluggish consumer demand.\n\n[MarketWatch]\nหัวข้อ: Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.\nเนื้อหา: Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.\n\n[MarketWatch]\nหัวข้อ: When should you dump your target-date funds?\nเนื้อหา: Target-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch]\nหัวข้อ: Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors\nเนื้อหา: Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?\nเนื้อหา: “They insist that the details will be provided after they have carried out a soft credit check.”\n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI storm abates\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq climbs as chip and AI-linked stocks bounce back\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Indonesia faces rare MSCI exclusion that could cut it off from global capital\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed sees AI boom adding to inflation headache, but others may pay for the medicine\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s government says $4 billion budget reshuffle needed for Lula measures in 2027\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

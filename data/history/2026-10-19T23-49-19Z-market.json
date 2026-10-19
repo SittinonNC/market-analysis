@@ -1,0 +1,245 @@
+{
+  "ts": "2026-10-19T23-49-19Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4154.6,
+      "change": 0.0,
+      "high": 4163.3,
+      "low": 4152.1
+    },
+    "sp500": {
+      "price": 7690.73,
+      "change": 0.41,
+      "high": 7731.18,
+      "low": 7684.79
+    },
+    "dxy": {
+      "price": 101.97,
+      "change": 0.0,
+      "high": 102.08,
+      "low": 101.77
+    },
+    "vix": {
+      "price": 18.44,
+      "change": -7.75,
+      "high": 18.93,
+      "low": 17.39
+    },
+    "btc": {
+      "price": 81890.72,
+      "change": -0.15,
+      "high": 83014.36,
+      "low": 81706.25
+    },
+    "eth": {
+      "price": 2405.32,
+      "change": -0.14,
+      "high": 2443.13,
+      "low": 2388.36
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 342.94,
+        "change": -0.15,
+        "high": 345.99,
+        "low": 340.11
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 533.52,
+        "change": 0.84,
+        "high": 535.57,
+        "low": 528.48
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 217.09,
+        "change": 1.38,
+        "high": 219.62,
+        "low": 214.7
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 262.45,
+        "change": 4.98,
+        "high": 263.71,
+        "low": 255.22
+      },
+      "META": {
+        "name": "Meta",
+        "price": 705.44,
+        "change": -0.55,
+        "high": 708.7,
+        "low": 693.86
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 344.18,
+        "change": 1.05,
+        "high": 346.58,
+        "low": 341.85
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 368.06,
+        "change": 3.76,
+        "high": 369.58,
+        "low": 354.47
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 41.87,
+        "change": 2.98,
+        "high": 43.77,
+        "low": 41.7
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 406.88,
+        "change": 1.36,
+        "high": 408.4,
+        "low": 399.2
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.81,
+        "change": -0.55,
+        "high": 2.02,
+        "low": 1.72
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 51.36,
+        "change": 1.02,
+        "high": 52.99,
+        "low": 51.31
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.24,
+        "change": -2.61,
+        "high": 28.94,
+        "low": 26.82
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.06,
+        "change": 0.33,
+        "high": 6.28,
+        "low": 6.01
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 533.52,
+      "value": 561.76641612,
+      "cost": 495.50994638250006,
+      "gain": 66.25646973749997,
+      "gain_pct": 13.371370286552123
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 217.09,
+      "value": 192.69742025600002,
+      "cost": 161.5399809584,
+      "gain": 31.157439297600007,
+      "gain_pct": 19.28775719344904
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 41.87,
+      "value": 122.65376027599999,
+      "cost": 214.47007443188,
+      "gain": -91.81631415588001,
+      "gain_pct": -42.8107811306993
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.24,
+      "value": 135.863084784,
+      "cost": 452.6500120422,
+      "gain": -316.78692725819997,
+      "gain_pct": -69.98495942349966
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.06,
+      "value": 37.198339794,
+      "cost": 69.8849997615,
+      "gain": -32.6866599675,
+      "gain_pct": -46.772068511198945
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1050.17902123,
+      "cost": 1394.05501357648,
+      "gain": -343.87599234647996,
+      "gain_pct": -24.66731864937369
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 754.463836376,
+      "current_pct": 71.8,
+      "target_pct": 20,
+      "diff": 51.8,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 295.715184854,
+      "current_pct": 28.2,
+      "target_pct": 50,
+      "diff": -21.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1050.17902123
+  },
+  "news": "[BBC Business]\nหัวข้อ: Burnham vows end to 'rip-off parking charges' under new rules\nเนื้อหา: Penalties are seen as too harsh on motorists who are penalised for parking on private land.\n\n[BBC Business]\nหัวข้อ: 'I'm fed up of swiping': Why singles now want to meet IRL\nเนื้อหา: The BBC hears from people who think dating events are better value for money than dating apps.\n\n[BBC Business]\nหัวข้อ: US bans DeepSeek AI from government use as tech tension with China continues\nเนื้อหา: DeepSeek is a powerful, popular and relatively inexpensive artificial intelligence model out of China.\n\n[BBC Business]\nหัวข้อ: Ex-OpenAI worker accused of planting device had Saudi support, says court filing\nเนื้อหา: The Saudi government did not immediately respond to BBC requests for comment.\n\n[BBC Business]\nหัวข้อ: Vinted blocks French looters listing stolen goods for sale\nเนื้อหา: The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[CNBC]\nหัวข้อ: Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets\nเนื้อหา: Timberland managers buying for pension funds and other institutional investors can wait decades for returns, but the market can also be a profit trap.\n\n[CNBC]\nหัวข้อ: China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround\nเนื้อหา: CXMT shares fell nearly 8% on Monday after the company released its earnings forecast for the first nine months of 2026.\n\n[CNBC]\nหัวข้อ: Trump's student loan overhaul could lead to more bankruptcy filings, former judge says\nเนื้อหา: After nearly three decades as a bankruptcy judge, Sarah Sharer Curley writes about the legal process in her new book, \"The Price of Forgiveness.\"\n\n[CNBC]\nหัวข้อ: 'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year\nเนื้อหา: Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.\n\n[CNBC]\nหัวข้อ: China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates\nเนื้อหา: China's economic growth accelerated in the third quarter, as foreign demand for the country's technological goods largely offset sluggish consumer demand.\n\n[MarketWatch]\nหัวข้อ: Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.\nเนื้อหา: Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.\n\n[MarketWatch]\nหัวข้อ: When should you dump your target-date funds?\nเนื้อหา: Target-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch]\nหัวข้อ: Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors\nเนื้อหา: Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?\nเนื้อหา: “They insist that the details will be provided after they have carried out a soft credit check.”\n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI storm abates\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq climbs as chip and AI-linked stocks bounce back\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Indonesia faces rare MSCI exclusion that could cut it off from global capital\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed sees AI boom adding to inflation headache, but others may pay for the medicine\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s government says $4 billion budget reshuffle needed for Lula measures in 2027\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
