@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-19T18-56-19Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 534.52,
+      "value": 562.81935962,
+      "cost": 495.50994638250006,
+      "gain": 67.30941323749994,
+      "gain_pct": 13.583867231908528,
+      "today_change": 1.03
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 217.25,
+      "value": 192.83944240000002,
+      "cost": 161.5399809584,
+      "gain": 31.299461441600016,
+      "gain_pct": 19.375674836596826,
+      "today_change": 1.46
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 42.7,
+      "value": 125.08515796,
+      "cost": 214.47007443188,
+      "gain": -89.38491647187999,
+      "gain_pct": -41.67710423407832,
+      "today_change": 5.02
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.1,
+      "value": 135.16481636,
+      "cost": 452.6500120422,
+      "gain": -317.4851956822,
+      "gain_pct": -70.13922174658006,
+      "today_change": -3.11
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.11,
+      "value": 37.505256789,
+      "cost": 69.8849997615,
+      "gain": -32.3797429725,
+      "gain_pct": -46.33289415898111,
+      "today_change": 1.16
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 13.69,
+      "value": 57.127830614,
+      "cost": 61.19646719899999,
+      "gain": -4.068636584999993,
+      "gain_pct": -6.648482782134322,
+      "today_change": -2.35
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.9,
+      "value": 128.68887766,
+      "cost": 61.09909999086,
+      "gain": 67.58977766914,
+      "gain_pct": 110.6231968707411,
+      "today_change": 0.85
+    },
+    "__total__": {
+      "value": 1239.2307414030001,
+      "cost": 1516.3505807663398,
+      "gain": -277.1198393633397,
+      "gain_pct": -18.275446514702928
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 755.65880202,
+      "current_pct": 61.0,
+      "target_pct": 20,
+      "diff": 41.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 297.75523110899996,
+      "current_pct": 24.0,
+      "target_pct": 50,
+      "diff": -26.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1239.2307414030001
+  },
+  "news": "[BBC Business] Vinted blocks French looters listing stolen goods for sale\nThe platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[BBC Business] Bikes 'not for jousting,' says Lime after duel video\nFootage emerged on social media of hundreds of people gathered in east London to watch a bike joust.\n\n[BBC Business] Home sellers cut asking prices on 3,000 properties a day\nMore property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.\n\n[BBC Business] Musk and Anthropic pledge public share giveaways\nMusk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.\n\n[CNBC] Open AI bugging case: Saudi consulate offers to pay bail for suspect\nSaudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.\n\n[CNBC] Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom\nIran-backed Houthi militants have launched repeated volleys of missiles and drones at Saudi Arabia since a deadly airport attack earlier this month.\n\n[CNBC] Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop\nApple sent invitations for an event next week, calling it \"Pro and tell.\"\n\n[CNBC] Anthropic is AI trade's last big hope for a major IPO this year\nOn Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut. Others have postponed too.\n\n[MarketWatch] One of this year’s most important relationships in global financial markets is falling apart\nOne of the most important relationships in global markets has started to unravel over the past couple of weeks. Investors are scrambling to figure out what it might mean for the economy, and their portfolios.\n\n[MarketWatch] When should you dump your target-date funds?\nTarget-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch] ‘My husband suffered a massive stroke at 53’: I’m 64 and will rent for the rest of my life — but I’m still hopeful\n“Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch] Micron and other chip stocks spring back to life after bruising selloff\nIt’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
