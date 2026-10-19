@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-16T22-54-52Z",
+  "ts": "2026-10-19T07-08-46Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4186.7,
-      "change": 0.4,
-      "high": 4220.3,
-      "low": 4167.5
+      "price": 4205.6,
+      "change": 0.0,
+      "high": 4208.4,
+      "low": 4176.0
     },
     "sp500": {
       "price": 7659.44,
@@ -15,28 +15,28 @@
       "low": 7631.77
     },
     "dxy": {
-      "price": 101.78,
-      "change": -0.22,
-      "high": 102.09,
-      "low": 101.58
+      "price": 101.81,
+      "change": 0.0,
+      "high": 102.01,
+      "low": 101.77
     },
     "vix": {
       "price": 19.99,
-      "change": 21.45,
+      "change": 0.0,
       "high": 22.31,
       "low": 15.72
     },
     "btc": {
-      "price": 81682.05,
-      "change": -0.56,
-      "high": 82717.27,
-      "low": 80735.26
+      "price": 82804.28,
+      "change": 0.96,
+      "high": 82793.88,
+      "low": 81942.16
     },
     "eth": {
-      "price": 2421.07,
-      "change": -0.8,
-      "high": 2486.42,
-      "low": 2391.26
+      "price": 2431.77,
+      "change": 0.96,
+      "high": 2434.1,
+      "low": 2402.11
     },
     "mag7": {
       "AAPL": {
@@ -50,7 +50,7 @@
         "name": "Microsoft",
         "price": 529.05,
         "change": -1.93,
-        "high": 543.81,
+        "high": 543.82,
         "low": 524.43
       },
       "NVDA": {
@@ -58,7 +58,7 @@
         "price": 214.13,
         "change": -1.43,
         "high": 218.68,
-        "low": 213.34
+        "low": 213.32
       },
       "AMZN": {
         "name": "Amazon",
@@ -101,7 +101,7 @@
         "name": "UnitedHealth",
         "price": 401.43,
         "change": -1.29,
-        "high": 412.17,
+        "high": 412.37,
         "low": 395.52
       },
       "EOSE": {
@@ -115,7 +115,7 @@
         "name": "Rocket Lab",
         "price": 50.84,
         "change": -7.98,
-        "high": 54.85,
+        "high": 54.87,
         "low": 50.37
       },
       "OKLO": {
@@ -139,7 +139,32 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "-0.1%"
+      },
+      {
+        "title": "Median CPI y/y",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "2.0%",
+        "previous": "2.0%"
+      },
+      {
+        "title": "Trimmed CPI y/y",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "1.9%",
+        "previous": "1.9%"
+      }
+    ],
     "upcoming": []
   },
   "pnl": {
@@ -238,7 +263,7 @@
     },
     "__total__": 1042.818590683
   },
-  "news": "[BBC Business]\nหัวข้อ: Banks expect to be hit with higher taxes in Budget\nเนื้อหา: Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.\n\n[BBC Business]\nหัวข้อ: Watch: Did Tesla really just unveil a flying car?\nเนื้อหา: Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.\n\n[BBC Business]\nหัวข้อ: I find it quite demoralising in store - why I do all my shopping online\nเนื้อหา: After Primark announced plans for home delivery, we hear from women who never go into clothes stores.\n\n[BBC Business]\nหัวข้อ: Ship attack reports near Hormuz reach record high as oil exports slow\nเนื้อหา: BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.\n\n[BBC Business]\nหัวข้อ: Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm\nเนื้อหา: The culture secretary says the deal could affect free expression in the media and the variety of Britain's news landscape.\n\n[CNBC]\nหัวข้อ: Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries\nเนื้อหา: U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.\n\n[CNBC]\nหัวข้อ: Katie Zacharia out as Trump's White House press secretary\nเนื้อหา: Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.\n\n[CNBC]\nหัวข้อ: Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test\nเนื้อหา: Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.\n\n[CNBC]\nหัวข้อ: Wall Street's fear gauge is ripping. Traders see it going even higher\nเนื้อหา: The sell-off in AI-related stocks pushed the VIX above 22 for the first time in four months. A cluster of trades suggests it could go even higher.\n\n[CNBC]\nหัวข้อ: Why Trump and the GOP's billion-dollar midterm blitz isn’t working\nเนื้อหา: Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.\n\n[MarketWatch]\nหัวข้อ: Nowhere to hide: Tech selloff hits software and chip stocks alike\nเนื้อหา: The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.\n\n[MarketWatch]\nหัวข้อ: This Senate race where data centers are a crucial issue has more spending than any other midterm clash\nเนื้อหา: Money is pouring in and funding intense, negative ads: “It’s everywhere, and you can’t escape it.”\n\n[MarketWatch]\nหัวข้อ: Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.\nเนื้อหา: Anthropic and New York City’s comptroller have opened a line of communication to discuss “existential risks” posed by AI and what that could mean for the company’s future stock.\n\n[MarketWatch]\nหัวข้อ: The bond market shrugged off two inflation shocks. Why stock investors should pay attention.\nเนื้อหา: Hot CPI and PPI data should have pushed Treasury yields higher. Instead, bond buyers stepped in to suggest yields have risen high enough to become attractive for investors.\n\n[MarketWatch]\nหัวข้อ: New SEC rules would fleece everyday investors to enrich Wall Street\nเนื้อหา: New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.\n\n[Investing.com Gold]\nหัวข้อ: Brazil may offer credit lines to ease impact of tax, labor reforms, minister says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US air traffic controllers reach deal with FAA for 2.8% pay rise, WSJ reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks slip as dollar heads for weekly loss\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: CoreWeave’s CEO sold nearly $1 billion of stock since IPO, filings show\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US arms firm Anduril could make interceptors in Europe, executive says\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Home sellers cut asking prices on 3,000 properties a day\nเนื้อหา: More property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.\n\n[BBC Business]\nหัวข้อ: Don't fall for this - how to protect yourself from AI scams\nเนื้อหา: Trading standards officers say AI is \"super-charging\" existing scams through clones and fake websites.\n\n[BBC Business]\nหัวข้อ: Microsoft pulls out of UK's largest AI data centre\nเนื้อหา: Tech firm Nscale says it is still committed to building the site in Essex.\n\n[BBC Business]\nหัวข้อ: China's growth accelerates as AI boom helps boost exports\nเนื้อหา: Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.\n\n[BBC Business]\nหัวข้อ: People playing loud music on buses could face £100 fine\nเนื้อหา: Antisocial behaviour on buses in England could lead to fines while a new campaign is also being launched for trains. A national campaign asking rail passengers \"share the carriage, not the noise\" is being launched.\n\n[CNBC]\nหัวข้อ: Putin reportedly suggests summit with Trump and Xi to decide fate of Ukraine\nเนื้อหา: The report comes amid mounting tensions between Ukraine and the United States, its largest military backer.\n\n[CNBC]\nหัวข้อ: France hit by worst unrest in years as attempts to rein in government spending meet citizen ire\nเนื้อหา: France’s worst unrest in years saw thousands arrested, prompting President Macron to vow an “uncompromising” response ahead of a critical budget vote.\n\n[CNBC]\nหัวข้อ: Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy\nเนื้อหา: AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal\nเนื้อหา: Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.\n\n[CNBC]\nหัวข้อ: Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates\nเนื้อหา: The prime minister denied that her policies were responsible for the yen’s weakness or rising JGB yields.\n\n[MarketWatch]\nหัวข้อ: My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?\nเนื้อหา: “I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?\nเนื้อหา: “I have some reservations about the long-term stability of my younger son’s marriage.”\n\n[MarketWatch]\nหัวข้อ: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?\nเนื้อหา: “My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”\n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Markets left to figure out sanctions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Iran urges U.S. to accept Hormuz reopening proposal\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s new home prices fall again in September as recovery stays elusive\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rapidly improving, could vastly boost US GDP, Anthropic’s Clark tells policymakers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s economic growth accelerates to 4.5% in third quarter\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

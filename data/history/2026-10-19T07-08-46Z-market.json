@@ -1,0 +1,270 @@
+{
+  "ts": "2026-10-19T07-08-46Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4205.6,
+      "change": 0.0,
+      "high": 4208.4,
+      "low": 4176.0
+    },
+    "sp500": {
+      "price": 7659.44,
+      "change": -1.09,
+      "high": 7756.84,
+      "low": 7631.77
+    },
+    "dxy": {
+      "price": 101.81,
+      "change": 0.0,
+      "high": 102.01,
+      "low": 101.77
+    },
+    "vix": {
+      "price": 19.99,
+      "change": 0.0,
+      "high": 22.31,
+      "low": 15.72
+    },
+    "btc": {
+      "price": 82804.28,
+      "change": 0.96,
+      "high": 82793.88,
+      "low": 81942.16
+    },
+    "eth": {
+      "price": 2431.77,
+      "change": 0.96,
+      "high": 2434.1,
+      "low": 2402.11
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 343.46,
+        "change": 0.43,
+        "high": 347.82,
+        "low": 340.46
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 529.05,
+        "change": -1.93,
+        "high": 543.82,
+        "low": 524.43
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 214.13,
+        "change": -1.43,
+        "high": 218.68,
+        "low": 213.32
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 250.0,
+        "change": -1.87,
+        "high": 255.54,
+        "low": 248.6
+      },
+      "META": {
+        "name": "Meta",
+        "price": 709.33,
+        "change": -3.72,
+        "high": 738.49,
+        "low": 702.71
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 340.59,
+        "change": -2.47,
+        "high": 350.66,
+        "low": 339.08
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 354.72,
+        "change": -2.13,
+        "high": 370.5,
+        "low": 349.33
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 40.66,
+        "change": -8.55,
+        "high": 44.03,
+        "low": 40.02
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 401.43,
+        "change": -1.29,
+        "high": 412.37,
+        "low": 395.52
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.82,
+        "change": -15.74,
+        "high": 2.11,
+        "low": 1.8
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 50.84,
+        "change": -7.98,
+        "high": 54.87,
+        "low": 50.37
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.97,
+        "change": -6.8,
+        "high": 30.23,
+        "low": 27.59
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.04,
+        "change": -4.88,
+        "high": 6.41,
+        "low": 5.91
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "-0.1%"
+      },
+      {
+        "title": "Median CPI y/y",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "2.0%",
+        "previous": "2.0%"
+      },
+      {
+        "title": "Trimmed CPI y/y",
+        "country": "CAD",
+        "date": "2026-10-19T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "1.9%",
+        "previous": "1.9%"
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 529.05,
+      "value": 557.059758675,
+      "cost": 495.50994638250006,
+      "gain": 61.54981229249995,
+      "gain_pct": 12.421508940808964
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 214.13,
+      "value": 190.07001059200002,
+      "cost": 161.5399809584,
+      "gain": 28.53002963360001,
+      "gain_pct": 17.661280795215088
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 40.66,
+      "value": 119.10919256799998,
+      "cost": 214.47007443188,
+      "gain": -95.36088186388001,
+      "gain_pct": -44.463490823363585
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.97,
+      "value": 139.504055852,
+      "cost": 452.6500120422,
+      "gain": -313.14595619019997,
+      "gain_pct": -69.18059159600901
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.04,
+      "value": 37.075572996,
+      "cost": 69.8849997615,
+      "gain": -32.8094267655,
+      "gain_pct": -46.94773825208608
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1042.818590683,
+      "cost": 1394.05501357648,
+      "gain": -351.23642289348004,
+      "gain_pct": -25.195305742803864
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 747.129769267,
+      "current_pct": 71.6,
+      "target_pct": 20,
+      "diff": 51.6,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 295.688821416,
+      "current_pct": 28.4,
+      "target_pct": 50,
+      "diff": -21.6,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1042.818590683
+  },
+  "news": "[BBC Business]\nหัวข้อ: Home sellers cut asking prices on 3,000 properties a day\nเนื้อหา: More property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.\n\n[BBC Business]\nหัวข้อ: Don't fall for this - how to protect yourself from AI scams\nเนื้อหา: Trading standards officers say AI is \"super-charging\" existing scams through clones and fake websites.\n\n[BBC Business]\nหัวข้อ: Microsoft pulls out of UK's largest AI data centre\nเนื้อหา: Tech firm Nscale says it is still committed to building the site in Essex.\n\n[BBC Business]\nหัวข้อ: China's growth accelerates as AI boom helps boost exports\nเนื้อหา: Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.\n\n[BBC Business]\nหัวข้อ: People playing loud music on buses could face £100 fine\nเนื้อหา: Antisocial behaviour on buses in England could lead to fines while a new campaign is also being launched for trains. A national campaign asking rail passengers \"share the carriage, not the noise\" is being launched.\n\n[CNBC]\nหัวข้อ: Putin reportedly suggests summit with Trump and Xi to decide fate of Ukraine\nเนื้อหา: The report comes amid mounting tensions between Ukraine and the United States, its largest military backer.\n\n[CNBC]\nหัวข้อ: France hit by worst unrest in years as attempts to rein in government spending meet citizen ire\nเนื้อหา: France’s worst unrest in years saw thousands arrested, prompting President Macron to vow an “uncompromising” response ahead of a critical budget vote.\n\n[CNBC]\nหัวข้อ: Always on, always listening: New AI devices are pushing legal limits and could put users in jeopardy\nเนื้อหา: AI always-listening wearables from Apple, Amazon, Meta and other startups are getting creative with privacy rules and fueling concerns about covert recordings.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal\nเนื้อหา: Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.\n\n[CNBC]\nหัวข้อ: Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates\nเนื้อหา: The prime minister denied that her policies were responsible for the yen’s weakness or rising JGB yields.\n\n[MarketWatch]\nหัวข้อ: My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?\nเนื้อหา: “I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”\n\n[MarketWatch]\nหัวข้อ: ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\nเนื้อหา: ”I earn $110,000 a year.”\n\n[MarketWatch]\nหัวข้อ: My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?\nเนื้อหา: “The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”\n\n[MarketWatch]\nหัวข้อ: I’m 64 with two sons, but only one works in the family business. Is it ethical to leave him 70% of the company?\nเนื้อหา: “I have some reservations about the long-term stability of my younger son’s marriage.”\n\n[MarketWatch]\nหัวข้อ: I’m 63 and diagnosed with lymphoma. Should I take my Social Security next year?\nเนื้อหา: “My plan is to continue working as long as I’m able to do so and invest my Social Security benefits while I’m still earning a paycheck.”\n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Markets left to figure out sanctions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Iran urges U.S. to accept Hormuz reopening proposal\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s new home prices fall again in September as recovery stays elusive\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rapidly improving, could vastly boost US GDP, Anthropic’s Clark tells policymakers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s economic growth accelerates to 4.5% in third quarter\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
