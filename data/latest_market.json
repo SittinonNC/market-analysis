@@ -1,90 +1,90 @@
 {
-  "ts": "2026-10-20T18-34-43Z",
+  "ts": "2026-10-20T23-15-06Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4143.8,
-      "change": -0.39,
-      "high": 4174.9,
-      "low": 4130.1
+      "price": 4138.5,
+      "change": -0.52,
+      "high": 4149.8,
+      "low": 4137.8
     },
     "sp500": {
-      "price": 7714.7,
-      "change": 0.31,
+      "price": 7712.57,
+      "change": 0.28,
       "high": 7748.42,
       "low": 7668.03
     },
     "dxy": {
-      "price": 101.71,
-      "change": -0.26,
+      "price": 101.73,
+      "change": -0.25,
       "high": 101.98,
       "low": 101.51
     },
     "vix": {
-      "price": 17.33,
-      "change": -6.02,
+      "price": 17.31,
+      "change": -6.13,
       "high": 19.13,
-      "low": 17.27
+      "low": 17.25
     },
     "btc": {
-      "price": 82441.76,
-      "change": 0.72,
+      "price": 82908.76,
+      "change": 1.29,
       "high": 83199.88,
       "low": 81131.63
     },
     "eth": {
-      "price": 2435.75,
-      "change": 1.29,
+      "price": 2449.32,
+      "change": 1.85,
       "high": 2470.11,
       "low": 2374.15
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 339.92,
-        "change": -0.88,
+        "price": 339.5,
+        "change": -1.0,
         "high": 343.06,
         "low": 338.7
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 531.67,
-        "change": -0.35,
+        "price": 531.87,
+        "change": -0.31,
         "high": 534.21,
         "low": 525.86
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 216.66,
-        "change": -0.2,
+        "price": 216.47,
+        "change": -0.29,
         "high": 218.46,
         "low": 212.77
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 262.36,
-        "change": -0.03,
+        "price": 262.63,
+        "change": 0.07,
         "high": 265.34,
         "low": 260.42
       },
       "META": {
         "name": "Meta",
-        "price": 689.62,
-        "change": -2.24,
+        "price": 694.25,
+        "change": -1.59,
         "high": 696.51,
         "low": 681.05
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 340.03,
-        "change": -1.21,
+        "price": 340.27,
+        "change": -1.14,
         "high": 344.77,
-        "low": 339.9
+        "low": 338.36
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 375.06,
-        "change": 1.9,
+        "price": 373.71,
+        "change": 1.54,
         "high": 377.59,
         "low": 363.64
       }
@@ -92,43 +92,43 @@
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.61,
-        "change": -0.62,
+        "price": 41.13,
+        "change": -1.77,
         "high": 42.37,
         "low": 39.02
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 421.05,
-        "change": 3.48,
+        "price": 419.26,
+        "change": 3.04,
         "high": 422.4,
         "low": 408.28
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.73,
-        "change": -4.42,
+        "price": 1.68,
+        "change": -7.18,
         "high": 1.83,
-        "low": 1.71
+        "low": 1.66
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 51.22,
-        "change": -0.27,
+        "price": 50.9,
+        "change": -0.9,
         "high": 52.72,
         "low": 49.25
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 27.63,
-        "change": 1.43,
+        "price": 27.48,
+        "change": 0.88,
         "high": 28.19,
         "low": 26.36
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.15,
-        "change": 1.49,
+        "price": 6.1,
+        "change": 0.66,
         "high": 6.33,
         "low": 5.88
       }
@@ -155,47 +155,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 531.67,
-      "value": 559.8184706449999,
+      "current_price": 531.87,
+      "value": 560.0290593450001,
       "cost": 495.50994638250006,
-      "gain": 64.30852426249987,
-      "gain_pct": 12.978250937642743
+      "gain": 64.5191129625,
+      "gain_pct": 13.020750326714053
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 216.66,
-      "value": 192.315735744,
+      "current_price": 216.47,
+      "value": 192.14708444800002,
       "cost": 161.5399809584,
-      "gain": 30.775754785599986,
-      "gain_pct": 19.051478527489365
+      "gain": 30.607103489600007,
+      "gain_pct": 18.947076326251388
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.61,
-      "value": 121.892117628,
+      "current_price": 41.13,
+      "value": 120.48600812400001,
       "cost": 214.47007443188,
-      "gain": -92.57795680388,
-      "gain_pct": -43.16590883325525
+      "gain": -93.98406630787998,
+      "gain_pct": -43.82152920720472
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.63,
-      "value": 137.808261108,
+      "current_price": 27.48,
+      "value": 137.060116368,
       "cost": 452.6500120422,
-      "gain": -314.8417509342,
-      "gain_pct": -69.55522866634712
+      "gain": -315.58989567419997,
+      "gain_pct": -69.7205097267904
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.15,
-      "value": 37.750790385,
+      "current_price": 6.1,
+      "value": 37.44387339,
       "cost": 69.8849997615,
-      "gain": -32.134209376499996,
-      "gain_pct": -45.98155467720685
+      "gain": -32.4411263715,
+      "gain_pct": -46.42072902942468
     },
     "ARQQ": {
       "value": "N/A",
@@ -210,25 +210,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1049.58537551,
+      "value": 1047.166141675,
       "cost": 1394.05501357648,
-      "gain": -344.46963806648,
-      "gain_pct": -24.709902744995357
+      "gain": -346.8888719014799,
+      "gain_pct": -24.88344208249921
     }
   },
   "allocation": {
     "mag7": {
-      "value": 752.1342063889999,
-      "current_pct": 71.7,
+      "value": 752.176143793,
+      "current_pct": 71.8,
       "target_pct": 20,
-      "diff": 51.7,
+      "diff": 51.8,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 297.451169121,
-      "current_pct": 28.3,
+      "value": 294.989997882,
+      "current_pct": 28.2,
       "target_pct": 50,
-      "diff": -21.7,
+      "diff": -21.8,
       "status": "Underweight"
     },
     "crypto": {
@@ -245,9 +245,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1049.58537551
+    "__total__": 1047.166141675
   },
-  "news": "[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: UK government to make Jackdaw gas field announcement\nเนื้อหา: The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.\n\n[BBC Business]\nหัวข้อ: Paddy Power cuts 1,400 jobs and blames betting tax rises\nเนื้อหา: The government increased taxes on online casino and sports betting in last year's Budget.\n\n[BBC Business]\nหัวข้อ: Union attacks NatWest plans to get workers back to the office\nเนื้อหา: The bank says workers will be required to attend the office at least two days a week from February.\n\n[BBC Business]\nหัวข้อ: Jobless rate falls but small firms cut back hiring\nเนื้อหา: Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[CNBC]\nหัวข้อ: Housing is flashing warning signs just as the Fed weighs more interest rate hikes\nเนื้อหา: Housing data deteriorated further in September, according to separate reports Tuesday.\n\n[CNBC]\nหัวข้อ: Trump sued over 50% tariffs on Canada in latest trade challenge\nเนื้อหา: A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[CNBC]\nหัวข้อ: Investors look to earnings to reset the bull market. The key level to watch on the S&P 500\nเนื้อหา: The key level traders are watching on the S&amp;P 500 that could mean an even bigger decline is ahead.\n\n[CNBC]\nหัวข้อ: Mike Bloomberg spent $80M to boost Democrats in midterms: NYT\nเนื้อหา: Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.\n\n[CNBC]\nหัวข้อ: Here's what to expect when Netflix reports earnings after the bell\nเนื้อหา: Investors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to view potential M&amp;A.\n\n[MarketWatch]\nหัวข้อ: Here’s what matters most to Tesla investors heading into earnings\nเนื้อหา: Financial results are somewhat of a sideshow for an investor base eagerly awaiting updates on robotaxis, robots — and the cost of all that.\n\n[MarketWatch]\nหัวข้อ: Investors’ search for safety has made toothpaste stocks more expensive than tech\nเนื้อหา: Wall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.\nเนื้อหา: Several states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.\n\n[Investing.com Gold]\nหัวข้อ: Stocks mostly rise as oil, US yields ease; euro edges up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK stocks slip as banks and commodity-linked stocks weigh\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: French bond yields dip but remain near 24-year high in volatile trading\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Social Security Agency corrects nearly 15% of records in database cleanup\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Elon Musk says Tesla-SpaceX merger being considered\nเนื้อหา: Musk says special committees within both companies have been formed to look at a possible mega-merger.\n\n[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: UK government to make Jackdaw gas field announcement\nเนื้อหา: The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.\n\n[BBC Business]\nหัวข้อ: Trump sued over Canadian tariffs in latest legal challenge\nเนื้อหา: The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".\n\n[BBC Business]\nหัวข้อ: Audit regulator looking into Manchester City accounting\nเนื้อหา: No formal investigation has started, but the regulator is making inquiries into the case.\n\n[CNBC]\nหัวข้อ: Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance\nเนื้อหา: Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes\n\n[CNBC]\nหัวข้อ: Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster\nเนื้อหา: The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.\n\n[CNBC]\nหัวข้อ: United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares\nเนื้อหา: United Airlines cut its profit outlook for the year as fuel prices continued to climb.\n\n[CNBC]\nหัวข้อ: Housing is flashing warning signs just as the Fed weighs more interest rate hikes\nเนื้อหา: Housing data deteriorated further in September, according to separate reports Tuesday.\n\n[CNBC]\nหัวข้อ: Trump sued over 50% tariffs on Canada in latest trade challenge\nเนื้อหา: A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[MarketWatch]\nหัวข้อ: Why SpaceX’s stock is surging — and lifting the broader AI universe along with it\nเนื้อหา: SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally\nเนื้อหา: Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.\n\n[MarketWatch]\nหัวข้อ: Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger\nเนื้อหา: Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.\n\n[MarketWatch]\nหัวข้อ: My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?\nเนื้อหา: “I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”\n\n[Investing.com Gold]\nหัวข้อ: Trump promises cash for fraud tips as he awards right-wing YouTuber\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia central banker says policy working, inflation outlook worse\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks mostly rise as oil, US yields ease; French stocks fall\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Oil reversal lifts spirits\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
