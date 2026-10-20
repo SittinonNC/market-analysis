@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-19T23-49-19Z",
+  "ts": "2026-10-20T06-55-17Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4154.6,
-      "change": 0.0,
-      "high": 4163.3,
-      "low": 4152.1
+      "price": 4150.4,
+      "change": -0.23,
+      "high": 4166.3,
+      "low": 4134.5
     },
     "sp500": {
       "price": 7690.73,
@@ -15,10 +15,10 @@
       "low": 7684.79
     },
     "dxy": {
-      "price": 101.97,
-      "change": 0.0,
-      "high": 102.08,
-      "low": 101.77
+      "price": 101.79,
+      "change": -0.19,
+      "high": 101.98,
+      "low": 101.75
     },
     "vix": {
       "price": 18.44,
@@ -27,31 +27,31 @@
       "low": 17.39
     },
     "btc": {
-      "price": 81890.72,
-      "change": -0.15,
-      "high": 83014.36,
-      "low": 81706.25
+      "price": 81705.96,
+      "change": 0.0,
+      "high": 82065.77,
+      "low": 81131.63
     },
     "eth": {
-      "price": 2405.32,
-      "change": -0.14,
-      "high": 2443.13,
-      "low": 2388.36
+      "price": 2394.78,
+      "change": 0.0,
+      "high": 2412.49,
+      "low": 2374.15
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
         "price": 342.94,
         "change": -0.15,
-        "high": 345.99,
-        "low": 340.11
+        "high": 346.0,
+        "low": 340.12
       },
       "MSFT": {
         "name": "Microsoft",
         "price": 533.52,
         "change": 0.84,
         "high": 535.57,
-        "low": 528.48
+        "low": 528.06
       },
       "NVDA": {
         "name": "Nvidia",
@@ -64,14 +64,14 @@
         "name": "Amazon",
         "price": 262.45,
         "change": 4.98,
-        "high": 263.71,
+        "high": 263.72,
         "low": 255.22
       },
       "META": {
         "name": "Meta",
         "price": 705.44,
         "change": -0.55,
-        "high": 708.7,
+        "high": 708.83,
         "low": 693.86
       },
       "GOOGL": {
@@ -101,7 +101,7 @@
         "name": "UnitedHealth",
         "price": 406.88,
         "change": 1.36,
-        "high": 408.4,
+        "high": 408.5,
         "low": 399.2
       },
       "EOSE": {
@@ -238,7 +238,7 @@
     },
     "__total__": 1050.17902123
   },
-  "news": "[BBC Business]\nหัวข้อ: Burnham vows end to 'rip-off parking charges' under new rules\nเนื้อหา: Penalties are seen as too harsh on motorists who are penalised for parking on private land.\n\n[BBC Business]\nหัวข้อ: 'I'm fed up of swiping': Why singles now want to meet IRL\nเนื้อหา: The BBC hears from people who think dating events are better value for money than dating apps.\n\n[BBC Business]\nหัวข้อ: US bans DeepSeek AI from government use as tech tension with China continues\nเนื้อหา: DeepSeek is a powerful, popular and relatively inexpensive artificial intelligence model out of China.\n\n[BBC Business]\nหัวข้อ: Ex-OpenAI worker accused of planting device had Saudi support, says court filing\nเนื้อหา: The Saudi government did not immediately respond to BBC requests for comment.\n\n[BBC Business]\nหัวข้อ: Vinted blocks French looters listing stolen goods for sale\nเนื้อหา: The platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[CNBC]\nหัวข้อ: Investors are buying up vast tracts of timberland across U.S. in one of market's longest-term bets\nเนื้อหา: Timberland managers buying for pension funds and other institutional investors can wait decades for returns, but the market can also be a profit trap.\n\n[CNBC]\nหัวข้อ: China's CXMT shares fall nearly 8% as investors look past chipmaker's profit turnaround\nเนื้อหา: CXMT shares fell nearly 8% on Monday after the company released its earnings forecast for the first nine months of 2026.\n\n[CNBC]\nหัวข้อ: Trump's student loan overhaul could lead to more bankruptcy filings, former judge says\nเนื้อหา: After nearly three decades as a bankruptcy judge, Sarah Sharer Curley writes about the legal process in her new book, \"The Price of Forgiveness.\"\n\n[CNBC]\nหัวข้อ: 'Everyone laughed' when he started a pumpkin farm—now it brings in $2 million a year\nเนื้อหา: Kelly Schultz bought a pumpkin farm in 1996. He transformed it into a seasonal attraction that draws in 100,000 visitors each fall.\n\n[CNBC]\nหัวข้อ: China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates\nเนื้อหา: China's economic growth accelerated in the third quarter, as foreign demand for the country's technological goods largely offset sluggish consumer demand.\n\n[MarketWatch]\nหัวข้อ: Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.\nเนื้อหา: Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.\n\n[MarketWatch]\nหัวข้อ: When should you dump your target-date funds?\nเนื้อหา: Target-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch]\nหัวข้อ: Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors\nเนื้อหา: Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?\nเนื้อหา: “They insist that the details will be provided after they have carried out a soft credit check.”\n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI storm abates\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq climbs as chip and AI-linked stocks bounce back\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Indonesia faces rare MSCI exclusion that could cut it off from global capital\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed sees AI boom adding to inflation headache, but others may pay for the medicine\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s government says $4 billion budget reshuffle needed for Lula measures in 2027\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Job vacancies fall as small firms cut back on recruitment\nเนื้อหา: Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[BBC Business]\nหัวข้อ: Chancellor rejects calls to raise Capital Gains Tax in Budget, sources say\nเนื้อหา: Influential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.\n\n[BBC Business]\nหัวข้อ: Burnham vows end to 'rip-off parking charges' under new rules\nเนื้อหา: Penalties are seen as too harsh on motorists who are penalised for parking on private land.\n\n[BBC Business]\nหัวข้อ: 'I'm fed up of swiping': Why singles now want to meet IRL\nเนื้อหา: The BBC hears from people who think dating events are better value for money than dating apps.\n\n[BBC Business]\nหัวข้อ: How is the US economy really doing under President Trump?\nเนื้อหา: Ahead of the midterms Trump has boasted about the performance of the US economy. BBC Verify looks at inflation, jobs and economic growth in the country.\n\n[CNBC]\nหัวข้อ: U.S. bans DeepSeek from government agency systems amid AI rift with China\nเนื้อหา: U.S. Department of Homeland Security has banned DeepSeek-related technology from federal civilian agency IT systems.\n\n[CNBC]\nหัวข้อ: JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise\nเนื้อหา: Vice President JD Vance declined to follow Trump in endorsing Netanyahu, saying he’s “not getting involved in Israeli elections” a week before Israelis vote.\n\n[CNBC]\nหัวข้อ: BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion\nเนื้อหา: Jio Platforms plans to raise up to $3.2 billion through an IPO, which is India's largest ever in rupee terms, but the second largest in dollar terms.\n\n[CNBC]\nหัวข้อ: ‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments\nเนื้อหา: Nvidia announced planned investments in four German startups as Chancellor Friedrich Merz urged businesses to embrace AI at an industry summit in Berlin.\n\n[CNBC]\nหัวข้อ: Trump says he'd meet with Putin and Xi, criticizes Zelenskyy\nเนื้อหา: Tensions between Trump and Zelenskyy have steadily risen in recent weeks, while Russia, which invaded Ukraine, has received multiple breaks from the U.S.\n\n[MarketWatch]\nหัวข้อ: Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.\nเนื้อหา: Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.\n\n[MarketWatch]\nหัวข้อ: When should you dump your target-date funds?\nเนื้อหา: Target-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch]\nหัวข้อ: Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors\nเนื้อหา: Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?\nเนื้อหา: “They insist that the details will be provided after they have carried out a soft credit check.”\n\n[Investing.com Gold]\nหัวข้อ: Yen jumps after JGB auction draws big demand, euro finds relief\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Daiwa, Mizuho clear final hurdles to launch China securities units, Bloomberg says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: The fake commute: How China’s unemployed save face\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK wages grew by annual 3.7% in three months to August, ONS says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank of Japan may raise inflation forecast, stand pat on rates, sources say\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
