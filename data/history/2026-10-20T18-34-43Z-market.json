@@ -1,0 +1,254 @@
+{
+  "ts": "2026-10-20T18-34-43Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4143.8,
+      "change": -0.39,
+      "high": 4174.9,
+      "low": 4130.1
+    },
+    "sp500": {
+      "price": 7714.7,
+      "change": 0.31,
+      "high": 7748.42,
+      "low": 7668.03
+    },
+    "dxy": {
+      "price": 101.71,
+      "change": -0.26,
+      "high": 101.98,
+      "low": 101.51
+    },
+    "vix": {
+      "price": 17.33,
+      "change": -6.02,
+      "high": 19.13,
+      "low": 17.27
+    },
+    "btc": {
+      "price": 82441.76,
+      "change": 0.72,
+      "high": 83199.88,
+      "low": 81131.63
+    },
+    "eth": {
+      "price": 2435.75,
+      "change": 1.29,
+      "high": 2470.11,
+      "low": 2374.15
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 339.92,
+        "change": -0.88,
+        "high": 343.06,
+        "low": 338.7
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 531.67,
+        "change": -0.35,
+        "high": 534.21,
+        "low": 525.86
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 216.66,
+        "change": -0.2,
+        "high": 218.46,
+        "low": 212.77
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 262.36,
+        "change": -0.03,
+        "high": 265.34,
+        "low": 260.42
+      },
+      "META": {
+        "name": "Meta",
+        "price": 689.62,
+        "change": -2.24,
+        "high": 696.51,
+        "low": 681.05
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 340.03,
+        "change": -1.21,
+        "high": 344.77,
+        "low": 339.9
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 375.06,
+        "change": 1.9,
+        "high": 377.59,
+        "low": 363.64
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 41.61,
+        "change": -0.62,
+        "high": 42.37,
+        "low": 39.02
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 421.05,
+        "change": 3.48,
+        "high": 422.4,
+        "low": 408.28
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.73,
+        "change": -4.42,
+        "high": 1.83,
+        "low": 1.71
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 51.22,
+        "change": -0.27,
+        "high": 52.72,
+        "low": 49.25
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.63,
+        "change": 1.43,
+        "high": 28.19,
+        "low": 26.36
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.15,
+        "change": 1.49,
+        "high": 6.33,
+        "low": 5.88
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI y/y",
+        "country": "GBP",
+        "date": "2026-10-21T02:00:00-04:00",
+        "impact": "High",
+        "forecast": "3.4%",
+        "previous": "3.1%"
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 531.67,
+      "value": 559.8184706449999,
+      "cost": 495.50994638250006,
+      "gain": 64.30852426249987,
+      "gain_pct": 12.978250937642743
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 216.66,
+      "value": 192.315735744,
+      "cost": 161.5399809584,
+      "gain": 30.775754785599986,
+      "gain_pct": 19.051478527489365
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 41.61,
+      "value": 121.892117628,
+      "cost": 214.47007443188,
+      "gain": -92.57795680388,
+      "gain_pct": -43.16590883325525
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.63,
+      "value": 137.808261108,
+      "cost": 452.6500120422,
+      "gain": -314.8417509342,
+      "gain_pct": -69.55522866634712
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.15,
+      "value": 37.750790385,
+      "cost": 69.8849997615,
+      "gain": -32.134209376499996,
+      "gain_pct": -45.98155467720685
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1049.58537551,
+      "cost": 1394.05501357648,
+      "gain": -344.46963806648,
+      "gain_pct": -24.709902744995357
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 752.1342063889999,
+      "current_pct": 71.7,
+      "target_pct": 20,
+      "diff": 51.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 297.451169121,
+      "current_pct": 28.3,
+      "target_pct": 50,
+      "diff": -21.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1049.58537551
+  },
+  "news": "[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: UK government to make Jackdaw gas field announcement\nเนื้อหา: The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.\n\n[BBC Business]\nหัวข้อ: Paddy Power cuts 1,400 jobs and blames betting tax rises\nเนื้อหา: The government increased taxes on online casino and sports betting in last year's Budget.\n\n[BBC Business]\nหัวข้อ: Union attacks NatWest plans to get workers back to the office\nเนื้อหา: The bank says workers will be required to attend the office at least two days a week from February.\n\n[BBC Business]\nหัวข้อ: Jobless rate falls but small firms cut back hiring\nเนื้อหา: Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[CNBC]\nหัวข้อ: Housing is flashing warning signs just as the Fed weighs more interest rate hikes\nเนื้อหา: Housing data deteriorated further in September, according to separate reports Tuesday.\n\n[CNBC]\nหัวข้อ: Trump sued over 50% tariffs on Canada in latest trade challenge\nเนื้อหา: A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[CNBC]\nหัวข้อ: Investors look to earnings to reset the bull market. The key level to watch on the S&P 500\nเนื้อหา: The key level traders are watching on the S&amp;P 500 that could mean an even bigger decline is ahead.\n\n[CNBC]\nหัวข้อ: Mike Bloomberg spent $80M to boost Democrats in midterms: NYT\nเนื้อหา: Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.\n\n[CNBC]\nหัวข้อ: Here's what to expect when Netflix reports earnings after the bell\nเนื้อหา: Investors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to view potential M&amp;A.\n\n[MarketWatch]\nหัวข้อ: Here’s what matters most to Tesla investors heading into earnings\nเนื้อหา: Financial results are somewhat of a sideshow for an investor base eagerly awaiting updates on robotaxis, robots — and the cost of all that.\n\n[MarketWatch]\nหัวข้อ: Investors’ search for safety has made toothpaste stocks more expensive than tech\nเนื้อหา: Wall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.\nเนื้อหา: Several states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.\n\n[Investing.com Gold]\nหัวข้อ: Stocks mostly rise as oil, US yields ease; euro edges up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK stocks slip as banks and commodity-linked stocks weigh\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: French bond yields dip but remain near 24-year high in volatile trading\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Social Security Agency corrects nearly 15% of records in database cleanup\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}

@@ -1,136 +1,136 @@
 {
-  "ts": "2026-10-20T06-55-17Z",
+  "ts": "2026-10-20T18-34-43Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4150.4,
-      "change": -0.23,
-      "high": 4166.3,
-      "low": 4134.5
+      "price": 4143.8,
+      "change": -0.39,
+      "high": 4174.9,
+      "low": 4130.1
     },
     "sp500": {
-      "price": 7690.73,
-      "change": 0.41,
-      "high": 7731.18,
-      "low": 7684.79
+      "price": 7714.7,
+      "change": 0.31,
+      "high": 7748.42,
+      "low": 7668.03
     },
     "dxy": {
-      "price": 101.79,
-      "change": -0.19,
+      "price": 101.71,
+      "change": -0.26,
       "high": 101.98,
-      "low": 101.75
+      "low": 101.51
     },
     "vix": {
-      "price": 18.44,
-      "change": -7.75,
-      "high": 18.93,
-      "low": 17.39
+      "price": 17.33,
+      "change": -6.02,
+      "high": 19.13,
+      "low": 17.27
     },
     "btc": {
-      "price": 81705.96,
-      "change": 0.0,
-      "high": 82065.77,
+      "price": 82441.76,
+      "change": 0.72,
+      "high": 83199.88,
       "low": 81131.63
     },
     "eth": {
-      "price": 2394.78,
-      "change": 0.0,
-      "high": 2412.49,
+      "price": 2435.75,
+      "change": 1.29,
+      "high": 2470.11,
       "low": 2374.15
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 342.94,
-        "change": -0.15,
-        "high": 346.0,
-        "low": 340.12
+        "price": 339.92,
+        "change": -0.88,
+        "high": 343.06,
+        "low": 338.7
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 533.52,
-        "change": 0.84,
-        "high": 535.57,
-        "low": 528.06
+        "price": 531.67,
+        "change": -0.35,
+        "high": 534.21,
+        "low": 525.86
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 217.09,
-        "change": 1.38,
-        "high": 219.62,
-        "low": 214.7
+        "price": 216.66,
+        "change": -0.2,
+        "high": 218.46,
+        "low": 212.77
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 262.45,
-        "change": 4.98,
-        "high": 263.72,
-        "low": 255.22
+        "price": 262.36,
+        "change": -0.03,
+        "high": 265.34,
+        "low": 260.42
       },
       "META": {
         "name": "Meta",
-        "price": 705.44,
-        "change": -0.55,
-        "high": 708.83,
-        "low": 693.86
+        "price": 689.62,
+        "change": -2.24,
+        "high": 696.51,
+        "low": 681.05
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 344.18,
-        "change": 1.05,
-        "high": 346.58,
-        "low": 341.85
+        "price": 340.03,
+        "change": -1.21,
+        "high": 344.77,
+        "low": 339.9
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 368.06,
-        "change": 3.76,
-        "high": 369.58,
-        "low": 354.47
+        "price": 375.06,
+        "change": 1.9,
+        "high": 377.59,
+        "low": 363.64
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.87,
-        "change": 2.98,
-        "high": 43.77,
-        "low": 41.7
+        "price": 41.61,
+        "change": -0.62,
+        "high": 42.37,
+        "low": 39.02
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 406.88,
-        "change": 1.36,
-        "high": 408.5,
-        "low": 399.2
+        "price": 421.05,
+        "change": 3.48,
+        "high": 422.4,
+        "low": 408.28
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.81,
-        "change": -0.55,
-        "high": 2.02,
-        "low": 1.72
+        "price": 1.73,
+        "change": -4.42,
+        "high": 1.83,
+        "low": 1.71
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 51.36,
-        "change": 1.02,
-        "high": 52.99,
-        "low": 51.31
+        "price": 51.22,
+        "change": -0.27,
+        "high": 52.72,
+        "low": 49.25
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 27.24,
-        "change": -2.61,
-        "high": 28.94,
-        "low": 26.82
+        "price": 27.63,
+        "change": 1.43,
+        "high": 28.19,
+        "low": 26.36
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.06,
-        "change": 0.33,
-        "high": 6.28,
-        "low": 6.01
+        "price": 6.15,
+        "change": 1.49,
+        "high": 6.33,
+        "low": 5.88
       }
     }
   },
@@ -139,54 +139,63 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
+    "today": [
+      {
+        "title": "CPI y/y",
+        "country": "GBP",
+        "date": "2026-10-21T02:00:00-04:00",
+        "impact": "High",
+        "forecast": "3.4%",
+        "previous": "3.1%"
+      }
+    ],
     "upcoming": []
   },
   "pnl": {
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 533.52,
-      "value": 561.76641612,
+      "current_price": 531.67,
+      "value": 559.8184706449999,
       "cost": 495.50994638250006,
-      "gain": 66.25646973749997,
-      "gain_pct": 13.371370286552123
+      "gain": 64.30852426249987,
+      "gain_pct": 12.978250937642743
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 217.09,
-      "value": 192.69742025600002,
+      "current_price": 216.66,
+      "value": 192.315735744,
       "cost": 161.5399809584,
-      "gain": 31.157439297600007,
-      "gain_pct": 19.28775719344904
+      "gain": 30.775754785599986,
+      "gain_pct": 19.051478527489365
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.87,
-      "value": 122.65376027599999,
+      "current_price": 41.61,
+      "value": 121.892117628,
       "cost": 214.47007443188,
-      "gain": -91.81631415588001,
-      "gain_pct": -42.8107811306993
+      "gain": -92.57795680388,
+      "gain_pct": -43.16590883325525
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.24,
-      "value": 135.863084784,
+      "current_price": 27.63,
+      "value": 137.808261108,
       "cost": 452.6500120422,
-      "gain": -316.78692725819997,
-      "gain_pct": -69.98495942349966
+      "gain": -314.8417509342,
+      "gain_pct": -69.55522866634712
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.06,
-      "value": 37.198339794,
+      "current_price": 6.15,
+      "value": 37.750790385,
       "cost": 69.8849997615,
-      "gain": -32.6866599675,
-      "gain_pct": -46.772068511198945
+      "gain": -32.134209376499996,
+      "gain_pct": -45.98155467720685
     },
     "ARQQ": {
       "value": "N/A",
@@ -201,25 +210,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1050.17902123,
+      "value": 1049.58537551,
       "cost": 1394.05501357648,
-      "gain": -343.87599234647996,
-      "gain_pct": -24.66731864937369
+      "gain": -344.46963806648,
+      "gain_pct": -24.709902744995357
     }
   },
   "allocation": {
     "mag7": {
-      "value": 754.463836376,
-      "current_pct": 71.8,
+      "value": 752.1342063889999,
+      "current_pct": 71.7,
       "target_pct": 20,
-      "diff": 51.8,
+      "diff": 51.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 295.715184854,
-      "current_pct": 28.2,
+      "value": 297.451169121,
+      "current_pct": 28.3,
       "target_pct": 50,
-      "diff": -21.8,
+      "diff": -21.7,
       "status": "Underweight"
     },
     "crypto": {
@@ -236,9 +245,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1050.17902123
+    "__total__": 1049.58537551
   },
-  "news": "[BBC Business]\nหัวข้อ: Job vacancies fall as small firms cut back on recruitment\nเนื้อหา: Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[BBC Business]\nหัวข้อ: Chancellor rejects calls to raise Capital Gains Tax in Budget, sources say\nเนื้อหา: Influential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.\n\n[BBC Business]\nหัวข้อ: Burnham vows end to 'rip-off parking charges' under new rules\nเนื้อหา: Penalties are seen as too harsh on motorists who are penalised for parking on private land.\n\n[BBC Business]\nหัวข้อ: 'I'm fed up of swiping': Why singles now want to meet IRL\nเนื้อหา: The BBC hears from people who think dating events are better value for money than dating apps.\n\n[BBC Business]\nหัวข้อ: How is the US economy really doing under President Trump?\nเนื้อหา: Ahead of the midterms Trump has boasted about the performance of the US economy. BBC Verify looks at inflation, jobs and economic growth in the country.\n\n[CNBC]\nหัวข้อ: U.S. bans DeepSeek from government agency systems amid AI rift with China\nเนื้อหา: U.S. Department of Homeland Security has banned DeepSeek-related technology from federal civilian agency IT systems.\n\n[CNBC]\nหัวข้อ: JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise\nเนื้อหา: Vice President JD Vance declined to follow Trump in endorsing Netanyahu, saying he’s “not getting involved in Israeli elections” a week before Israelis vote.\n\n[CNBC]\nหัวข้อ: BlackRock, GIC among investors chasing Indian telecom major Jio's IPO as anchor bids top $26 billion\nเนื้อหา: Jio Platforms plans to raise up to $3.2 billion through an IPO, which is India's largest ever in rupee terms, but the second largest in dollar terms.\n\n[CNBC]\nหัวข้อ: ‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments\nเนื้อหา: Nvidia announced planned investments in four German startups as Chancellor Friedrich Merz urged businesses to embrace AI at an industry summit in Berlin.\n\n[CNBC]\nหัวข้อ: Trump says he'd meet with Putin and Xi, criticizes Zelenskyy\nเนื้อหา: Tensions between Trump and Zelenskyy have steadily risen in recent weeks, while Russia, which invaded Ukraine, has received multiple breaks from the U.S.\n\n[MarketWatch]\nหัวข้อ: Blood clots are ‘incredibly common,’ even for pro athletes like Jalen Hurts. Here’s what to know.\nเนื้อหา: Research has found that it can take more than six months for professional athletes to return to play after being treated for a deep-vein thrombosis or pulmonary embolism.\n\n[MarketWatch]\nหัวข้อ: When should you dump your target-date funds?\nเนื้อหา: Target-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch]\nหัวข้อ: Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors\nเนื้อหา: Credit markets are sending unusually mixed messages to investors right now, and it’s making some people nervous.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?\nเนื้อหา: “They insist that the details will be provided after they have carried out a soft credit check.”\n\n[Investing.com Gold]\nหัวข้อ: Yen jumps after JGB auction draws big demand, euro finds relief\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Daiwa, Mizuho clear final hurdles to launch China securities units, Bloomberg says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: The fake commute: How China’s unemployed save face\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK wages grew by annual 3.7% in three months to August, ONS says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank of Japan may raise inflation forecast, stand pat on rates, sources say\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: UK government to make Jackdaw gas field announcement\nเนื้อหา: The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.\n\n[BBC Business]\nหัวข้อ: Paddy Power cuts 1,400 jobs and blames betting tax rises\nเนื้อหา: The government increased taxes on online casino and sports betting in last year's Budget.\n\n[BBC Business]\nหัวข้อ: Union attacks NatWest plans to get workers back to the office\nเนื้อหา: The bank says workers will be required to attend the office at least two days a week from February.\n\n[BBC Business]\nหัวข้อ: Jobless rate falls but small firms cut back hiring\nเนื้อหา: Small firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[CNBC]\nหัวข้อ: Housing is flashing warning signs just as the Fed weighs more interest rate hikes\nเนื้อหา: Housing data deteriorated further in September, according to separate reports Tuesday.\n\n[CNBC]\nหัวข้อ: Trump sued over 50% tariffs on Canada in latest trade challenge\nเนื้อหา: A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[CNBC]\nหัวข้อ: Investors look to earnings to reset the bull market. The key level to watch on the S&P 500\nเนื้อหา: The key level traders are watching on the S&amp;P 500 that could mean an even bigger decline is ahead.\n\n[CNBC]\nหัวข้อ: Mike Bloomberg spent $80M to boost Democrats in midterms: NYT\nเนื้อหา: Democrats are hopeful that they will regain majority control of the House of Representatives and the Senate in November's elections.\n\n[CNBC]\nหัวข้อ: Here's what to expect when Netflix reports earnings after the bell\nเนื้อหา: Investors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to view potential M&amp;A.\n\n[MarketWatch]\nหัวข้อ: Here’s what matters most to Tesla investors heading into earnings\nเนื้อหา: Financial results are somewhat of a sideshow for an investor base eagerly awaiting updates on robotaxis, robots — and the cost of all that.\n\n[MarketWatch]\nหัวข้อ: Investors’ search for safety has made toothpaste stocks more expensive than tech\nเนื้อหา: Wall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.\nเนื้อหา: Several states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.\n\n[Investing.com Gold]\nหัวข้อ: Stocks mostly rise as oil, US yields ease; euro edges up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK stocks slip as banks and commodity-linked stocks weigh\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: French bond yields dip but remain near 24-year high in volatile trading\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Social Security Agency corrects nearly 15% of records in database cleanup\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
