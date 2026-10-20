@@ -1,94 +1,94 @@
 {
-  "ts": "2026-10-19T18-56-19Z",
+  "ts": "2026-10-20T17-42-58Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 534.52,
-      "value": 562.81935962,
+      "current_price": 533.84,
+      "value": 562.1033580400001,
       "cost": 495.50994638250006,
-      "gain": 67.30941323749994,
-      "gain_pct": 13.583867231908528,
-      "today_change": 1.03
+      "gain": 66.59341165750004,
+      "gain_pct": 13.439369309066187,
+      "today_change": 0.06
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 217.25,
-      "value": 192.83944240000002,
+      "current_price": 217.22,
+      "value": 192.812813248,
       "cost": 161.5399809584,
-      "gain": 31.299461441600016,
-      "gain_pct": 19.375674836596826,
-      "today_change": 1.46
+      "gain": 31.27283228959999,
+      "gain_pct": 19.359190278506603,
+      "today_change": 0.06
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 42.7,
-      "value": 125.08515796,
+      "current_price": 41.69,
+      "value": 122.12646921199999,
       "cost": 214.47007443188,
-      "gain": -89.38491647187999,
-      "gain_pct": -41.67710423407832,
-      "today_change": 5.02
+      "gain": -92.34360521988,
+      "gain_pct": -43.05663877093034,
+      "today_change": -0.43
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.1,
-      "value": 135.16481636,
+      "current_price": 27.79,
+      "value": 138.606282164,
       "cost": 452.6500120422,
-      "gain": -317.4851956822,
-      "gain_pct": -70.13922174658006,
-      "today_change": -3.11
+      "gain": -314.0437298782,
+      "gain_pct": -69.37892886854095,
+      "today_change": 2.02
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.11,
-      "value": 37.505256789,
+      "current_price": 6.16,
+      "value": 37.812173784,
       "cost": 69.8849997615,
-      "gain": -32.3797429725,
-      "gain_pct": -46.33289415898111,
-      "today_change": 1.16
+      "gain": -32.072825977499996,
+      "gain_pct": -45.89371980676328,
+      "today_change": 1.65
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 13.69,
-      "value": 57.127830614,
+      "current_price": 15.07,
+      "value": 62.886516242,
       "cost": 61.19646719899999,
-      "gain": -4.068636584999993,
-      "gain_pct": -6.648482782134322,
-      "today_change": -2.35
+      "gain": 1.690049043000009,
+      "gain_pct": 2.761677463348123,
+      "today_change": 7.49
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.9,
-      "value": 128.68887766,
+      "current_price": 11.7,
+      "value": 126.52603938,
       "cost": 61.09909999086,
-      "gain": 67.58977766914,
-      "gain_pct": 110.6231968707411,
-      "today_change": 0.85
+      "gain": 65.42693938914,
+      "gain_pct": 107.08331120904795,
+      "today_change": -1.93
     },
     "__total__": {
-      "value": 1239.2307414030001,
+      "value": 1242.87365207,
       "cost": 1516.3505807663398,
-      "gain": -277.1198393633397,
-      "gain_pct": -18.275446514702928
+      "gain": -273.4769286963399,
+      "gain_pct": -18.035204534173683
     }
   },
   "allocation": {
     "mag7": {
-      "value": 755.65880202,
-      "current_pct": 61.0,
+      "value": 754.9161712880001,
+      "current_pct": 60.7,
       "target_pct": 20,
-      "diff": 41.0,
+      "diff": 40.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 297.75523110899996,
+      "value": 298.54492516,
       "current_pct": 24.0,
       "target_pct": 50,
       "diff": -26.0,
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1239.2307414030001
+    "__total__": 1242.87365207
   },
-  "news": "[BBC Business] Vinted blocks French looters listing stolen goods for sale\nThe platform said since the weekend it had \"taken immediate action to idenitify and remove listings linked to looting\".\n\n[BBC Business] Bikes 'not for jousting,' says Lime after duel video\nFootage emerged on social media of hundreds of people gathered in east London to watch a bike joust.\n\n[BBC Business] Home sellers cut asking prices on 3,000 properties a day\nMore property asking prices are being cut than at any time in 15 years, data shared with the BBC shows.\n\n[BBC Business] Musk and Anthropic pledge public share giveaways\nMusk's announcement comes after Anthropic pledged to create a public benefit fund ahead of its blockbuster stock market listing.\n\n[CNBC] Open AI bugging case: Saudi consulate offers to pay bail for suspect\nSaudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.\n\n[CNBC] Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom\nIran-backed Houthi militants have launched repeated volleys of missiles and drones at Saudi Arabia since a deadly airport attack earlier this month.\n\n[CNBC] Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop\nApple sent invitations for an event next week, calling it \"Pro and tell.\"\n\n[CNBC] Anthropic is AI trade's last big hope for a major IPO this year\nOn Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut. Others have postponed too.\n\n[MarketWatch] One of this year’s most important relationships in global financial markets is falling apart\nOne of the most important relationships in global markets has started to unravel over the past couple of weeks. Investors are scrambling to figure out what it might mean for the economy, and their portfolios.\n\n[MarketWatch] When should you dump your target-date funds?\nTarget-date funds aren’t necessarily built to handle many of the decisions retirees face.\n\n[MarketWatch] ‘My husband suffered a massive stroke at 53’: I’m 64 and will rent for the rest of my life — but I’m still hopeful\n“Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch] Micron and other chip stocks spring back to life after bruising selloff\nIt’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
+  "news": "[BBC Business] Paddy Power cuts 1,400 jobs and blames betting tax rises\nThe government increased taxes on online casino and sports betting in last year's Budget.\n\n[BBC Business] Union attacks NatWest plans to get workers back to the office\nThe bank says workers will be required to attend the office at least two days a week from February.\n\n[BBC Business] Jobless rate falls but small firms cut back hiring\nSmall firms cite labour costs as a key factor in scaling back hiring, the Office for National Statistics says.\n\n[BBC Business] Chancellor rejects calls to raise Capital Gains Tax in Budget\nInfluential Labour figures had been pushing for equalising CGT and income tax, but critics have said this could drive wealthy people out of Britain.\n\n[CNBC] September data shows housing market in a deep freeze\nNew data on the housing market's performance in September is bleak, with sales, construction and sentiment all falling more than expected.\n\n[CNBC] Trump sued over 50% tariffs on Canada in latest trade challenge\nA new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[CNBC] Investors look to earnings to reset the bull market. The key level to watch on the S&P 500\nThe key level traders are watching on the S&amp;P 500 that could mean an even bigger decline is ahead.\n\n[CNBC] Here's what to expect when Netflix reports earnings after the bell\nInvestors will be looking for updates on Netflix's ad-supported business, engagement metrics and how the streaming giant continues to view potential M&amp;A.\n\n[MarketWatch] Investors’ search for safety has made toothpaste stocks more expensive than tech\nWall Street is fleeing tech for toothpaste and shampoo. Even those stocks are getting expensive.\n\n[MarketWatch] My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?\n“I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch] ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\n“Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch] It’s not just California’s billionaire tax. Wealth is on the ballot in the midterm elections.\nSeveral states are dealing with ballot measures tied to taxing the rich — and there may be even more initiatives on this front in 2028.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
