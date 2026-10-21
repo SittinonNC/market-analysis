@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-21T17-48-56Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 532.3,
+      "value": 560.48182505,
+      "cost": 495.50994638250006,
+      "gain": 64.97187866749994,
+      "gain_pct": 13.112124013217297,
+      "today_change": 0.08
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 221.76,
+      "value": 196.842691584,
+      "cost": 161.5399809584,
+      "gain": 35.302710625599985,
+      "gain_pct": 21.853853402824893,
+      "today_change": 2.44
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 40.87,
+      "value": 119.72436547599999,
+      "cost": 214.47007443188,
+      "gain": -94.74570895588,
+      "gain_pct": -44.17665690976069,
+      "today_change": -0.63
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 28.17,
+      "value": 140.501582172,
+      "cost": 452.6500120422,
+      "gain": -312.14842987019995,
+      "gain_pct": -68.96021684875129,
+      "today_change": 2.51
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.31,
+      "value": 38.732924769,
+      "cost": 69.8849997615,
+      "gain": -31.152074992499998,
+      "gain_pct": -44.576196750109794,
+      "today_change": 3.44
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 16.39,
+      "value": 68.394824234,
+      "cost": 61.19646719899999,
+      "gain": 7.198357035000008,
+      "gain_pct": 11.762700306853066,
+      "today_change": 7.05
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 12.15,
+      "value": 131.39242551,
+      "cost": 61.09909999086,
+      "gain": 70.29332551914001,
+      "gain_pct": 115.04805394785751,
+      "today_change": 3.76
+    },
+    "__total__": {
+      "value": 1256.0706387950001,
+      "cost": 1516.3505807663398,
+      "gain": -260.27994197133967,
+      "gain_pct": -17.16489216100661
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 757.324516634,
+      "current_pct": 60.3,
+      "target_pct": 20,
+      "diff": 40.3,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 298.958872417,
+      "current_pct": 23.8,
+      "target_pct": 50,
+      "diff": -26.2,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1256.0706387950001
+  },
+  "news": "[BBC Business] Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge\nThe economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.\n\n[BBC Business] Inflation and government borrowing highest for a year ahead of next week's Budget\nInflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).\n\n[BBC Business] Burnham proposes plan to cut standing charges from gas bills\nThe prime minister provided little detail, and there are questions over shifting the fees onto unit costs.\n\n[BBC Business] Civil servant admits he 'made mistakes' juggling five government jobs\nKashim Chowdhury was contracted for 183 hours a week, more than the number of hours in seven days.\n\n[CNBC] How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier\nPresident Donald Trump has blamed Ukraine for surging diesel prices that are hurting Republicans' election chances with the midterms just two weeks away.\n\n[CNBC] Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case\nMeta to pay $25 billion in penalties related to Cambridge Analytica scandal in New Mexico.\n\n[CNBC] SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up\nSpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.\n\n[CNBC] New Mexico AG lawsuit accuses Epstein's attorney and accountant of facilitating sex trafficking\nDarren Indyke and Richard Kahn allegedly helped finance and conceal Epstein's sex trafficking, which included abuse at his Zorro Ranch, a lawsuit says.\n\n[MarketWatch] Medicare is a bargain. What America can’t afford is private health insurance.\nPrivate insurance costs way more for the same results — or worse.\n\n[MarketWatch] Polymarket traders see a 10% chance the AI bubble bursts before New Year’s Day\nFor investors worried that the runaway artificial-intelligence trade might be about to hit the skids, prediction markets are already starting to reflect that anxiety.\n\n[MarketWatch] Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath\nTrick or treat? Musk has a long record of saying things have little relation to reality.\n\n[MarketWatch] AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin\nInvestors are for sure facing “bubbles,” but Ken Griffin isn’t telling investors to dump those stocks.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
