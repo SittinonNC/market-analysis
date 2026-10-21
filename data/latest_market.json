@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-20T23-15-06Z",
+  "ts": "2026-10-21T06-50-21Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4138.5,
-      "change": -0.52,
+      "price": 4131.7,
+      "change": -0.26,
       "high": 4149.8,
-      "low": 4137.8
+      "low": 4124.4
     },
     "sp500": {
       "price": 7712.57,
@@ -15,10 +15,10 @@
       "low": 7668.03
     },
     "dxy": {
-      "price": 101.73,
-      "change": -0.25,
-      "high": 101.98,
-      "low": 101.51
+      "price": 101.8,
+      "change": 0.07,
+      "high": 101.84,
+      "low": 101.73
     },
     "vix": {
       "price": 17.31,
@@ -27,16 +27,16 @@
       "low": 17.25
     },
     "btc": {
-      "price": 82908.76,
-      "change": 1.29,
-      "high": 83199.88,
-      "low": 81131.63
+      "price": 82708.32,
+      "change": 0.0,
+      "high": 83112.45,
+      "low": 82565.87
     },
     "eth": {
-      "price": 2449.32,
-      "change": 1.85,
-      "high": 2470.11,
-      "low": 2374.15
+      "price": 2439.33,
+      "change": 0.0,
+      "high": 2459.63,
+      "low": 2435.77
     },
     "mag7": {
       "AAPL": {
@@ -51,7 +51,7 @@
         "price": 531.87,
         "change": -0.31,
         "high": 534.21,
-        "low": 525.86
+        "low": 525.84
       },
       "NVDA": {
         "name": "Nvidia",
@@ -76,8 +76,8 @@
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 340.27,
-        "change": -1.14,
+        "price": 340.28,
+        "change": -1.13,
         "high": 344.77,
         "low": 338.36
       },
@@ -122,7 +122,7 @@
         "name": "Oklo",
         "price": 27.48,
         "change": 0.88,
-        "high": 28.19,
+        "high": 28.2,
         "low": 26.36
       },
       "ONDS": {
@@ -247,7 +247,7 @@
     },
     "__total__": 1047.166141675
   },
-  "news": "[BBC Business]\nหัวข้อ: Elon Musk says Tesla-SpaceX merger being considered\nเนื้อหา: Musk says special committees within both companies have been formed to look at a possible mega-merger.\n\n[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: UK government to make Jackdaw gas field announcement\nเนื้อหา: The long-awaited decision about the controversial North Sea field is expected on Wednesday morning.\n\n[BBC Business]\nหัวข้อ: Trump sued over Canadian tariffs in latest legal challenge\nเนื้อหา: The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".\n\n[BBC Business]\nหัวข้อ: Audit regulator looking into Manchester City accounting\nเนื้อหา: No formal investigation has started, but the regulator is making inquiries into the case.\n\n[CNBC]\nหัวข้อ: Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance\nเนื้อหา: Wall Street and investors will be looking for Netflix to provide additional details about the company's strategy following recent organizational changes\n\n[CNBC]\nหัวข้อ: Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster\nเนื้อหา: The 737 Max 10, the largest model in the family, was set to start flying in 2020, but increased scrutiny and other safety issues delayed its certification.\n\n[CNBC]\nหัวข้อ: United Airlines slashes 2026 profit outlook on fuel prices, but travelers keep booking despite higher fares\nเนื้อหา: United Airlines cut its profit outlook for the year as fuel prices continued to climb.\n\n[CNBC]\nหัวข้อ: Housing is flashing warning signs just as the Fed weighs more interest rate hikes\nเนื้อหา: Housing data deteriorated further in September, according to separate reports Tuesday.\n\n[CNBC]\nหัวข้อ: Trump sued over 50% tariffs on Canada in latest trade challenge\nเนื้อหา: A new lawsuit challenges President Donald Trump's tariffs on a range of Canadian goods using Section 338 of the Tariff Act of 1930.\n\n[MarketWatch]\nหัวข้อ: Why SpaceX’s stock is surging — and lifting the broader AI universe along with it\nเนื้อหา: SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life — but here’s why I’m still hopeful\nเนื้อหา: “Ill-timed circumstances can change our financial future in unexpected ways.”\n\n[MarketWatch]\nหัวข้อ: Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally\nเนื้อหา: Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.\n\n[MarketWatch]\nหัวข้อ: Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger\nเนื้อหา: Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.\n\n[MarketWatch]\nหัวข้อ: My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?\nเนื้อหา: “I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”\n\n[Investing.com Gold]\nหัวข้อ: Trump promises cash for fraud tips as he awards right-wing YouTuber\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia central banker says policy working, inflation outlook worse\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks mostly rise as oil, US yields ease; French stocks fall\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Oil reversal lifts spirits\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Elon Musk considering Tesla-SpaceX merger\nเนื้อหา: Musk says special committees within both companies have been formed to look at a possible mega-merger.\n\n[BBC Business]\nหัวข้อ: Elon Musk says merging Tesla and SpaceX is a good idea. Why?\nเนื้อหา: Musk, who is CEO of both companies, says there is \"a lot to be gained\" from the merger, which would be the biggest in history.\n\n[BBC Business]\nหัวข้อ: Google resolves cloud outage affecting UK banks and websites\nเนื้อหา: Revolut was one of the hardest hit, with banking services going down for many customers.\n\n[BBC Business]\nหัวข้อ: The tech helping crack decades-old cold cases\nเนื้อหา: Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.\n\n[BBC Business]\nหัวข้อ: Trump sued over Canadian tariffs in latest legal challenge\nเนื้อหา: The lawsuit argues the White House exceeded its authority in imposing the latest tariffs on the country and caused \"immediate harm to American businesses\".\n\n[CNBC]\nหัวข้อ: Oil prices climb as traders assess Middle East developments\nเนื้อหา: Iran's Revolutionary Guards said Tuesday that naval mines had prevented three tankers attempting to pass through the Strait of Hormuz.\n\n[CNBC]\nหัวข้อ: U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant\nเนื้อหา: Rubio said the \"extraordinary\" refining capacity of Reliance could help India diversify its energy supplies, hinting at greater offtake of Venezuelan crude.\n\n[CNBC]\nหัวข้อ: Elon Musk ordered Starlink slowdown for Ukraine: Report\nเนื้อหา: Musk and President Donald Trump have both recently criticized Ukrainian President Volodymyr Zelenskyy, who has also flagged disruptions in U.S. intel sharing.\n\n[CNBC]\nหัวข้อ: UK inflation jumps to 3.5% — cementing rate hike expectations\nเนื้อหา: U.K. inflation rose by a hotter-than-expected 3.5% in the 12 months to September, driven by the surging cost of motor fuels.\n\n[CNBC]\nหัวข้อ: Australian data center operator NextDC's shares plunge 40% after it slashes earnings forecast\nเนื้อหา: The company cited power supply delays at its Melbourne facility amid local community and stakeholder opposition for lowering earnings forecast.\n\n[MarketWatch]\nหัวข้อ: Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next\nเนื้อหา: Unlike bear-market bottoms, which typically end with a spasm of despair as traders throw in the towel, bull-market tops are far more gradual and less dramatic.\n\n[MarketWatch]\nหัวข้อ: Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally\nเนื้อหา: Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.\n\n[MarketWatch]\nหัวข้อ: Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger\nเนื้อหา: Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.\n\n[MarketWatch]\nหัวข้อ: Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock\nเนื้อหา: Streaming service cites “intense competition’ and acknowledges ‘some investor concern about our view hours growth.”\n\n[MarketWatch]\nหัวข้อ: Why SpaceX’s stock is surging — and lifting the broader AI universe along with it\nเนื้อหา: SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.\n\n[Investing.com Gold]\nหัวข้อ: UK inflation jumps to highest in nearly a year at 3.5%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Netanyahu pushes for renewed large-scale strikes on Iran, FT reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Bond selloff revives debate about euro zone banks’ ’doom loop’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ’s Himino signals readiness to raise borrowing costs\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
