@@ -1,90 +1,90 @@
 {
-  "ts": "2026-10-21T18-47-45Z",
+  "ts": "2026-10-21T23-28-26Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4158.4,
-      "change": 0.38,
-      "high": 4160.6,
-      "low": 4124.0
+      "price": 4144.0,
+      "change": 0.03,
+      "high": 4164.3,
+      "low": 4142.7
     },
     "sp500": {
-      "price": 7767.64,
-      "change": 0.71,
+      "price": 7757.17,
+      "change": 0.58,
       "high": 7770.4,
       "low": 7709.34
     },
     "dxy": {
-      "price": 101.68,
-      "change": -0.05,
+      "price": 101.69,
+      "change": -0.04,
       "high": 101.84,
       "low": 101.64
     },
     "vix": {
-      "price": 16.69,
-      "change": -3.58,
+      "price": 16.68,
+      "change": -3.64,
       "high": 17.58,
       "low": 16.51
     },
     "btc": {
-      "price": 84629.99,
-      "change": 2.04,
+      "price": 84290.22,
+      "change": 1.63,
       "high": 84835.48,
       "low": 82565.87
     },
     "eth": {
-      "price": 2512.77,
-      "change": 2.7,
+      "price": 2476.57,
+      "change": 1.22,
       "high": 2520.65,
       "low": 2435.77
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 344.39,
-        "change": 1.44,
+        "price": 343.99,
+        "change": 1.32,
         "high": 345.22,
         "low": 338.83
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 532.32,
-        "change": 0.08,
-        "high": 533.25,
+        "price": 532.95,
+        "change": 0.2,
+        "high": 533.28,
         "low": 525.02
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 221.58,
-        "change": 2.36,
-        "high": 222.16,
-        "low": 217.68
+        "price": 221.97,
+        "change": 2.54,
+        "high": 222.19,
+        "low": 217.66
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 263.56,
-        "change": 0.35,
+        "price": 262.37,
+        "change": -0.1,
         "high": 264.35,
         "low": 259.29
       },
       "META": {
         "name": "Meta",
-        "price": 706.83,
-        "change": 1.81,
+        "price": 697.52,
+        "change": 0.47,
         "high": 713.22,
-        "low": 692.38
+        "low": 690.1
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 334.67,
-        "change": -1.65,
+        "price": 334.76,
+        "change": -1.62,
         "high": 337.27,
         "low": 330.38
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 387.44,
-        "change": 3.67,
+        "price": 386.47,
+        "change": 3.41,
         "high": 388.84,
         "low": 380.51
       }
@@ -92,43 +92,43 @@
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.24,
-        "change": 0.27,
+        "price": 40.9,
+        "change": -0.56,
         "high": 42.69,
-        "low": 40.79
+        "low": 40.58
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 417.79,
-        "change": -0.35,
+        "price": 417.0,
+        "change": -0.54,
         "high": 421.47,
         "low": 415.0
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.69,
-        "change": 0.6,
+        "price": 1.68,
+        "change": 0.0,
         "high": 1.75,
         "low": 1.62
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 53.65,
-        "change": 5.4,
-        "high": 53.75,
+        "price": 53.67,
+        "change": 5.44,
+        "high": 53.89,
         "low": 52.02
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 28.21,
-        "change": 2.66,
+        "price": 27.73,
+        "change": 0.91,
         "high": 28.54,
         "low": 27.52
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.33,
-        "change": 3.77,
+        "price": 6.27,
+        "change": 2.79,
         "high": 6.37,
         "low": 6.09
       }
@@ -146,47 +146,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 532.32,
-      "value": 560.50288392,
+      "current_price": 532.95,
+      "value": 561.1662383250001,
       "cost": 495.50994638250006,
-      "gain": 64.99293753749998,
-      "gain_pct": 13.116373952124432
+      "gain": 65.65629194250005,
+      "gain_pct": 13.250247027698986
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 221.58,
-      "value": 196.68291667200003,
+      "current_price": 221.97,
+      "value": 197.029095648,
       "cost": 161.5399809584,
-      "gain": 35.142935713600025,
-      "gain_pct": 21.754946054283664
+      "gain": 35.4891146896,
+      "gain_pct": 21.96924530945637
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.24,
-      "value": 120.808241552,
+      "current_price": 40.9,
+      "value": 119.81224731999998,
       "cost": 214.47007443188,
-      "gain": -93.66183287988,
-      "gain_pct": -43.67128287150797
+      "gain": -94.65782711188001,
+      "gain_pct": -44.13568063638885
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 28.21,
-      "value": 140.70108743600002,
+      "current_price": 27.73,
+      "value": 138.30702426800002,
       "cost": 452.6500120422,
-      "gain": -311.94892460619997,
-      "gain_pct": -68.91614189929976
+      "gain": -314.34298777419997,
+      "gain_pct": -69.44504129271826
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.33,
-      "value": 38.855691567,
+      "current_price": 6.27,
+      "value": 38.487391173,
       "cost": 69.8849997615,
-      "gain": -31.029308194499997,
-      "gain_pct": -44.40052700922266
+      "gain": -31.3976085885,
+      "gain_pct": -44.927536231884055
     },
     "ARQQ": {
       "value": "N/A",
@@ -201,25 +201,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1057.550821147,
+      "value": 1054.801996734,
       "cost": 1394.05501357648,
-      "gain": -336.5041924294799,
-      "gain_pct": -24.13851599487245
+      "gain": -339.25301684247984,
+      "gain_pct": -24.335697912818986
     }
   },
   "allocation": {
     "mag7": {
-      "value": 757.1858005920001,
-      "current_pct": 71.6,
+      "value": 758.1953339730001,
+      "current_pct": 71.9,
       "target_pct": 20,
-      "diff": 51.6,
+      "diff": 51.9,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 300.365020555,
-      "current_pct": 28.4,
+      "value": 296.606662761,
+      "current_pct": 28.1,
       "target_pct": 50,
-      "diff": -21.6,
+      "diff": -21.9,
       "status": "Underweight"
     },
     "crypto": {
@@ -236,9 +236,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1057.550821147
+    "__total__": 1054.801996734
   },
-  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge\nเนื้อหา: The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.\n\n[BBC Business]\nหัวข้อ: Inflation and government borrowing highest for a year ahead of next week's Budget\nเนื้อหา: Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).\n\n[BBC Business]\nหัวข้อ: Meta fined $25bn for 'lies' over user data privacy\nเนื้อหา: The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.\n\n[BBC Business]\nหัวข้อ: Burnham proposes plan to cut standing charges from gas bills\nเนื้อหา: The prime minister provided little detail, and there are questions over shifting the fees onto unit costs.\n\n[BBC Business]\nหัวข้อ: The tech helping crack decades-old cold cases\nเนื้อหา: Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.\n\n[CNBC]\nหัวข้อ: How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier\nเนื้อหา: President Donald Trump has blamed Ukraine for surging diesel prices that are hurting Republicans' election chances with the midterms just two weeks away.\n\n[CNBC]\nหัวข้อ: Meta ordered to pay $25 billion penalty in New Mexico Cambridge Analytica case\nเนื้อหา: Meta to pay $25 billion in penalties related to Cambridge Analytica scandal in New Mexico.\n\n[CNBC]\nหัวข้อ: SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up\nเนื้อหา: SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.\n\n[CNBC]\nหัวข้อ: GM aims to develop vehicles in as little as two years with AI, software push\nเนื้อหา: General Motors is targeting a roughly two-year vehicle development cycle as it expands its use of artificial intelligence, simulation and vehicle software.\n\n[CNBC]\nหัวข้อ: Trump-aligned super PACs pour millions into once-safe GOP House seats\nเนื้อหา: Trump-aligned PACs are pouring hundreds of millions into House and Senate races as Republicans defend an expanding midterm election battleground map.\n\n[MarketWatch]\nหัวข้อ: Medicare is a bargain. What America can’t afford is private health insurance.\nเนื้อหา: Private insurance costs way more for the same results — or worse.\n\n[MarketWatch]\nหัวข้อ: Polymarket traders see a 10% chance the AI bubble bursts before New Year’s Day\nเนื้อหา: For investors worried that the runaway artificial-intelligence trade might be about to hit the skids, prediction markets are already starting to reflect that anxiety.\n\n[MarketWatch]\nหัวข้อ: Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath\nเนื้อหา: Trick or treat? Musk has a long record of saying things have little relation to reality.\n\n[MarketWatch]\nหัวข้อ: AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin\nเนื้อหา: Investors are for sure facing “bubbles,” but Ken Griffin isn’t telling investors to dump those stocks.\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[Investing.com Gold]\nหัวข้อ: Brookings paper offers broad plan to shrink Fed balance sheet\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: OpenAI president urges AI safeguards as group he funds opposes regulation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Russian oil tax price runs 60% above budget assumptions in October\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Micron faces strike from one Taiwan union after deal with another\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: India rate panel flags more hikes but wary of aggressive cycle, minutes show\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge\nเนื้อหา: The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.\n\n[BBC Business]\nหัวข้อ: Inflation and government borrowing highest for a year ahead of next week's Budget\nเนื้อหา: Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).\n\n[BBC Business]\nหัวข้อ: Websites taken down worldwide as critical cyber-security update issued\nเนื้อหา: The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.\n\n[BBC Business]\nหัวข้อ: Meta fined $25bn for 'lies' over user data privacy\nเนื้อหา: The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.\n\n[BBC Business]\nหัวข้อ: The tech helping crack decades-old cold cases\nเนื้อหา: Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.\n\n[CNBC]\nหัวข้อ: Tesla beats on earnings and sales even as auto revenue declines\nเนื้อหา: Tesla reported better-than-expected third-quarter results.\n\n[CNBC]\nหัวข้อ: CoreWeave’s market confidence erodes as bond yields spike and stock sinks\nเนื้อหา: CoreWeave shares are down 29% in October, and the spreads in its credit default swaps are widening.\n\n[CNBC]\nหัวข้อ: IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction\nเนื้อหา: CEO Arvind Krishna indicated that IBM is helping clients in artificial intelligence.\n\n[CNBC]\nหัวข้อ: Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did\nเนื้อหา: Asked if Elon Musk ordered the slowdown, Trump said, \"I don't know who did it, but I was not involved.\"\n\n[CNBC]\nหัวข้อ: BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds\nเนื้อหา: Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.\n\n[MarketWatch]\nหัวข้อ: Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business\nเนื้อหา: Meta’s core advertising business delivered a strong quarter, but investors are eyeing promising new businesses around the Muse personal assistant\n\n[MarketWatch]\nหัวข้อ: Why investors should be skeptical of a potential Tesla-SpaceX merger\nเนื้อหา: Wall Street is all abuzz over a possible merger between Tesla and SpaceX. But there is a high probability that such a merger would be a bad idea.\n\n[MarketWatch]\nหัวข้อ: Trump says data centers should generate their own electricity — but experts say only states can mandate that\nเนื้อหา: The president’s statement comes as a voter backlash against the facilities intensifies ahead of the midterm elections.\n\n[MarketWatch]\nหัวข้อ: Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.\nเนื้อหา: Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[Investing.com Gold]\nหัวข้อ: Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks rise on AI-led earnings, France’s 10-year bond yield hits 5%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand Q3 inflation rises 0.7% from previous quarter\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Tech it away\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nigeria shifts to private capital for growth, rules out fuel subsidies\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
