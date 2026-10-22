@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-21T23-28-26Z",
+  "ts": "2026-10-22T06-53-00Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4144.0,
-      "change": 0.03,
+      "price": 4107.1,
+      "change": -1.03,
       "high": 4164.3,
-      "low": 4142.7
+      "low": 4082.4
     },
     "sp500": {
       "price": 7757.17,
@@ -15,10 +15,10 @@
       "low": 7709.34
     },
     "dxy": {
-      "price": 101.69,
-      "change": -0.04,
-      "high": 101.84,
-      "low": 101.64
+      "price": 101.53,
+      "change": -0.25,
+      "high": 101.73,
+      "low": 101.48
     },
     "vix": {
       "price": 16.68,
@@ -27,23 +27,23 @@
       "low": 16.51
     },
     "btc": {
-      "price": 84290.22,
-      "change": 1.63,
-      "high": 84835.48,
-      "low": 82565.87
+      "price": 82451.23,
+      "change": 0.0,
+      "high": 84280.19,
+      "low": 82435.55
     },
     "eth": {
-      "price": 2476.57,
-      "change": 1.22,
-      "high": 2520.65,
-      "low": 2435.77
+      "price": 2429.8,
+      "change": 0.0,
+      "high": 2479.28,
+      "low": 2427.95
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
         "price": 343.99,
         "change": 1.32,
-        "high": 345.22,
+        "high": 345.25,
         "low": 338.83
       },
       "MSFT": {
@@ -64,7 +64,7 @@
         "name": "Amazon",
         "price": 262.37,
         "change": -0.1,
-        "high": 264.35,
+        "high": 264.36,
         "low": 259.29
       },
       "META": {
@@ -72,7 +72,7 @@
         "price": 697.52,
         "change": 0.47,
         "high": 713.22,
-        "low": 690.1
+        "low": 689.68
       },
       "GOOGL": {
         "name": "Alphabet",
@@ -101,7 +101,7 @@
         "name": "UnitedHealth",
         "price": 417.0,
         "change": -0.54,
-        "high": 421.47,
+        "high": 421.8,
         "low": 415.0
       },
       "EOSE": {
@@ -115,14 +115,14 @@
         "name": "Rocket Lab",
         "price": 53.67,
         "change": 5.44,
-        "high": 53.89,
+        "high": 53.9,
         "low": 52.02
       },
       "OKLO": {
         "name": "Oklo",
         "price": 27.73,
         "change": 0.91,
-        "high": 28.54,
+        "high": 28.55,
         "low": 27.52
       },
       "ONDS": {
@@ -238,7 +238,7 @@
     },
     "__total__": 1054.801996734
   },
-  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge\nเนื้อหา: The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.\n\n[BBC Business]\nหัวข้อ: Inflation and government borrowing highest for a year ahead of next week's Budget\nเนื้อหา: Inflation accelerated to 3.5% from 3.1% in the year to September, according to the Office for National Statistics (ONS).\n\n[BBC Business]\nหัวข้อ: Websites taken down worldwide as critical cyber-security update issued\nเนื้อหา: The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.\n\n[BBC Business]\nหัวข้อ: Meta fined $25bn for 'lies' over user data privacy\nเนื้อหา: The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.\n\n[BBC Business]\nหัวข้อ: The tech helping crack decades-old cold cases\nเนื้อหา: Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.\n\n[CNBC]\nหัวข้อ: Tesla beats on earnings and sales even as auto revenue declines\nเนื้อหา: Tesla reported better-than-expected third-quarter results.\n\n[CNBC]\nหัวข้อ: CoreWeave’s market confidence erodes as bond yields spike and stock sinks\nเนื้อหา: CoreWeave shares are down 29% in October, and the spreads in its credit default swaps are widening.\n\n[CNBC]\nหัวข้อ: IBM beats on top and bottom lines as CEO Krishna touts 'Super Intelligence' traction\nเนื้อหา: CEO Arvind Krishna indicated that IBM is helping clients in artificial intelligence.\n\n[CNBC]\nหัวข้อ: Trump denies ordering Starlink slowdown in Ukraine, says he doesn't know who did\nเนื้อหา: Asked if Elon Musk ordered the slowdown, Trump said, \"I don't know who did it, but I was not involved.\"\n\n[CNBC]\nหัวข้อ: BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds\nเนื้อหา: Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.\n\n[MarketWatch]\nหัวข้อ: Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business\nเนื้อหา: Meta’s core advertising business delivered a strong quarter, but investors are eyeing promising new businesses around the Muse personal assistant\n\n[MarketWatch]\nหัวข้อ: Why investors should be skeptical of a potential Tesla-SpaceX merger\nเนื้อหา: Wall Street is all abuzz over a possible merger between Tesla and SpaceX. But there is a high probability that such a merger would be a bad idea.\n\n[MarketWatch]\nหัวข้อ: Trump says data centers should generate their own electricity — but experts say only states can mandate that\nเนื้อหา: The president’s statement comes as a voter backlash against the facilities intensifies ahead of the midterm elections.\n\n[MarketWatch]\nหัวข้อ: Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.\nเนื้อหา: Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[Investing.com Gold]\nหัวข้อ: Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks rise on AI-led earnings, France’s 10-year bond yield hits 5%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand Q3 inflation rises 0.7% from previous quarter\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Tech it away\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nigeria shifts to private capital for growth, rules out fuel subsidies\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: The 'trillion pound' oil fund the government believes Britain could have built\nเนื้อหา: For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.\n\n[BBC Business]\nหัวข้อ: Websites taken down worldwide as critical cyber-security update issued\nเนื้อหา: The vulnerabilities with PHP, a programming language widely used across the internet, have been described as the most significant ever found by AI.\n\n[BBC Business]\nหัวข้อ: What is PHP and why did it spark a global cyber-security scramble?\nเนื้อหา: AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.\n\n[BBC Business]\nหัวข้อ: No order, no seat: Starbucks China rolls out new store policy\nเนื้อหา: Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals.\n\n[BBC Business]\nหัวข้อ: Meta fined $25bn for 'lies' over user data privacy\nเนื้อหา: The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.\n\n[CNBC]\nหัวข้อ: Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond\nเนื้อหา: Critical PHP security flaws trigger global warnings as Google, OpenAI and Amazon respond to potential cyber threats.\n\n[CNBC]\nหัวข้อ: U.S. pulls diplomats from Saudi Arabia as it reportedly readies Iran strikes after midterms\nเนื้อหา: The U.S. ordered non-emergency staff out of Saudi Arabia after Houthi strikes on an airport and an oil field, reviving fears of a widening regional conflict.\n\n[CNBC]\nหัวข้อ: James Talarico fires back at Elon Musk in Texas Senate race feud\nเนื้อหา: Musk in September donated $158 million to a Republican Super PAC, which sent that cash to a PAC backing GOP Senate nominee Ken Paxton, Talarico's opponent.\n\n[CNBC]\nหัวข้อ: China's stock market sinks into bear territory as CSI 300 extends 10-week rout\nเนื้อหา: China's benchmark CSI 300 index has entered bear-market territory, falling 20% from its June peak, as a prolonged selloff in mainland equities deepens.\n\n[CNBC]\nหัวข้อ: Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes\nเนื้อหา: The Middle East conflict could flare up again as the U.S. reportedly plans to resume strikes against Iran.\n\n[MarketWatch]\nหัวข้อ: Top HSBC strategist has a warning for retail investors chasing the AI rally\nเนื้อหา: Maxx Kettner, HSBC’s chief multiasset strategist, says the investors need to understand the goal posts are constantly moving with AI investing.\n\n[MarketWatch]\nหัวข้อ: My father-in-law, 81, sold his $75,000 home and paid off his daughter’s $50,000 debt. What happens to him now?\nเนื้อหา: “Nothing has been set aside for his needs.”\n\n[MarketWatch]\nหัวข้อ: The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.\nเนื้อหา: Social Security is looking to reverse an initially slow uptake on Trump accounts\n\n[MarketWatch]\nหัวข้อ: This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax\nเนื้อหา: Facing a potentially giant tax bill that could threaten his voting power, Zuckerberg was days away from listing his Palo Alto home when Meta agreed to create a new class of stock.\n\n[MarketWatch]\nหัวข้อ: Tesla’s stock falls as Elon Musk leaves investors wanting more\nเนื้อหา: SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.\n\n[Investing.com Gold]\nหัวข้อ: IMF sees 1.3% contraction in Middle East, North Africa and Pakistan in 2026\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chinese quant fund Lingjun draws $300 million from overseas investors\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: France’s debt strains, AI in focus\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank of Korea holds rates, upbeat outlook points to future hikes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Colombia to enact 2027 budget by decree after congressional process fails\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
