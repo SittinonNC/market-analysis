@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-23T17-38-43Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 524.02,
+      "value": 551.76345287,
+      "cost": 495.50994638250006,
+      "gain": 56.253506487499976,
+      "gain_pct": 11.352649305666224,
+      "today_change": 0.56
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 211.78,
+      "value": 187.984060352,
+      "cost": 161.5399809584,
+      "gain": 26.444079393599992,
+      "gain_pct": 16.36999041148204,
+      "today_change": -0.2
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 39.35,
+      "value": 115.27168538,
+      "cost": 214.47007443188,
+      "gain": -99.19838905188,
+      "gain_pct": -46.25278809393401,
+      "today_change": 1.5
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 26.28,
+      "value": 131.07495844800002,
+      "cost": 452.6500120422,
+      "gain": -321.57505359419997,
+      "gain_pct": -71.04275821033667,
+      "today_change": -2.7
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.22,
+      "value": 38.180474178,
+      "cost": 69.8849997615,
+      "gain": -31.7045255835,
+      "gain_pct": -45.36671058410189,
+      "today_change": 3.32
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 16.56,
+      "value": 69.104227536,
+      "cost": 61.19646719899999,
+      "gain": 7.907760337000006,
+      "gain_pct": 12.921922945789307,
+      "today_change": 4.74
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.78,
+      "value": 127.39117469199999,
+      "cost": 61.09909999086,
+      "gain": 66.29207470114,
+      "gain_pct": 108.49926547372519,
+      "today_change": 3.61
+    },
+    "__total__": {
+      "value": 1220.7700334560002,
+      "cost": 1516.3505807663398,
+      "gain": -295.5805473103396,
+      "gain_pct": -19.49288977493304
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 739.7475132220001,
+      "current_pct": 60.6,
+      "target_pct": 20,
+      "diff": 40.6,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 284.527118006,
+      "current_pct": 23.3,
+      "target_pct": 50,
+      "diff": -26.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1220.7700334560002
+  },
+  "news": "[BBC Business] Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud\nKashim Chowdhury denied being dishonest when not telling employers he had other jobs.\n\n[BBC Business] Earnings limit of up to £140K for first-time buyers loan scheme\nThe Your First Home scheme will offer government-backed loans for those buying new-builds in England.\n\n[BBC Business] Lights will stay on this winter, grid operator says after concerns\nThe assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.\n\n[BBC Business] 'I'm 96 and have 15 million followers': The grannies taking over TikTok\nGrandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.\n\n[CNBC] Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising\nSince last week, Ukraine has reported restrictions on a version of Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.\n\n[CNBC] DOJ sues to block Alaska from certifying Senate race winner if Republican narrowly loses\nThere are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them.\n\n[CNBC] AI's 'Black October': Critical PHP flaws set off global security scramble\nGovernments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.\n\n[CNBC] American Express is cutting 5% of its workforce to 'prepare for AI'\nAmex, which reported third-quarter results earlier Friday, is taking a $336 million restructuring charge in the quarter, CEO Stephen Squeri said Friday.\n\n[MarketWatch] ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?\n”I earn $110,000 a year.”\n\n[MarketWatch] Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.\nStore aisles are getting a digital makeover.\n\n[MarketWatch] Retire on 8% a year with little or no risk? How to use annuities the right way.\nMarket turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.\n\n[MarketWatch] My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?\n“I retired in 2020 and subsequently went through a divorce a few years later.”",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
