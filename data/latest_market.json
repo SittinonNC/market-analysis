@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-22T23-28-22Z",
+  "ts": "2026-10-23T06-47-07Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4042.4,
-      "change": -2.59,
-      "high": 4047.6,
-      "low": 4038.8
+      "price": 4028.6,
+      "change": -0.78,
+      "high": 4047.8,
+      "low": 4000.9
     },
     "sp500": {
       "price": 7663.43,
@@ -15,10 +15,10 @@
       "low": 7637.36
     },
     "dxy": {
-      "price": 101.62,
-      "change": -0.16,
-      "high": 101.88,
-      "low": 101.45
+      "price": 101.69,
+      "change": 0.08,
+      "high": 101.72,
+      "low": 101.49
     },
     "vix": {
       "price": 19.03,
@@ -27,16 +27,16 @@
       "low": 17.71
     },
     "btc": {
-      "price": 81241.87,
-      "change": -3.3,
-      "high": 84280.19,
-      "low": 80948.71
+      "price": 81773.55,
+      "change": 0.0,
+      "high": 81891.01,
+      "low": 81046.8
     },
     "eth": {
-      "price": 2382.12,
-      "change": -3.59,
-      "high": 2479.28,
-      "low": 2366.16
+      "price": 2403.78,
+      "change": 0.0,
+      "high": 2412.92,
+      "low": 2381.62
     },
     "mag7": {
       "AAPL": {
@@ -64,7 +64,7 @@
         "name": "Amazon",
         "price": 250.38,
         "change": -4.57,
-        "high": 258.36,
+        "high": 258.41,
         "low": 248.0
       },
       "META": {
@@ -238,7 +238,7 @@
     },
     "__total__": 1022.2749159540001
   },
-  "news": "[BBC Business]\nหัวข้อ: Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax\nเนื้อหา: The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.\n\n[BBC Business]\nหัวข้อ: 'I wasn't thinking straight' says five jobs civil servant\nเนื้อหา: Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.\n\n[BBC Business]\nหัวข้อ: Barclays cutting 5,000 jobs as it increases reliance on AI\nเนื้อหา: The bank says it is using more AI leading to a 5% reduction in its workforce.\n\n[BBC Business]\nหัวข้อ: Tank barrel production returns to UK after 20 years\nเนื้อหา: The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.\n\n[BBC Business]\nหัวข้อ: The 'trillion pound' oil fund the government believes Britain could have built\nเนื้อหา: For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds.\n\n[CNBC]\nหัวข้อ: Trump asked Musk to lift Starlink slowdown, WSJ reports\nเนื้อหา: Elon Musk, a critic of Ukrainian President Volodymyr Zelenskyy, had ordered the slowdown of SpaceX's Starlink, The Wall Street Journal previously reported.\n\n[CNBC]\nหัวข้อ: Moderna shares plunge after cancer vaccine data leaks — despite positive results\nเนื้อหา: Moderna released full data on its closely watched cancer vaccine developed with Merck.\n\n[CNBC]\nหัวข้อ: Trump defends Ramaswamy ad with Acton's estranged mom after bipartisan criticism\nเนื้อหา: Ohio Gov. Mike DeWine said GOP gubernatorial nominee Vivek Ramaswamy should remove the ad featuring the mother of Democratic nominee Amy Acton.\n\n[CNBC]\nหัวข้อ: Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election\nเนื้อหา: With less than two weeks before the midterm elections, Meta made clear that Mark Zuckerberg is staying in California if the wealth tax passes.\n\n[CNBC]\nหัวข้อ: OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors\nเนื้อหา: OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC.\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature\nเนื้อหา: Stop listening to market pundits and start looking at market performance.\n\n[MarketWatch]\nหัวข้อ: The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash\nเนื้อหา: The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.\n\n[MarketWatch]\nหัวข้อ: Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.\nเนื้อหา: ‘It’s a take-back trade,’ says PGIM’s Tipp. ‘Not an all-out fear of recession type of situation.’\n\n[Investing.com Gold]\nหัวข้อ: UK consumer confidence tumbles ahead of Healey’s budget, GfK reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks drop as Meta fans AI worries, Treasuries gain\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-Australian agency mulled firing KPMG over data-handling rule breach, documents show\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Newmont beats quarterly profit estimates on higher gold prices, Cadia recovery\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump signs order aimed at reducing single-family housing costs\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Grid operator says lights will stay on this winter after concerns\nเนื้อหา: The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.\n\n[BBC Business]\nหัวข้อ: Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax\nเนื้อหา: The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.\n\n[BBC Business]\nหัวข้อ: L'Oreal says weight loss drugs are impacting beauty and skincare sales\nเนื้อหา: The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".\n\n[BBC Business]\nหัวข้อ: 'I wasn't thinking straight' says five jobs civil servant\nเนื้อหา: Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.\n\n[BBC Business]\nหัวข้อ: Barclays cutting 5,000 jobs as it increases reliance on AI\nเนื้อหา: The bank says it is using more AI leading to a 5% reduction in its workforce.\n\n[CNBC]\nหัวข้อ: Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens\nเนื้อหา: Bankers and lawyers say Chinese clients' demand for U.S. bank accounts has gathered pace as Beijing tightens the screws on Chinese offshore wealth.\n\n[CNBC]\nหัวข้อ: Defense giant Saab sees orders triple after Gripen fighter jet deal with Ukraine\nเนื้อหา: European governments race to turn defense spending pledges into military capability, boosting companies' order books.\n\n[CNBC]\nหัวข้อ: Trump asked Musk to lift Starlink slowdown, WSJ reports\nเนื้อหา: Elon Musk, a critic of Ukrainian President Volodymyr Zelenskyy, had ordered the slowdown of SpaceX's Starlink, The Wall Street Journal previously reported.\n\n[CNBC]\nหัวข้อ: Elon Musk invests about $1 billion in Skydance\nเนื้อหา: David Ellison's father, billionaire and Oracle co-founder Larry Ellison, has a history with Musk.\n\n[CNBC]\nหัวข้อ: Moderna shares plunge after cancer vaccine data leaks — despite positive results\nเนื้อหา: Moderna released full data on its closely watched cancer vaccine developed with Merck.\n\n[MarketWatch]\nหัวข้อ: We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?\nเนื้อหา: “I don’t want to enter retirement owing six figures when we have the cash to clear it.”\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature\nเนื้อหา: Stop listening to market pundits and start looking at market performance.\n\n[MarketWatch]\nหัวข้อ: The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash\nเนื้อหา: The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.\n\n[Investing.com Gold]\nหัวข้อ: Hold, hike and cut? Bank Indonesia says there’s logic to the policy mix\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Tech selloff slows in Asia, oil hits five-month high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: U.S. prepares for prolonged Iran conflict, Trump envoy tells FT\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korean economy’s growth likely picked up in Q3 on chip exports: Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic IPO stands alone as AI market jitters sideline others\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

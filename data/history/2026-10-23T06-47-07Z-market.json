@@ -1,0 +1,245 @@
+{
+  "ts": "2026-10-23T06-47-07Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4028.6,
+      "change": -0.78,
+      "high": 4047.8,
+      "low": 4000.9
+    },
+    "sp500": {
+      "price": 7663.43,
+      "change": -1.21,
+      "high": 7702.94,
+      "low": 7637.36
+    },
+    "dxy": {
+      "price": 101.69,
+      "change": 0.08,
+      "high": 101.72,
+      "low": 101.49
+    },
+    "vix": {
+      "price": 19.03,
+      "change": 14.09,
+      "high": 20.31,
+      "low": 17.71
+    },
+    "btc": {
+      "price": 81773.55,
+      "change": 0.0,
+      "high": 81891.01,
+      "low": 81046.8
+    },
+    "eth": {
+      "price": 2403.78,
+      "change": 0.0,
+      "high": 2412.92,
+      "low": 2381.62
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 348.22,
+        "change": 1.23,
+        "high": 348.36,
+        "low": 342.28
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 521.08,
+        "change": -2.23,
+        "high": 533.6,
+        "low": 520.3
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 212.21,
+        "change": -4.4,
+        "high": 218.88,
+        "low": 211.26
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 250.38,
+        "change": -4.57,
+        "high": 258.41,
+        "low": 248.0
+      },
+      "META": {
+        "name": "Meta",
+        "price": 648.85,
+        "change": -6.98,
+        "high": 681.07,
+        "low": 639.69
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 324.22,
+        "change": -3.15,
+        "high": 331.43,
+        "low": 322.0
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 374.58,
+        "change": -3.08,
+        "high": 388.86,
+        "low": 373.71
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 38.77,
+        "change": -5.21,
+        "high": 40.43,
+        "low": 37.8
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 424.98,
+        "change": 1.91,
+        "high": 426.55,
+        "low": 417.13
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.71,
+        "change": 1.79,
+        "high": 1.73,
+        "low": 1.59
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 51.22,
+        "change": -4.56,
+        "high": 52.98,
+        "low": 49.96
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.01,
+        "change": -2.6,
+        "high": 27.24,
+        "low": 26.31
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.02,
+        "change": -3.99,
+        "high": 6.34,
+        "low": 5.89
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 521.08,
+      "value": 548.66779898,
+      "cost": 495.50994638250006,
+      "gain": 53.15785259749998,
+      "gain_pct": 10.727908286318378
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 212.21,
+      "value": 188.36574486400002,
+      "cost": 161.5399809584,
+      "gain": 26.825763905600013,
+      "gain_pct": 16.606269077441713
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 38.77,
+      "value": 113.57263639600001,
+      "cost": 214.47007443188,
+      "gain": -100.89743803587999,
+      "gain_pct": -47.04499604578962
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.01,
+      "value": 134.71592951600002,
+      "cost": 452.6500120422,
+      "gain": -317.9340825262,
+      "gain_pct": -70.23839038284603
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.02,
+      "value": 36.952806198,
+      "cost": 69.8849997615,
+      "gain": -32.9321935635,
+      "gain_pct": -47.12340799297321
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1022.2749159540001,
+      "cost": 1394.05501357648,
+      "gain": -371.78009762247984,
+      "gain_pct": -26.668968871513147
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 737.0335438440001,
+      "current_pct": 72.1,
+      "target_pct": 20,
+      "diff": 52.1,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 285.24137211000004,
+      "current_pct": 27.9,
+      "target_pct": 50,
+      "diff": -22.1,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1022.2749159540001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Grid operator says lights will stay on this winter after concerns\nเนื้อหา: The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.\n\n[BBC Business]\nหัวข้อ: Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax\nเนื้อหา: The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.\n\n[BBC Business]\nหัวข้อ: L'Oreal says weight loss drugs are impacting beauty and skincare sales\nเนื้อหา: The beauty giant's CEO says the use of GLP-1s is \"a very important phenomenon for us\".\n\n[BBC Business]\nหัวข้อ: 'I wasn't thinking straight' says five jobs civil servant\nเนื้อหา: Kashim Chowdhury is accused of fraudulently juggling multiple public sector jobs.\n\n[BBC Business]\nหัวข้อ: Barclays cutting 5,000 jobs as it increases reliance on AI\nเนื้อหา: The bank says it is using more AI leading to a 5% reduction in its workforce.\n\n[CNBC]\nหัวข้อ: Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens\nเนื้อหา: Bankers and lawyers say Chinese clients' demand for U.S. bank accounts has gathered pace as Beijing tightens the screws on Chinese offshore wealth.\n\n[CNBC]\nหัวข้อ: Defense giant Saab sees orders triple after Gripen fighter jet deal with Ukraine\nเนื้อหา: European governments race to turn defense spending pledges into military capability, boosting companies' order books.\n\n[CNBC]\nหัวข้อ: Trump asked Musk to lift Starlink slowdown, WSJ reports\nเนื้อหา: Elon Musk, a critic of Ukrainian President Volodymyr Zelenskyy, had ordered the slowdown of SpaceX's Starlink, The Wall Street Journal previously reported.\n\n[CNBC]\nหัวข้อ: Elon Musk invests about $1 billion in Skydance\nเนื้อหา: David Ellison's father, billionaire and Oracle co-founder Larry Ellison, has a history with Musk.\n\n[CNBC]\nหัวข้อ: Moderna shares plunge after cancer vaccine data leaks — despite positive results\nเนื้อหา: Moderna released full data on its closely watched cancer vaccine developed with Merck.\n\n[MarketWatch]\nหัวข้อ: We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?\nเนื้อหา: “I don’t want to enter retirement owing six figures when we have the cash to clear it.”\n\n[MarketWatch]\nหัวข้อ: My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?\nเนื้อหา: “I never paid rent, although I put about $45,000 toward a new kitchen and a roof.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature\nเนื้อหา: Stop listening to market pundits and start looking at market performance.\n\n[MarketWatch]\nหัวข้อ: The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash\nเนื้อหา: The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.\n\n[Investing.com Gold]\nหัวข้อ: Hold, hike and cut? Bank Indonesia says there’s logic to the policy mix\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Tech selloff slows in Asia, oil hits five-month high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: U.S. prepares for prolonged Iran conflict, Trump envoy tells FT\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korean economy’s growth likely picked up in Q3 on chip exports: Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic IPO stands alone as AI market jitters sideline others\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
