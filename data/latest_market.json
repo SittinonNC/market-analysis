@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-23T23-15-18Z",
+  "ts": "2026-10-26T07-15-18Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4010.0,
-      "change": -1.24,
-      "high": 4050.2,
-      "low": 3989.2
+      "price": 4020.7,
+      "change": 0.0,
+      "high": 4032.9,
+      "low": 3990.9
     },
     "sp500": {
       "price": 7623.68,
@@ -15,28 +15,28 @@
       "low": 7612.07
     },
     "dxy": {
-      "price": 101.75,
-      "change": 0.14,
-      "high": 101.85,
-      "low": 101.49
+      "price": 101.71,
+      "change": 0.0,
+      "high": 101.79,
+      "low": 101.58
     },
     "vix": {
       "price": 19.45,
-      "change": 2.21,
+      "change": 0.0,
       "high": 20.66,
       "low": 18.87
     },
     "btc": {
-      "price": 80558.86,
-      "change": -0.93,
-      "high": 81914.82,
-      "low": 80442.64
+      "price": 79985.23,
+      "change": -0.05,
+      "high": 80173.53,
+      "low": 79343.66
     },
     "eth": {
-      "price": 2363.17,
-      "change": -0.96,
-      "high": 2412.92,
-      "low": 2358.03
+      "price": 2316.34,
+      "change": -0.45,
+      "high": 2331.09,
+      "low": 2294.34
     },
     "mag7": {
       "AAPL": {
@@ -85,7 +85,7 @@
         "name": "Tesla",
         "price": 372.22,
         "change": -0.63,
-        "high": 377.3,
+        "high": 377.32,
         "low": 365.27
       }
     },
@@ -140,7 +140,48 @@
   },
   "calendar": {
     "today": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "title": "Federal Funds Rate",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "4.00%",
+        "previous": "4.00%"
+      },
+      {
+        "title": "FOMC Statement",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Press Conference",
+        "country": "USD",
+        "date": "2026-10-28T14:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      }
+    ]
   },
   "pnl": {
     "MSFT": {
@@ -238,7 +279,7 @@
     },
     "__total__": 1025.578011181
   },
-  "news": "[BBC Business]\nหัวข้อ: Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud\nเนื้อหา: Kashim Chowdhury denied being dishonest when not telling employers he had other jobs.\n\n[BBC Business]\nหัวข้อ: White House lifts tariffs on some Canadian goods as midterm elections loom\nเนื้อหา: From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.\n\n[BBC Business]\nหัวข้อ: Earnings limit of up to £140K for first-time buyers loan scheme\nเนื้อหา: The Your First Home scheme will offer government-backed loans for those buying new-builds in England.\n\n[BBC Business]\nหัวข้อ: Lights will stay on this winter, grid operator says after concerns\nเนื้อหา: The assurance from the National Energy System Operator comes amid concern from its engineers about their ability to ensure adequate supply.\n\n[BBC Business]\nหัวข้อ: 'I'm 96 and have 15 million followers': The grannies taking over TikTok\nเนื้อหา: Grandma Droniak, Nonna Gracie, Viv Truran and Barbara Costello have all found fame on social media in their later years.\n\n[CNBC]\nหัวข้อ: Trump dropping some Canada tariffs but 'replacing' them with other products\nเนื้อหา: Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.\n\n[CNBC]\nหัวข้อ: Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO\nเนื้อหา: Stock slumps, pulled IPOs and rising spreads on credit default swaps this week sets stage for hyperscaler earnings.\n\n[CNBC]\nหัวข้อ: Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers\nเนื้อหา: Trump's executive order on housing aims to lower mortgage costs. Here's what it means for homeowners and buyers.\n\n[CNBC]\nหัวข้อ: Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields\nเนื้อหา: Moody's left its credit rating on France at Aa3, giving the country some relief in a week of unrest.\n\n[CNBC]\nหัวข้อ: AI's 'Black October': Critical PHP flaws set off global security scramble\nเนื้อหา: Governments and businesses around the globe are scrambling to contain the fallout after the PHP vulnerabilities leaked online.\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: Will Anthropic pull off a November IPO? Time is running out to file key paperwork.\nเนื้อหา: If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.\n\n[MarketWatch]\nหัวข้อ: Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.\nเนื้อหา: Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.\n\n[MarketWatch]\nหัวข้อ: This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.\nเนื้อหา: A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.\n\n[MarketWatch]\nหัวข้อ: The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.\nเนื้อหา: Reports of Starlink’s discussions with cell-tower owners were noticed by shareholders of Verizon, AT&amp;T and T-Mobile.\n\n[Investing.com Gold]\nหัวข้อ: Trump ends tariffs on some Canadian products, aiming to help Senator Collins\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: PHP Foundation ’under-funded’ with one full-time staff member, director says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Earnings flood, Fed meeting will test rickety AI market rally\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Euro sinks on French debt worries, yen gains for week on AI rout\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Healey's Budget needs to sustain the stronger economy through gathering clouds\nเนื้อหา: The economic is positive now but come January things could become trickier for the Labour government\n\n[BBC Business]\nหัวข้อ: Data centre debate heats up ahead of US midterms - here's what you need to know\nเนื้อหา: Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.\n\n[BBC Business]\nหัวข้อ: What is the Budget and what could be in it?\nเนื้อหา: Chancellor John Healey will set out his plans for UK taxes on 28 October.\n\n[BBC Business]\nหัวข้อ: Will a new code end 'rip-off parking charges'?\nเนื้อหา: The prime minister says a new code will end \"rip-off parking charges\" - but will it work?\n\n[BBC Business]\nหัวข้อ: Rosebank: Life on the oil field at the centre of a political storm\nเนื้อหา: Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.\n\n[CNBC]\nหัวข้อ: Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede\nเนื้อหา: It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.\n\n[CNBC]\nหัวข้อ: Oil slides over 2% as traders weigh Saudi attack risks, demand destruction\nเนื้อหา: Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode demand.\n\n[CNBC]\nหัวข้อ: Defense tech investment boom sparks bubble warning as private equity pours in\nเนื้อหา: Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.\n\n[CNBC]\nหัวข้อ: SpaceX closes $40 billion debt deal for AI chips, Elon Musk says\nเนื้อหา: Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.\n\n[CNBC]\nหัวข้อ: ‘Ticking time bomb’: The world's pension funds face an ageing crisis\nเนื้อหา: The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances.\n\n[MarketWatch]\nหัวข้อ: Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals\nเนื้อหา: SpaceX is rapidly growing an AI business that rents out access to advanced chips.\n\n[MarketWatch]\nหัวข้อ: ‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?\nเนื้อหา: “My late father bought our house for $250,000 in the 1990s.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?\nเนื้อหา: “Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”\n\n[MarketWatch]\nหัวข้อ: My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?\nเนื้อหา: “Nothing has been set aside for his needs.”\n\n[Investing.com Gold]\nหัวข้อ: IEA chief says energy markets won’t return to pre-Iran war levels\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Britain to nearly double funding for rough sleeping plan\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Elections, central banks and earnings on the menu\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Mecca Pact nations to hold high-level talks with Iran in Tehran, Reuters reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors expect markets to unwind as Brazil’s Lula reelected\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

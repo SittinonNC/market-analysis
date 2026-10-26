@@ -1,0 +1,286 @@
+{
+  "ts": "2026-10-26T07-15-18Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4020.7,
+      "change": 0.0,
+      "high": 4032.9,
+      "low": 3990.9
+    },
+    "sp500": {
+      "price": 7623.68,
+      "change": -0.52,
+      "high": 7660.15,
+      "low": 7612.07
+    },
+    "dxy": {
+      "price": 101.71,
+      "change": 0.0,
+      "high": 101.79,
+      "low": 101.58
+    },
+    "vix": {
+      "price": 19.45,
+      "change": 0.0,
+      "high": 20.66,
+      "low": 18.87
+    },
+    "btc": {
+      "price": 79985.23,
+      "change": -0.05,
+      "high": 80173.53,
+      "low": 79343.66
+    },
+    "eth": {
+      "price": 2316.34,
+      "change": -0.45,
+      "high": 2331.09,
+      "low": 2294.34
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 347.73,
+        "change": -0.14,
+        "high": 351.73,
+        "low": 345.75
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 524.51,
+        "change": 0.66,
+        "high": 525.77,
+        "low": 515.7
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 210.96,
+        "change": -0.59,
+        "high": 213.85,
+        "low": 210.18
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 248.0,
+        "change": -0.95,
+        "high": 250.01,
+        "low": 246.45
+      },
+      "META": {
+        "name": "Meta",
+        "price": 642.62,
+        "change": -0.96,
+        "high": 648.04,
+        "low": 633.27
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 320.21,
+        "change": -1.24,
+        "high": 324.53,
+        "low": 320.18
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 372.22,
+        "change": -0.63,
+        "high": 377.32,
+        "low": 365.27
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 39.79,
+        "change": 2.63,
+        "high": 40.15,
+        "low": 36.72
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 418.09,
+        "change": -1.62,
+        "high": 425.25,
+        "low": 416.37
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.73,
+        "change": 1.17,
+        "high": 1.74,
+        "low": 1.59
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 52.6,
+        "change": 2.69,
+        "high": 52.92,
+        "low": 49.52
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 26.35,
+        "change": -2.44,
+        "high": 26.9,
+        "low": 26.07
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.2,
+        "change": 2.99,
+        "high": 6.35,
+        "low": 5.89
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": [
+      {
+        "title": "Federal Funds Rate",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "4.00%",
+        "previous": "4.00%"
+      },
+      {
+        "title": "FOMC Statement",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Press Conference",
+        "country": "USD",
+        "date": "2026-10-28T14:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 524.51,
+      "value": 552.279395185,
+      "cost": 495.50994638250006,
+      "gain": 56.76944880249994,
+      "gain_pct": 11.456772808890857
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 210.96,
+      "value": 187.25619686400003,
+      "cost": 161.5399809584,
+      "gain": 25.716215905600023,
+      "gain_pct": 15.91941249034968
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 39.79,
+      "value": 116.560619092,
+      "cost": 214.47007443188,
+      "gain": -97.90945533988,
+      "gain_pct": -45.651802751146995
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 26.35,
+      "value": 131.42409266,
+      "cost": 452.6500120422,
+      "gain": -321.2259193822,
+      "gain_pct": -70.96562704879648
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.2,
+      "value": 38.057707380000004,
+      "cost": 69.8849997615,
+      "gain": -31.827292381499994,
+      "gain_pct": -45.54238032498901
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1025.578011181,
+      "cost": 1394.05501357648,
+      "gain": -368.47700239548,
+      "gain_pct": -26.432027345186604
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 739.535592049,
+      "current_pct": 72.1,
+      "target_pct": 20,
+      "diff": 52.1,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 286.042419132,
+      "current_pct": 27.9,
+      "target_pct": 50,
+      "diff": -22.1,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1025.578011181
+  },
+  "news": "[BBC Business]\nหัวข้อ: Healey's Budget needs to sustain the stronger economy through gathering clouds\nเนื้อหา: The economic is positive now but come January things could become trickier for the Labour government\n\n[BBC Business]\nหัวข้อ: Data centre debate heats up ahead of US midterms - here's what you need to know\nเนื้อหา: Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.\n\n[BBC Business]\nหัวข้อ: What is the Budget and what could be in it?\nเนื้อหา: Chancellor John Healey will set out his plans for UK taxes on 28 October.\n\n[BBC Business]\nหัวข้อ: Will a new code end 'rip-off parking charges'?\nเนื้อหา: The prime minister says a new code will end \"rip-off parking charges\" - but will it work?\n\n[BBC Business]\nหัวข้อ: Rosebank: Life on the oil field at the centre of a political storm\nเนื้อหา: Scotland editor James Cook finds out what life is like on board a ship in an untapped oil field awaiting its fate.\n\n[CNBC]\nหัวข้อ: Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede\nเนื้อหา: It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.\n\n[CNBC]\nหัวข้อ: Oil slides over 2% as traders weigh Saudi attack risks, demand destruction\nเนื้อหา: Oil prices fell as investors weighed the threat of further attacks on Saudi Arabian energy infrastructure against concerns that elevated prices could erode demand.\n\n[CNBC]\nหัวข้อ: Defense tech investment boom sparks bubble warning as private equity pours in\nเนื้อหา: Private equity growth investments in defense reached $4 billion in the first nine months of 2026, up from $500 million in 2024.\n\n[CNBC]\nหัวข้อ: SpaceX closes $40 billion debt deal for AI chips, Elon Musk says\nเนื้อหา: Elon Musk said in an X post that SpaceX has closed $40 billion in debt financing to purchase GPUs.\n\n[CNBC]\nหัวข้อ: ‘Ticking time bomb’: The world's pension funds face an ageing crisis\nเนื้อหา: The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances.\n\n[MarketWatch]\nหัวข้อ: Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals\nเนื้อหา: SpaceX is rapidly growing an AI business that rents out access to advanced chips.\n\n[MarketWatch]\nหัวข้อ: ‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?\nเนื้อหา: “My late father bought our house for $250,000 in the 1990s.”\n\n[MarketWatch]\nหัวข้อ: ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?\nเนื้อหา: “I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”\n\n[MarketWatch]\nหัวข้อ: We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?\nเนื้อหา: “Last summer, they complained about needing to replace their roof. A few months later, they bought a new SUV.”\n\n[MarketWatch]\nหัวข้อ: My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?\nเนื้อหา: “Nothing has been set aside for his needs.”\n\n[Investing.com Gold]\nหัวข้อ: IEA chief says energy markets won’t return to pre-Iran war levels\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Britain to nearly double funding for rough sleeping plan\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Elections, central banks and earnings on the menu\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Mecca Pact nations to hold high-level talks with Iran in Tehran, Reuters reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors expect markets to unwind as Brazil’s Lula reelected\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
