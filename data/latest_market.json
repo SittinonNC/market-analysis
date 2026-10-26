@@ -1,40 +1,40 @@
 {
-  "ts": "2026-10-26T20-02-28Z",
+  "ts": "2026-10-26T23-57-20Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4026.1,
+      "price": 4020.6,
       "change": 0.0,
-      "high": 4044.0,
-      "low": 3990.9
+      "high": 4032.9,
+      "low": 4021.0
     },
     "sp500": {
-      "price": 7676.82,
+      "price": 7676.77,
       "change": 0.7,
       "high": 7702.13,
       "low": 7639.7
     },
     "dxy": {
-      "price": 101.98,
+      "price": 102.03,
       "change": 0.0,
-      "high": 102.06,
-      "low": 101.58
+      "high": 102.03,
+      "low": 102.03
     },
     "vix": {
-      "price": 18.34,
-      "change": -5.71,
+      "price": 18.39,
+      "change": -5.45,
       "high": 19.84,
       "low": 17.79
     },
     "btc": {
-      "price": 79792.97,
-      "change": -0.29,
+      "price": 79993.45,
+      "change": -0.04,
       "high": 80612.24,
       "low": 79343.66
     },
     "eth": {
-      "price": 2312.83,
-      "change": -0.61,
+      "price": 2319.93,
+      "change": -0.3,
       "high": 2335.76,
       "low": 2294.34
     },
@@ -99,7 +99,7 @@
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 410.71,
+        "price": 410.7,
         "change": -1.77,
         "high": 420.86,
         "low": 408.35
@@ -120,8 +120,8 @@
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 25.93,
-        "change": -1.59,
+        "price": 25.94,
+        "change": -1.56,
         "high": 26.96,
         "low": 25.39
       },
@@ -239,11 +239,11 @@
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 25.93,
-      "value": 129.329287388,
+      "current_price": 25.94,
+      "value": 129.379163704,
       "cost": 452.6500120422,
-      "gain": -323.3207246542,
-      "gain_pct": -71.42841401803767
+      "gain": -323.2708483382,
+      "gain_pct": -71.41739528067478
     },
     "ONDS": {
       "shares": 6.1383399,
@@ -267,10 +267,10 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1035.233688532,
+      "value": 1035.283564848,
       "cost": 1394.05501357648,
-      "gain": -358.82132504447986,
-      "gain_pct": -25.73939489833443
+      "gain": -358.77144872848,
+      "gain_pct": -25.73581711155313
     }
   },
   "allocation": {
@@ -282,7 +282,7 @@
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 282.70608603200003,
+      "value": 282.755962348,
       "current_pct": 27.3,
       "target_pct": 50,
       "diff": -22.7,
@@ -302,9 +302,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1035.233688532
+    "__total__": 1035.283564848
   },
-  "news": "[BBC Business]\nหัวข้อ: Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing\nเนื้อหา: The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.\n\n[BBC Business]\nหัวข้อ: Anthropic's blockbuster share listing - 5 surprising things we now know\nเนื้อหา: Anthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.\n\n[BBC Business]\nหัวข้อ: Healey to shield low-income pensioners from income tax in the Budget\nเนื้อหา: Changes are needed to prevent the full, flat-rate state pension becoming liable for income tax after it rises in April.\n\n[BBC Business]\nหัวข้อ: Healey's Budget needs to sustain the stronger economy through gathering clouds\nเนื้อหา: The economic is positive now but come January things could become trickier for the Labour government\n\n[BBC Business]\nหัวข้อ: Big, noisy and coming to a town near you - why the data centre backlash is growing\nเนื้อหา: Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.\n\n[CNBC]\nหัวข้อ: Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push\nเนื้อหา: Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.\n\n[CNBC]\nหัวข้อ: The arc of Trump: How the president lost the coalition that put him in the White House\nเนื้อหา: President Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.\n\n[CNBC]\nหัวข้อ: Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling\nเนื้อหา: An S&amp;P 500 index without AI stocks is beating the traditional index. These sectors and stocks could be winners if the AI trade keeps fraying.\n\n[CNBC]\nหัวข้อ: Apple responds to user reports of broken iPhone Duo screens on new foldable phone\nเนื้อหา: Apple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.\n\n[CNBC]\nหัวข้อ: Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules\nเนื้อหา: The judge ordered that Comey, the daughter of ex-FBI director James Comey, be retroactively reinstated to her job as an assistant United States attorney.\n\n[MarketWatch]\nหัวข้อ: My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.\nเนื้อหา: “He wants to buy something for $600,000 now that we are empty-nesters.”\n\n[MarketWatch]\nหัวข้อ: The house, the kids’ college and the raise: Where people in their 30s and 40s go wrong\nเนื้อหา: Big life decisions in your 30s and 40s will determine just how well you retire.\n\n[MarketWatch]\nหัวข้อ: My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?\nเนื้อหา: “When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”\n\n[MarketWatch]\nหัวข้อ: ‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: McDonald’s new bet on chicken hits a snag as franchisees say the birds are too big\nเนื้อหา: McDonald’s franchisees have complained about “tough meat” and other issues with new hand-breaded chicken, an analyst said.\n\n[Investing.com Gold]\nหัวข้อ: Brazil plans higher primary surplus for next year, Durigan says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Romania says uncovered Russian sabotage network\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-In China, the AI bubble has already burst\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysts forecast Brazil market plunge after Lula turnaround win\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Factbox-Anthropic’s filing for blockbuster US IPO shows key executives and board\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'\nเนื้อหา: The chancellor will axe tariffs on some staples as part of plans to give households \"breathing space\".\n\n[BBC Business]\nหัวข้อ: Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing\nเนื้อหา: The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.\n\n[BBC Business]\nหัวข้อ: Anthropic's blockbuster share listing - 5 surprising things we now know\nเนื้อหา: Anthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.\n\n[BBC Business]\nหัวข้อ: Healey to shield low-income pensioners from income tax in the Budget\nเนื้อหา: Changes are needed to prevent the full, flat-rate state pension becoming liable for income tax after it rises in April.\n\n[BBC Business]\nหัวข้อ: Healey's Budget needs to sustain the stronger economy through gathering clouds\nเนื้อหา: The economic is positive now but come January things could become trickier for the Labour government\n\n[CNBC]\nหัวข้อ: From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'\nเนื้อหา: With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.\n\n[CNBC]\nหัวข้อ: Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push\nเนื้อหา: Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.\n\n[CNBC]\nหัวข้อ: DOJ charges ex-FBI Director James Comey in new case\nเนื้อหา: Comey for years has been targeted by President Donald Trump, who fired him as FBI director in 2017.\n\n[CNBC]\nหัวข้อ: The arc of Trump: How the president lost the coalition that put him in the White House\nเนื้อหา: President Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.\n\n[CNBC]\nหัวข้อ: Bessent dines at Cheesecake Factory, slams Obama over Trump joke\nเนื้อหา: Cheesecake Factory has emerged as a campaign talking point before next week's election, with Treasury Secretary Scott Bessent dining there Monday.\n\n[MarketWatch]\nหัวข้อ: ‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: Dividend stocks are having an excellent October as tech sector struggles\nเนื้อหา: ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.\n\n[MarketWatch]\nหัวข้อ: Options traders are seizing control of the S&P 500\nเนื้อหา: There’s a reason the index hasn’t moved much since June, according to a team at UBS.\n\n[MarketWatch]\nหัวข้อ: TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.\nเนื้อหา: Consumers in China are starting to wonder — for good reason — whether the emerging AI travel agents have a hidden agenda.\n\n[MarketWatch]\nหัวข้อ: Over 40% of Americans are heading toward retirement ‘blind’ — with no plan\nเนื้อหา: Nearly half of Americans haven’t calculated what they’ll need in retirement.\n\n[Investing.com Gold]\nหัวข้อ: South Korea’s economy grows faster than expected in third quarter\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-US, Canada working on deal to ease steel, auto tariffs, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Britain will not join Canada-led defence bank initiative\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Canadian household credit holds firm even as mortgage delinquencies rise\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI light, Brazil flight\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
