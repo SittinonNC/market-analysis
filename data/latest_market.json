@@ -1,106 +1,106 @@
 {
-  "ts": "2026-10-27T19-31-13Z",
+  "ts": "2026-10-27T23-52-26Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4074.6,
-      "change": 0.9,
-      "high": 4079.0,
-      "low": 4001.6
+      "price": 4071.0,
+      "change": 0.81,
+      "high": 4077.9,
+      "low": 4070.7
     },
     "sp500": {
-      "price": 7728.8,
-      "change": 0.68,
-      "high": 7736.06,
+      "price": 7722.6,
+      "change": 0.6,
+      "high": 7736.24,
       "low": 7677.16
     },
     "dxy": {
-      "price": 102.3,
-      "change": 0.33,
-      "high": 102.33,
+      "price": 102.36,
+      "change": 0.39,
+      "high": 102.4,
       "low": 101.99
     },
     "vix": {
-      "price": 17.62,
-      "change": -4.19,
+      "price": 17.52,
+      "change": -4.73,
       "high": 18.55,
-      "low": 17.51
+      "low": 17.43
     },
     "btc": {
-      "price": 80536.47,
-      "change": 0.66,
-      "high": 80673.68,
+      "price": 80798.94,
+      "change": 0.99,
+      "high": 81117.01,
       "low": 79380.36
     },
     "eth": {
-      "price": 2338.91,
-      "change": 0.8,
-      "high": 2351.79,
+      "price": 2348.6,
+      "change": 1.22,
+      "high": 2357.18,
       "low": 2294.92
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 347.31,
-        "change": 0.99,
+        "price": 347.1,
+        "change": 0.93,
         "high": 347.78,
         "low": 342.39
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 532.42,
-        "change": -0.03,
+        "price": 531.33,
+        "change": -0.24,
         "high": 534.7,
         "low": 528.33
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 217.5,
-        "change": 0.69,
+        "price": 217.94,
+        "change": 0.9,
         "high": 219.19,
         "low": 215.53
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 254.26,
-        "change": 2.08,
+        "price": 253.1,
+        "change": 1.61,
         "high": 254.67,
         "low": 248.71
       },
       "META": {
         "name": "Meta",
-        "price": 623.55,
-        "change": -1.11,
+        "price": 620.19,
+        "change": -1.64,
         "high": 628.46,
-        "low": 621.36
+        "low": 619.22
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 323.33,
-        "change": 2.06,
+        "price": 320.58,
+        "change": 1.19,
         "high": 323.88,
         "low": 316.9
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 407.83,
-        "change": 4.14,
-        "high": 408.43,
+        "price": 407.46,
+        "change": 4.04,
+        "high": 408.45,
         "low": 395.25
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 41.92,
-        "change": 6.26,
+        "price": 41.96,
+        "change": 6.36,
         "high": 43.43,
         "low": 39.58
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 410.7,
-        "change": 0.0,
+        "price": 410.39,
+        "change": -0.08,
         "high": 413.6,
         "low": 408.22
       },
@@ -113,22 +113,22 @@
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 58.28,
-        "change": 8.29,
+        "price": 58.31,
+        "change": 8.34,
         "high": 59.18,
         "low": 53.57
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 27.18,
-        "change": 4.78,
+        "price": 27.33,
+        "change": 5.36,
         "high": 27.56,
         "low": 26.31
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.62,
-        "change": 7.47,
+        "price": 6.65,
+        "change": 7.95,
         "high": 6.69,
         "low": 6.16
       }
@@ -228,47 +228,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 532.42,
-      "value": 560.6081782699999,
+      "current_price": 531.33,
+      "value": 559.460469855,
       "cost": 495.50994638250006,
-      "gain": 65.09823188749988,
-      "gain_pct": 13.137623646660055
+      "gain": 63.95052347249998,
+      "gain_pct": 12.906001976221587
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 217.5,
-      "value": 193.061352,
+      "current_price": 217.94,
+      "value": 193.451912896,
       "cost": 161.5399809584,
-      "gain": 31.52137104159999,
-      "gain_pct": 19.51304615401522
+      "gain": 31.911931937600002,
+      "gain_pct": 19.754819672671626
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.92,
-      "value": 122.800230016,
+      "current_price": 41.96,
+      "value": 122.917405808,
       "cost": 214.47007443188,
-      "gain": -91.66984441588,
-      "gain_pct": -42.74248734174621
+      "gain": -91.55266862388,
+      "gain_pct": -42.687852310583764
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.18,
-      "value": 135.563826888,
+      "current_price": 27.33,
+      "value": 136.311971628,
       "cost": 452.6500120422,
-      "gain": -317.0861851542,
-      "gain_pct": -70.05107184767697
+      "gain": -316.3380404142,
+      "gain_pct": -69.88579078723369
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.62,
-      "value": 40.635810138000004,
+      "current_price": 6.65,
+      "value": 40.819960335000005,
       "cost": 69.8849997615,
-      "gain": -29.249189623499994,
-      "gain_pct": -41.85331576635924
+      "gain": -29.065039426499993,
+      "gain_pct": -41.58981115502854
     },
     "ARQQ": {
       "value": "N/A",
@@ -283,25 +283,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1052.669397312,
+      "value": 1052.961720522,
       "cost": 1394.05501357648,
-      "gain": -341.38561626447995,
-      "gain_pct": -24.488676052220303
+      "gain": -341.09329305448,
+      "gain_pct": -24.467706778615383
     }
   },
   "allocation": {
     "mag7": {
-      "value": 753.66953027,
-      "current_pct": 71.6,
+      "value": 752.912382751,
+      "current_pct": 71.5,
       "target_pct": 20,
-      "diff": 51.6,
+      "diff": 51.5,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 298.999867042,
-      "current_pct": 28.4,
+      "value": 300.049337771,
+      "current_pct": 28.5,
       "target_pct": 50,
-      "diff": -21.6,
+      "diff": -21.5,
       "status": "Underweight"
     },
     "crypto": {
@@ -318,9 +318,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1052.669397312
+    "__total__": 1052.961720522
   },
-  "news": "[BBC Business]\nหัวข้อ: I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard\nเนื้อหา: People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business]\nหัวข้อ: Minimum wage set to rise but 18-20 year-olds will not get bigger increase\nเนื้อหา: Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.\n\n[BBC Business]\nหัวข้อ: Donald Trump's biggest economic problem looks strangely familiar\nเนื้อหา: Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business]\nหัวข้อ: Rise in sales of radios and tinned foods, say retailers, after call to stock up\nเนื้อหา: Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.\n\n[BBC Business]\nหัวข้อ: Mbappé sorry for 'ill-judged' Mao remark after backlash in China\nเนื้อหา: The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.\n\n[CNBC]\nหัวข้อ: Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain\nเนื้อหา: Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.\n\n[CNBC]\nหัวข้อ: Fed expected to hold rates steady, but Warsh may point way to more hikes\nเนื้อหา: Markets overwhelmingly expect no change in benchmark interest rates following September's increase.\n\n[CNBC]\nหัวข้อ: Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split\nเนื้อหา: Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.\n\n[CNBC]\nหัวข้อ: Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI\nเนื้อหา: Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.\n\n[CNBC]\nหัวข้อ: Midterm elections: How affordability and the economy could impact voters\nเนื้อหา: Several economic issues could impact midterm elections voters. Here's what to expect on Nov. 3.\n\n[MarketWatch]\nหัวข้อ: A hidden ‘triple top’ in oil price charts suggests the rally has run out of gas\nเนื้อหา: The failure of a key momentum indicator to match the price highs suggests buyers may have run out of steam.\n\n[MarketWatch]\nหัวข้อ: My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?\nเนื้อหา: “When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”\n\n[MarketWatch]\nหัวข้อ: My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?\nเนื้อหา: “Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”\n\n[MarketWatch]\nหัวข้อ: The big reason Boeing’s stock is falling so hard after earnings\nเนื้อหา: Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.\n\n[MarketWatch]\nหัวข้อ: ‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto\nเนื้อหา: What former CFTC Chairman Chris Giancarlo tells his own children about buying their first crypto coin.\n\n[Investing.com Gold]\nหัวข้อ: Exclusive-GM to offer hybrid SUVs in strategic pivot from electric\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street rises on revived AI momentum as earnings season picks up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI financing driving private credit growth as refinancing risks rise, Moody’s says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Senegal parliamentary committee to review revised budget key for new IMF deal\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US judge to weigh Justice Dept’s effort to block California from counting alleged noncitizen votes\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard\nเนื้อหา: People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business]\nหัวข้อ: Minimum wage set to rise but 18-20 year-olds will not get bigger increase\nเนื้อหา: Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.\n\n[BBC Business]\nหัวข้อ: Landline switchover could cut people off in emergency, minister warned\nเนื้อหา: Plans to switch to digital landlines by January could leave remote areas of the UK vulnerable, MPs say.\n\n[BBC Business]\nหัวข้อ: Donald Trump's biggest economic problem looks strangely familiar\nเนื้อหา: Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business]\nหัวข้อ: Rise in sales of radios and tinned foods, say retailers, after call to stock up\nเนื้อหา: Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.\n\n[CNBC]\nหัวข้อ: Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain\nเนื้อหา: Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.\n\n[CNBC]\nหัวข้อ: Speaker Mike Johnson calls election-transfer concerns ‘absurd’\nเนื้อหา: Democrats and voting rights groups have raised concerns that President Donald Trump and congressional Republicans could challenge election results if they lose.\n\n[CNBC]\nหัวข้อ: SK Hynix third-quarter profit sharply beats estimates on AI memory boost\nเนื้อหา: South Korean chipmaker SK Hynix on Wednesday reported its third-quarter earnings.\n\n[CNBC]\nหัวข้อ: Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI\nเนื้อหา: Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.\n\n[CNBC]\nหัวข้อ: Trump administration may let more Russian diesel onto market, energy secretary tells CNBC\nเนื้อหา: The diesel volumes in the Trump-Putin deal won't materially lower prices because the shipments are small compared to total demand, analysts say.\n\n[MarketWatch]\nหัวข้อ: Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market\nเนื้อหา: Robinhood CFO says market volatility didn’t scare traders away from buying chip stocks “that they had really done research on.”\n\n[MarketWatch]\nหัวข้อ: ‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?\nเนื้อหา: “My late father bought our house for $250,000 in the 1990s.”\n\n[MarketWatch]\nหัวข้อ: CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending\nเนื้อหา: Now that investors have been able to dive further into Anthropic’s IPO filing, they’re seeing the same sorts of trends that helped buoy AI stocks for much of this year.\n\n[MarketWatch]\nหัวข้อ: As Trump touts energy companies’ fortunes, U.S. consumers face the most expensive year for gas prices ever\nเนื้อหา: President Donald Trump can’t stop touting the fortunes U.S. energy companies have made during the Iran war, while canvassing the country to support Republican candidates ahead of next week’s midterm elections.\n\n[MarketWatch]\nหัวข้อ: The rest of the market is leaving Big Tech behind after a historic comeback\nเนื้อหา: The artificial-intelligence trade carried the U.S. stock market in September. But in October, it is being carried out on a stretcher.\n\n[Investing.com Gold]\nหัวข้อ: FBI agent says he feared case against ex-FBI officials tied to Hunter Biden probes would look political\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street ends higher on revived AI momentum\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Alexander brothers get 30 years each in prison after sex trafficking convictions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI wave lifts all boats\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Robinhood CEO’s AI startup Harmonic expands into software, chip design verification\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
