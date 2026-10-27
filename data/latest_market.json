@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-26T23-57-20Z",
+  "ts": "2026-10-27T07-06-24Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4020.6,
-      "change": 0.0,
-      "high": 4032.9,
-      "low": 4021.0
+      "price": 4013.6,
+      "change": -0.61,
+      "high": 4038.9,
+      "low": 4009.6
     },
     "sp500": {
       "price": 7676.77,
@@ -15,28 +15,28 @@
       "low": 7639.7
     },
     "dxy": {
-      "price": 102.03,
-      "change": 0.0,
-      "high": 102.03,
-      "low": 102.03
+      "price": 102.13,
+      "change": 0.17,
+      "high": 102.14,
+      "low": 101.99
     },
     "vix": {
       "price": 18.39,
-      "change": -5.45,
+      "change": 0.0,
       "high": 19.84,
       "low": 17.79
     },
     "btc": {
-      "price": 79993.45,
-      "change": -0.04,
-      "high": 80612.24,
-      "low": 79343.66
+      "price": 79497.01,
+      "change": 0.0,
+      "high": 80202.84,
+      "low": 79499.3
     },
     "eth": {
-      "price": 2319.93,
-      "change": -0.3,
-      "high": 2335.76,
-      "low": 2294.34
+      "price": 2299.64,
+      "change": 0.0,
+      "high": 2327.18,
+      "low": 2299.98
     },
     "mag7": {
       "AAPL": {
@@ -65,14 +65,14 @@
         "price": 249.09,
         "change": 0.44,
         "high": 250.79,
-        "low": 247.24
+        "low": 247.23
       },
       "META": {
         "name": "Meta",
         "price": 630.56,
         "change": -1.88,
         "high": 647.69,
-        "low": 627.82
+        "low": 627.8
       },
       "GOOGL": {
         "name": "Alphabet",
@@ -86,7 +86,7 @@
         "price": 391.62,
         "change": 5.21,
         "high": 397.27,
-        "low": 383.84
+        "low": 383.73
       }
     },
     "watchlist": {
@@ -304,7 +304,7 @@
     },
     "__total__": 1035.283564848
   },
-  "news": "[BBC Business]\nหัวข้อ: Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'\nเนื้อหา: The chancellor will axe tariffs on some staples as part of plans to give households \"breathing space\".\n\n[BBC Business]\nหัวข้อ: Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing\nเนื้อหา: The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.\n\n[BBC Business]\nหัวข้อ: Anthropic's blockbuster share listing - 5 surprising things we now know\nเนื้อหา: Anthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.\n\n[BBC Business]\nหัวข้อ: Healey to shield low-income pensioners from income tax in the Budget\nเนื้อหา: Changes are needed to prevent the full, flat-rate state pension becoming liable for income tax after it rises in April.\n\n[BBC Business]\nหัวข้อ: Healey's Budget needs to sustain the stronger economy through gathering clouds\nเนื้อหา: The economic is positive now but come January things could become trickier for the Labour government\n\n[CNBC]\nหัวข้อ: From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'\nเนื้อหา: With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.\n\n[CNBC]\nหัวข้อ: Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push\nเนื้อหา: Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.\n\n[CNBC]\nหัวข้อ: DOJ charges ex-FBI Director James Comey in new case\nเนื้อหา: Comey for years has been targeted by President Donald Trump, who fired him as FBI director in 2017.\n\n[CNBC]\nหัวข้อ: The arc of Trump: How the president lost the coalition that put him in the White House\nเนื้อหา: President Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.\n\n[CNBC]\nหัวข้อ: Bessent dines at Cheesecake Factory, slams Obama over Trump joke\nเนื้อหา: Cheesecake Factory has emerged as a campaign talking point before next week's election, with Treasury Secretary Scott Bessent dining there Monday.\n\n[MarketWatch]\nหัวข้อ: ‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: Dividend stocks are having an excellent October as tech sector struggles\nเนื้อหา: ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.\n\n[MarketWatch]\nหัวข้อ: Options traders are seizing control of the S&P 500\nเนื้อหา: There’s a reason the index hasn’t moved much since June, according to a team at UBS.\n\n[MarketWatch]\nหัวข้อ: TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.\nเนื้อหา: Consumers in China are starting to wonder — for good reason — whether the emerging AI travel agents have a hidden agenda.\n\n[MarketWatch]\nหัวข้อ: Over 40% of Americans are heading toward retirement ‘blind’ — with no plan\nเนื้อหา: Nearly half of Americans haven’t calculated what they’ll need in retirement.\n\n[Investing.com Gold]\nหัวข้อ: South Korea’s economy grows faster than expected in third quarter\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-US, Canada working on deal to ease steel, auto tariffs, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Britain will not join Canada-led defence bank initiative\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Canadian household credit holds firm even as mortgage delinquencies rise\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI light, Brazil flight\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: 'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?\nเนื้อหา: People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business]\nหัวข้อ: Healey pledges cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'\nเนื้อหา: The chancellor will axe tariffs on some staples as part of plans to give households \"breathing space\".\n\n[BBC Business]\nหัวข้อ: Donald Trump's biggest economic problem looks strangely familiar\nเนื้อหา: Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business]\nหัวข้อ: Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing\nเนื้อหา: The company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.\n\n[BBC Business]\nหัวข้อ: Apple says it will replace iPhone Duo handsets with screen problems\nเนื้อหา: Photos shared online showed faults appearing on the screens of Apple's first foldable device.\n\n[CNBC]\nหัวข้อ: From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'\nเนื้อหา: With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.\n\n[CNBC]\nหัวข้อ: HSBC announces share buyback of up to $1 billion as third-quarter profit meets estimates\nเนื้อหา: HSBC announced its third-quarter earnings on Tuesday.\n\n[CNBC]\nหัวข้อ: Oil falls as renewed diplomatic efforts to end Mideast conflict ease supply concerns\nเนื้อหา: Renewed diplomatic efforts to end the U.S.-Israeli war with Iran pushed oil prices lower\n\n[CNBC]\nหัวข้อ: Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day\nเนื้อหา: The winner of the Alaska Senate election could determine whether Republicans or Democrats have a majority in the Senate in the next Congress.\n\n[CNBC]\nหัวข้อ: Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push\nเนื้อหา: Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.\n\n[MarketWatch]\nหัวข้อ: What gave this city its ‘best place to retire’ crown? You can actually afford to live there.\nเนื้อหา: Low cost of living, high quality of life and favorable taxes for retirees, for the win.\n\n[MarketWatch]\nหัวข้อ: ‘You need only watch episodes of Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: Dividend stocks are having an excellent October as tech sector struggles\nเนื้อหา: ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.\n\n[MarketWatch]\nหัวข้อ: Options traders are seizing control of the S&P 500\nเนื้อหา: There’s a reason the index hasn’t moved much since June, according to a team at UBS.\n\n[MarketWatch]\nหัวข้อ: TikTok parent ByteDance’s chatbot is now giving travel-booking sites a run for their money. And yours.\nเนื้อหา: Consumers in China are starting to wonder — for good reason — whether the emerging AI travel agents have a hidden agenda.\n\n[Investing.com Gold]\nหัวข้อ: In China, the AI bubble has already burst\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s trend inflation index hits 3-year high, cements case for BOJ rate hike\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: All eyes on AI\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Taiwan central bank sees strong tech demand driving exports into 2027\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Yen eases on risk-on mood ahead of central bank bonanza\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
