@@ -1,97 +1,97 @@
 {
-  "ts": "2026-10-26T18-58-45Z",
+  "ts": "2026-10-27T18-30-02Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 532.16,
-      "value": 560.33441296,
+      "current_price": 530.74,
+      "value": 558.8392331900001,
       "cost": 495.50994638250006,
-      "gain": 64.82446657749995,
-      "gain_pct": 13.082374440867401,
-      "today_change": 1.46
+      "gain": 63.32928680750001,
+      "gain_pct": 12.780628778461312,
+      "today_change": -0.35
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 216.21,
-      "value": 191.91629846400002,
+      "current_price": 217.55,
+      "value": 193.10573392000003,
       "cost": 161.5399809584,
-      "gain": 30.376317505600014,
-      "gain_pct": 18.804210156136246,
-      "today_change": 2.49
+      "gain": 31.565752961600026,
+      "gain_pct": 19.540520417498925,
+      "today_change": 0.72
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 39.98,
-      "value": 117.11720410399998,
+      "current_price": 42.12,
+      "value": 123.38610897599999,
       "cost": 214.47007443188,
-      "gain": -97.35287032788001,
-      "gain_pct": -45.392286353125336,
-      "today_change": 0.48
+      "gain": -91.08396545588,
+      "gain_pct": -42.469312185933944,
+      "today_change": 6.77
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 26.0,
-      "value": 129.6784216,
+      "current_price": 27.11,
+      "value": 135.214692676,
       "cost": 452.6500120422,
-      "gain": -322.97159044219995,
-      "gain_pct": -71.35128285649746,
-      "today_change": -1.33
+      "gain": -317.4353193662,
+      "gain_pct": -70.12820300921719,
+      "today_change": 4.51
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.18,
-      "value": 37.934940581999996,
+      "current_price": 6.64,
+      "value": 40.758576936,
       "cost": 69.8849997615,
-      "gain": -31.950059179500002,
-      "gain_pct": -45.718050065876156,
-      "today_change": -0.32
+      "gain": -29.1264228255,
+      "gain_pct": -41.677646025472114,
+      "today_change": 7.79
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 16.62,
-      "value": 69.35460517199999,
+      "current_price": 18.13,
+      "value": 75.65577567799998,
       "cost": 61.19646719899999,
-      "gain": 8.158137973000002,
-      "gain_pct": 13.3310603477668,
-      "today_change": 1.28
+      "gain": 14.459308478999993,
+      "gain_pct": 23.627684964200473,
+      "today_change": 11.23
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.04,
-      "value": 130.202864456,
+      "current_price": 12.67,
+      "value": 137.015805038,
       "cost": 61.09909999086,
-      "gain": 69.10376446513999,
-      "gain_pct": 113.10111683392626,
-      "today_change": 1.86
+      "gain": 75.91670504714,
+      "gain_pct": 124.25175666825963,
+      "today_change": 4.88
     },
     "__total__": {
-      "value": 1236.538747338,
+      "value": 1263.9759264140002,
       "cost": 1516.3505807663398,
-      "gain": -279.8118334283399,
-      "gain_pct": -18.452977627833754
+      "gain": -252.37465435233958,
+      "gain_pct": -16.643555755080953
     }
   },
   "allocation": {
     "mag7": {
-      "value": 752.250711424,
-      "current_pct": 60.8,
+      "value": 751.9449671100001,
+      "current_pct": 59.5,
       "target_pct": 20,
-      "diff": 40.8,
+      "diff": 39.5,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 284.730566286,
-      "current_pct": 23.0,
+      "value": 299.35937858799997,
+      "current_pct": 23.7,
       "target_pct": 50,
-      "diff": -27.0,
+      "diff": -26.3,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1236.538747338
+    "__total__": 1263.9759264140002
   },
-  "news": "[BBC Business] Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing\nThe company will be the first true artificial intelligence company to go public as tech firms continue to invest heavily in AI.\n\n[BBC Business] Anthropic's blockbuster share listing - 5 surprising things we now know\nAnthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.\n\n[BBC Business] Healey to shield low-income pensioners from income tax in the Budget\nChanges are needed to prevent the full, flat-rate state pension becoming liable for income tax after it rises in April.\n\n[BBC Business] Healey's Budget needs to sustain the stronger economy through gathering clouds\nThe economic is positive now but come January things could become trickier for the Labour government\n\n[CNBC] Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push\nMicrosoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.\n\n[CNBC] The arc of Trump: How the president lost the coalition that put him in the White House\nPresident Trump forged an extraordinary coalition to win office in 2024. A new CNBC survey shows that coalition is now seriously weakened.\n\n[CNBC] Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling\nAn S&amp;P 500 index without AI stocks is beating the traditional index. These sectors and stocks could be winners if the AI trade keeps fraying.\n\n[CNBC] Apple responds to user reports of broken iPhone Duo screens on new foldable phone\nApple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.\n\n[MarketWatch] Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering\nMeta is looking to raise a total of $95 billion through stock-related deals that stretch into early next year.\n\n[MarketWatch] My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?\n“When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”\n\n[MarketWatch] These energy stocks are poised to profit from an imminent AI power crunch\nBloom Energy and Solaris Energy would benefit from an urgency around securing power to AI developers.\n\n[MarketWatch] Meet the financial-literacy teacher who helps high-school students open their own Roth IRAs\nChristopher Jackson got hurt before his first NFL game. He now coaches teens on building wealth.",
+  "news": "[BBC Business] I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard\nPeople earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business] Minimum wage set to rise but 18-20 year-olds will not get bigger increase\nChancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.\n\n[BBC Business] Donald Trump's biggest economic problem looks strangely familiar\nDonald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business] Rise in sales of radios and tinned foods, say retailers, after call to stock up\nFigures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.\n\n[CNBC] Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split\nInvestors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.\n\n[CNBC] Fed expected to hold rates steady, but Warsh may point way to more hikes\nMarkets overwhelmingly expect no change in benchmark interest rates following September's increase.\n\n[CNBC] Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain\nCompanies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.\n\n[CNBC] Honda warns 50% Canada auto tariffs would be catastrophic for industry\nPresident Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries.\n\n[MarketWatch] The big reason Boeing’s stock is falling so hard after earnings\nBoeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.\n\n[MarketWatch] ‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto\nWhat former CFTC Chairman Chris Giancarlo tells his own children about buying their first crypto coin.\n\n[MarketWatch] JetBlue has been losing money for years. It just charted a path to profitability.\nJetBlue’s stock rises more than 20% as a new profit target helps calm fears about the airline’s viability.\n\n[MarketWatch] When will Anthropic go public? Here’s what to know about the IPO timeline.\nBy filing IPO paperwork on Monday, Anthropic can conduct its investor roadshow the week of Nov. 9 and would be eligible to go public as soon as the following week.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
