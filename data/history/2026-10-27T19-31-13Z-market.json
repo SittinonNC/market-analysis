@@ -1,0 +1,327 @@
+{
+  "ts": "2026-10-27T19-31-13Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4074.6,
+      "change": 0.9,
+      "high": 4079.0,
+      "low": 4001.6
+    },
+    "sp500": {
+      "price": 7728.8,
+      "change": 0.68,
+      "high": 7736.06,
+      "low": 7677.16
+    },
+    "dxy": {
+      "price": 102.3,
+      "change": 0.33,
+      "high": 102.33,
+      "low": 101.99
+    },
+    "vix": {
+      "price": 17.62,
+      "change": -4.19,
+      "high": 18.55,
+      "low": 17.51
+    },
+    "btc": {
+      "price": 80536.47,
+      "change": 0.66,
+      "high": 80673.68,
+      "low": 79380.36
+    },
+    "eth": {
+      "price": 2338.91,
+      "change": 0.8,
+      "high": 2351.79,
+      "low": 2294.92
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 347.31,
+        "change": 0.99,
+        "high": 347.78,
+        "low": 342.39
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 532.42,
+        "change": -0.03,
+        "high": 534.7,
+        "low": 528.33
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 217.5,
+        "change": 0.69,
+        "high": 219.19,
+        "low": 215.53
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 254.26,
+        "change": 2.08,
+        "high": 254.67,
+        "low": 248.71
+      },
+      "META": {
+        "name": "Meta",
+        "price": 623.55,
+        "change": -1.11,
+        "high": 628.46,
+        "low": 621.36
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 323.33,
+        "change": 2.06,
+        "high": 323.88,
+        "low": 316.9
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 407.83,
+        "change": 4.14,
+        "high": 408.43,
+        "low": 395.25
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 41.92,
+        "change": 6.26,
+        "high": 43.43,
+        "low": 39.58
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 410.7,
+        "change": 0.0,
+        "high": 413.6,
+        "low": 408.22
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.82,
+        "change": 12.35,
+        "high": 1.86,
+        "low": 1.65
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 58.28,
+        "change": 8.29,
+        "high": 59.18,
+        "low": 53.57
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.18,
+        "change": 4.78,
+        "high": 27.56,
+        "low": 26.31
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.62,
+        "change": 7.47,
+        "high": 6.69,
+        "low": 6.16
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Annual Budget Release",
+        "country": "GBP",
+        "date": "2026-10-28T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOC Monetary Policy Report",
+        "country": "CAD",
+        "date": "2026-10-28T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOC Rate Statement",
+        "country": "CAD",
+        "date": "2026-10-28T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Overnight Rate",
+        "country": "CAD",
+        "date": "2026-10-28T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "2.50%",
+        "previous": "2.25%"
+      },
+      {
+        "title": "BOC Press Conference",
+        "country": "CAD",
+        "date": "2026-10-28T10:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Federal Funds Rate",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "4.00%",
+        "previous": "4.00%"
+      },
+      {
+        "title": "FOMC Statement",
+        "country": "USD",
+        "date": "2026-10-28T14:00:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Press Conference",
+        "country": "USD",
+        "date": "2026-10-28T14:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 532.42,
+      "value": 560.6081782699999,
+      "cost": 495.50994638250006,
+      "gain": 65.09823188749988,
+      "gain_pct": 13.137623646660055
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 217.5,
+      "value": 193.061352,
+      "cost": 161.5399809584,
+      "gain": 31.52137104159999,
+      "gain_pct": 19.51304615401522
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 41.92,
+      "value": 122.800230016,
+      "cost": 214.47007443188,
+      "gain": -91.66984441588,
+      "gain_pct": -42.74248734174621
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.18,
+      "value": 135.563826888,
+      "cost": 452.6500120422,
+      "gain": -317.0861851542,
+      "gain_pct": -70.05107184767697
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.62,
+      "value": 40.635810138000004,
+      "cost": 69.8849997615,
+      "gain": -29.249189623499994,
+      "gain_pct": -41.85331576635924
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1052.669397312,
+      "cost": 1394.05501357648,
+      "gain": -341.38561626447995,
+      "gain_pct": -24.488676052220303
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 753.66953027,
+      "current_pct": 71.6,
+      "target_pct": 20,
+      "diff": 51.6,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 298.999867042,
+      "current_pct": 28.4,
+      "target_pct": 50,
+      "diff": -21.6,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1052.669397312
+  },
+  "news": "[BBC Business]\nหัวข้อ: I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard\nเนื้อหา: People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business]\nหัวข้อ: Minimum wage set to rise but 18-20 year-olds will not get bigger increase\nเนื้อหา: Chancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.\n\n[BBC Business]\nหัวข้อ: Donald Trump's biggest economic problem looks strangely familiar\nเนื้อหา: Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business]\nหัวข้อ: Rise in sales of radios and tinned foods, say retailers, after call to stock up\nเนื้อหา: Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.\n\n[BBC Business]\nหัวข้อ: Mbappé sorry for 'ill-judged' Mao remark after backlash in China\nเนื้อหา: The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes.\n\n[CNBC]\nหัวข้อ: Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain\nเนื้อหา: Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.\n\n[CNBC]\nหัวข้อ: Fed expected to hold rates steady, but Warsh may point way to more hikes\nเนื้อหา: Markets overwhelmingly expect no change in benchmark interest rates following September's increase.\n\n[CNBC]\nหัวข้อ: Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split\nเนื้อหา: Investors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.\n\n[CNBC]\nหัวข้อ: Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI\nเนื้อหา: Amazon has rapidly integrated AI across the e-commerce giant's sprawling business operations under CEO Andy Jassy.\n\n[CNBC]\nหัวข้อ: Midterm elections: How affordability and the economy could impact voters\nเนื้อหา: Several economic issues could impact midterm elections voters. Here's what to expect on Nov. 3.\n\n[MarketWatch]\nหัวข้อ: A hidden ‘triple top’ in oil price charts suggests the rally has run out of gas\nเนื้อหา: The failure of a key momentum indicator to match the price highs suggests buyers may have run out of steam.\n\n[MarketWatch]\nหัวข้อ: My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?\nเนื้อหา: “When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”\n\n[MarketWatch]\nหัวข้อ: My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?\nเนื้อหา: “Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”\n\n[MarketWatch]\nหัวข้อ: The big reason Boeing’s stock is falling so hard after earnings\nเนื้อหา: Boeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.\n\n[MarketWatch]\nหัวข้อ: ‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto\nเนื้อหา: What former CFTC Chairman Chris Giancarlo tells his own children about buying their first crypto coin.\n\n[Investing.com Gold]\nหัวข้อ: Exclusive-GM to offer hybrid SUVs in strategic pivot from electric\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street rises on revived AI momentum as earnings season picks up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI financing driving private credit growth as refinancing risks rise, Moody’s says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Senegal parliamentary committee to review revised budget key for new IMF deal\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US judge to weigh Justice Dept’s effort to block California from counting alleged noncitizen votes\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
