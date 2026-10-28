@@ -1,0 +1,310 @@
+{
+  "ts": "2026-10-28T19-42-32Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4069.2,
+      "change": -0.13,
+      "high": 4084.1,
+      "low": 4036.9
+    },
+    "sp500": {
+      "price": 7738.32,
+      "change": 0.2,
+      "high": 7758.43,
+      "low": 7718.37
+    },
+    "dxy": {
+      "price": 102.12,
+      "change": -0.2,
+      "high": 102.49,
+      "low": 102.05
+    },
+    "vix": {
+      "price": 17.11,
+      "change": -2.34,
+      "high": 17.77,
+      "low": 16.93
+    },
+    "btc": {
+      "price": 81230.48,
+      "change": 0.53,
+      "high": 81547.67,
+      "low": 80330.34
+    },
+    "eth": {
+      "price": 2360.01,
+      "change": 0.52,
+      "high": 2376.98,
+      "low": 2323.64
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 344.27,
+        "change": -0.82,
+        "high": 347.18,
+        "low": 343.9
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 529.48,
+        "change": -0.35,
+        "high": 534.57,
+        "low": 526.14
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 214.94,
+        "change": -1.38,
+        "high": 219.99,
+        "low": 214.47
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 254.7,
+        "change": 0.63,
+        "high": 255.36,
+        "low": 251.98
+      },
+      "META": {
+        "name": "Meta",
+        "price": 612.0,
+        "change": -1.32,
+        "high": 624.42,
+        "low": 609.0
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 324.76,
+        "change": 1.3,
+        "high": 326.4,
+        "low": 322.65
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 402.8,
+        "change": -1.14,
+        "high": 410.85,
+        "low": 397.18
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 41.85,
+        "change": -0.26,
+        "high": 42.03,
+        "low": 39.91
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 406.97,
+        "change": -0.83,
+        "high": 416.19,
+        "low": 405.0
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.92,
+        "change": 5.49,
+        "high": 1.98,
+        "low": 1.76
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 58.36,
+        "change": 0.09,
+        "high": 59.13,
+        "low": 56.95
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 26.8,
+        "change": -1.94,
+        "high": 27.39,
+        "low": 26.3
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.8,
+        "change": 2.26,
+        "high": 6.8,
+        "low": 6.56
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "title": "Main Refinancing Rate",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "2.65%",
+        "previous": "2.65%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "ECB Press Conference",
+        "country": "EUR",
+        "date": "2026-10-29T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Policy Rate",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "<1.25%",
+        "previous": "<1.25%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-10-29T22:31:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 529.48,
+      "value": 557.5125243800001,
+      "cost": 495.50994638250006,
+      "gain": 62.0025779975,
+      "gain_pct": 12.51288262731223
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 214.94,
+      "value": 190.788997696,
+      "cost": 161.5399809584,
+      "gain": 29.249016737599987,
+      "gain_pct": 18.106363863650714
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 41.85,
+      "value": 122.59517238,
+      "cost": 214.47007443188,
+      "gain": -91.87490205188,
+      "gain_pct": -42.838098646280514
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 26.8,
+      "value": 133.66852688,
+      "cost": 452.6500120422,
+      "gain": -318.9814851622,
+      "gain_pct": -70.46978386746663
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.8,
+      "value": 41.74071132,
+      "cost": 69.8849997615,
+      "gain": -28.144288441499995,
+      "gain_pct": -40.27228809837505
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1046.305932656,
+      "cost": 1394.05501357648,
+      "gain": -347.74908092047986,
+      "gain_pct": -24.94514761137881
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 748.3015220760001,
+      "current_pct": 71.5,
+      "target_pct": 20,
+      "diff": 51.5,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 298.00441058,
+      "current_pct": 28.5,
+      "target_pct": 50,
+      "diff": -21.5,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1046.305932656
+  },
+  "news": "[BBC Business]\nหัวข้อ: Five ways the Budget will affect you if you are under 25\nเนื้อหา: The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.\n\n[BBC Business]\nหัวข้อ: Your pay, energy bills and savings: How the Budget affects you\nเนื้อหา: Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business]\nหัวข้อ: Dharshini David: Healey buys himself some time, but big questions still unanswered\nเนื้อหา: The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.\n\n[BBC Business]\nหัวข้อ: Will I get the £100 energy payment and when will I receive it?\nเนื้อหา: Here is what you need to know about the payment that millions will receive from January.\n\n[BBC Business]\nหัวข้อ: Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss\nเนื้อหา: The Russian President praised Musk and said they are in \"close\" contact.\n\n[CNBC]\nหัวข้อ: Oracle stock pops 12% as long-term revenue forecast and clarity on financing ease debt concerns\nเนื้อหา: Oracle issued a revenue forecast for fiscal year 2030 of $225 billion, and said it will limit additional fundraising over that stretch to $20 billion.\n\n[CNBC]\nหัวข้อ: Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain\nเนื้อหา: Wendy's has endured a tough two-year stretch as diners eat out less often.\n\n[CNBC]\nหัวข้อ: Chipotle Mexican Grill is about to report earnings. Here's what to expect\nเนื้อหา: Chipotle's stock has fallen about 22% so far this year, dragging its market cap down to about $36 billion.\n\n[CNBC]\nหัวข้อ: Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'\nเนื้อหา: The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed announced its decision to hold interest rates steady.\n\n[CNBC]\nหัวข้อ: Here is what changed in the new Fed statement\nเนื้อหา: This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in September.\n\n[MarketWatch]\nหัวข้อ: Elon Musk says he can build a wireless carrier in two to three years. Is that possible?\nเนื้อหา: Verizon says there is ‘no magic wand,’ but analysts note SpaceX may be targeting some shortcuts.\n\n[MarketWatch]\nหัวข้อ: The U.S. government will no longer penalize American companies for making six popular peptides\nเนื้อหา: It won’t take action against compounding pharmacies that make popular wellness products like BPC-157 and TB-500.\n\n[MarketWatch]\nหัวข้อ: Gen Z voters told us the midterms will boil down to affording life, not social issues\nเนื้อหา: MarketWatch talked to younger voters who said many life goals feel unattainable for their generation.\n\n[MarketWatch]\nหัวข้อ: I’m planning a trip to Europe. Is it dumb to take travel advice from influencers?\nเนื้อหา: “How can I tell if something is a real experience in my price range?”\n\n[MarketWatch]\nหัวข้อ: Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results\nเนื้อหา: The AI infrastructure company beat sales expectations by the widest margin in more than five years and raised its capex outlook.\n\n[Investing.com Gold]\nหัวข้อ: FOMC holds rates steady, markets rise modestly\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed leaves rates unchanged as it awaits ’accumulation of more information’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Warsh to attend AI productivity task force hearing in November\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed holds rates steady as expected, though two policymakers prefer 25 bps hike\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Warsh to attend Fed jobs and productivity task force hearing to refine views\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
