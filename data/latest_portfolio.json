@@ -1,56 +1,56 @@
 {
-  "ts": "2026-10-27T18-30-02Z",
+  "ts": "2026-10-28T18-36-09Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 530.74,
-      "value": 558.8392331900001,
+      "current_price": 529.44,
+      "value": 557.4704066400001,
       "cost": 495.50994638250006,
-      "gain": 63.32928680750001,
-      "gain_pct": 12.780628778461312,
-      "today_change": -0.35
+      "gain": 61.96046025750002,
+      "gain_pct": 12.504382749497978,
+      "today_change": -0.36
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 217.55,
-      "value": 193.10573392000003,
+      "current_price": 217.48,
+      "value": 193.043599232,
       "cost": 161.5399809584,
-      "gain": 31.565752961600026,
-      "gain_pct": 19.540520417498925,
-      "today_change": 0.72
+      "gain": 31.503618273599983,
+      "gain_pct": 19.50205644862174,
+      "today_change": -0.21
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 42.12,
-      "value": 123.38610897599999,
+      "current_price": 41.63,
+      "value": 121.950705524,
       "cost": 214.47007443188,
-      "gain": -91.08396545588,
-      "gain_pct": -42.469312185933944,
-      "today_change": 6.77
+      "gain": -92.51936890788,
+      "gain_pct": -43.13859131767402,
+      "today_change": -0.79
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 27.11,
-      "value": 135.214692676,
+      "current_price": 26.92,
+      "value": 134.267042672,
       "cost": 452.6500120422,
-      "gain": -317.4353193662,
-      "gain_pct": -70.12820300921719,
-      "today_change": 4.51
+      "gain": -318.3829693702,
+      "gain_pct": -70.33755901911199,
+      "today_change": -1.5
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.64,
-      "value": 40.758576936,
+      "current_price": 6.74,
+      "value": 41.372410926,
       "cost": 69.8849997615,
-      "gain": -29.1264228255,
-      "gain_pct": -41.677646025472114,
-      "today_change": 7.79
+      "gain": -28.512588835499997,
+      "gain_pct": -40.79929732103645,
+      "today_change": 1.35
     },
     "ARQQ": {
       "qty": 4.1729606,
@@ -60,38 +60,38 @@
       "cost": 61.19646719899999,
       "gain": 14.459308478999993,
       "gain_pct": 23.627684964200473,
-      "today_change": 11.23
+      "today_change": 0.5
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.67,
-      "value": 137.015805038,
+      "current_price": 13.34,
+      "value": 144.261313276,
       "cost": 61.09909999086,
-      "gain": 75.91670504714,
-      "gain_pct": 124.25175666825963,
-      "today_change": 4.88
+      "gain": 83.16221328514001,
+      "gain_pct": 136.11037363493162,
+      "today_change": 3.98
     },
     "__total__": {
-      "value": 1263.9759264140002,
+      "value": 1268.021253948,
       "cost": 1516.3505807663398,
-      "gain": -252.37465435233958,
-      "gain_pct": -16.643555755080953
+      "gain": -248.32932681833972,
+      "gain_pct": -16.376775263464335
     }
   },
   "allocation": {
     "mag7": {
-      "value": 751.9449671100001,
-      "current_pct": 59.5,
+      "value": 750.5140058720001,
+      "current_pct": 59.2,
       "target_pct": 20,
-      "diff": 39.5,
+      "diff": 39.2,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 299.35937858799997,
-      "current_pct": 23.7,
+      "value": 297.590159122,
+      "current_pct": 23.5,
       "target_pct": 50,
-      "diff": -26.3,
+      "diff": -26.5,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1263.9759264140002
+    "__total__": 1268.021253948
   },
-  "news": "[BBC Business] I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard\nPeople earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget.\n\n[BBC Business] Minimum wage set to rise but 18-20 year-olds will not get bigger increase\nChancellor John Healey will reveal the new pay rates in the Budget, and has also announced measures to help households with the cost of living.\n\n[BBC Business] Donald Trump's biggest economic problem looks strangely familiar\nDonald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.\n\n[BBC Business] Rise in sales of radios and tinned foods, say retailers, after call to stock up\nFigures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.\n\n[CNBC] Anthropic's IPO could be 'speculative fiction' or a 'generational moment' — investors are split\nInvestors are digesting Anthropic's S-1 filing that the Securities and Exchange Commission released on Monday.\n\n[CNBC] Fed expected to hold rates steady, but Warsh may point way to more hikes\nMarkets overwhelmingly expect no change in benchmark interest rates following September's increase.\n\n[CNBC] Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain\nCompanies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.\n\n[CNBC] Honda warns 50% Canada auto tariffs would be catastrophic for industry\nPresident Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries.\n\n[MarketWatch] The big reason Boeing’s stock is falling so hard after earnings\nBoeing will come up short on 737 Max deliveries, casting doubt on its turnaround plans.\n\n[MarketWatch] ‘CryptoDad’ on stablecoins, bitcoin’s role in a portfolio and why he does not directly own any crypto\nWhat former CFTC Chairman Chris Giancarlo tells his own children about buying their first crypto coin.\n\n[MarketWatch] JetBlue has been losing money for years. It just charted a path to profitability.\nJetBlue’s stock rises more than 20% as a new profit target helps calm fears about the airline’s viability.\n\n[MarketWatch] When will Anthropic go public? Here’s what to know about the IPO timeline.\nBy filing IPO paperwork on Monday, Anthropic can conduct its investor roadshow the week of Nov. 9 and would be eligible to go public as soon as the following week.",
+  "news": "[BBC Business] Your pay, energy bills and savings: How the Budget affects you\nChanges announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business] Dharshini David: Healey buys himself some time, but big questions still unanswered\nThe chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.\n\n[BBC Business] Will I get the £100 energy payment and when will I receive it?\nHere is what you need to know about the payment that millions will receive from January.\n\n[BBC Business] Budget 2026: Key points at a glance\nHere’s what you need to know from John Healey’s first Budget, as the chancellor sets out the government’s tax and spending plans.\n\n[CNBC] Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain\nWendy's has endured a tough two-year stretch as diners eat out less often.\n\n[CNBC] The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down\nCNBC calculated the rolling 60-day correlation of daily returns for each of the 21 unique pairs among the Magnificent Seven.\n\n[CNBC] Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop\nApple announces a new touchscreen laptop, the company's third major launch under new CEO John Ternus.\n\n[CNBC] Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records\nRep. Jamie Raskin wrote to President Trump in the final days of a midterm election cycle where government corruption has emerged as a top issue for voters.\n\n[MarketWatch] I’m planning a trip to Europe. Is it dumb to take travel advice from influencers?\n“How can I tell if something is a real experience in my price range?”\n\n[MarketWatch] Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results\nThe AI infrastructure company beat sales expectations by the widest margin in more than five years and raised its capex outlook.\n\n[MarketWatch] Wendy’s buyout offer suggests the burger chain’s overhaul could be very expensive\nNelson Peltz’s Trian Fund Management has made a $1.4 billion offer for Wendy’s and says the company “requires significant capital investment” to get back on track.\n\n[MarketWatch] The U.S. government will no longer penalize American companies for making six popular peptides\nIt won’t take action against compounding pharmacies that make popular wellness products like BPC-157 and TB-500.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
