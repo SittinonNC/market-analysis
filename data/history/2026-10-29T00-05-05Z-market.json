@@ -1,0 +1,310 @@
+{
+  "ts": "2026-10-29T00-05-05Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4068.4,
+      "change": -0.15,
+      "high": 4081.7,
+      "low": 4063.1
+    },
+    "sp500": {
+      "price": 7743.98,
+      "change": 0.28,
+      "high": 7758.43,
+      "low": 7718.37
+    },
+    "dxy": {
+      "price": 102.1,
+      "change": -0.22,
+      "high": 102.1,
+      "low": 102.08
+    },
+    "vix": {
+      "price": 16.91,
+      "change": -3.48,
+      "high": 17.77,
+      "low": 16.21
+    },
+    "btc": {
+      "price": 81212.26,
+      "change": 0.0,
+      "high": 81568.69,
+      "low": 80330.34
+    },
+    "eth": {
+      "price": 2355.8,
+      "change": 0.0,
+      "high": 2378.16,
+      "low": 2323.64
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "META": {
+        "name": "Meta",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "title": "Main Refinancing Rate",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "2.65%",
+        "previous": "2.65%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "ECB Press Conference",
+        "country": "EUR",
+        "date": "2026-10-29T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Policy Rate",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "<1.25%",
+        "previous": "<1.25%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-10-29T22:31:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 495.50994638250006,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 161.5399809584,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 214.47007443188,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 452.6500120422,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 69.8849997615,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": NaN,
+      "cost": 1394.05501357648,
+      "gain": NaN,
+      "gain_pct": NaN
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 20,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "watchlist": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 50,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "__total__": NaN
+  },
+  "news": "[BBC Business]\nหัวข้อ: Healey unveils £100 for energy bills and bank tax in first Budget\nเนื้อหา: The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.\n\n[BBC Business]\nหัวข้อ: What we now know about the UK economy in four charts\nเนื้อหา: The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.\n\n[BBC Business]\nหัวข้อ: What the Budget offers for under 25s - and what it leaves out\nเนื้อหา: The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.\n\n[BBC Business]\nหัวข้อ: Your pay, energy bills and savings: How the Budget affects you\nเนื้อหา: Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business]\nหัวข้อ: Dharshini David: Healey buys himself some time, but big questions still unanswered\nเนื้อหา: The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.\n\n[CNBC]\nหัวข้อ: Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027\nเนื้อหา: Alphabet missed Q3 expectations on earnings and revenue, its first top-and-bottom-line miss in nearly four years.\n\n[CNBC]\nหัวข้อ: Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat\nเนื้อหา: Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.\n\n[CNBC]\nหัวข้อ: Here are five key takeaways from the Fed rate decision and Warsh news conference\nเนื้อหา: Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.\n\n[CNBC]\nหัวข้อ: Hands-on with Apple's first touchscreen laptop: Touch is totally optional\nเนื้อหา: Any button that can be clicked can also be touched.\n\n[CNBC]\nหัวข้อ: Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'\nเนื้อหา: The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed held interest rates steady.\n\n[MarketWatch]\nหัวข้อ: Why Alphabet’s stock could see its worst drop in years after the latest results\nเนื้อหา: A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.\n\n[MarketWatch]\nหัวข้อ: Fortinet’s stock is taking a dive after earnings. Here’s why.\nเนื้อหา: Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.\n\n[MarketWatch]\nหัวข้อ: ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook\nเนื้อหา: Even with an uptick in multimillion-dollar AI deals, ServiceNow’s earnings results weren’t enough to win over software skeptics.\n\n[MarketWatch]\nหัวข้อ: Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.\nเนื้อหา: Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.\n\n[MarketWatch]\nหัวข้อ: Chipotle now has more demand from lower-income diners than higher-income ones\nเนื้อหา: The fast-casual chain says menu-price increases helped results. It also noted rising beef costs and “higher protein usage” as people try to find ways to pack more protein into their diets.\n\n[Investing.com Gold]\nหัวข้อ: Fed leaves rates unchanged as it awaits ’accumulation of more information’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Warsh says politics played no role in Fed’s rate decision by group he is ’honored’ to lead\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Warsh announces changes in how future FOMC meetings will go\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Warsh says US economy not running too hot\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Warsh to attend Fed jobs and productivity task force hearing to refine views\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
