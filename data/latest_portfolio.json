@@ -1,97 +1,97 @@
 {
-  "ts": "2026-10-28T18-36-09Z",
+  "ts": "2026-10-29T18-45-10Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 529.44,
-      "value": 557.4704066400001,
+      "current_price": 526.94,
+      "value": 554.8380478900001,
       "cost": 495.50994638250006,
-      "gain": 61.96046025750002,
-      "gain_pct": 12.504382749497978,
-      "today_change": -0.36
+      "gain": 59.32810150750004,
+      "gain_pct": 11.973140386106957,
+      "today_change": -0.77
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 217.48,
-      "value": 193.043599232,
+      "current_price": 212.61,
+      "value": 188.72080022400002,
       "cost": 161.5399809584,
-      "gain": 31.503618273599983,
-      "gain_pct": 19.50205644862174,
-      "today_change": -0.21
+      "gain": 27.180819265600007,
+      "gain_pct": 16.826063185311163,
+      "today_change": -1.29
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 41.63,
-      "value": 121.950705524,
+      "current_price": 43.29,
+      "value": 126.813500892,
       "cost": 214.47007443188,
-      "gain": -92.51936890788,
-      "gain_pct": -43.13859131767402,
-      "today_change": -0.79
+      "gain": -87.65657353988,
+      "gain_pct": -40.871237524432104,
+      "today_change": 2.34
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 26.92,
-      "value": 134.267042672,
+      "current_price": 26.83,
+      "value": 133.818155828,
       "cost": 452.6500120422,
-      "gain": -318.3829693702,
-      "gain_pct": -70.33755901911199,
-      "today_change": -1.5
+      "gain": -318.8318562142,
+      "gain_pct": -70.43672765537798,
+      "today_change": -1.07
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.74,
-      "value": 41.372410926,
+      "current_price": 6.85,
+      "value": 42.047628315,
       "cost": 69.8849997615,
-      "gain": -28.512588835499997,
-      "gain_pct": -40.79929732103645,
-      "today_change": 1.35
+      "gain": -27.8373714465,
+      "gain_pct": -39.83311374615723,
+      "today_change": -0.15
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 18.13,
-      "value": 75.65577567799998,
+      "current_price": 17.62,
+      "value": 73.527565772,
       "cost": 61.19646719899999,
-      "gain": 14.459308478999993,
-      "gain_pct": 23.627684964200473,
-      "today_change": 0.5
+      "gain": 12.331098573000013,
+      "gain_pct": 20.15001704739177,
+      "today_change": -4.6
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 13.34,
-      "value": 144.261313276,
+      "current_price": 13.06,
+      "value": 141.23333968400001,
       "cost": 61.09909999086,
-      "gain": 83.16221328514001,
-      "gain_pct": 136.11037363493162,
-      "today_change": 3.98
+      "gain": 80.13423969314002,
+      "gain_pct": 131.15453370856125,
+      "today_change": -4.25
     },
     "__total__": {
-      "value": 1268.021253948,
+      "value": 1260.999038605,
       "cost": 1516.3505807663398,
-      "gain": -248.32932681833972,
-      "gain_pct": -16.376775263464335
+      "gain": -255.35154216133992,
+      "gain_pct": -16.839874986712456
     }
   },
   "allocation": {
     "mag7": {
-      "value": 750.5140058720001,
-      "current_pct": 59.2,
+      "value": 743.558848114,
+      "current_pct": 59.0,
       "target_pct": 20,
-      "diff": 39.2,
+      "diff": 39.0,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 297.590159122,
-      "current_pct": 23.5,
+      "value": 302.67928503499996,
+      "current_pct": 24.0,
       "target_pct": 50,
-      "diff": -26.5,
+      "diff": -26.0,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1268.021253948
+    "__total__": 1260.999038605
   },
-  "news": "[BBC Business] Your pay, energy bills and savings: How the Budget affects you\nChanges announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business] Dharshini David: Healey buys himself some time, but big questions still unanswered\nThe chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.\n\n[BBC Business] Will I get the £100 energy payment and when will I receive it?\nHere is what you need to know about the payment that millions will receive from January.\n\n[BBC Business] Budget 2026: Key points at a glance\nHere’s what you need to know from John Healey’s first Budget, as the chancellor sets out the government’s tax and spending plans.\n\n[CNBC] Wendy's shares jump 15% as Nelson Peltz's Trian offers $1.4 billion to buy burger chain\nWendy's has endured a tough two-year stretch as diners eat out less often.\n\n[CNBC] The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down\nCNBC calculated the rolling 60-day correlation of daily returns for each of the 21 unique pairs among the Magnificent Seven.\n\n[CNBC] Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop\nApple announces a new touchscreen laptop, the company's third major launch under new CEO John Ternus.\n\n[CNBC] Trump is using tariffs as a 'tool for grift,' Raskin says in demand for donor records\nRep. Jamie Raskin wrote to President Trump in the final days of a midterm election cycle where government corruption has emerged as a top issue for voters.\n\n[MarketWatch] I’m planning a trip to Europe. Is it dumb to take travel advice from influencers?\n“How can I tell if something is a real experience in my price range?”\n\n[MarketWatch] Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results\nThe AI infrastructure company beat sales expectations by the widest margin in more than five years and raised its capex outlook.\n\n[MarketWatch] Wendy’s buyout offer suggests the burger chain’s overhaul could be very expensive\nNelson Peltz’s Trian Fund Management has made a $1.4 billion offer for Wendy’s and says the company “requires significant capital investment” to get back on track.\n\n[MarketWatch] The U.S. government will no longer penalize American companies for making six popular peptides\nIt won’t take action against compounding pharmacies that make popular wellness products like BPC-157 and TB-500.",
+  "news": "[BBC Business] Poundland's future hangs in the balance as chain edges towards collapse\nPoundland's bosses is filing a notice of intention to appoint administrators to the business.\n\n[BBC Business] 'Painful' years ahead, think tanks warn, as living standards set to fall\nBudget forecasts show growth in living standards grinding almost to a halt.\n\n[BBC Business] Faisal Islam: This Budget was micro and that was deliberate\nChancellor John Healey's plans fall short of radical action to create a promised new economic model.\n\n[BBC Business] Bereaved families will not face tax bill over pension delays under new rules\nCampaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.\n\n[CNBC] Alphabet earnings miss reflects first real sign that AI is taking a bite out of search\nWall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.\n\n[CNBC] Big Oil earnings are set to surge. Why investors may want to be cautious\nBig Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.\n\n[CNBC] Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'\nNvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.\n\n[CNBC] Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'\nThe noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market\n\n[MarketWatch] It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.\nAmerica has always been a job-creating machine. It has broken down for three straight years, and the implications could be with us for a long time.\n\n[MarketWatch] Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?\n“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”\n\n[MarketWatch] ‘Fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?\n“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”\n\n[MarketWatch] Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.\nAs focus shifts to the Treasury’s funding plans, there’s some expectation that longer-term supply could be reduced in an attempt to boost demand and lower yields",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
