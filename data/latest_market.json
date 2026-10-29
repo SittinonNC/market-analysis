@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-29T00-05-05Z",
+  "ts": "2026-10-29T07-51-44Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4068.4,
-      "change": -0.15,
+      "price": 4040.4,
+      "change": -0.28,
       "high": 4081.7,
-      "low": 4063.1
+      "low": 4033.4
     },
     "sp500": {
       "price": 7743.98,
@@ -15,122 +15,122 @@
       "low": 7718.37
     },
     "dxy": {
-      "price": 102.1,
-      "change": -0.22,
-      "high": 102.1,
-      "low": 102.08
+      "price": 102.24,
+      "change": 0.05,
+      "high": 102.3,
+      "low": 102.06
     },
     "vix": {
-      "price": 16.91,
-      "change": -3.48,
-      "high": 17.77,
-      "low": 16.21
+      "price": 17.23,
+      "change": 1.89,
+      "high": 17.24,
+      "low": 17.12
     },
     "btc": {
-      "price": 81212.26,
-      "change": 0.0,
-      "high": 81568.69,
-      "low": 80330.34
+      "price": 79781.35,
+      "change": -1.83,
+      "high": 81262.04,
+      "low": 79614.36
     },
     "eth": {
-      "price": 2355.8,
-      "change": 0.0,
-      "high": 2378.16,
-      "low": 2323.64
+      "price": 2305.55,
+      "change": -2.21,
+      "high": 2357.64,
+      "low": 2294.88
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 343.83,
+        "change": -0.94,
+        "high": 347.18,
+        "low": 343.52
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 531.01,
+        "change": -0.06,
+        "high": 535.0,
+        "low": 526.14
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 215.38,
+        "change": -1.17,
+        "high": 219.99,
+        "low": 214.47
       },
       "AMZN": {
         "name": "Amazon",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 254.6,
+        "change": 0.59,
+        "high": 255.36,
+        "low": 251.98
       },
       "META": {
         "name": "Meta",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 612.49,
+        "change": -1.24,
+        "high": 624.42,
+        "low": 609.0
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 324.89,
+        "change": 1.34,
+        "high": 326.41,
+        "low": 322.66
       },
       "TSLA": {
         "name": "Tesla",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 404.22,
+        "change": -0.8,
+        "high": 410.85,
+        "low": 397.18
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 42.3,
+        "change": 0.81,
+        "high": 42.61,
+        "low": 39.91
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 407.1,
+        "change": -0.8,
+        "high": 416.19,
+        "low": 405.0
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 1.95,
+        "change": 7.14,
+        "high": 1.98,
+        "low": 1.76
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 58.6,
+        "change": 0.5,
+        "high": 59.3,
+        "low": 56.94
       },
       "OKLO": {
         "name": "Oklo",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 27.12,
+        "change": -0.77,
+        "high": 27.39,
+        "low": 26.3
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 6.86,
+        "change": 3.16,
+        "high": 6.88,
+        "low": 6.56
       }
     }
   },
@@ -211,47 +211,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 531.01,
+      "value": 559.123527935,
       "cost": 495.50994638250006,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": 63.61358155249991,
+      "gain_pct": 12.83800295370752
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 215.38,
+      "value": 191.179558592,
       "cost": 161.5399809584,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": 29.6395776336,
+      "gain_pct": 18.348137382307122
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 42.3,
+      "value": 123.91340003999998,
       "cost": 214.47007443188,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -90.55667439188001,
+      "gain_pct": -42.22345454570289
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 27.12,
+      "value": 135.26456899200002,
       "cost": 452.6500120422,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -317.38544305019997,
+      "gain_pct": -70.11718427185428
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 6.86,
+      "value": 42.109011714000005,
       "cost": 69.8849997615,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -27.775988047499993,
+      "gain_pct": -39.74527887571365
     },
     "ARQQ": {
       "value": "N/A",
@@ -266,44 +266,44 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": NaN,
+      "value": 1051.590067273,
       "cost": 1394.05501357648,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -342.46494630348,
+      "gain_pct": -24.566099828792147
     }
   },
   "allocation": {
     "mag7": {
-      "value": NaN,
-      "current_pct": NaN,
+      "value": 750.303086527,
+      "current_pct": 71.3,
       "target_pct": 20,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": 51.3,
+      "status": "Overweight"
     },
     "watchlist": {
-      "value": NaN,
-      "current_pct": NaN,
+      "value": 301.28698074600004,
+      "current_pct": 28.7,
       "target_pct": 50,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -21.3,
+      "status": "Underweight"
     },
     "crypto": {
       "value": 0.0,
-      "current_pct": NaN,
+      "current_pct": 0.0,
       "target_pct": 15,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -15.0,
+      "status": "Underweight"
     },
     "gold": {
       "value": 0.0,
-      "current_pct": NaN,
+      "current_pct": 0.0,
       "target_pct": 15,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -15.0,
+      "status": "Underweight"
     },
-    "__total__": NaN
+    "__total__": 1051.590067273
   },
-  "news": "[BBC Business]\nหัวข้อ: Healey unveils £100 for energy bills and bank tax in first Budget\nเนื้อหา: The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.\n\n[BBC Business]\nหัวข้อ: What we now know about the UK economy in four charts\nเนื้อหา: The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.\n\n[BBC Business]\nหัวข้อ: What the Budget offers for under 25s - and what it leaves out\nเนื้อหา: The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.\n\n[BBC Business]\nหัวข้อ: Your pay, energy bills and savings: How the Budget affects you\nเนื้อหา: Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business]\nหัวข้อ: Dharshini David: Healey buys himself some time, but big questions still unanswered\nเนื้อหา: The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.\n\n[CNBC]\nหัวข้อ: Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027\nเนื้อหา: Alphabet missed Q3 expectations on earnings and revenue, its first top-and-bottom-line miss in nearly four years.\n\n[CNBC]\nหัวข้อ: Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat\nเนื้อหา: Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.\n\n[CNBC]\nหัวข้อ: Here are five key takeaways from the Fed rate decision and Warsh news conference\nเนื้อหา: Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.\n\n[CNBC]\nหัวข้อ: Hands-on with Apple's first touchscreen laptop: Touch is totally optional\nเนื้อหา: Any button that can be clicked can also be touched.\n\n[CNBC]\nหัวข้อ: Bond investor Jeff Gundlach on Fed's rate pause: 'What are you waiting for?'\nเนื้อหา: The DoubleLine founder spoke with CNBC's \"Closing Bell\" on Wednesday after the Fed held interest rates steady.\n\n[MarketWatch]\nหัวข้อ: Why Alphabet’s stock could see its worst drop in years after the latest results\nเนื้อหา: A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.\n\n[MarketWatch]\nหัวข้อ: Fortinet’s stock is taking a dive after earnings. Here’s why.\nเนื้อหา: Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.\n\n[MarketWatch]\nหัวข้อ: ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook\nเนื้อหา: Even with an uptick in multimillion-dollar AI deals, ServiceNow’s earnings results weren’t enough to win over software skeptics.\n\n[MarketWatch]\nหัวข้อ: Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.\nเนื้อหา: Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.\n\n[MarketWatch]\nหัวข้อ: Chipotle now has more demand from lower-income diners than higher-income ones\nเนื้อหา: The fast-casual chain says menu-price increases helped results. It also noted rising beef costs and “higher protein usage” as people try to find ways to pack more protein into their diets.\n\n[Investing.com Gold]\nหัวข้อ: Fed leaves rates unchanged as it awaits ’accumulation of more information’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Warsh says politics played no role in Fed’s rate decision by group he is ’honored’ to lead\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Warsh announces changes in how future FOMC meetings will go\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Warsh says US economy not running too hot\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Warsh to attend Fed jobs and productivity task force hearing to refine views\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: I earn £30,000. I'm angry there was no fuel duty cut in the Budget\nเนื้อหา: People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.\n\n[BBC Business]\nหัวข้อ: What we now know about the UK economy in four charts\nเนื้อหา: The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.\n\n[BBC Business]\nหัวข้อ: What the Budget offers for under 25s - and what it leaves out\nเนื้อหา: The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.\n\n[BBC Business]\nหัวข้อ: Your pay, energy bills and savings: How the Budget affects you\nเนื้อหา: Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business]\nหัวข้อ: Healey unveils £100 for energy bills and bank tax in first Budget\nเนื้อหา: The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.\n\n[CNBC]\nหัวข้อ: Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high\nเนื้อหา: \n\n[CNBC]\nหัวข้อ: Trump methane policy rollback may have minimal impact on crude prices, EPA says\nเนื้อหา: The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.\n\n[CNBC]\nหัวข้อ: Over 41,000 U.S. Homeland Security officials' details apparently exposed after massive data breach\nเนื้อหา: CNBC was able to access the database on the website, and saw it contained names alleged to be of officials, titles, agencies, and offices in cities and states.\n\n[CNBC]\nหัวข้อ: Samsung Electronics shares slid despite record profit in the third-quarter\nเนื้อหา: Samsung Electronics reported third-quarter earnings on Thursday.\n\n[CNBC]\nหัวข้อ: Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm\nเนื้อหา: Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 50 years.\n\n[MarketWatch]\nหัวข้อ: Why Alphabet’s stock could see its worst drop in years after the latest results\nเนื้อหา: A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.\n\n[MarketWatch]\nหัวข้อ: Lumentum’s stock pops as investors cheer a possible sale to Marvell\nเนื้อหา: An agreement between the companies could come next week, Bloomberg reported\n\n[MarketWatch]\nหัวข้อ: ‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: The major reason Microsoft’s stock is heading higher after earnings\nเนื้อหา: Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.\n\n[MarketWatch]\nหัวข้อ: Fortinet’s stock is taking a dive after earnings. Here’s why.\nเนื้อหา: Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.\n\n[Investing.com Gold]\nหัวข้อ: Asian shares wobble as Alphabet earnings miss drags Wall St futures lower\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-Bank of Korea board member says won moves faster than expected\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan bonds steady ahead of BOJ decision; strong auction lends support\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: In the AI alphabet, cash is king\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Vance reaches out to Iran security official on peace talks- WSJ\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

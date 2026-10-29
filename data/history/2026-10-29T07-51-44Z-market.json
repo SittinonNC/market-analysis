@@ -1,0 +1,310 @@
+{
+  "ts": "2026-10-29T07-51-44Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4040.4,
+      "change": -0.28,
+      "high": 4081.7,
+      "low": 4033.4
+    },
+    "sp500": {
+      "price": 7743.98,
+      "change": 0.28,
+      "high": 7758.43,
+      "low": 7718.37
+    },
+    "dxy": {
+      "price": 102.24,
+      "change": 0.05,
+      "high": 102.3,
+      "low": 102.06
+    },
+    "vix": {
+      "price": 17.23,
+      "change": 1.89,
+      "high": 17.24,
+      "low": 17.12
+    },
+    "btc": {
+      "price": 79781.35,
+      "change": -1.83,
+      "high": 81262.04,
+      "low": 79614.36
+    },
+    "eth": {
+      "price": 2305.55,
+      "change": -2.21,
+      "high": 2357.64,
+      "low": 2294.88
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 343.83,
+        "change": -0.94,
+        "high": 347.18,
+        "low": 343.52
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 531.01,
+        "change": -0.06,
+        "high": 535.0,
+        "low": 526.14
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 215.38,
+        "change": -1.17,
+        "high": 219.99,
+        "low": 214.47
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 254.6,
+        "change": 0.59,
+        "high": 255.36,
+        "low": 251.98
+      },
+      "META": {
+        "name": "Meta",
+        "price": 612.49,
+        "change": -1.24,
+        "high": 624.42,
+        "low": 609.0
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 324.89,
+        "change": 1.34,
+        "high": 326.41,
+        "low": 322.66
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 404.22,
+        "change": -0.8,
+        "high": 410.85,
+        "low": 397.18
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 42.3,
+        "change": 0.81,
+        "high": 42.61,
+        "low": 39.91
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 407.1,
+        "change": -0.8,
+        "high": 416.19,
+        "low": 405.0
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.95,
+        "change": 7.14,
+        "high": 1.98,
+        "low": 1.76
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 58.6,
+        "change": 0.5,
+        "high": 59.3,
+        "low": 56.94
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 27.12,
+        "change": -0.77,
+        "high": 27.39,
+        "low": 26.3
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.86,
+        "change": 3.16,
+        "high": 6.88,
+        "low": 6.56
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "3.2%",
+        "previous": "1.5%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-10-29T08:30:00-04:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.2%"
+      },
+      {
+        "title": "Main Refinancing Rate",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "2.65%",
+        "previous": "2.65%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "EUR",
+        "date": "2026-10-29T09:15:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "ECB Press Conference",
+        "country": "EUR",
+        "date": "2026-10-29T09:45:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Policy Rate",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "<1.25%",
+        "previous": "<1.25%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "JPY",
+        "date": "2026-10-29T22:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-10-29T22:31:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 531.01,
+      "value": 559.123527935,
+      "cost": 495.50994638250006,
+      "gain": 63.61358155249991,
+      "gain_pct": 12.83800295370752
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 215.38,
+      "value": 191.179558592,
+      "cost": 161.5399809584,
+      "gain": 29.6395776336,
+      "gain_pct": 18.348137382307122
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 42.3,
+      "value": 123.91340003999998,
+      "cost": 214.47007443188,
+      "gain": -90.55667439188001,
+      "gain_pct": -42.22345454570289
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 27.12,
+      "value": 135.26456899200002,
+      "cost": 452.6500120422,
+      "gain": -317.38544305019997,
+      "gain_pct": -70.11718427185428
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.86,
+      "value": 42.109011714000005,
+      "cost": 69.8849997615,
+      "gain": -27.775988047499993,
+      "gain_pct": -39.74527887571365
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1051.590067273,
+      "cost": 1394.05501357648,
+      "gain": -342.46494630348,
+      "gain_pct": -24.566099828792147
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 750.303086527,
+      "current_pct": 71.3,
+      "target_pct": 20,
+      "diff": 51.3,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 301.28698074600004,
+      "current_pct": 28.7,
+      "target_pct": 50,
+      "diff": -21.3,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1051.590067273
+  },
+  "news": "[BBC Business]\nหัวข้อ: I earn £30,000. I'm angry there was no fuel duty cut in the Budget\nเนื้อหา: People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.\n\n[BBC Business]\nหัวข้อ: What we now know about the UK economy in four charts\nเนื้อหา: The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.\n\n[BBC Business]\nหัวข้อ: What the Budget offers for under 25s - and what it leaves out\nเนื้อหา: The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.\n\n[BBC Business]\nหัวข้อ: Your pay, energy bills and savings: How the Budget affects you\nเนื้อหา: Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.\n\n[BBC Business]\nหัวข้อ: Healey unveils £100 for energy bills and bank tax in first Budget\nเนื้อหา: The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.\n\n[CNBC]\nหัวข้อ: Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high\nเนื้อหา: \n\n[CNBC]\nหัวข้อ: Trump methane policy rollback may have minimal impact on crude prices, EPA says\nเนื้อหา: The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.\n\n[CNBC]\nหัวข้อ: Over 41,000 U.S. Homeland Security officials' details apparently exposed after massive data breach\nเนื้อหา: CNBC was able to access the database on the website, and saw it contained names alleged to be of officials, titles, agencies, and offices in cities and states.\n\n[CNBC]\nหัวข้อ: Samsung Electronics shares slid despite record profit in the third-quarter\nเนื้อหา: Samsung Electronics reported third-quarter earnings on Thursday.\n\n[CNBC]\nหัวข้อ: Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm\nเนื้อหา: Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 50 years.\n\n[MarketWatch]\nหัวข้อ: Why Alphabet’s stock could see its worst drop in years after the latest results\nเนื้อหา: A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.\n\n[MarketWatch]\nหัวข้อ: Lumentum’s stock pops as investors cheer a possible sale to Marvell\nเนื้อหา: An agreement between the companies could come next week, Bloomberg reported\n\n[MarketWatch]\nหัวข้อ: ‘Just watch Judge Judy’: I’m in my 70s. Why do people keep making the same avoidable financial mistakes?\nเนื้อหา: “Consider some familiar examples of poor decisions: accumulating credit-card debt or failing to plan for retirement.”\n\n[MarketWatch]\nหัวข้อ: The major reason Microsoft’s stock is heading higher after earnings\nเนื้อหา: Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.\n\n[MarketWatch]\nหัวข้อ: Fortinet’s stock is taking a dive after earnings. Here’s why.\nเนื้อหา: Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.\n\n[Investing.com Gold]\nหัวข้อ: Asian shares wobble as Alphabet earnings miss drags Wall St futures lower\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-Bank of Korea board member says won moves faster than expected\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan bonds steady ahead of BOJ decision; strong auction lends support\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: In the AI alphabet, cash is king\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Vance reaches out to Iran security official on peace talks- WSJ\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
