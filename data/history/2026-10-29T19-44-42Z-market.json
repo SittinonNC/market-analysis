@@ -1,0 +1,254 @@
+{
+  "ts": "2026-10-29T19-44-42Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4027.9,
+      "change": -0.58,
+      "high": 4081.7,
+      "low": 4016.6
+    },
+    "sp500": {
+      "price": 7706.14,
+      "change": -0.49,
+      "high": 7732.21,
+      "low": 7690.94
+    },
+    "dxy": {
+      "price": 101.99,
+      "change": -0.2,
+      "high": 102.45,
+      "low": 101.95
+    },
+    "vix": {
+      "price": 16.66,
+      "change": -1.48,
+      "high": 17.36,
+      "low": 16.21
+    },
+    "btc": {
+      "price": 80782.12,
+      "change": -0.6,
+      "high": 81771.26,
+      "low": 79614.36
+    },
+    "eth": {
+      "price": 2332.79,
+      "change": -1.05,
+      "high": 2371.85,
+      "low": 2294.88
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 349.5,
+        "change": 1.65,
+        "high": 351.43,
+        "low": 347.3
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 527.92,
+        "change": -0.58,
+        "high": 540.97,
+        "low": 519.56
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 213.02,
+        "change": -1.1,
+        "high": 215.32,
+        "low": 212.08
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 245.28,
+        "change": -3.66,
+        "high": 249.14,
+        "low": 241.24
+      },
+      "META": {
+        "name": "Meta",
+        "price": 627.71,
+        "change": 2.48,
+        "high": 634.68,
+        "low": 616.8
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 282.74,
+        "change": -12.97,
+        "high": 288.33,
+        "low": 280.36
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 403.74,
+        "change": -0.12,
+        "high": 406.98,
+        "low": 400.5
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 43.16,
+        "change": 2.03,
+        "high": 44.85,
+        "low": 41.61
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 408.76,
+        "change": 0.41,
+        "high": 414.22,
+        "low": 404.31
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.98,
+        "change": 1.54,
+        "high": 2.07,
+        "low": 1.88
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 58.79,
+        "change": 0.32,
+        "high": 61.13,
+        "low": 57.63
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 26.75,
+        "change": -1.36,
+        "high": 27.72,
+        "low": 26.16
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.8,
+        "change": -0.87,
+        "high": 7.08,
+        "low": 6.74
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-10-30T01:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 527.92,
+      "value": 555.86993252,
+      "cost": 495.50994638250006,
+      "gain": 60.35998613749996,
+      "gain_pct": 12.181387392556223
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 213.02,
+      "value": 189.08473196800003,
+      "cost": 161.5399809584,
+      "gain": 27.54475100960002,
+      "gain_pct": 17.05135214587736
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 43.16,
+      "value": 126.43267956799998,
+      "cost": 214.47007443188,
+      "gain": -88.03739486388001,
+      "gain_pct": -41.04880137571009
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 26.75,
+      "value": 133.4191453,
+      "cost": 452.6500120422,
+      "gain": -319.23086674219996,
+      "gain_pct": -70.52487755428105
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.8,
+      "value": 41.74071132,
+      "cost": 69.8849997615,
+      "gain": -28.144288441499995,
+      "gain_pct": -40.27228809837505
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1046.547200676,
+      "cost": 1394.05501357648,
+      "gain": -347.50781290047985,
+      "gain_pct": -24.927840688936705
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 744.954664488,
+      "current_pct": 71.2,
+      "target_pct": 20,
+      "diff": 51.2,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 301.592536188,
+      "current_pct": 28.8,
+      "target_pct": 50,
+      "diff": -21.2,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1046.547200676
+  },
+  "news": "[BBC Business]\nหัวข้อ: Burnham 'ready to support' Poundland staff as retailer faces collapse\nเนื้อหา: Poundland's bosses are filing a notice of intention to appoint administrators to the business.\n\n[BBC Business]\nหัวข้อ: US interest rates held steady and economy grows - what it means for you\nเนื้อหา: The Federal Reserve's interest rate decisions affect everything from mortgages to car loans\n\n[BBC Business]\nหัวข้อ: 'Painful' years ahead, think tanks warn, as living standards set to fall\nเนื้อหา: Budget forecasts show growth in living standards grinding almost to a halt.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: This Budget was micro and that was deliberate\nเนื้อหา: Chancellor John Healey's plans fall short of radical action to create a promised new economic model.\n\n[BBC Business]\nหัวข้อ: Bereaved families will not face tax bill over pension delays under new rules\nเนื้อหา: Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.\n\n[CNBC]\nหัวข้อ: Alphabet earnings miss reflects first real sign that AI is taking a bite out of search\nเนื้อหา: Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.\n\n[CNBC]\nหัวข้อ: Amazon to report Q3 earnings after the bell with AI spend under scrutiny\nเนื้อหา: Amazon Web Services sales are projected to grow 38%, marking a fifth consecutive quarter of revenue expansion.\n\n[CNBC]\nหัวข้อ: Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'\nเนื้อหา: Nvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.\n\n[CNBC]\nหัวข้อ: Some Polymarket user funds stolen by hackers, exchange referring matter to U.K. authorities\nเนื้อหา: The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.\n\n[CNBC]\nหัวข้อ: Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'\nเนื้อหา: The noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market\n\n[MarketWatch]\nหัวข้อ: ‘The $100 level is ours for awhile’: Oil won’t be getting cheap anytime soon, no matter what happens in the Gulf\nเนื้อหา: The oil market may soon reach a point where the dust finally settles enough to see the true chaos the eight-month-old conflict in the Middle East and its shipping disruptions have wrought upon the global crude sector.\n\n[MarketWatch]\nหัวข้อ: Alphabet’s stock just triggered a ‘death cross.’ Could the worst of the selloff be over?\nเนื้อหา: A postearnings skid sent the Google parent’s shares sliding into bearish territory, but some trading signals hint at a turnaround.\n\n[MarketWatch]\nหัวข้อ: Why Alphabet’s stock is on track for its worst day ever after the latest results\nเนื้อหา: A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.\n\n[MarketWatch]\nหัวข้อ: It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.\nเนื้อหา: America has always been a job-creating machine. It has broken down for three straight years, and the implications could be with us for a long time.\n\n[MarketWatch]\nหัวข้อ: Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?\nเนื้อหา: “Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”\n\n[Investing.com Gold]\nหัวข้อ: UK will reduce ’unsustainable’ welfare costs, Healey says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US shipper costs hit five-year high, even as demand stalls, US Bank data shows\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street slides as Alphabet revenue miss revives AI capex jitters\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Equities and bond yields dip with AI jitters and economic data in focus\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq falls as Alphabet set for record loss amid AI spending woes\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
