@@ -1,0 +1,254 @@
+{
+  "ts": "2026-10-30T00-00-30Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4020.3,
+      "change": -0.77,
+      "high": 4038.2,
+      "low": 4018.3
+    },
+    "sp500": {
+      "price": 7720.39,
+      "change": -0.3,
+      "high": 7732.21,
+      "low": 7690.94
+    },
+    "dxy": {
+      "price": 101.89,
+      "change": -0.29,
+      "high": 101.89,
+      "low": 101.87
+    },
+    "vix": {
+      "price": 17.2,
+      "change": 1.71,
+      "high": 17.36,
+      "low": 16.21
+    },
+    "btc": {
+      "price": 77794.66,
+      "change": 0.0,
+      "high": 81771.26,
+      "low": 77839.49
+    },
+    "eth": {
+      "price": 2249.44,
+      "change": 0.0,
+      "high": 2371.85,
+      "low": 2249.05
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "META": {
+        "name": "Meta",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-10-30T01:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 495.50994638250006,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 161.5399809584,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 214.47007443188,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 452.6500120422,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 69.8849997615,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": NaN,
+      "cost": 1394.05501357648,
+      "gain": NaN,
+      "gain_pct": NaN
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 20,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "watchlist": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 50,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "__total__": NaN
+  },
+  "news": "[BBC Business]\nหัวข้อ: Google value plunges by $500bn as AI fears rattle Wall Street\nเนื้อหา: Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.\n\n[BBC Business]\nหัวข้อ: Burnham 'ready to support' Poundland staff as retailer faces collapse\nเนื้อหา: Poundland's bosses are filing a notice of intention to appoint administrators to the business.\n\n[BBC Business]\nหัวข้อ: US interest rates held steady and economy grows - what it means for you\nเนื้อหา: The Federal Reserve's interest rate decisions affect everything from mortgages to car loans\n\n[BBC Business]\nหัวข้อ: 'Painful' years ahead, think tanks warn, as living standards set to fall\nเนื้อหา: Budget forecasts show growth in living standards grinding almost to a halt.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: This Budget was micro and that was deliberate\nเนื้อหา: Chancellor John Healey's plans fall short of radical action to create a promised new economic model.\n\n[CNBC]\nหัวข้อ: Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged\nเนื้อหา: Amazon's negative free cash flow ballooned during the third quarter, while its earnings and revenue fell short of Wall Street's expectations.\n\n[CNBC]\nหัวข้อ: Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance\nเนื้อหา: Intel has been a Wall Street darling this year due to its emergence as a player in AI, but the company is being weighed down by a struggling PC market.\n\n[CNBC]\nหัวข้อ: ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears\nเนื้อหา: ServiceNow's stock recorded its worst day ever on underwhelming third-quarter results.\n\n[CNBC]\nหัวข้อ: Binance 'potential security issue' sees $2.54 billion frozen by the likes of Circle, Tether\nเนื้อหา: Binance, the world's largest crypto exchange, said it was actively investigating the matter and that funds are \"completley safe.\"\n\n[CNBC]\nหัวข้อ: DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies\nเนื้อหา: Alaska's election could determine which party has a majority in the Senate. GOP Sen. Dan Sullivan faces a strong challenge from Democrat Mary Peltola.\n\n[MarketWatch]\nหัวข้อ: Amazon’s bold cloud forecast isn’t enough to stave off a stock drop\nเนื้อหา: Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon’s third-quarter earnings\n\n[MarketWatch]\nหัวข้อ: Why Intel’s stock is sinking toward its worst drop in two years\nเนื้อหา: Intel’s PC business is under pressure as memory-chip prices dent demand and as corporate IT teams have less budget for laptops.\n\n[MarketWatch]\nหัวข้อ: My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?\nเนื้อหา: “Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”\n\n[MarketWatch]\nหัวข้อ: The midterms are crucial to the future of Social Security — no matter how old you are\nเนื้อหา: The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.\n\n[MarketWatch]\nหัวข้อ: Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?\nเนื้อหา: “Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”\n\n[Investing.com Gold]\nหัวข้อ: Equities and bond yields dip with AI jitters and economic data in focus\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street ends lower as Alphabet revenue miss revives AI capex jitters\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US judge blocks Trump limits to Medicaid work requirement exceptions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Communication breakdown\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US proposes Venezuela elections for 2027, opposition leader Machado says\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
