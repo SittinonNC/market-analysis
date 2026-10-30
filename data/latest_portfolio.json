@@ -1,97 +1,97 @@
 {
-  "ts": "2026-10-29T18-45-10Z",
+  "ts": "2026-10-30T18-22-03Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 526.94,
-      "value": 554.8380478900001,
+      "current_price": 520.15,
+      "value": 547.688561525,
       "cost": 495.50994638250006,
-      "gain": 59.32810150750004,
-      "gain_pct": 11.973140386106957,
-      "today_change": -0.77
+      "gain": 52.17861514249989,
+      "gain_pct": 10.530286127136899,
+      "today_change": -1.88
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 212.61,
-      "value": 188.72080022400002,
+      "current_price": 202.01,
+      "value": 179.311833184,
       "cost": 161.5399809584,
-      "gain": 27.180819265600007,
-      "gain_pct": 16.826063185311163,
-      "today_change": -1.29
+      "gain": 17.771852225599986,
+      "gain_pct": 11.001519326770639,
+      "today_change": -5.45
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 43.29,
-      "value": 126.813500892,
+      "current_price": 39.51,
+      "value": 115.74038854799998,
       "cost": 214.47007443188,
-      "gain": -87.65657353988,
-      "gain_pct": -40.871237524432104,
-      "today_change": 2.34
+      "gain": -98.72968588388001,
+      "gain_pct": -46.034247969284195,
+      "today_change": -8.27
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 26.83,
-      "value": 133.818155828,
+      "current_price": 24.64,
+      "value": 122.895242624,
       "cost": 452.6500120422,
-      "gain": -318.8318562142,
-      "gain_pct": -70.43672765537798,
-      "today_change": -1.07
+      "gain": -329.7547694182,
+      "gain_pct": -72.84983113784992,
+      "today_change": -8.09
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.85,
-      "value": 42.047628315,
+      "current_price": 6.22,
+      "value": 38.180474178,
       "cost": 69.8849997615,
-      "gain": -27.8373714465,
-      "gain_pct": -39.83311374615723,
-      "today_change": -0.15
+      "gain": -31.7045255835,
+      "gain_pct": -45.36671058410189,
+      "today_change": -9.59
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 17.62,
-      "value": 73.527565772,
+      "current_price": 15.2,
+      "value": 63.429001119999995,
       "cost": 61.19646719899999,
-      "gain": 12.331098573000013,
-      "gain_pct": 20.15001704739177,
-      "today_change": -4.6
+      "gain": 2.2325339210000053,
+      "gain_pct": 3.6481418342993615,
+      "today_change": -13.64
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 13.06,
-      "value": 141.23333968400001,
+      "current_price": 11.91,
+      "value": 128.79701957400002,
       "cost": 61.09909999086,
-      "gain": 80.13423969314002,
-      "gain_pct": 131.15453370856125,
-      "today_change": -4.25
+      "gain": 67.69791958314002,
+      "gain_pct": 110.80019115382578,
+      "today_change": -8.94
     },
     "__total__": {
-      "value": 1260.999038605,
+      "value": 1196.042520753,
       "cost": 1516.3505807663398,
-      "gain": -255.35154216133992,
-      "gain_pct": -16.839874986712456
+      "gain": -320.30806001333985,
+      "gain_pct": -21.12361508454471
     }
   },
   "allocation": {
     "mag7": {
-      "value": 743.558848114,
-      "current_pct": 59.0,
+      "value": 727.0003947089999,
+      "current_pct": 60.8,
       "target_pct": 20,
-      "diff": 39.0,
+      "diff": 40.8,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 302.67928503499996,
-      "current_pct": 24.0,
+      "value": 276.81610535,
+      "current_pct": 23.1,
       "target_pct": 50,
-      "diff": -26.0,
+      "diff": -26.9,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1260.999038605
+    "__total__": 1196.042520753
   },
-  "news": "[BBC Business] Poundland's future hangs in the balance as chain edges towards collapse\nPoundland's bosses is filing a notice of intention to appoint administrators to the business.\n\n[BBC Business] 'Painful' years ahead, think tanks warn, as living standards set to fall\nBudget forecasts show growth in living standards grinding almost to a halt.\n\n[BBC Business] Faisal Islam: This Budget was micro and that was deliberate\nChancellor John Healey's plans fall short of radical action to create a promised new economic model.\n\n[BBC Business] Bereaved families will not face tax bill over pension delays under new rules\nCampaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.\n\n[CNBC] Alphabet earnings miss reflects first real sign that AI is taking a bite out of search\nWall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business.\n\n[CNBC] Big Oil earnings are set to surge. Why investors may want to be cautious\nBig Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.\n\n[CNBC] Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'\nNvidia disputed a New York Times report that U.S. intelligence agencies surveilled a person close to CEO Jensen Huang over concerns she could be a Chinese spy.\n\n[CNBC] Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'\nThe noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market\n\n[MarketWatch] It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.\nAmerica has always been a job-creating machine. It has broken down for three straight years, and the implications could be with us for a long time.\n\n[MarketWatch] Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?\n“Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”\n\n[MarketWatch] ‘Fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend, spend, spend?\n“I’m 68, she’s 74, and we’re both in good health. We married later in life and have no children.”\n\n[MarketWatch] Did the Fed make a mistake with its October rate pause? The Treasury could help save the day.\nAs focus shifts to the Treasury’s funding plans, there’s some expectation that longer-term supply could be reduced in an attempt to boost demand and lower yields",
+  "news": "[BBC Business] US tech stocks see sharp falls as AI spending nears $1tn\nShares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.\n\n[BBC Business] What we know about Binance's $6.3bn hack\nCyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.\n\n[BBC Business] City of London chief tops UK Black Powerlist\nIan Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.\n\n[BBC Business] From Levi's to Primark - the fashion chains selling mended clothes\nA new generation is embracing eye-catching patching and visible mends.\n\n[CNBC] Treasury Department announces new Series I bond rate of 5.51% for the next six months\nThe U.S. Department of the Treasury has announced new Series I bond rates through April 2027.\n\n[CNBC] Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds\nMore than $6 billion in crypto was stolen from Binance, setting off a race to recover the funds before North Korea-linked hackers can launder them into cash.\n\n[CNBC] 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack\nBinance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.\n\n[CNBC] Why bitcoin held up better after the record Binance hack\nBitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.\n\n[MarketWatch] Microsoft is winning the cloud wars and becoming Wall Street’s new golden child\nVarious factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say.\n\n[MarketWatch] ‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?\n“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”\n\n[MarketWatch] American workers are finding their take-home pay isn’t keeping up with inflation, with their wallets ‘stretched thinner and thinner’\nWorker compensation grows slower than inflation for second straight quarter\n\n[MarketWatch] You can expect the stock market to rally no matter who wins on Election Day\nAlso in Weekend Reads: Dividend stocks, a way to jump on the Anthropic bandwagon ahead of its IPO, and advice from The Moneyist.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }

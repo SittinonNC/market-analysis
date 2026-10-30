@@ -1,0 +1,115 @@
+{
+  "ts": "2026-10-30T18-22-03Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 520.15,
+      "value": 547.688561525,
+      "cost": 495.50994638250006,
+      "gain": 52.17861514249989,
+      "gain_pct": 10.530286127136899,
+      "today_change": -1.88
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 202.01,
+      "value": 179.311833184,
+      "cost": 161.5399809584,
+      "gain": 17.771852225599986,
+      "gain_pct": 11.001519326770639,
+      "today_change": -5.45
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 39.51,
+      "value": 115.74038854799998,
+      "cost": 214.47007443188,
+      "gain": -98.72968588388001,
+      "gain_pct": -46.034247969284195,
+      "today_change": -8.27
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 24.64,
+      "value": 122.895242624,
+      "cost": 452.6500120422,
+      "gain": -329.7547694182,
+      "gain_pct": -72.84983113784992,
+      "today_change": -8.09
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.22,
+      "value": 38.180474178,
+      "cost": 69.8849997615,
+      "gain": -31.7045255835,
+      "gain_pct": -45.36671058410189,
+      "today_change": -9.59
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 15.2,
+      "value": 63.429001119999995,
+      "cost": 61.19646719899999,
+      "gain": 2.2325339210000053,
+      "gain_pct": 3.6481418342993615,
+      "today_change": -13.64
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.91,
+      "value": 128.79701957400002,
+      "cost": 61.09909999086,
+      "gain": 67.69791958314002,
+      "gain_pct": 110.80019115382578,
+      "today_change": -8.94
+    },
+    "__total__": {
+      "value": 1196.042520753,
+      "cost": 1516.3505807663398,
+      "gain": -320.30806001333985,
+      "gain_pct": -21.12361508454471
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 727.0003947089999,
+      "current_pct": 60.8,
+      "target_pct": 20,
+      "diff": 40.8,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 276.81610535,
+      "current_pct": 23.1,
+      "target_pct": 50,
+      "diff": -26.9,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1196.042520753
+  },
+  "news": "[BBC Business] US tech stocks see sharp falls as AI spending nears $1tn\nShares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.\n\n[BBC Business] What we know about Binance's $6.3bn hack\nCyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.\n\n[BBC Business] City of London chief tops UK Black Powerlist\nIan Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.\n\n[BBC Business] From Levi's to Primark - the fashion chains selling mended clothes\nA new generation is embracing eye-catching patching and visible mends.\n\n[CNBC] Treasury Department announces new Series I bond rate of 5.51% for the next six months\nThe U.S. Department of the Treasury has announced new Series I bond rates through April 2027.\n\n[CNBC] Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds\nMore than $6 billion in crypto was stolen from Binance, setting off a race to recover the funds before North Korea-linked hackers can launder them into cash.\n\n[CNBC] 'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack\nBinance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.\n\n[CNBC] Why bitcoin held up better after the record Binance hack\nBitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.\n\n[MarketWatch] Microsoft is winning the cloud wars and becoming Wall Street’s new golden child\nVarious factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say.\n\n[MarketWatch] ‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?\n“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”\n\n[MarketWatch] American workers are finding their take-home pay isn’t keeping up with inflation, with their wallets ‘stretched thinner and thinner’\nWorker compensation grows slower than inflation for second straight quarter\n\n[MarketWatch] You can expect the stock market to rally no matter who wins on Election Day\nAlso in Weekend Reads: Dividend stocks, a way to jump on the Anthropic bandwagon ahead of its IPO, and advice from The Moneyist.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
