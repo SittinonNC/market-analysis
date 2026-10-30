@@ -1,136 +1,136 @@
 {
-  "ts": "2026-10-30T07-55-23Z",
+  "ts": "2026-10-30T19-33-27Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3990.0,
-      "change": -1.03,
+      "price": 3887.4,
+      "change": -3.57,
       "high": 4038.2,
-      "low": 3988.2
+      "low": 3885.2
     },
     "sp500": {
-      "price": 7720.39,
-      "change": -0.3,
-      "high": 7732.21,
-      "low": 7690.94
+      "price": 7552.06,
+      "change": -2.18,
+      "high": 7637.48,
+      "low": 7527.56
     },
     "dxy": {
-      "price": 101.81,
-      "change": -0.23,
-      "high": 101.9,
-      "low": 101.59
+      "price": 101.88,
+      "change": -0.16,
+      "high": 102.09,
+      "low": 101.54
     },
     "vix": {
-      "price": 18.46,
-      "change": 7.33,
-      "high": 18.49,
-      "low": 18.41
+      "price": 21.39,
+      "change": 24.36,
+      "high": 23.93,
+      "low": 18.03
     },
     "btc": {
-      "price": 77931.7,
-      "change": 0.2,
+      "price": 76265.12,
+      "change": -1.94,
       "high": 78564.94,
-      "low": 76418.34
+      "low": 76264.74
     },
     "eth": {
-      "price": 2229.22,
-      "change": -0.9,
-      "high": 2249.97,
+      "price": 2221.85,
+      "change": -1.23,
+      "high": 2256.33,
       "low": 2181.59
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 348.91,
-        "change": 1.48,
-        "high": 351.43,
-        "low": 347.3
+        "price": 343.61,
+        "change": -1.52,
+        "high": 349.19,
+        "low": 342.35
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 530.14,
-        "change": -0.16,
-        "high": 541.29,
-        "low": 519.56
+        "price": 523.37,
+        "change": -1.28,
+        "high": 526.0,
+        "low": 514.35
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 213.66,
-        "change": -0.8,
-        "high": 215.33,
-        "low": 212.08
+        "price": 202.16,
+        "change": -5.38,
+        "high": 209.05,
+        "low": 200.92
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 243.79,
-        "change": -4.25,
-        "high": 249.14,
-        "low": 241.24
+        "price": 239.03,
+        "change": -1.95,
+        "high": 241.54,
+        "low": 229.36
       },
       "META": {
         "name": "Meta",
-        "price": 624.52,
-        "change": 1.96,
-        "high": 634.68,
-        "low": 616.8
+        "price": 612.79,
+        "change": -1.88,
+        "high": 626.37,
+        "low": 610.14
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 283.82,
-        "change": -12.64,
-        "high": 288.33,
-        "low": 280.36
+        "price": 277.99,
+        "change": -2.05,
+        "high": 283.14,
+        "low": 276.94
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 403.3,
-        "change": -0.23,
-        "high": 406.98,
-        "low": 400.5
+        "price": 398.14,
+        "change": -1.28,
+        "high": 404.2,
+        "low": 387.52
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 43.07,
-        "change": 1.82,
-        "high": 44.85,
-        "low": 41.61
+        "price": 40.29,
+        "change": -6.45,
+        "high": 42.36,
+        "low": 39.21
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 410.91,
-        "change": 0.94,
-        "high": 414.76,
-        "low": 404.31
+        "price": 406.51,
+        "change": -1.07,
+        "high": 416.11,
+        "low": 406.04
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.98,
-        "change": 1.54,
-        "high": 2.07,
-        "low": 1.88
+        "price": 1.88,
+        "change": -5.05,
+        "high": 1.93,
+        "low": 1.8
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 59.1,
-        "change": 0.85,
-        "high": 61.13,
-        "low": 57.63
+        "price": 54.34,
+        "change": -8.05,
+        "high": 57.55,
+        "low": 53.19
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 26.81,
-        "change": -1.14,
-        "high": 27.73,
-        "low": 26.16
+        "price": 24.95,
+        "change": -6.94,
+        "high": 25.48,
+        "low": 24.49
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 6.88,
-        "change": 0.29,
-        "high": 7.08,
-        "low": 6.74
+        "price": 6.32,
+        "change": -8.14,
+        "high": 6.6,
+        "low": 6.18
       }
     }
   },
@@ -139,63 +139,54 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [
-      {
-        "title": "BOJ Press Conference",
-        "country": "JPY",
-        "date": "2026-10-30T02:30:00-04:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
-      }
-    ],
+    "today": [],
     "upcoming": []
   },
   "pnl": {
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 530.14,
-      "value": 558.20746709,
+      "current_price": 523.37,
+      "value": 551.079039595,
       "cost": 495.50994638250006,
-      "gain": 62.69752070749996,
-      "gain_pct": 12.653130611247454
+      "gain": 55.56909321249998,
+      "gain_pct": 11.214526291184558
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 213.66,
-      "value": 189.652820544,
+      "current_price": 202.16,
+      "value": 179.444978944,
       "cost": 161.5399809584,
-      "gain": 28.1128395856,
-      "gain_pct": 17.403022718468474
+      "gain": 17.904997985600005,
+      "gain_pct": 11.083942117221696
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 43.07,
-      "value": 126.169034036,
+      "current_price": 40.29,
+      "value": 118.02531649199999,
       "cost": 214.47007443188,
-      "gain": -88.30104039588,
-      "gain_pct": -41.1717301958256
+      "gain": -96.44475793988,
+      "gain_pct": -44.9688648616163
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 26.81,
-      "value": 133.718403196,
+      "current_price": 24.95,
+      "value": 124.44140842,
       "cost": 452.6500120422,
-      "gain": -318.9316088462,
-      "gain_pct": -70.45876513010374
+      "gain": -328.2086036222,
+      "gain_pct": -72.50825027960046
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 6.88,
-      "value": 42.231778512,
+      "current_price": 6.32,
+      "value": 38.794308168,
       "cost": 69.8849997615,
-      "gain": -27.6532212495,
-      "gain_pct": -39.56960913482653
+      "gain": -31.090691593499997,
+      "gain_pct": -44.48836187966623
     },
     "ARQQ": {
       "value": "N/A",
@@ -210,25 +201,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1049.979503378,
+      "value": 1011.7850516190001,
       "cost": 1394.05501357648,
-      "gain": -344.07551019848006,
-      "gain_pct": -24.681630699476234
+      "gain": -382.26996195747984,
+      "gain_pct": -27.421440203909707
     }
   },
   "allocation": {
     "mag7": {
-      "value": 747.8602876340001,
-      "current_pct": 71.2,
+      "value": 730.524018539,
+      "current_pct": 72.2,
       "target_pct": 20,
-      "diff": 51.2,
+      "diff": 52.2,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 302.11921574400003,
-      "current_pct": 28.8,
+      "value": 281.26103308,
+      "current_pct": 27.8,
       "target_pct": 50,
-      "diff": -21.2,
+      "diff": -22.2,
       "status": "Underweight"
     },
     "crypto": {
@@ -245,9 +236,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1049.979503378
+    "__total__": 1011.7850516190001
   },
-  "news": "[BBC Business]\nหัวข้อ: From workshops to the catwalk - why mended clothes are going mainstream\nเนื้อหา: A new generation is embracing eye-catching patching and visible mends.\n\n[BBC Business]\nหัวข้อ: Google value plunges by $500bn as AI fears rattle Wall Street\nเนื้อหา: Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.\n\n[BBC Business]\nหัวข้อ: Burnham 'ready to support' Poundland staff as retailer faces collapse\nเนื้อหา: Poundland's bosses are filing a notice of intention to appoint administrators to the business.\n\n[BBC Business]\nหัวข้อ: Crypto giant Binance hit by $6.3bn hack suspected to be largest in history\nเนื้อหา: Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.\n\n[BBC Business]\nหัวข้อ: How video game remakes tap the power of nostalgia\nเนื้อหา: Video games are good at triggering nostalgia, a key reason why classic games keep getting remade.\n\n[CNBC]\nหัวข้อ: Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout\nเนื้อหา: Binance estimated the impact of a security incident at $6.3 billion, with around $3 billion in crypto assets frozen, and pledged to cover all losses.\n\n[CNBC]\nหัวข้อ: Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms\nเนื้อหา: Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.\n\n[CNBC]\nหัวข้อ: A pharma giant is moving past one patent cliff — but another is already looming\nเนื้อหา: Disappointing data highlights Novartis' challenge to build its next generation of blockbuster medicines, following a series of clinical trial setbacks.\n\n[CNBC]\nหัวข้อ: Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'\nเนื้อหา: Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government.\n\n[CNBC]\nหัวข้อ: BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013\nเนื้อหา: The BOJ declared that its underlying inflation target of 2% has been met, the first time the central bank has done so since it set the target in 2013.\n\n[MarketWatch]\nหัวข้อ: What gave this city its ‘best place to retire’ crown? You can actually afford to live there.\nเนื้อหา: Low cost of living, high quality of life and favorable taxes for retirees, for the win.\n\n[MarketWatch]\nหัวข้อ: Amazon’s stock drops — even in the face of a bold new cloud forecast\nเนื้อหา: Modest AWS results and weak advertising growth left Wall Street disappointed in Amazon’s third-quarter earnings\n\n[MarketWatch]\nหัวข้อ: A Starbucks turnaround is brewing — but perhaps not quickly enough for investors\nเนื้อหา: The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.\n\n[MarketWatch]\nหัวข้อ: Sandisk sees revenue nearly quintuple — and a stock split is on the way\nเนื้อหา: Sandisk’s stock has climbed more than 2,600% since the company separated from Western Digital 20 months ago — and it has one of the highest prices in the S&amp;P 500.\n\n[MarketWatch]\nหัวข้อ: Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?\nเนื้อหา: “Given the size and long-term nature of this gift, we want to make sure the funds are managed prudently.”\n\n[Investing.com Gold]\nหัวข้อ: Trump’s tariffs fail to cut US trade deficit, IW report shows\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks sink, bonds leap as AI giants’ spending spooks investors\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ declares victory in hitting price target, signals near-term hikes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ Governor Ueda’s comments at news conference\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s Nikkei slumps up to 3% as tech stocks tumble on AI worries\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea\nเนื้อหา: The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.\n\n[BBC Business]\nหัวข้อ: US tech stocks see sharp falls as AI spending nears $1tn\nเนื้อหา: Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.\n\n[BBC Business]\nหัวข้อ: What we know about Binance's $6.3bn hack\nเนื้อหา: Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.\n\n[BBC Business]\nหัวข้อ: City of London chief tops UK Black Powerlist\nเนื้อหา: Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.\n\n[BBC Business]\nหัวข้อ: From Levi's to Primark - the fashion chains selling mended clothes\nเนื้อหา: A new generation is embracing eye-catching patching and visible mends.\n\n[CNBC]\nหัวข้อ: Treasury Department announces new Series I bond rate of 5.51% for the next six months\nเนื้อหา: The U.S. Department of the Treasury has announced new Series I bond rates through April 2027.\n\n[CNBC]\nหัวข้อ: Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds\nเนื้อหา: More than $6 billion in crypto was stolen from Binance, setting off a race to recover the funds before North Korea-linked hackers can launder them into cash.\n\n[CNBC]\nหัวข้อ: Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election\nเนื้อหา: Reid Hoffman has given $8 million to Wisconsin Democrats backing David Crowley as Tom Tiffany attacks Hoffman's past ties to Jeffrey Epstein.\n\n[CNBC]\nหัวข้อ: 'Bad time to troll': Binance co-founder Zhao asks Musk for support after hack\nเนื้อหา: Binance co-founder Changpeng Zhao asked Elon Musk to stop “trolling” after a $6.3 billion hack, pointing to Binance’s $1 billion-plus SpaceX stake.\n\n[CNBC]\nหัวข้อ: Why bitcoin held up better after the record Binance hack\nเนื้อหา: Bitcoin was trading down about 4% on Friday afternoon, less than a day after the biggest crypto hack in history.\n\n[MarketWatch]\nหัวข้อ: Is your crypto safe? What Binance’s $6.3 billion hack means for bitcoin investors.\nเนื้อหา: A look at how safe your money really is when even the world’s largest cryptocurrency exchange can be breached\n\n[MarketWatch]\nหัวข้อ: My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?\nเนื้อหา: “I suspect the live-in caregiver is benefiting from my parent’s generosity.”\n\n[MarketWatch]\nหัวข้อ: Microsoft is winning the cloud wars and becoming Wall Street’s new golden child\nเนื้อหา: Various factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say.\n\n[MarketWatch]\nหัวข้อ: ‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?\nเนื้อหา: “In the end, he left them a few sentimental mementos, some collectibles and old photographs.”\n\n[MarketWatch]\nหัวข้อ: American workers are finding their take-home pay isn’t keeping up with inflation, with their wallets ‘stretched thinner and thinner’\nเนื้อหา: Worker compensation grows slower than inflation for second straight quarter\n\n[Investing.com Gold]\nหัวข้อ: Colombia central bank holds rate, will shore up reserves with $2 billion\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US SEC’s top cop says agency is monitoring AI corporate disclosures\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US judge orders ethics investigation into DOJ lawyers in golf course dispute\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: SEC examining AI companies’ disclosures amid bubble concerns\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Canada to define scope of EU membership over coming months, Carney says\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
