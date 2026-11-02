@@ -1,0 +1,287 @@
+{
+  "ts": "2026-11-02T08-40-33Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3904.0,
+      "change": 0.0,
+      "high": 3928.1,
+      "low": 3889.0
+    },
+    "sp500": {
+      "price": 7580.07,
+      "change": -1.82,
+      "high": 7637.48,
+      "low": 7527.56
+    },
+    "dxy": {
+      "price": 101.65,
+      "change": 0.0,
+      "high": 101.99,
+      "low": 101.65
+    },
+    "vix": {
+      "price": 19.08,
+      "change": -1.75,
+      "high": 19.12,
+      "low": 19.02
+    },
+    "btc": {
+      "price": 78191.68,
+      "change": -0.07,
+      "high": 78611.45,
+      "low": 77882.75
+    },
+    "eth": {
+      "price": 2295.19,
+      "change": 0.97,
+      "high": 2309.11,
+      "low": 2265.81
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 344.63,
+        "change": -1.23,
+        "high": 349.19,
+        "low": 334.35
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 521.91,
+        "change": -1.55,
+        "high": 526.0,
+        "low": 514.35
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 204.64,
+        "change": -4.22,
+        "high": 209.06,
+        "low": 200.92
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 240.35,
+        "change": -1.41,
+        "high": 241.55,
+        "low": 229.36
+      },
+      "META": {
+        "name": "Meta",
+        "price": 614.99,
+        "change": -1.53,
+        "high": 626.37,
+        "low": 610.13
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 279.84,
+        "change": -1.4,
+        "high": 283.14,
+        "low": 276.92
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 399.81,
+        "change": -0.87,
+        "high": 404.22,
+        "low": 387.52
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 40.97,
+        "change": -4.88,
+        "high": 42.36,
+        "low": 39.21
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 406.97,
+        "change": -0.96,
+        "high": 416.11,
+        "low": 405.91
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.89,
+        "change": -4.55,
+        "high": 1.93,
+        "low": 1.8
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 54.73,
+        "change": -7.39,
+        "high": 57.55,
+        "low": 53.19
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 25.25,
+        "change": -5.82,
+        "high": 25.48,
+        "low": 24.49
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 6.32,
+        "change": -8.14,
+        "high": 6.6,
+        "low": 6.18
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Cash Rate",
+        "country": "AUD",
+        "date": "2026-11-02T22:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.85%",
+        "previous": "4.60%"
+      },
+      {
+        "title": "RBA Monetary Policy Statement",
+        "country": "AUD",
+        "date": "2026-11-02T22:30:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "RBA Rate Statement",
+        "country": "AUD",
+        "date": "2026-11-02T22:30:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "RBA Press Conference",
+        "country": "AUD",
+        "date": "2026-11-02T23:30:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Congressional Elections",
+        "country": "USD",
+        "date": "2026-11-03T10:16:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 521.91,
+      "value": 549.541742085,
+      "cost": 495.50994638250006,
+      "gain": 54.03179570249995,
+      "gain_pct": 10.904280750964194
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 204.64,
+      "value": 181.64632217599998,
+      "cost": 161.5399809584,
+      "gain": 20.106341217599976,
+      "gain_pct": 12.446665586012287
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 40.97,
+      "value": 120.01730495599999,
+      "cost": 214.47007443188,
+      "gain": -94.45276947588,
+      "gain_pct": -44.040069331854546
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 25.25,
+      "value": 125.9376979,
+      "cost": 452.6500120422,
+      "gain": -326.7123141422,
+      "gain_pct": -72.17768815871389
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 6.32,
+      "value": 38.794308168,
+      "cost": 69.8849997615,
+      "gain": -31.090691593499997,
+      "gain_pct": -44.48836187966623
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 1015.937375285,
+      "cost": 1394.05501357648,
+      "gain": -378.1176382914799,
+      "gain_pct": -27.123580820631354
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 731.188064261,
+      "current_pct": 72.0,
+      "target_pct": 20,
+      "diff": 52.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 284.749311024,
+      "current_pct": 28.0,
+      "target_pct": 50,
+      "diff": -22.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1015.937375285
+  },
+  "news": "[BBC Business]\nหัวข้อ: Ryanair may freeze workers' pay and raise fares on higher fuel prices\nเนื้อหา: The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.\n\n[BBC Business]\nหัวข้อ: Binance users withdraw $3.6bn after largest-ever crypto hack\nเนื้อหา: The exchange froze transactions following the incident which has been linked to a North Korean group.\n\n[BBC Business]\nหัวข้อ: New Buy Now Pay Later rules - don't get caught out\nเนื้อหา: New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.\n\n[BBC Business]\nหัวข้อ: Virgin Media O2 set to cut thousands of jobs to reduce costs\nเนื้อหา: The broadband firm has not finalised numbers but it is likely be a sizeable chunk of staff, the BBC understands.\n\n[BBC Business]\nหัวข้อ: No more washing up: How Airbnb's new house rules have divided hosts and guests\nเนื้อหา: Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.\n\n[CNBC]\nหัวข้อ: Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes\nเนื้อหา: The remarks come as reports suggest that both sides are gearing up for additional military strikes after the U.S. midterm elections.\n\n[CNBC]\nหัวข้อ: Ryanair CEO warns fares could rise by up to 20% in 2027 as fuel bill jumps by $2.2 billion\nเนื้อหา: Ryanair's CEO Michael O'Leary told CNBC that European airlines may have \"significantly higher airfares\" of up to 20% next year as fuel costs rise.\n\n[CNBC]\nหัวข้อ: Apollo launches $11 billion private credit platform, backed by Abu Dhabi\nเนื้อหา: Apollo has launched a 10 billion euro European private credit platform backed by major global investors.\n\n[CNBC]\nหัวข้อ: South Korea targets 'world's highest performance' sovereign AI model in record new budget\nเนื้อหา: The 2027 budget will rise 12.8% to 820.9 trillion won, and will include a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.\n\n[CNBC]\nหัวข้อ: Sam Altman makes surprise South Korea visit as OpenAI builds on chip partnerships\nเนื้อหา: OpenAI CEO Sam Altman made an unannounced visit to South Korea over the weekend, meeting with Samsung executives and reportedly SK Group executives.\n\n[MarketWatch]\nหัวข้อ: Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.\nเนื้อหา: Alex Barrow, founder of Macro Ops, says the bull market is on borrowed time and will ratchet back painfully for investors who aren’t prepared.\n\n[MarketWatch]\nหัวข้อ: Want to help your adult kids and grandkids? Give them money while you’re still alive.\nเนื้อหา: How to manage “giving while living” without endangering your own retirement.\n\n[MarketWatch]\nหัวข้อ: This is the biggest threat to the AI-powered bull market\nเนื้อหา: Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.\n\n[MarketWatch]\nหัวข้อ: Apple’s new earnings era begins at a critical time for Big Tech\nเนื้อหา: A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.\n\n[MarketWatch]\nหัวข้อ: My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?\nเนื้อหา: “When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”\n\n[Investing.com Gold]\nหัวข้อ: Euronext names NN Group’s Knibbe as next chief executive\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s shift to new policy rate signals easier funding conditions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ flags progress in anchoring inflation around target\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-BOJ locks in December hike, but neutral-rate uncertainty muddies outlook\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Markets hope for relief in Apple margins\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
