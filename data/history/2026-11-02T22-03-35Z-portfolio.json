@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-02T22-03-35Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 507.12,
+      "value": 533.96870772,
+      "cost": 495.50994638250006,
+      "gain": 38.458761337499936,
+      "gain_pct": 7.76145092914288,
+      "today_change": -2.83
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 202.06,
+      "value": 179.356215104,
+      "cost": 161.5399809584,
+      "gain": 17.816234145599992,
+      "gain_pct": 11.028993590254323,
+      "today_change": -1.26
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 36.33,
+      "value": 106.424913084,
+      "cost": 214.47007443188,
+      "gain": -108.04516134788,
+      "gain_pct": -50.377732946699425,
+      "today_change": -11.33
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.52,
+      "value": 117.309095232,
+      "cost": 452.6500120422,
+      "gain": -335.3409168102,
+      "gain_pct": -74.0839297224931,
+      "today_change": -6.85
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.75,
+      "value": 35.295454425,
+      "cost": 69.8849997615,
+      "gain": -34.589545336499995,
+      "gain_pct": -49.494949494949495,
+      "today_change": -9.02
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 14.25,
+      "value": 59.46468855,
+      "cost": 61.19646719899999,
+      "gain": -1.7317786489999918,
+      "gain_pct": -2.829867030344344,
+      "today_change": -9.41
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.12,
+      "value": 120.253808368,
+      "cost": 61.09909999086,
+      "gain": 59.15470837714,
+      "gain_pct": 96.81764279013788,
+      "today_change": -9.37
+    },
+    "__total__": {
+      "value": 1152.0728824829998,
+      "cost": 1516.3505807663398,
+      "gain": -364.27769828334,
+      "gain_pct": -24.02331643512411
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 713.3249228239999,
+      "current_pct": 61.9,
+      "target_pct": 20,
+      "diff": 41.9,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 259.029462741,
+      "current_pct": 22.5,
+      "target_pct": 50,
+      "diff": -27.5,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1152.0728824829998
+  },
+  "news": "[BBC Business] Ryanair says it may freeze workers' pay and raise airfares\nThe airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.\n\n[BBC Business] Shop freezers in seven European countries hit by cyber-attack\nThe temperature of freezers in several shops across Europe reportedly rose to as high as 50C.\n\n[BBC Business] Poundland's former owner offers to invest as minister prepares to meet board\nWolverhampton's Steve Smith said he wants to put some money back into the firm he started.\n\n[BBC Business] Binance users withdraw $3.6bn after largest-ever crypto hack\nThe exchange froze transactions following the incident which has been linked to a North Korean group.\n\n[CNBC] Palantir reports booming U.S. commercial revenue growth, topping government for first time\nPalantir's commercial revenue jumped 148% to $984 million, surpassing government revenue of $953 million.\n\n[CNBC] Trump focuses on Reflecting Pool in final public speech before midterms\nTrump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.\n\n[CNBC] Stock market after midterm elections: What S&P 500 history shows\nMidterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[CNBC] DOJ asks Supreme Court to block California counting disputed mail-in ballots\nThe Department of Justice's request to the Supreme Court in the California case comes as it appeals dismissal of a lawsuit over Alaska's Senate election.\n\n[MarketWatch] Wall Street’s most hated stocks are faring far better than its favorites\nThe thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.\n\n[MarketWatch] Want to help your adult kids and grandkids? Give them money while you’re still alive.\nHow to manage “giving while living” without endangering your own retirement.\n\n[MarketWatch] ‘She’s a Type A personality’: My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?\n“About two months after his funeral, my stepmother called and said she wanted the money back.”\n\n[MarketWatch] The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.\nThe S&amp;P 500’s forward price-to-earnings ratio is below its five-year and 10-year averages.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
