@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-03T19-55-22Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 521.22,
+      "value": 548.81521107,
+      "cost": 495.50994638250006,
+      "gain": 53.30526468749997,
+      "gain_pct": 10.757657858668274,
+      "today_change": 2.78
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 206.35,
+      "value": 183.16418384,
+      "cost": 161.5399809584,
+      "gain": 21.624202881599984,
+      "gain_pct": 13.386285397154204,
+      "today_change": 2.12
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 37.35,
+      "value": 109.41289578,
+      "cost": 214.47007443188,
+      "gain": -105.05717865188,
+      "gain_pct": -48.9845396520568,
+      "today_change": 2.81
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.15,
+      "value": 115.46367153999999,
+      "cost": 452.6500120422,
+      "gain": -337.1863405022,
+      "gain_pct": -74.49162300491986,
+      "today_change": -1.57
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.8,
+      "value": 35.60237142,
+      "cost": 69.8849997615,
+      "gain": -34.2826283415,
+      "gain_pct": -49.05577514273167,
+      "today_change": 0.87
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 14.81,
+      "value": 61.801546486,
+      "cost": 61.19646719899999,
+      "gain": 0.6050792870000095,
+      "gain_pct": 0.9887487214456344,
+      "today_change": 3.93
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 12.13,
+      "value": 131.176141682,
+      "cost": 61.09909999086,
+      "gain": 70.07704169114001,
+      "gain_pct": 114.6940653816882,
+      "today_change": 9.08
+    },
+    "__total__": {
+      "value": 1185.436021818,
+      "cost": 1516.3505807663398,
+      "gain": -330.91455894833985,
+      "gain_pct": -21.82309046111888
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 731.97939491,
+      "current_pct": 61.7,
+      "target_pct": 20,
+      "diff": 41.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 260.47893874,
+      "current_pct": 22.0,
+      "target_pct": 50,
+      "diff": -28.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1185.436021818
+  },
+  "news": "[BBC Business] UK and EU agree draft deal to scrap Brexit red tape over food exports\nThe food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business] Drivers may get compensation offers before car finance saga ends\nThe regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[BBC Business] Mining giant joins fight to stop killer toad march across Australia\nRio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.\n\n[BBC Business] Asda hires ex-Morrisons boss in bid to grow firm\nDavid Potts takes charge of Asda, which is based in Leeds, with immediate effect.\n\n[CNBC] Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto\nBinance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.\n\n[CNBC] CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue\nCrowdStrike launched an AI kill switch that the company says can stop internal agents, block relaunches and cut enterprise network access.\n\n[CNBC] Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%\nDisney expects to lay off several thousand employees in the latest round of job cuts for the entertainment giant.\n\n[CNBC] Meta seeks to raise up to $25 billion in debt sale as AI spending jumps\nMeta is aiming to raise between $20 billion and $25 billion in a bond sale as the company ramps up spending on infrastructure and AI models and services.\n\n[MarketWatch] Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.\nDon’t sit on the sidelines during open enrollment.\n\n[MarketWatch] My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?\n“I’m 68, she’s 74, and we’re both in good health.”\n\n[MarketWatch] ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\n“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[MarketWatch] Once election results are in, here’s what investors should focus on next\nIt is important to separate your political preferences from your investment and trading decisions.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}

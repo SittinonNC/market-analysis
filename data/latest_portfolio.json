@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-02T22-03-35Z",
+  "ts": "2026-11-03T19-55-22Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 507.12,
-      "value": 533.96870772,
+      "current_price": 521.22,
+      "value": 548.81521107,
       "cost": 495.50994638250006,
-      "gain": 38.458761337499936,
-      "gain_pct": 7.76145092914288,
-      "today_change": -2.83
+      "gain": 53.30526468749997,
+      "gain_pct": 10.757657858668274,
+      "today_change": 2.78
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 202.06,
-      "value": 179.356215104,
+      "current_price": 206.35,
+      "value": 183.16418384,
       "cost": 161.5399809584,
-      "gain": 17.816234145599992,
-      "gain_pct": 11.028993590254323,
-      "today_change": -1.26
+      "gain": 21.624202881599984,
+      "gain_pct": 13.386285397154204,
+      "today_change": 2.12
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 36.33,
-      "value": 106.424913084,
+      "current_price": 37.35,
+      "value": 109.41289578,
       "cost": 214.47007443188,
-      "gain": -108.04516134788,
-      "gain_pct": -50.377732946699425,
-      "today_change": -11.33
+      "gain": -105.05717865188,
+      "gain_pct": -48.9845396520568,
+      "today_change": 2.81
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.52,
-      "value": 117.309095232,
+      "current_price": 23.15,
+      "value": 115.46367153999999,
       "cost": 452.6500120422,
-      "gain": -335.3409168102,
-      "gain_pct": -74.0839297224931,
-      "today_change": -6.85
+      "gain": -337.1863405022,
+      "gain_pct": -74.49162300491986,
+      "today_change": -1.57
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.75,
-      "value": 35.295454425,
+      "current_price": 5.8,
+      "value": 35.60237142,
       "cost": 69.8849997615,
-      "gain": -34.589545336499995,
-      "gain_pct": -49.494949494949495,
-      "today_change": -9.02
+      "gain": -34.2826283415,
+      "gain_pct": -49.05577514273167,
+      "today_change": 0.87
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 14.25,
-      "value": 59.46468855,
+      "current_price": 14.81,
+      "value": 61.801546486,
       "cost": 61.19646719899999,
-      "gain": -1.7317786489999918,
-      "gain_pct": -2.829867030344344,
-      "today_change": -9.41
+      "gain": 0.6050792870000095,
+      "gain_pct": 0.9887487214456344,
+      "today_change": 3.93
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.12,
-      "value": 120.253808368,
+      "current_price": 12.13,
+      "value": 131.176141682,
       "cost": 61.09909999086,
-      "gain": 59.15470837714,
-      "gain_pct": 96.81764279013788,
-      "today_change": -9.37
+      "gain": 70.07704169114001,
+      "gain_pct": 114.6940653816882,
+      "today_change": 9.08
     },
     "__total__": {
-      "value": 1152.0728824829998,
+      "value": 1185.436021818,
       "cost": 1516.3505807663398,
-      "gain": -364.27769828334,
-      "gain_pct": -24.02331643512411
+      "gain": -330.91455894833985,
+      "gain_pct": -21.82309046111888
     }
   },
   "allocation": {
     "mag7": {
-      "value": 713.3249228239999,
-      "current_pct": 61.9,
+      "value": 731.97939491,
+      "current_pct": 61.7,
       "target_pct": 20,
-      "diff": 41.9,
+      "diff": 41.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 259.029462741,
-      "current_pct": 22.5,
+      "value": 260.47893874,
+      "current_pct": 22.0,
       "target_pct": 50,
-      "diff": -27.5,
+      "diff": -28.0,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1152.0728824829998
+    "__total__": 1185.436021818
   },
-  "news": "[BBC Business] Ryanair says it may freeze workers' pay and raise airfares\nThe airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.\n\n[BBC Business] Shop freezers in seven European countries hit by cyber-attack\nThe temperature of freezers in several shops across Europe reportedly rose to as high as 50C.\n\n[BBC Business] Poundland's former owner offers to invest as minister prepares to meet board\nWolverhampton's Steve Smith said he wants to put some money back into the firm he started.\n\n[BBC Business] Binance users withdraw $3.6bn after largest-ever crypto hack\nThe exchange froze transactions following the incident which has been linked to a North Korean group.\n\n[CNBC] Palantir reports booming U.S. commercial revenue growth, topping government for first time\nPalantir's commercial revenue jumped 148% to $984 million, surpassing government revenue of $953 million.\n\n[CNBC] Trump focuses on Reflecting Pool in final public speech before midterms\nTrump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.\n\n[CNBC] Stock market after midterm elections: What S&P 500 history shows\nMidterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[CNBC] DOJ asks Supreme Court to block California counting disputed mail-in ballots\nThe Department of Justice's request to the Supreme Court in the California case comes as it appeals dismissal of a lawsuit over Alaska's Senate election.\n\n[MarketWatch] Wall Street’s most hated stocks are faring far better than its favorites\nThe thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.\n\n[MarketWatch] Want to help your adult kids and grandkids? Give them money while you’re still alive.\nHow to manage “giving while living” without endangering your own retirement.\n\n[MarketWatch] ‘She’s a Type A personality’: My stepmother wants me to repay my late father’s $40,000 wedding gift. Should I oblige?\n“About two months after his funeral, my stepmother called and said she wanted the money back.”\n\n[MarketWatch] The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.\nThe S&amp;P 500’s forward price-to-earnings ratio is below its five-year and 10-year averages.",
+  "news": "[BBC Business] UK and EU agree draft deal to scrap Brexit red tape over food exports\nThe food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business] Drivers may get compensation offers before car finance saga ends\nThe regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[BBC Business] Mining giant joins fight to stop killer toad march across Australia\nRio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.\n\n[BBC Business] Asda hires ex-Morrisons boss in bid to grow firm\nDavid Potts takes charge of Asda, which is based in Leeds, with immediate effect.\n\n[CNBC] Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto\nBinance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.\n\n[CNBC] CrowdStrike launches AI kill switch that it says can stop internal agents that go rogue\nCrowdStrike launched an AI kill switch that the company says can stop internal agents, block relaunches and cut enterprise network access.\n\n[CNBC] Disney plans several thousand layoffs, asks some managers to cut costs by up to 20%\nDisney expects to lay off several thousand employees in the latest round of job cuts for the entertainment giant.\n\n[CNBC] Meta seeks to raise up to $25 billion in debt sale as AI spending jumps\nMeta is aiming to raise between $20 billion and $25 billion in a bond sale as the company ramps up spending on infrastructure and AI models and services.\n\n[MarketWatch] Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.\nDon’t sit on the sidelines during open enrollment.\n\n[MarketWatch] My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?\n“I’m 68, she’s 74, and we’re both in good health.”\n\n[MarketWatch] ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\n“Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[MarketWatch] Once election results are in, here’s what investors should focus on next\nIt is important to separate your political preferences from your investment and trading decisions.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
