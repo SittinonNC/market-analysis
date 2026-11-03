@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-03T02-29-23Z",
+  "ts": "2026-11-03T08-51-41Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3953.7,
-      "change": 0.0,
+      "price": 3914.7,
+      "change": -1.38,
       "high": 3974.5,
-      "low": 3951.0
+      "low": 3914.1
     },
     "sp500": {
       "price": 7541.4,
@@ -15,28 +15,28 @@
       "low": 7539.38
     },
     "dxy": {
-      "price": 101.85,
-      "change": 0.0,
-      "high": 101.85,
-      "low": 101.77
+      "price": 101.72,
+      "change": -0.03,
+      "high": 101.87,
+      "low": 101.62
     },
     "vix": {
-      "price": 21.15,
-      "change": 8.91,
-      "high": 21.77,
-      "low": 18.03
+      "price": 21.73,
+      "change": 2.74,
+      "high": 21.78,
+      "low": 21.62
     },
     "btc": {
-      "price": 76840.0,
-      "change": 0.0,
+      "price": 76419.63,
+      "change": -0.34,
       "high": 77180.22,
-      "low": 76569.52
+      "low": 76305.54
     },
     "eth": {
-      "price": 2254.9,
-      "change": 0.0,
+      "price": 2250.53,
+      "change": 0.07,
       "high": 2259.67,
-      "low": 2245.83
+      "low": 2239.58
     },
     "mag7": {
       "AAPL": {
@@ -272,7 +272,7 @@
     },
     "__total__": 972.3543855649999
   },
-  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Shop freezers in seven European countries hit by cyber-attack\nเนื้อหา: The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.\n\n[BBC Business]\nหัวข้อ: North Korea denies being behind record $6.3bn Binance hack\nเนื้อหา: US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.\n\n[BBC Business]\nหัวข้อ: Apple unsure when more foldable iPhones will be available after selling out\nเนื้อหา: Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.\n\n[BBC Business]\nหัวข้อ: Ryanair says it may freeze workers' pay and raise airfares\nเนื้อหา: The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.\n\n[CNBC]\nหัวข้อ: Palantir reports booming U.S. commercial revenue growth, topping government for first time\nเนื้อหา: Palantir's commercial revenue jumped 148% to $984 million, surpassing government revenue of $953 million.\n\n[CNBC]\nหัวข้อ: OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role\nเนื้อหา: OpenAI has hired former U.S. Army Secretary Dan Driscoll for a newly created national security role for national security modernization.\n\n[CNBC]\nหัวข้อ: North Korea denies links to Binance hack as researchers trace stolen billions\nเนื้อหา: North Korea rejected U.S. allegations linking it to the Binance hack as blockchain researchers traced billions in stolen cryptocurrency across networks.\n\n[CNBC]\nหัวข้อ: Trump focuses on Reflecting Pool in final public speech before midterms\nเนื้อหา: Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.\n\n[CNBC]\nหัวข้อ: Stock market after midterm elections: What S&P 500 history shows\nเนื้อหา: Midterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[MarketWatch]\nหัวข้อ: Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter\nเนื้อหา: A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.\n\n[MarketWatch]\nหัวข้อ: Apple’s iPhone business is booming. Here’s why the stock is falling anyway.\nเนื้อหา: Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.\n\n[MarketWatch]\nหัวข้อ: Nasdaq-100 tumbles into its third correction this year as AI worries mount\nเนื้อหา: The “tech wreck” from October continues. Is a bear market next?\n\n[MarketWatch]\nหัวข้อ: Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’\nเนื้อหา: Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.\n\n[MarketWatch]\nหัวข้อ: Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned\nเนื้อหา: Some investors appeared a little too eager to buy the dip in technology stocks last month.\n\n[Investing.com Gold]\nหัวข้อ: U.S. struck Iran’s Qeshm island, WSJ reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China hikes forex deposit reserve ratio to 6%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China to raise FX RRR to slow pace of yuan gains\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar under pressure as oil prices slump, Australia rate decision awaited\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors gaming out Congress control for spending, AI outlook\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Shop freezers in seven European countries hit by cyber-attack\nเนื้อหา: The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.\n\n[BBC Business]\nหัวข้อ: North Korea denies being behind record $6.3bn Binance hack\nเนื้อหา: US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.\n\n[BBC Business]\nหัวข้อ: Apple unsure when more foldable iPhones will be available after selling out\nเนื้อหา: Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.\n\n[BBC Business]\nหัวข้อ: Christmas 2026 stamps unveiled by Royal Mail\nเนื้อหา: The annual Christmas collection of five stamps feature scenes from the Nativity.\n\n[CNBC]\nหัวข้อ: U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran\nเนื้อหา: U.S. military carried out attacks on Iran's Qeshm Island on Monday, even as the Trump administration has been underplaying war risks.\n\n[CNBC]\nหัวข้อ: Palantir reports booming U.S. commercial revenue growth, topping government for first time\nเนื้อหา: Palantir's commercial revenue jumped 148% to $984 million, surpassing government revenue of $953 million.\n\n[CNBC]\nหัวข้อ: Stock market after midterm elections: What S&P 500 history shows\nเนื้อหา: Midterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[CNBC]\nหัวข้อ: Brookfield targets $27 billion AI data center at power station. Energy firm Drax surges 8%\nเนื้อหา: Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.\n\n[CNBC]\nหัวข้อ: North Korea denies links to Binance hack as researchers trace stolen billions\nเนื้อหา: North Korea rejected allegations linking it to the Binance hack as blockchain researchers traced billions in stolen cryptocurrency across networks.\n\n[MarketWatch]\nหัวข้อ: Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter\nเนื้อหา: A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.\n\n[MarketWatch]\nหัวข้อ: Apple’s iPhone business is booming. Here’s why the stock is falling anyway.\nเนื้อหา: Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.\n\n[MarketWatch]\nหัวข้อ: Nasdaq-100 tumbles into its third correction this year as AI worries mount\nเนื้อหา: The “tech wreck” from October continues. Is a bear market next?\n\n[MarketWatch]\nหัวข้อ: Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’\nเนื้อหา: Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.\n\n[MarketWatch]\nหัวข้อ: Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned\nเนื้อหา: Some investors appeared a little too eager to buy the dip in technology stocks last month.\n\n[Investing.com Gold]\nหัวข้อ: Binance says outflows normalised as North Korea rejects US allegation over heist\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Binance co-CEO says company is in very strong financial health after $6.3 billion heist\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: For many Russians, higher utility bills are latest inflation shock\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks retreat ahead of US midterms, oil steadies\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors gaming out Congress control for spending, AI outlook\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
