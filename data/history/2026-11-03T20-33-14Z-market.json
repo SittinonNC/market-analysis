@@ -1,0 +1,270 @@
+{
+  "ts": "2026-11-03T20-33-14Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3931.8,
+      "change": -0.95,
+      "high": 3981.7,
+      "low": 3904.1
+    },
+    "sp500": {
+      "price": 7567.0,
+      "change": 0.34,
+      "high": 7594.61,
+      "low": 7545.39
+    },
+    "dxy": {
+      "price": 101.86,
+      "change": 0.11,
+      "high": 101.94,
+      "low": 101.62
+    },
+    "vix": {
+      "price": 20.95,
+      "change": -0.95,
+      "high": 21.91,
+      "low": 20.29
+    },
+    "btc": {
+      "price": 77698.05,
+      "change": 1.33,
+      "high": 77783.28,
+      "low": 76305.54
+    },
+    "eth": {
+      "price": 2283.37,
+      "change": 1.53,
+      "high": 2300.02,
+      "low": 2239.58
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 331.37,
+        "change": -2.05,
+        "high": 334.5,
+        "low": 325.33
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 522.06,
+        "change": 2.95,
+        "high": 523.44,
+        "low": 507.85
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 206.8,
+        "change": 2.35,
+        "high": 209.14,
+        "low": 205.93
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 252.07,
+        "change": 2.62,
+        "high": 252.44,
+        "low": 245.89
+      },
+      "META": {
+        "name": "Meta",
+        "price": 618.93,
+        "change": 2.01,
+        "high": 624.84,
+        "low": 610.1
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 279.08,
+        "change": 0.03,
+        "high": 281.6,
+        "low": 277.2
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 397.44,
+        "change": -1.58,
+        "high": 406.49,
+        "low": 396.82
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 37.31,
+        "change": 2.7,
+        "high": 38.68,
+        "low": 36.63
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 401.65,
+        "change": 0.3,
+        "high": 405.4,
+        "low": 397.01
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.87,
+        "change": 6.25,
+        "high": 1.93,
+        "low": 1.8
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 53.67,
+        "change": 3.07,
+        "high": 54.94,
+        "low": 52.9
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.36,
+        "change": -0.68,
+        "high": 24.29,
+        "low": 22.93
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.82,
+        "change": 1.22,
+        "high": 6.09,
+        "low": 5.77
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": [
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "65K",
+        "previous": "29K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.2%",
+        "previous": "4.2%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 522.06,
+      "value": 549.69968361,
+      "cost": 495.50994638250006,
+      "gain": 54.189737227499904,
+      "gain_pct": 10.936155292767646
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 206.8,
+      "value": 183.56362112000002,
+      "cost": 161.5399809584,
+      "gain": 22.023640161600014,
+      "gain_pct": 13.633553768507358
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 37.31,
+      "value": 109.295719988,
+      "cost": 214.47007443188,
+      "gain": -105.17435444387999,
+      "gain_pct": -49.03917468321926
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.36,
+      "value": 116.51107417600001,
+      "cost": 452.6500120422,
+      "gain": -336.13893786619997,
+      "gain_pct": -74.26022952029926
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.82,
+      "value": 35.725138218000005,
+      "cost": 69.8849997615,
+      "gain": -34.15986154349999,
+      "gain_pct": -48.880105401844524
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 994.7952371119999,
+      "cost": 1394.05501357648,
+      "gain": -399.25977646448007,
+      "gain_pct": -28.640173635627907
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 733.26330473,
+      "current_pct": 73.7,
+      "target_pct": 20,
+      "diff": 53.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 261.531932382,
+      "current_pct": 26.3,
+      "target_pct": 50,
+      "diff": -23.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 994.7952371119999
+  },
+  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Drivers may get compensation offers before car finance saga ends\nเนื้อหา: The regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[BBC Business]\nหัวข้อ: Mining giant joins fight to stop killer toad march across Australia\nเนื้อหา: Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.\n\n[BBC Business]\nหัวข้อ: Asda hires ex-Morrisons boss in bid to grow firm\nเนื้อหา: David Potts takes charge of Asda, which is based in Leeds, with immediate effect.\n\n[BBC Business]\nหัวข้อ: 'Quiet quitting' could be hitting the economy - here's why\nเนื้อหา: Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.\n\n[CNBC]\nหัวข้อ: Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways\nเนื้อหา: Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.\n\n[CNBC]\nหัวข้อ: Binance breach puts custody at center of crypto infrastructure trade\nเนื้อหา: Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.\n\n[CNBC]\nหัวข้อ: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports\nเนื้อหา: \"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.\n\n[CNBC]\nหัวข้อ: JetBlue raises bag fees for third time in a year as fuel costs bite\nเนื้อหา: JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.\n\n[CNBC]\nหัวข้อ: Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto\nเนื้อหา: Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.\n\n[MarketWatch]\nหัวข้อ: ‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?\nเนื้อหา: “Salespeople typically push annuities, Medicare plans and estate-planning services.”\n\n[MarketWatch]\nหัวข้อ: An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays\nเนื้อหา: Geothermal technology is in the early stages of its own shale revolution, Morgan Stanley says.\n\n[MarketWatch]\nหัวข้อ: Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.\nเนื้อหา: Don’t sit on the sidelines during open enrollment.\n\n[MarketWatch]\nหัวข้อ: My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?\nเนื้อหา: “I’m 68, she’s 74, and we’re both in good health.”\n\n[MarketWatch]\nหัวข้อ: ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\nเนื้อหา: “Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[Investing.com Gold]\nหัวข้อ: OpenAI employees warned about operational security lapses for years, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: SK Hynix’s New York chip plans hit snag over US restrictions on China, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: ECB likely to raise rates in December, says Nagel\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Binance hackers used fake job interview in $6.3 billion attack\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks wobble, oil prices fall as Trump says Israel aid will stop\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}

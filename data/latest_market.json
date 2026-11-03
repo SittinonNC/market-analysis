@@ -1,136 +1,136 @@
 {
-  "ts": "2026-11-03T08-51-41Z",
+  "ts": "2026-11-03T20-33-14Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3914.7,
-      "change": -1.38,
-      "high": 3974.5,
-      "low": 3914.1
+      "price": 3931.8,
+      "change": -0.95,
+      "high": 3981.7,
+      "low": 3904.1
     },
     "sp500": {
-      "price": 7541.4,
-      "change": -0.51,
-      "high": 7662.23,
-      "low": 7539.38
+      "price": 7567.0,
+      "change": 0.34,
+      "high": 7594.61,
+      "low": 7545.39
     },
     "dxy": {
-      "price": 101.72,
-      "change": -0.03,
-      "high": 101.87,
+      "price": 101.86,
+      "change": 0.11,
+      "high": 101.94,
       "low": 101.62
     },
     "vix": {
-      "price": 21.73,
-      "change": 2.74,
-      "high": 21.78,
-      "low": 21.62
+      "price": 20.95,
+      "change": -0.95,
+      "high": 21.91,
+      "low": 20.29
     },
     "btc": {
-      "price": 76419.63,
-      "change": -0.34,
-      "high": 77180.22,
+      "price": 77698.05,
+      "change": 1.33,
+      "high": 77783.28,
       "low": 76305.54
     },
     "eth": {
-      "price": 2250.53,
-      "change": 0.07,
-      "high": 2259.67,
+      "price": 2283.37,
+      "change": 1.53,
+      "high": 2300.02,
       "low": 2239.58
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 338.32,
-        "change": -1.83,
-        "high": 343.8,
-        "low": 335.82
+        "price": 331.37,
+        "change": -2.05,
+        "high": 334.5,
+        "low": 325.33
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 507.12,
-        "change": -2.83,
-        "high": 529.63,
-        "low": 504.96
+        "price": 522.06,
+        "change": 2.95,
+        "high": 523.44,
+        "low": 507.85
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 202.06,
-        "change": -1.26,
-        "high": 209.98,
-        "low": 201.66
+        "price": 206.8,
+        "change": 2.35,
+        "high": 209.14,
+        "low": 205.93
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 245.63,
-        "change": 2.2,
-        "high": 253.81,
-        "low": 242.28
+        "price": 252.07,
+        "change": 2.62,
+        "high": 252.44,
+        "low": 245.89
       },
       "META": {
         "name": "Meta",
-        "price": 606.73,
-        "change": -1.34,
-        "high": 621.69,
-        "low": 606.41
+        "price": 618.93,
+        "change": 2.01,
+        "high": 624.84,
+        "low": 610.1
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 278.99,
-        "change": -0.3,
-        "high": 287.0,
-        "low": 278.8
+        "price": 279.08,
+        "change": 0.03,
+        "high": 281.6,
+        "low": 277.2
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 403.82,
-        "change": 1.0,
-        "high": 414.23,
-        "low": 397.61
+        "price": 397.44,
+        "change": -1.58,
+        "high": 406.49,
+        "low": 396.82
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 36.33,
-        "change": -11.33,
-        "high": 41.2,
-        "low": 36.08
+        "price": 37.31,
+        "change": 2.7,
+        "high": 38.68,
+        "low": 36.63
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 400.44,
-        "change": -1.6,
-        "high": 408.88,
-        "low": 394.11
+        "price": 401.65,
+        "change": 0.3,
+        "high": 405.4,
+        "low": 397.01
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.76,
-        "change": -6.88,
-        "high": 1.98,
-        "low": 1.72
+        "price": 1.87,
+        "change": 6.25,
+        "high": 1.93,
+        "low": 1.8
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 52.07,
-        "change": -4.86,
-        "high": 55.08,
-        "low": 50.68
+        "price": 53.67,
+        "change": 3.07,
+        "high": 54.94,
+        "low": 52.9
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 23.52,
-        "change": -6.85,
-        "high": 25.91,
-        "low": 23.44
+        "price": 23.36,
+        "change": -0.68,
+        "high": 24.29,
+        "low": 22.93
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.75,
-        "change": -9.02,
-        "high": 6.4,
-        "low": 5.72
+        "price": 5.82,
+        "change": 1.22,
+        "high": 6.09,
+        "low": 5.77
       }
     }
   },
@@ -139,16 +139,7 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [
-      {
-        "title": "Congressional Elections",
-        "country": "USD",
-        "date": "2026-11-03T10:16:00-05:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
-      }
-    ],
+    "today": [],
     "upcoming": [
       {
         "title": "Average Hourly Earnings m/m",
@@ -180,47 +171,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 507.12,
-      "value": 533.96870772,
+      "current_price": 522.06,
+      "value": 549.69968361,
       "cost": 495.50994638250006,
-      "gain": 38.458761337499936,
-      "gain_pct": 7.76145092914288
+      "gain": 54.189737227499904,
+      "gain_pct": 10.936155292767646
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 202.06,
-      "value": 179.356215104,
+      "current_price": 206.8,
+      "value": 183.56362112000002,
       "cost": 161.5399809584,
-      "gain": 17.816234145599992,
-      "gain_pct": 11.028993590254323
+      "gain": 22.023640161600014,
+      "gain_pct": 13.633553768507358
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 36.33,
-      "value": 106.424913084,
+      "current_price": 37.31,
+      "value": 109.295719988,
       "cost": 214.47007443188,
-      "gain": -108.04516134788,
-      "gain_pct": -50.377732946699425
+      "gain": -105.17435444387999,
+      "gain_pct": -49.03917468321926
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.52,
-      "value": 117.309095232,
+      "current_price": 23.36,
+      "value": 116.51107417600001,
       "cost": 452.6500120422,
-      "gain": -335.3409168102,
-      "gain_pct": -74.0839297224931
+      "gain": -336.13893786619997,
+      "gain_pct": -74.26022952029926
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.75,
-      "value": 35.295454425,
+      "current_price": 5.82,
+      "value": 35.725138218000005,
       "cost": 69.8849997615,
-      "gain": -34.589545336499995,
-      "gain_pct": -49.494949494949495
+      "gain": -34.15986154349999,
+      "gain_pct": -48.880105401844524
     },
     "ARQQ": {
       "value": "N/A",
@@ -235,25 +226,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 972.3543855649999,
+      "value": 994.7952371119999,
       "cost": 1394.05501357648,
-      "gain": -421.70062801148003,
-      "gain_pct": -30.249927291577787
+      "gain": -399.25977646448007,
+      "gain_pct": -28.640173635627907
     }
   },
   "allocation": {
     "mag7": {
-      "value": 713.3249228239999,
-      "current_pct": 73.4,
+      "value": 733.26330473,
+      "current_pct": 73.7,
       "target_pct": 20,
-      "diff": 53.4,
+      "diff": 53.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 259.029462741,
-      "current_pct": 26.6,
+      "value": 261.531932382,
+      "current_pct": 26.3,
       "target_pct": 50,
-      "diff": -23.4,
+      "diff": -23.7,
       "status": "Underweight"
     },
     "crypto": {
@@ -270,9 +261,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 972.3543855649999
+    "__total__": 994.7952371119999
   },
-  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Shop freezers in seven European countries hit by cyber-attack\nเนื้อหา: The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.\n\n[BBC Business]\nหัวข้อ: North Korea denies being behind record $6.3bn Binance hack\nเนื้อหา: US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.\n\n[BBC Business]\nหัวข้อ: Apple unsure when more foldable iPhones will be available after selling out\nเนื้อหา: Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.\n\n[BBC Business]\nหัวข้อ: Christmas 2026 stamps unveiled by Royal Mail\nเนื้อหา: The annual Christmas collection of five stamps feature scenes from the Nativity.\n\n[CNBC]\nหัวข้อ: U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran\nเนื้อหา: U.S. military carried out attacks on Iran's Qeshm Island on Monday, even as the Trump administration has been underplaying war risks.\n\n[CNBC]\nหัวข้อ: Palantir reports booming U.S. commercial revenue growth, topping government for first time\nเนื้อหา: Palantir's commercial revenue jumped 148% to $984 million, surpassing government revenue of $953 million.\n\n[CNBC]\nหัวข้อ: Stock market after midterm elections: What S&P 500 history shows\nเนื้อหา: Midterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[CNBC]\nหัวข้อ: Brookfield targets $27 billion AI data center at power station. Energy firm Drax surges 8%\nเนื้อหา: Europe is scrambling to develop infrastructure to support the rollout of AI amid high energy and land costs.\n\n[CNBC]\nหัวข้อ: North Korea denies links to Binance hack as researchers trace stolen billions\nเนื้อหา: North Korea rejected allegations linking it to the Binance hack as blockchain researchers traced billions in stolen cryptocurrency across networks.\n\n[MarketWatch]\nหัวข้อ: Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter\nเนื้อหา: A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.\n\n[MarketWatch]\nหัวข้อ: Apple’s iPhone business is booming. Here’s why the stock is falling anyway.\nเนื้อหา: Although iPhone demand remains strong, Apple faces a worsening memory crunch and a slowing services business.\n\n[MarketWatch]\nหัวข้อ: Nasdaq-100 tumbles into its third correction this year as AI worries mount\nเนื้อหา: The “tech wreck” from October continues. Is a bear market next?\n\n[MarketWatch]\nหัวข้อ: Marvell and Lumentum shareholders unite in panning merger deal: ‘It’s a trash offer’\nเนื้อหา: Shares of both companies fell Monday after Marvell said it reached an all-stock agreement to buy Lumentum.\n\n[MarketWatch]\nหัวข้อ: Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned\nเนื้อหา: Some investors appeared a little too eager to buy the dip in technology stocks last month.\n\n[Investing.com Gold]\nหัวข้อ: Binance says outflows normalised as North Korea rejects US allegation over heist\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Binance co-CEO says company is in very strong financial health after $6.3 billion heist\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: For many Russians, higher utility bills are latest inflation shock\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks retreat ahead of US midterms, oil steadies\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors gaming out Congress control for spending, AI outlook\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Drivers may get compensation offers before car finance saga ends\nเนื้อหา: The regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[BBC Business]\nหัวข้อ: Mining giant joins fight to stop killer toad march across Australia\nเนื้อหา: Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.\n\n[BBC Business]\nหัวข้อ: Asda hires ex-Morrisons boss in bid to grow firm\nเนื้อหา: David Potts takes charge of Asda, which is based in Leeds, with immediate effect.\n\n[BBC Business]\nหัวข้อ: 'Quiet quitting' could be hitting the economy - here's why\nเนื้อหา: Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.\n\n[CNBC]\nหัวข้อ: Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways\nเนื้อหา: Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.\n\n[CNBC]\nหัวข้อ: Binance breach puts custody at center of crypto infrastructure trade\nเนื้อหา: Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.\n\n[CNBC]\nหัวข้อ: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports\nเนื้อหา: \"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.\n\n[CNBC]\nหัวข้อ: JetBlue raises bag fees for third time in a year as fuel costs bite\nเนื้อหา: JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.\n\n[CNBC]\nหัวข้อ: Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto\nเนื้อหา: Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.\n\n[MarketWatch]\nหัวข้อ: ‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?\nเนื้อหา: “Salespeople typically push annuities, Medicare plans and estate-planning services.”\n\n[MarketWatch]\nหัวข้อ: An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays\nเนื้อหา: Geothermal technology is in the early stages of its own shale revolution, Morgan Stanley says.\n\n[MarketWatch]\nหัวข้อ: Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.\nเนื้อหา: Don’t sit on the sidelines during open enrollment.\n\n[MarketWatch]\nหัวข้อ: My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?\nเนื้อหา: “I’m 68, she’s 74, and we’re both in good health.”\n\n[MarketWatch]\nหัวข้อ: ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\nเนื้อหา: “Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[Investing.com Gold]\nหัวข้อ: OpenAI employees warned about operational security lapses for years, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: SK Hynix’s New York chip plans hit snag over US restrictions on China, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: ECB likely to raise rates in December, says Nagel\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Binance hackers used fake job interview in $6.3 billion attack\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks wobble, oil prices fall as Trump says Israel aid will stop\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
