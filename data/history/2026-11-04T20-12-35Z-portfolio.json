@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-04T20-12-35Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 557.42,
+      "value": 586.93176577,
+      "cost": 495.50994638250006,
+      "gain": 91.42181938749991,
+      "gain_pct": 18.45004728057032,
+      "today_change": 6.99
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 202.09,
+      "value": 179.38284425600003,
+      "cost": 161.5399809584,
+      "gain": 17.84286329760002,
+      "gain_pct": 11.04547814834455,
+      "today_change": -2.23
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 35.73,
+      "value": 104.66727620399999,
+      "cost": 214.47007443188,
+      "gain": -109.80279822788,
+      "gain_pct": -51.19725841413627,
+      "today_change": -3.82
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 22.16,
+      "value": 110.525916256,
+      "cost": 452.6500120422,
+      "gain": -342.1240957862,
+      "gain_pct": -75.58247800384554,
+      "today_change": -5.66
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.26,
+      "value": 32.287667874,
+      "cost": 69.8849997615,
+      "gain": -37.5973318875,
+      "gain_pct": -53.79885814668424,
+      "today_change": -9.15
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 13.9,
+      "value": 58.00415234,
+      "cost": 61.19646719899999,
+      "gain": -3.1923148589999926,
+      "gain_pct": -5.216501875213081,
+      "today_change": -7.33
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 12.05,
+      "value": 130.31100637,
+      "cost": 61.09909999086,
+      "gain": 69.21190637914,
+      "gain_pct": 113.27811111701094,
+      "today_change": -1.07
+    },
+    "__total__": {
+      "value": 1202.11062907,
+      "cost": 1516.3505807663398,
+      "gain": -314.23995169633986,
+      "gain_pct": -20.723436630170834
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 766.314610026,
+      "current_pct": 63.7,
+      "target_pct": 20,
+      "diff": 43.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 247.48086033399997,
+      "current_pct": 20.6,
+      "target_pct": 50,
+      "diff": -29.4,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1202.11062907
+  },
+  "news": "[BBC Business] Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms\nThe billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.\n\n[BBC Business] Poundland owner in crunch talks as retailer's collapse looms\nGordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.\n\n[BBC Business] UK and EU agree draft deal to scrap Brexit red tape over food exports\nThe food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business] Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change\nThe cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.\n\n[CNBC] What Republicans' huge loss means for Trump\nTrump's handling of tariffs, the Iran war and an array of Washington-area construction projects are sure to face sudden pushback from newly empowered Democrats.\n\n[CNBC] Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it\nThe next debt-ceiling confrontation could reverse Washington's traditional political roles, raising the possibility of spending concessions, market volatility and a damaging default.\n\n[CNBC] Hyperscalers and Apple surge after election results remove investor uncertainty\nApple, Amazon, Google, Meta and Microsoft stock was up after the midterms, while stocks tied to Trump advisor Elon Musk and data centers fell on Wednesday.\n\n[CNBC] Democrats map out an agenda to address affordability and corruption after midterm sweep\nIn control of Congress, Democrats are preparing to pursue legislation to address affordability, while also trying to rein-in President Donald Trump\n\n[MarketWatch] Microsoft and Amazon combine for a $400 billion market-cap boost — and these factors show why\nMicrosoft and Amazon shares are rising sharply on Wednesday, with one portfolio manager noting that a cloud-supply crunch could help the companies raise prices.\n\n[MarketWatch] 4 market-moving issues investors should watch now that the midterms are over\nThe Democrats’ election sweep on Tuesday could have far-reaching consequences for markets and the economy.\n\n[MarketWatch] SpaceX’s Qualcomm deal could be a precursor to a telecom takeover\nThe deal adds to what a BNP Paribas analyst called an “unprecedented” amount of news putting pressure on U.S. telecommunications operators.\n\n[MarketWatch] ‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?\n“In the wake of the midterm elections, how many Americans are living in poverty?”",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
