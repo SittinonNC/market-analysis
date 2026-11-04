@@ -1,136 +1,136 @@
 {
-  "ts": "2026-11-04T08-21-03Z",
+  "ts": "2026-11-04T20-52-24Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4045.3,
-      "change": 2.66,
-      "high": 4046.0,
+      "price": 4072.2,
+      "change": 3.34,
+      "high": 4080.9,
       "low": 3928.2
     },
     "sp500": {
-      "price": 7568.92,
-      "change": 0.36,
-      "high": 7594.61,
-      "low": 7545.39
+      "price": 7689.34,
+      "change": 1.59,
+      "high": 7715.57,
+      "low": 7635.81
     },
     "dxy": {
-      "price": 101.43,
-      "change": -0.43,
+      "price": 101.51,
+      "change": -0.35,
       "high": 101.7,
-      "low": 101.25
+      "low": 101.1
     },
     "vix": {
-      "price": 20.83,
-      "change": 0.0,
-      "high": 21.91,
-      "low": 20.29
+      "price": 16.65,
+      "change": -20.07,
+      "high": 19.22,
+      "low": 16.59
     },
     "btc": {
-      "price": 78292.78,
-      "change": 1.23,
-      "high": 78292.27,
+      "price": 79976.72,
+      "change": 3.4,
+      "high": 80746.25,
       "low": 75709.91
     },
     "eth": {
-      "price": 2320.04,
-      "change": 2.08,
-      "high": 2319.52,
+      "price": 2410.6,
+      "change": 6.07,
+      "high": 2441.12,
       "low": 2226.67
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 331.9,
-        "change": -1.9,
-        "high": 334.5,
-        "low": 325.33
+        "price": 350.36,
+        "change": 5.56,
+        "high": 354.47,
+        "low": 340.99
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 520.99,
-        "change": 2.74,
-        "high": 523.44,
-        "low": 507.82
+        "price": 554.99,
+        "change": 6.53,
+        "high": 559.15,
+        "low": 542.34
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 206.69,
-        "change": 2.29,
-        "high": 209.14,
-        "low": 205.93
+        "price": 200.78,
+        "change": -2.86,
+        "high": 206.79,
+        "low": 200.65
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 250.69,
-        "change": 2.06,
-        "high": 252.45,
-        "low": 245.88
+        "price": 266.93,
+        "change": 6.48,
+        "high": 271.49,
+        "low": 263.85
       },
       "META": {
         "name": "Meta",
-        "price": 621.03,
-        "change": 2.36,
-        "high": 624.84,
-        "low": 610.1
+        "price": 628.15,
+        "change": 1.15,
+        "high": 643.09,
+        "low": 624.5
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 280.03,
-        "change": 0.37,
-        "high": 281.61,
-        "low": 277.2
+        "price": 290.17,
+        "change": 3.62,
+        "high": 296.49,
+        "low": 283.51
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 398.5,
-        "change": -1.32,
-        "high": 406.5,
-        "low": 396.53
+        "price": 384.85,
+        "change": -3.43,
+        "high": 392.04,
+        "low": 375.5
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 37.15,
-        "change": 2.26,
-        "high": 38.68,
-        "low": 36.62
+        "price": 35.56,
+        "change": -4.28,
+        "high": 39.35,
+        "low": 34.87
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 404.44,
-        "change": 1.0,
-        "high": 405.4,
-        "low": 397.0
+        "price": 411.17,
+        "change": 1.66,
+        "high": 416.02,
+        "low": 392.5
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.9,
-        "change": 7.95,
-        "high": 1.93,
-        "low": 1.8
+        "price": 2.16,
+        "change": 13.68,
+        "high": 2.33,
+        "low": 1.97
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 54.43,
-        "change": 4.53,
-        "high": 54.94,
-        "low": 52.9
+        "price": 51.57,
+        "change": -5.25,
+        "high": 55.31,
+        "low": 50.41
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 23.49,
-        "change": -0.13,
+        "price": 22.09,
+        "change": -5.96,
         "high": 24.29,
-        "low": 22.93
+        "low": 21.65
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.79,
-        "change": 0.7,
-        "high": 6.09,
-        "low": 5.77
+        "price": 5.24,
+        "change": -9.5,
+        "high": 5.78,
+        "low": 5.22
       }
     }
   },
@@ -139,7 +139,48 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
+    "today": [
+      {
+        "title": "BOE Monetary Policy Report",
+        "country": "GBP",
+        "date": "2026-11-05T07:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Monetary Policy Summary",
+        "country": "GBP",
+        "date": "2026-11-05T07:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "MPC Official Bank Rate Votes",
+        "country": "GBP",
+        "date": "2026-11-05T07:00:00-05:00",
+        "impact": "High",
+        "forecast": "7-0-2",
+        "previous": "3-0-6"
+      },
+      {
+        "title": "Official Bank Rate",
+        "country": "GBP",
+        "date": "2026-11-05T07:00:00-05:00",
+        "impact": "High",
+        "forecast": "4.00%",
+        "previous": "3.75%"
+      },
+      {
+        "title": "BOE Gov Bailey Speaks",
+        "country": "GBP",
+        "date": "2026-11-05T07:30:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
     "upcoming": [
       {
         "title": "Average Hourly Earnings m/m",
@@ -171,47 +212,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 520.99,
-      "value": 548.573034065,
+      "current_price": 554.99,
+      "value": 584.373113065,
       "cost": 495.50994638250006,
-      "gain": 53.06308768249994,
-      "gain_pct": 10.708783561236295
+      "gain": 88.86316668249992,
+      "gain_pct": 17.933679703354247
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 206.69,
-      "value": 183.46598089600002,
+      "current_price": 200.78,
+      "value": 178.220037952,
       "cost": 161.5399809584,
-      "gain": 21.92599993760001,
-      "gain_pct": 13.573110388843258
+      "gain": 16.680056993600004,
+      "gain_pct": 10.32565244507208
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 37.15,
-      "value": 108.82701682,
+      "current_price": 35.56,
+      "value": 104.169279088,
       "cost": 214.47007443188,
-      "gain": -105.64305761188,
-      "gain_pct": -49.257714807869085
+      "gain": -110.30079534388,
+      "gain_pct": -51.42945729657671
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.49,
-      "value": 117.159466284,
+      "current_price": 22.09,
+      "value": 110.176782044,
       "cost": 452.6500120422,
-      "gain": -335.49054575819997,
-      "gain_pct": -74.11698593458175
+      "gain": -342.4732299982,
+      "gain_pct": -75.65960916538575
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.79,
-      "value": 35.540988021000004,
+      "current_price": 5.24,
+      "value": 32.164901076,
       "cost": 69.8849997615,
-      "gain": -34.344011740499994,
-      "gain_pct": -49.14361001317522
+      "gain": -37.7200986855,
+      "gain_pct": -53.97452788757137
     },
     "ARQQ": {
       "value": "N/A",
@@ -226,25 +267,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 993.566486086,
+      "value": 1009.104113225,
       "cost": 1394.05501357648,
-      "gain": -400.4885274904799,
-      "gain_pct": -28.72831585483972
+      "gain": -384.95090035147996,
+      "gain_pct": -27.613752441797807
     }
   },
   "allocation": {
     "mag7": {
-      "value": 732.039014961,
-      "current_pct": 73.7,
+      "value": 762.593151017,
+      "current_pct": 75.6,
       "target_pct": 20,
-      "diff": 53.7,
+      "diff": 55.6,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 261.52747112500003,
-      "current_pct": 26.3,
+      "value": 246.510962208,
+      "current_pct": 24.4,
       "target_pct": 50,
-      "diff": -23.7,
+      "diff": -25.6,
       "status": "Underweight"
     },
     "crypto": {
@@ -261,9 +302,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 993.566486086
+    "__total__": 1009.104113225
   },
-  "news": "[BBC Business]\nหัวข้อ: Poundland supplier 'will lose millions' if retailer collapses\nเนื้อหา: One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.\n\n[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: No more rice grains in Kellogg's Rice Krispies due to changing weather\nเนื้อหา: The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.\n\n[BBC Business]\nหัวข้อ: Binance says fake job interviews used as part of $6.3bn crypto hack\nเนื้อหา: An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.\n\n[BBC Business]\nหัวข้อ: Canva announces major job cuts after 'our hardest year yet'\nเนื้อหา: CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.\n\n[CNBC]\nหัวข้อ: Midterm Takeaways: Tech billionaires suffer horrible night as Democrats drub Republicans\nเนื้อหา: Elon Musk's spending may have become a liability as voters in exit polls raised concerns about government corruption and the growing influence of billionaires.\n\n[CNBC]\nหัวข้อ: What Trump losing power over Congress means for Iran, Ukraine and foreign policy\nเนื้อหา: Democratic control of Congress could bring greater scrutiny of Trump’s handling of the Iran and Ukraine wars, while leaving him broad foreign-policy powers.\n\n[CNBC]\nหัวข้อ: Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off\nเนื้อหา: Treasury yields fell on Tuesday night, as investors sought shelter from a sell-off in equity futures sparked by big victories from Democrats in the U.S. midterm elections.\n\n[CNBC]\nหัวข้อ: Stock market after midterm elections: What S&P 500 history shows\nเนื้อหา: Midterms historically precede a strong year for the S&amp;P 500. What to know if Democrats win back Congress\n\n[CNBC]\nหัวข้อ: Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress\nเนื้อหา: Precious metals saw strong gains on Tuesday morning, as investors digested a Democratic sweep in the U.S. midterm elections.\n\n[MarketWatch]\nหัวข้อ: Democrats win the House and Senate. Here’s what it means for your finances.\nเนื้อหา: The results from the U.S. midterm elections are now clear and look likely to have effects on Americans’ investments and their wallets.\n\n[MarketWatch]\nหัวข้อ: Here’s why AMD’s stock is rising — and sending a confident message about the AI trade\nเนื้อหา: The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.\n\n[MarketWatch]\nหัวข้อ: Super Micro’s stock pops as earnings show booming demand for AI servers\nเนื้อหา: Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.\n\n[MarketWatch]\nหัวข้อ: What analysts are telling us while Apple’s stock falls after earnings report\nเนื้อหา: Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.\n\n[MarketWatch]\nหัวข้อ: Shopify’s stock slides after earnings. This is what’s worrying Wall Street.\nเนื้อหา: The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.\n\n[Investing.com Gold]\nหัวข้อ: Investors poised for gridlock with Trump as Democrats sweep Congress\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Gold jumps more than 2% on softer dollar after Democratic midterm sweep\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Market analysts react to Democratic sweep in US midterms\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hakeem Jeffries poised to become speaker of US House of Representatives\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar slides to one-month low as Democratic gains stoke AI regulation fears\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms\nเนื้อหา: The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.\n\n[BBC Business]\nหัวข้อ: Poundland owner in crunch talks as retailer's collapse looms\nเนื้อหา: Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.\n\n[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change\nเนื้อหา: The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.\n\n[BBC Business]\nหัวข้อ: Binance says fake job interviews used as part of $6.3bn crypto hack\nเนื้อหา: An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.\n\n[CNBC]\nหัวข้อ: What Republicans' huge loss means for Trump\nเนื้อหา: Trump's handling of tariffs, the Iran war and an array of Washington-area construction projects are sure to face sudden pushback from newly empowered Democrats.\n\n[CNBC]\nหัวข้อ: Democrats take Congress in a blue wave. Here's what it means for your money\nเนื้อหา: Blue wave gives Democrats control of Congress. Here's how their agenda could affect your money, from health care and taxes to student loans and Social Security.\n\n[CNBC]\nหัวข้อ: Hyperscalers and Apple surge after election results remove investor uncertainty\nเนื้อหา: Apple, Amazon, Google, Meta and Microsoft stock was up after the midterms, while stocks tied to Trump advisor Elon Musk and data centers fell on Wednesday.\n\n[CNBC]\nหัวข้อ: Democrats map out an agenda to address affordability and corruption after midterm sweep\nเนื้อหา: In control of Congress, Democrats are preparing to pursue legislation to address affordability, while also trying to rein-in President Donald Trump\n\n[CNBC]\nหัวข้อ: CVS Health plans to split itself up. Here's why a breakup could make sense now\nเนื้อหา: Analysts say that after a roughly two-year turnaround the company's retail pharmacy business and other units may be strong enough to stand on their own.\n\n[MarketWatch]\nหัวข้อ: Democrats’ big election win revives a difficult Social Security question: Who pays?\nเนื้อหา: There are many ideas for saving Social Security. All of them will hurt.\n\n[MarketWatch]\nหัวข้อ: McDonald’s tests new value menu as fast-food discount wars heat up\nเนื้อหา: The burger chain is overhauling its menu and seeking to deliver a “clear and compelling value proposition.”\n\n[MarketWatch]\nหัวข้อ: Wall Street veteran says these are some of the most unbelievable charts he has ever seen\nเนื้อหา: A historic divergence has split the U.S. stock market: The benchmark S&amp;P 500 index has tumbled into deeply oversold territory even as nearly half of its constituent stocks remained decidedly overbought.\n\n[MarketWatch]\nหัวข้อ: Oil prices are in freefall now that the Democratic sweep is ‘rewriting the Iran playbook’\nเนื้อหา: Oil dropped Wednesday, putting prices on track for their largest one-week decline since 2020.\n\n[MarketWatch]\nหัวข้อ: The midterm election results are redrawing the map for AI data centers\nเนื้อหา: U.S. data-center spending won’t drop a lot, but watch for delays, relocations and increased expenses for individual projects\n\n[Investing.com Gold]\nหัวข้อ: Canada budget to expand homelessness funding as urban crisis deepens - Bloomberg\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar declines after Democrats take US Congress in midterm elections\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Gold heads for biggest daily gain since August as dollar weakens\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Markets cheer Democratic win, betting divided Washington means fewer policy shocks\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Election stiffens the Fed’s guardrails, but independence risks remain\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
