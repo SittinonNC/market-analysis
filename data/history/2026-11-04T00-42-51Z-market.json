@@ -1,0 +1,270 @@
+{
+  "ts": "2026-11-04T00-42-51Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3935.1,
+      "change": -0.87,
+      "high": 3949.3,
+      "low": 3933.6
+    },
+    "sp500": {
+      "price": 7568.92,
+      "change": 0.36,
+      "high": 7594.61,
+      "low": 7545.39
+    },
+    "dxy": {
+      "price": 101.89,
+      "change": 0.14,
+      "high": 101.94,
+      "low": 101.62
+    },
+    "vix": {
+      "price": 20.83,
+      "change": -1.51,
+      "high": 21.91,
+      "low": 20.29
+    },
+    "btc": {
+      "price": 76790.12,
+      "change": 0.0,
+      "high": 77415.34,
+      "low": 76800.3
+    },
+    "eth": {
+      "price": 2259.87,
+      "change": 0.0,
+      "high": 2276.0,
+      "low": 2257.19
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 331.9,
+        "change": -1.9,
+        "high": 334.5,
+        "low": 325.33
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 520.99,
+        "change": 2.74,
+        "high": 523.44,
+        "low": 507.85
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 206.69,
+        "change": 2.29,
+        "high": 209.14,
+        "low": 205.93
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 250.69,
+        "change": 2.06,
+        "high": 252.44,
+        "low": 245.89
+      },
+      "META": {
+        "name": "Meta",
+        "price": 621.03,
+        "change": 2.36,
+        "high": 624.84,
+        "low": 610.1
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 280.03,
+        "change": 0.37,
+        "high": 281.6,
+        "low": 277.2
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 398.5,
+        "change": -1.32,
+        "high": 406.49,
+        "low": 396.54
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 37.15,
+        "change": 2.26,
+        "high": 38.68,
+        "low": 36.63
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 404.44,
+        "change": 1.0,
+        "high": 405.4,
+        "low": 397.01
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.9,
+        "change": 7.95,
+        "high": 1.93,
+        "low": 1.8
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 54.43,
+        "change": 4.53,
+        "high": 54.94,
+        "low": 52.9
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.49,
+        "change": -0.13,
+        "high": 24.29,
+        "low": 22.93
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.79,
+        "change": 0.7,
+        "high": 6.09,
+        "low": 5.77
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": [
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "65K",
+        "previous": "29K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.2%",
+        "previous": "4.2%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 520.99,
+      "value": 548.573034065,
+      "cost": 495.50994638250006,
+      "gain": 53.06308768249994,
+      "gain_pct": 10.708783561236295
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 206.69,
+      "value": 183.46598089600002,
+      "cost": 161.5399809584,
+      "gain": 21.92599993760001,
+      "gain_pct": 13.573110388843258
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 37.15,
+      "value": 108.82701682,
+      "cost": 214.47007443188,
+      "gain": -105.64305761188,
+      "gain_pct": -49.257714807869085
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.49,
+      "value": 117.159466284,
+      "cost": 452.6500120422,
+      "gain": -335.49054575819997,
+      "gain_pct": -74.11698593458175
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.79,
+      "value": 35.540988021000004,
+      "cost": 69.8849997615,
+      "gain": -34.344011740499994,
+      "gain_pct": -49.14361001317522
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 993.566486086,
+      "cost": 1394.05501357648,
+      "gain": -400.4885274904799,
+      "gain_pct": -28.72831585483972
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 732.039014961,
+      "current_pct": 73.7,
+      "target_pct": 20,
+      "diff": 53.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 261.52747112500003,
+      "current_pct": 26.3,
+      "target_pct": 50,
+      "diff": -23.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 993.566486086
+  },
+  "news": "[BBC Business]\nหัวข้อ: Poundland supplier 'will lose millions' if retailer collapses\nเนื้อหา: One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.\n\n[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Binance says fake job interviews used as part of $6.3bn crypto hack\nเนื้อหา: An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.\n\n[BBC Business]\nหัวข้อ: Canva announces major job cuts after 'our hardest year yet'\nเนื้อหา: CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.\n\n[BBC Business]\nหัวข้อ: Drivers may get compensation offers before car finance saga ends\nเนื้อหา: The regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[CNBC]\nหัวข้อ: AMD stock jumps 8% on earnings as data center revenue nearly doubles\nเนื้อหา: AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips\n\n[CNBC]\nหัวข้อ: Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways\nเนื้อหา: Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.\n\n[CNBC]\nหัวข้อ: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports\nเนื้อหา: \"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.\n\n[CNBC]\nหัวข้อ: Midterm elections could jolt stocks if Democrats sweep Congress\nเนื้อหา: Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.\n\n[CNBC]\nหัวข้อ: CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says\nเนื้อหา: \"Enabling agents to work safely is a massive market opportunity for CrowdStrike,\" CrowdStrike CEO George Kurtz told CNBC's Jim Cramer.\n\n[MarketWatch]\nหัวข้อ: Here’s why AMD’s stock is rising — and sending a confident message about the AI trade\nเนื้อหา: The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.\n\n[MarketWatch]\nหัวข้อ: What analysts are telling us while Apple’s stock falls after earnings report\nเนื้อหา: Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.\n\n[MarketWatch]\nหัวข้อ: Shopify’s stock slides after earnings. This is what’s worrying Wall Street.\nเนื้อหา: The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.\n\n[MarketWatch]\nหัวข้อ: AI’s control over the bond market is growing — even rivaling war and elections\nเนื้อหา: “Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.\n\n[MarketWatch]\nหัวข้อ: S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?\nเนื้อหา: Falling below 7,500 would lead to a dramatic increase in selling pressure and volatility, a J.P. Morgan strategist says, and that could end in a full-blown correction\n\n[Investing.com Gold]\nหัวข้อ: Block lifts profit outlook on Cash App strength, reaches preliminary DOJ settlement\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks wobble as investors watch US midterm elections\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Block raises full-year profit outlook as Cash App drives Q3 growth\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors ready for possible shake-up in Congress as US awaits election results\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand unemployment hits 5.7% in Q3, highest since 2015\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}

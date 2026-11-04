@@ -1,134 +1,134 @@
 {
-  "ts": "2026-11-03T20-33-14Z",
+  "ts": "2026-11-04T00-42-51Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3931.8,
-      "change": -0.95,
-      "high": 3981.7,
-      "low": 3904.1
+      "price": 3935.1,
+      "change": -0.87,
+      "high": 3949.3,
+      "low": 3933.6
     },
     "sp500": {
-      "price": 7567.0,
-      "change": 0.34,
+      "price": 7568.92,
+      "change": 0.36,
       "high": 7594.61,
       "low": 7545.39
     },
     "dxy": {
-      "price": 101.86,
-      "change": 0.11,
+      "price": 101.89,
+      "change": 0.14,
       "high": 101.94,
       "low": 101.62
     },
     "vix": {
-      "price": 20.95,
-      "change": -0.95,
+      "price": 20.83,
+      "change": -1.51,
       "high": 21.91,
       "low": 20.29
     },
     "btc": {
-      "price": 77698.05,
-      "change": 1.33,
-      "high": 77783.28,
-      "low": 76305.54
+      "price": 76790.12,
+      "change": 0.0,
+      "high": 77415.34,
+      "low": 76800.3
     },
     "eth": {
-      "price": 2283.37,
-      "change": 1.53,
-      "high": 2300.02,
-      "low": 2239.58
+      "price": 2259.87,
+      "change": 0.0,
+      "high": 2276.0,
+      "low": 2257.19
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 331.37,
-        "change": -2.05,
+        "price": 331.9,
+        "change": -1.9,
         "high": 334.5,
         "low": 325.33
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 522.06,
-        "change": 2.95,
+        "price": 520.99,
+        "change": 2.74,
         "high": 523.44,
         "low": 507.85
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 206.8,
-        "change": 2.35,
+        "price": 206.69,
+        "change": 2.29,
         "high": 209.14,
         "low": 205.93
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 252.07,
-        "change": 2.62,
+        "price": 250.69,
+        "change": 2.06,
         "high": 252.44,
         "low": 245.89
       },
       "META": {
         "name": "Meta",
-        "price": 618.93,
-        "change": 2.01,
+        "price": 621.03,
+        "change": 2.36,
         "high": 624.84,
         "low": 610.1
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 279.08,
-        "change": 0.03,
+        "price": 280.03,
+        "change": 0.37,
         "high": 281.6,
         "low": 277.2
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 397.44,
-        "change": -1.58,
+        "price": 398.5,
+        "change": -1.32,
         "high": 406.49,
-        "low": 396.82
+        "low": 396.54
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 37.31,
-        "change": 2.7,
+        "price": 37.15,
+        "change": 2.26,
         "high": 38.68,
         "low": 36.63
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 401.65,
-        "change": 0.3,
+        "price": 404.44,
+        "change": 1.0,
         "high": 405.4,
         "low": 397.01
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.87,
-        "change": 6.25,
+        "price": 1.9,
+        "change": 7.95,
         "high": 1.93,
         "low": 1.8
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 53.67,
-        "change": 3.07,
+        "price": 54.43,
+        "change": 4.53,
         "high": 54.94,
         "low": 52.9
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 23.36,
-        "change": -0.68,
+        "price": 23.49,
+        "change": -0.13,
         "high": 24.29,
         "low": 22.93
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.82,
-        "change": 1.22,
+        "price": 5.79,
+        "change": 0.7,
         "high": 6.09,
         "low": 5.77
       }
@@ -171,47 +171,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 522.06,
-      "value": 549.69968361,
+      "current_price": 520.99,
+      "value": 548.573034065,
       "cost": 495.50994638250006,
-      "gain": 54.189737227499904,
-      "gain_pct": 10.936155292767646
+      "gain": 53.06308768249994,
+      "gain_pct": 10.708783561236295
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 206.8,
-      "value": 183.56362112000002,
+      "current_price": 206.69,
+      "value": 183.46598089600002,
       "cost": 161.5399809584,
-      "gain": 22.023640161600014,
-      "gain_pct": 13.633553768507358
+      "gain": 21.92599993760001,
+      "gain_pct": 13.573110388843258
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 37.31,
-      "value": 109.295719988,
+      "current_price": 37.15,
+      "value": 108.82701682,
       "cost": 214.47007443188,
-      "gain": -105.17435444387999,
-      "gain_pct": -49.03917468321926
+      "gain": -105.64305761188,
+      "gain_pct": -49.257714807869085
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.36,
-      "value": 116.51107417600001,
+      "current_price": 23.49,
+      "value": 117.159466284,
       "cost": 452.6500120422,
-      "gain": -336.13893786619997,
-      "gain_pct": -74.26022952029926
+      "gain": -335.49054575819997,
+      "gain_pct": -74.11698593458175
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.82,
-      "value": 35.725138218000005,
+      "current_price": 5.79,
+      "value": 35.540988021000004,
       "cost": 69.8849997615,
-      "gain": -34.15986154349999,
-      "gain_pct": -48.880105401844524
+      "gain": -34.344011740499994,
+      "gain_pct": -49.14361001317522
     },
     "ARQQ": {
       "value": "N/A",
@@ -226,22 +226,22 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 994.7952371119999,
+      "value": 993.566486086,
       "cost": 1394.05501357648,
-      "gain": -399.25977646448007,
-      "gain_pct": -28.640173635627907
+      "gain": -400.4885274904799,
+      "gain_pct": -28.72831585483972
     }
   },
   "allocation": {
     "mag7": {
-      "value": 733.26330473,
+      "value": 732.039014961,
       "current_pct": 73.7,
       "target_pct": 20,
       "diff": 53.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 261.531932382,
+      "value": 261.52747112500003,
       "current_pct": 26.3,
       "target_pct": 50,
       "diff": -23.7,
@@ -261,9 +261,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 994.7952371119999
+    "__total__": 993.566486086
   },
-  "news": "[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Drivers may get compensation offers before car finance saga ends\nเนื้อหา: The regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[BBC Business]\nหัวข้อ: Mining giant joins fight to stop killer toad march across Australia\nเนื้อหา: Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.\n\n[BBC Business]\nหัวข้อ: Asda hires ex-Morrisons boss in bid to grow firm\nเนื้อหา: David Potts takes charge of Asda, which is based in Leeds, with immediate effect.\n\n[BBC Business]\nหัวข้อ: 'Quiet quitting' could be hitting the economy - here's why\nเนื้อหา: Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.\n\n[CNBC]\nหัวข้อ: Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways\nเนื้อหา: Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.\n\n[CNBC]\nหัวข้อ: Binance breach puts custody at center of crypto infrastructure trade\nเนื้อหา: Lessons from the $6.3 billion Binance hack could help shape the next phase of the crypto infrastructure trade.\n\n[CNBC]\nหัวข้อ: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports\nเนื้อหา: \"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.\n\n[CNBC]\nหัวข้อ: JetBlue raises bag fees for third time in a year as fuel costs bite\nเนื้อหา: JetBlue raised baggage fees for the third time in a year as fuel costs continued to climb.\n\n[CNBC]\nหัวข้อ: Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto\nเนื้อหา: Binance has replenished 98% of $6.34 billion in affected assets, according to a security report the crypto exchange issued Tuesday.\n\n[MarketWatch]\nหัวข้อ: ‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?\nเนื้อหา: “Salespeople typically push annuities, Medicare plans and estate-planning services.”\n\n[MarketWatch]\nหัวข้อ: An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays\nเนื้อหา: Geothermal technology is in the early stages of its own shale revolution, Morgan Stanley says.\n\n[MarketWatch]\nหัวข้อ: Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.\nเนื้อหา: Don’t sit on the sidelines during open enrollment.\n\n[MarketWatch]\nหัวข้อ: My wife and I have no kids and a 99% chance of outliving our life savings. Why not spend it all?\nเนื้อหา: “I’m 68, she’s 74, and we’re both in good health.”\n\n[MarketWatch]\nหัวข้อ: ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\nเนื้อหา: “Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[Investing.com Gold]\nหัวข้อ: OpenAI employees warned about operational security lapses for years, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: SK Hynix’s New York chip plans hit snag over US restrictions on China, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: ECB likely to raise rates in December, says Nagel\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Binance hackers used fake job interview in $6.3 billion attack\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks wobble, oil prices fall as Trump says Israel aid will stop\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Poundland supplier 'will lose millions' if retailer collapses\nเนื้อหา: One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.\n\n[BBC Business]\nหัวข้อ: UK and EU agree draft deal to scrap Brexit red tape over food exports\nเนื้อหา: The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business]\nหัวข้อ: Binance says fake job interviews used as part of $6.3bn crypto hack\nเนื้อหา: An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.\n\n[BBC Business]\nหัวข้อ: Canva announces major job cuts after 'our hardest year yet'\nเนื้อหา: CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.\n\n[BBC Business]\nหัวข้อ: Drivers may get compensation offers before car finance saga ends\nเนื้อหา: The regulator says it supports lenders offering early compensation offers, as long as they are fair.\n\n[CNBC]\nหัวข้อ: AMD stock jumps 8% on earnings as data center revenue nearly doubles\nเนื้อหา: AMD reported better-than-expected third-quarter results, driven by booming sales of AI chips\n\n[CNBC]\nหัวข้อ: Apple warns of risks related to AI agents behaving in 'unintended or unpredictable' ways\nเนื้อหา: Apple’s annual filing warns that AI agents could exceed permissions, resist instructions or take actions that are difficult to reverse.\n\n[CNBC]\nหัวข้อ: Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports\nเนื้อหา: \"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund.\n\n[CNBC]\nหัวข้อ: Midterm elections could jolt stocks if Democrats sweep Congress\nเนื้อหา: Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.\n\n[CNBC]\nหัวข้อ: CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says\nเนื้อหา: \"Enabling agents to work safely is a massive market opportunity for CrowdStrike,\" CrowdStrike CEO George Kurtz told CNBC's Jim Cramer.\n\n[MarketWatch]\nหัวข้อ: Here’s why AMD’s stock is rising — and sending a confident message about the AI trade\nเนื้อหา: The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.\n\n[MarketWatch]\nหัวข้อ: What analysts are telling us while Apple’s stock falls after earnings report\nเนื้อหา: Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.\n\n[MarketWatch]\nหัวข้อ: Shopify’s stock slides after earnings. This is what’s worrying Wall Street.\nเนื้อหา: The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.\n\n[MarketWatch]\nหัวข้อ: AI’s control over the bond market is growing — even rivaling war and elections\nเนื้อหา: “Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.\n\n[MarketWatch]\nหัวข้อ: S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?\nเนื้อหา: Falling below 7,500 would lead to a dramatic increase in selling pressure and volatility, a J.P. Morgan strategist says, and that could end in a full-blown correction\n\n[Investing.com Gold]\nหัวข้อ: Block lifts profit outlook on Cash App strength, reaches preliminary DOJ settlement\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks wobble as investors watch US midterm elections\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Block raises full-year profit outlook as Cash App drives Q3 growth\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Investors ready for possible shake-up in Congress as US awaits election results\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand unemployment hits 5.7% in Q3, highest since 2015\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
