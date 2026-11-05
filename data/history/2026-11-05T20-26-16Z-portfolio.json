@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-05T20-26-16Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 535.07,
+      "value": 563.3984785450001,
+      "cost": 495.50994638250006,
+      "gain": 67.88853216250004,
+      "gain_pct": 13.700740551854572,
+      "today_change": -3.73
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 183.26,
+      "value": 162.668613184,
+      "cost": 161.5399809584,
+      "gain": 1.1286322256000005,
+      "gain_pct": 0.698670520390025,
+      "today_change": -8.43
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 30.46,
+      "value": 89.229365608,
+      "cost": 214.47007443188,
+      "gain": -125.24070882388,
+      "gain_pct": -58.395423769789836,
+      "today_change": -14.49
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.34,
+      "value": 96.460795144,
+      "cost": 452.6500120422,
+      "gain": -356.1892168982,
+      "gain_pct": -78.68976194017928,
+      "today_change": -12.57
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.59,
+      "value": 28.174980141,
+      "cost": 69.8849997615,
+      "gain": -41.7100196205,
+      "gain_pct": -59.683794466403164,
+      "today_change": -12.9
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 12.29,
+      "value": 51.285685773999994,
+      "cost": 61.19646719899999,
+      "gain": -9.910781424999996,
+      "gain_pct": -16.19502216160927,
+      "today_change": -11.39
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.29,
+      "value": 122.092220906,
+      "cost": 61.09909999086,
+      "gain": 60.99312091514,
+      "gain_pct": 99.82654560257703,
+      "today_change": -8.06
+    },
+    "__total__": {
+      "value": 1113.3101393020002,
+      "cost": 1516.3505807663398,
+      "gain": -403.04044146433966,
+      "gain_pct": -26.579634457662777
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 726.0670917290001,
+      "current_pct": 65.2,
+      "target_pct": 20,
+      "diff": 45.2,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 213.865140893,
+      "current_pct": 19.2,
+      "target_pct": 50,
+      "diff": -30.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1113.3101393020002
+  },
+  "news": "[BBC Business] Interest rates hiked to 4% in first increase in over three years\nMost analysts expected the increase from 3.75% to 4%.\n\n[BBC Business] Faisal Islam: How high will interest rates go?\nThe BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business] Three ways the interest rate rise could affect you\nJob, loans and savings are all affected by the rise in interest rates announced by the Bank of England.\n\n[BBC Business] Shares in Musk's SpaceX plunge as tech and AI stocks fall\nThe market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms\n\n[CNBC] Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nDemocratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC] AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025\nCompanies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.\n\n[CNBC] Wall Street's fear gauge surges the most since April. Why traders think it should be even higher\nFrom its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.\n\n[CNBC] Trump's energy deals are about to face a wave of investigations by Democrats\nDemocrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.\n\n[MarketWatch] The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nThe tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch] Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays\nBloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.\n\n[MarketWatch] After tech-stock rout, October jobs report could bring relief — or more pain\nAfter a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.\n\n[MarketWatch] This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’\nRevolution Medicines’ brand-new treatment brought in far higher sales than expected in its first few weeks on the market.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}

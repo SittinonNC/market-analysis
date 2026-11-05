@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-04T20-12-35Z",
+  "ts": "2026-11-05T20-26-16Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 557.42,
-      "value": 586.93176577,
+      "current_price": 535.07,
+      "value": 563.3984785450001,
       "cost": 495.50994638250006,
-      "gain": 91.42181938749991,
-      "gain_pct": 18.45004728057032,
-      "today_change": 6.99
+      "gain": 67.88853216250004,
+      "gain_pct": 13.700740551854572,
+      "today_change": -3.73
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 202.09,
-      "value": 179.38284425600003,
+      "current_price": 183.26,
+      "value": 162.668613184,
       "cost": 161.5399809584,
-      "gain": 17.84286329760002,
-      "gain_pct": 11.04547814834455,
-      "today_change": -2.23
+      "gain": 1.1286322256000005,
+      "gain_pct": 0.698670520390025,
+      "today_change": -8.43
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 35.73,
-      "value": 104.66727620399999,
+      "current_price": 30.46,
+      "value": 89.229365608,
       "cost": 214.47007443188,
-      "gain": -109.80279822788,
-      "gain_pct": -51.19725841413627,
-      "today_change": -3.82
+      "gain": -125.24070882388,
+      "gain_pct": -58.395423769789836,
+      "today_change": -14.49
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 22.16,
-      "value": 110.525916256,
+      "current_price": 19.34,
+      "value": 96.460795144,
       "cost": 452.6500120422,
-      "gain": -342.1240957862,
-      "gain_pct": -75.58247800384554,
-      "today_change": -5.66
+      "gain": -356.1892168982,
+      "gain_pct": -78.68976194017928,
+      "today_change": -12.57
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.26,
-      "value": 32.287667874,
+      "current_price": 4.59,
+      "value": 28.174980141,
       "cost": 69.8849997615,
-      "gain": -37.5973318875,
-      "gain_pct": -53.79885814668424,
-      "today_change": -9.15
+      "gain": -41.7100196205,
+      "gain_pct": -59.683794466403164,
+      "today_change": -12.9
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 13.9,
-      "value": 58.00415234,
+      "current_price": 12.29,
+      "value": 51.285685773999994,
       "cost": 61.19646719899999,
-      "gain": -3.1923148589999926,
-      "gain_pct": -5.216501875213081,
-      "today_change": -7.33
+      "gain": -9.910781424999996,
+      "gain_pct": -16.19502216160927,
+      "today_change": -11.39
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.05,
-      "value": 130.31100637,
+      "current_price": 11.29,
+      "value": 122.092220906,
       "cost": 61.09909999086,
-      "gain": 69.21190637914,
-      "gain_pct": 113.27811111701094,
-      "today_change": -1.07
+      "gain": 60.99312091514,
+      "gain_pct": 99.82654560257703,
+      "today_change": -8.06
     },
     "__total__": {
-      "value": 1202.11062907,
+      "value": 1113.3101393020002,
       "cost": 1516.3505807663398,
-      "gain": -314.23995169633986,
-      "gain_pct": -20.723436630170834
+      "gain": -403.04044146433966,
+      "gain_pct": -26.579634457662777
     }
   },
   "allocation": {
     "mag7": {
-      "value": 766.314610026,
-      "current_pct": 63.7,
+      "value": 726.0670917290001,
+      "current_pct": 65.2,
       "target_pct": 20,
-      "diff": 43.7,
+      "diff": 45.2,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 247.48086033399997,
-      "current_pct": 20.6,
+      "value": 213.865140893,
+      "current_pct": 19.2,
       "target_pct": 50,
-      "diff": -29.4,
+      "diff": -30.8,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1202.11062907
+    "__total__": 1113.3101393020002
   },
-  "news": "[BBC Business] Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms\nThe billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.\n\n[BBC Business] Poundland owner in crunch talks as retailer's collapse looms\nGordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.\n\n[BBC Business] UK and EU agree draft deal to scrap Brexit red tape over food exports\nThe food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.\n\n[BBC Business] Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change\nThe cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.\n\n[CNBC] What Republicans' huge loss means for Trump\nTrump's handling of tariffs, the Iran war and an array of Washington-area construction projects are sure to face sudden pushback from newly empowered Democrats.\n\n[CNBC] Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it\nThe next debt-ceiling confrontation could reverse Washington's traditional political roles, raising the possibility of spending concessions, market volatility and a damaging default.\n\n[CNBC] Hyperscalers and Apple surge after election results remove investor uncertainty\nApple, Amazon, Google, Meta and Microsoft stock was up after the midterms, while stocks tied to Trump advisor Elon Musk and data centers fell on Wednesday.\n\n[CNBC] Democrats map out an agenda to address affordability and corruption after midterm sweep\nIn control of Congress, Democrats are preparing to pursue legislation to address affordability, while also trying to rein-in President Donald Trump\n\n[MarketWatch] Microsoft and Amazon combine for a $400 billion market-cap boost — and these factors show why\nMicrosoft and Amazon shares are rising sharply on Wednesday, with one portfolio manager noting that a cloud-supply crunch could help the companies raise prices.\n\n[MarketWatch] 4 market-moving issues investors should watch now that the midterms are over\nThe Democrats’ election sweep on Tuesday could have far-reaching consequences for markets and the economy.\n\n[MarketWatch] SpaceX’s Qualcomm deal could be a precursor to a telecom takeover\nThe deal adds to what a BNP Paribas analyst called an “unprecedented” amount of news putting pressure on U.S. telecommunications operators.\n\n[MarketWatch] ‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?\n“In the wake of the midterm elections, how many Americans are living in poverty?”",
+  "news": "[BBC Business] Interest rates hiked to 4% in first increase in over three years\nMost analysts expected the increase from 3.75% to 4%.\n\n[BBC Business] Faisal Islam: How high will interest rates go?\nThe BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business] Three ways the interest rate rise could affect you\nJob, loans and savings are all affected by the rise in interest rates announced by the Bank of England.\n\n[BBC Business] Shares in Musk's SpaceX plunge as tech and AI stocks fall\nThe market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms\n\n[CNBC] Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nDemocratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC] AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025\nCompanies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.\n\n[CNBC] Wall Street's fear gauge surges the most since April. Why traders think it should be even higher\nFrom its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.\n\n[CNBC] Trump's energy deals are about to face a wave of investigations by Democrats\nDemocrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.\n\n[MarketWatch] The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nThe tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch] Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays\nBloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.\n\n[MarketWatch] After tech-stock rout, October jobs report could bring relief — or more pain\nAfter a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.\n\n[MarketWatch] This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’\nRevolution Medicines’ brand-new treatment brought in far higher sales than expected in its first few weeks on the market.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
