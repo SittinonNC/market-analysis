@@ -1,136 +1,136 @@
 {
-  "ts": "2026-11-05T08-47-37Z",
+  "ts": "2026-11-05T21-08-53Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4133.5,
-      "change": 1.49,
+      "price": 4105.7,
+      "change": 0.8,
       "high": 4155.8,
       "low": 4067.0
     },
     "sp500": {
-      "price": 7688.62,
-      "change": 1.58,
-      "high": 7715.57,
-      "low": 7635.81
+      "price": 7353.73,
+      "change": -4.36,
+      "high": 7681.29,
+      "low": 7350.35
     },
     "dxy": {
-      "price": 101.45,
-      "change": -0.06,
-      "high": 101.46,
+      "price": 101.59,
+      "change": 0.08,
+      "high": 101.71,
       "low": 101.19
     },
     "vix": {
-      "price": 17.1,
-      "change": 2.95,
-      "high": 17.16,
-      "low": 17.05
+      "price": 26.59,
+      "change": 60.08,
+      "high": 28.09,
+      "low": 16.7
     },
     "btc": {
-      "price": 80448.86,
-      "change": 0.05,
+      "price": 75862.79,
+      "change": -5.65,
       "high": 80794.23,
-      "low": 80237.09
+      "low": 75616.78
     },
     "eth": {
-      "price": 2418.72,
-      "change": -0.15,
+      "price": 2236.1,
+      "change": -7.69,
       "high": 2434.37,
-      "low": 2410.3
+      "low": 2238.65
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 349.51,
-        "change": 5.31,
-        "high": 354.5,
-        "low": 340.99
+        "price": 344.17,
+        "change": -1.53,
+        "high": 355.38,
+        "low": 342.06
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 555.8,
-        "change": 6.68,
-        "high": 559.15,
-        "low": 542.3
+        "price": 535.93,
+        "change": -3.58,
+        "high": 557.62,
+        "low": 532.7
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 200.13,
-        "change": -3.17,
-        "high": 206.79,
-        "low": 199.68
+        "price": 181.6,
+        "change": -9.26,
+        "high": 196.25,
+        "low": 181.46
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 266.03,
-        "change": 6.12,
-        "high": 271.49,
-        "low": 263.85
+        "price": 260.21,
+        "change": -2.19,
+        "high": 273.23,
+        "low": 252.28
       },
       "META": {
         "name": "Meta",
-        "price": 630.0,
-        "change": 1.44,
-        "high": 643.09,
-        "low": 624.5
+        "price": 605.08,
+        "change": -3.96,
+        "high": 634.99,
+        "low": 583.98
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 288.93,
-        "change": 3.18,
-        "high": 296.49,
-        "low": 283.4
+        "price": 282.57,
+        "change": -2.2,
+        "high": 295.6,
+        "low": 277.07
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 385.19,
-        "change": -3.34,
-        "high": 392.04,
-        "low": 375.5
+        "price": 343.69,
+        "change": -10.77,
+        "high": 374.23,
+        "low": 338.15
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 35.62,
-        "change": -4.12,
-        "high": 39.35,
-        "low": 34.87
+        "price": 30.2,
+        "change": -15.22,
+        "high": 35.01,
+        "low": 28.99
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 409.38,
-        "change": 1.22,
-        "high": 416.02,
-        "low": 392.5
+        "price": 395.37,
+        "change": -3.42,
+        "high": 415.72,
+        "low": 394.08
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 2.14,
-        "change": 12.63,
-        "high": 2.33,
-        "low": 1.97
+        "price": 1.88,
+        "change": -12.15,
+        "high": 2.11,
+        "low": 1.72
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 52.37,
-        "change": -3.78,
-        "high": 55.31,
-        "low": 50.41
+        "price": 45.99,
+        "change": -12.18,
+        "high": 50.83,
+        "low": 43.89
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 22.12,
-        "change": -5.83,
-        "high": 24.29,
-        "low": 21.65
+        "price": 19.19,
+        "change": -13.25,
+        "high": 22.09,
+        "low": 18.53
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.27,
-        "change": -8.98,
-        "high": 5.78,
-        "low": 5.22
+        "price": 4.52,
+        "change": -14.23,
+        "high": 5.16,
+        "low": 4.38
       }
     }
   },
@@ -141,47 +141,21 @@
   "calendar": {
     "today": [
       {
-        "title": "BOE Monetary Policy Report",
-        "country": "GBP",
-        "date": "2026-11-05T07:00:00-05:00",
+        "title": "Employment Change",
+        "country": "CAD",
+        "date": "2026-11-06T08:30:00-05:00",
         "impact": "High",
-        "forecast": "",
-        "previous": ""
+        "forecast": "14.6K",
+        "previous": "-68.3K"
       },
       {
-        "title": "Monetary Policy Summary",
-        "country": "GBP",
-        "date": "2026-11-05T07:00:00-05:00",
+        "title": "Unemployment Rate",
+        "country": "CAD",
+        "date": "2026-11-06T08:30:00-05:00",
         "impact": "High",
-        "forecast": "",
-        "previous": ""
+        "forecast": "6.5%",
+        "previous": "6.5%"
       },
-      {
-        "title": "MPC Official Bank Rate Votes",
-        "country": "GBP",
-        "date": "2026-11-05T07:00:00-05:00",
-        "impact": "High",
-        "forecast": "7-0-2",
-        "previous": "3-0-6"
-      },
-      {
-        "title": "Official Bank Rate",
-        "country": "GBP",
-        "date": "2026-11-05T07:00:00-05:00",
-        "impact": "High",
-        "forecast": "4.00%",
-        "previous": "3.75%"
-      },
-      {
-        "title": "BOE Gov Bailey Speaks",
-        "country": "GBP",
-        "date": "2026-11-05T07:30:00-05:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
-      }
-    ],
-    "upcoming": [
       {
         "title": "Average Hourly Earnings m/m",
         "country": "USD",
@@ -205,54 +179,63 @@
         "impact": "High",
         "forecast": "4.2%",
         "previous": "4.2%"
+      },
+      {
+        "title": "BOJ Gov Ueda Speaks",
+        "country": "JPY",
+        "date": "2026-11-06T11:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
       }
-    ]
+    ],
+    "upcoming": []
   },
   "pnl": {
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 555.8,
-      "value": 585.2259973,
+      "current_price": 535.93,
+      "value": 564.304009955,
       "cost": 495.50994638250006,
-      "gain": 89.71605091749996,
-      "gain_pct": 18.105802229092944
+      "gain": 68.79406357249991,
+      "gain_pct": 13.88348792486106
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 200.13,
-      "value": 177.64307299200001,
+      "current_price": 181.6,
+      "value": 161.19513344,
       "cost": 161.5399809584,
-      "gain": 16.103092033600007,
-      "gain_pct": 9.96848701978422
+      "gain": -0.3448475184000017,
+      "gain_pct": -0.21347502726820755
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 35.62,
-      "value": 104.34504277599999,
+      "current_price": 30.2,
+      "value": 88.46772295999999,
       "cost": 214.47007443188,
-      "gain": -110.12503165588001,
-      "gain_pct": -51.34750474983303
+      "gain": -126.00235147188,
+      "gain_pct": -58.750551472345805
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 22.12,
-      "value": 110.326410992,
+      "current_price": 19.19,
+      "value": 95.71265040400002,
       "cost": 452.6500120422,
-      "gain": -342.32360105019995,
-      "gain_pct": -75.62655295329708
+      "gain": -356.93736163819995,
+      "gain_pct": -78.85504300062254
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.27,
-      "value": 32.349051273,
+      "current_price": 4.52,
+      "value": 27.745296347999997,
       "cost": 69.8849997615,
-      "gain": -37.5359484885,
-      "gain_pct": -53.71102327624067
+      "gain": -42.1397034135,
+      "gain_pct": -60.298638559508134
     },
     "ARQQ": {
       "value": "N/A",
@@ -267,25 +250,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 1009.889575333,
+      "value": 937.4248131069999,
       "cost": 1394.05501357648,
-      "gain": -384.1654382434799,
-      "gain_pct": -27.55740874658129
+      "gain": -456.6302004694801,
+      "gain_pct": -32.75553661960476
     }
   },
   "allocation": {
     "mag7": {
-      "value": 762.8690702920001,
-      "current_pct": 75.5,
+      "value": 725.4991433949999,
+      "current_pct": 77.4,
       "target_pct": 20,
-      "diff": 55.5,
+      "diff": 57.4,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 247.02050504099998,
-      "current_pct": 24.5,
+      "value": 211.925669712,
+      "current_pct": 22.6,
       "target_pct": 50,
-      "diff": -25.5,
+      "diff": -27.4,
       "status": "Underweight"
     },
     "crypto": {
@@ -302,9 +285,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1009.889575333
+    "__total__": 937.4248131069999
   },
-  "news": "[BBC Business]\nหัวข้อ: Interest rates expected to rise for first time in over three years\nเนื้อหา: Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.\n\n[BBC Business]\nหัวข้อ: Pound rises to its highest level since the Brexit referendum\nเนื้อหา: Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago.\n\n[BBC Business]\nหัวข้อ: Food, fuel and taxes – can the Democrats do anything to ease cost of living pressures?\nเนื้อหา: Democrats will hold Congress but President Donald Trump still has the power to block their plans.\n\n[BBC Business]\nหัวข้อ: Elon Musk's millions failed to deliver Republican wins in fierce midterms\nเนื้อหา: Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.\n\n[BBC Business]\nหัวข้อ: Poundland owner in crunch talks as retailer's collapse looms\nเนื้อหา: Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.\n\n[CNBC]\nหัวข้อ: What was really behind Wednesday's monster rally? Trump quickly making peace\nเนื้อหา: The stock market skyrocketed after a decisive sweep for Democrats in the 2026 midterm elections, a move that Trump's reaction added to.\n\n[CNBC]\nหัวข้อ: Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings\nเนื้อหา: Russia and China may be more aggressive if they feel that U.S. President Donald Trump is on \"his way out\" after the Democratic Party flipped the midterms.\n\n[CNBC]\nหัวข้อ: What Wall Street billionaires are saying about Democrats' midterm sweep\nเนื้อหา: Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.\n\n[CNBC]\nหัวข้อ: Defense giant Rheinmetall plunges 16% after cutting outlook on stalled military contracts\nเนื้อหา: Rheinmetall cut its 2026 outlook for the second time in three months, citing delays to German military projects and artillery ammunition deliveries.\n\n[CNBC]\nหัวข้อ: Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite\nเนื้อหา: Sales of Nintendo's flagship Switch 2 plunged in its fiscal second quarter after the Japanese gaming giant rolled out price hikes amid soaring memory costs.\n\n[MarketWatch]\nหัวข้อ: Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress\nเนื้อหา: Stocks surged, oil prices plunged and bond yields fell Wednesday on optimism around a quicker end to the Iran war now that Democrats have clinched control of Congress.\n\n[MarketWatch]\nหัวข้อ: Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.\nเนื้อหา: Wall Street veteran Jared Dillian says the biggest problem is many investors these days have not lived through a major downturn. He’s got a portfolio that offers protection.\n\n[MarketWatch]\nหัวข้อ: Qualcomm’s stock falls as twin forces pressure sales\nเนื้อหา: Qualcomm faces the loss of Apple’s business and the negative impact of high memory costs on overall smartphone demand.\n\n[MarketWatch]\nหัวข้อ: This year’s worst-performing S&P 500 stock is finally seeing some major relief\nเนื้อหา: AppLovin’s stock is popping after “clearly positive” earnings results.\n\n[MarketWatch]\nหัวข้อ: Figma’s stock dips as investors worry that AI momentum is coming at a high price\nเนื้อหา: Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive\n\n[Investing.com Gold]\nหัวข้อ: High debt, rise of non-banks risk tying ECB’s hands, Schnabel says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chip stocks, oil sink in the aftermath of Democratic election sweep\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia’s central bank warns public confidence in inflation fight is slipping\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK inflation to peak at 4.4% around start of 2027, FT survey shows\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Goldilocks or gridlock?\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Interest rates hiked to 4% in first increase in over three years\nเนื้อหา: Most analysts expected the increase from 3.75% to 4%.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: How high will interest rates go?\nเนื้อหา: The BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business]\nหัวข้อ: Three ways the interest rate rise could affect you\nเนื้อหา: Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.\n\n[BBC Business]\nหัวข้อ: Shares in Musk's SpaceX plunge as tech and AI stocks fall\nเนื้อหา: The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms\n\n[BBC Business]\nหัวข้อ: Drunk and dangerous e-bike riders face on-the-spot fines under crackdown\nเนื้อหา: A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.\n\n[CNBC]\nหัวข้อ: Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nเนื้อหา: Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC]\nหัวข้อ: AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025\nเนื้อหา: Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.\n\n[CNBC]\nหัวข้อ: Wall Street's fear gauge surges the most since April. Why traders think it should be even higher\nเนื้อหา: From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.\n\n[CNBC]\nหัวข้อ: Trump's energy deals are about to face a wave of investigations by Democrats\nเนื้อหา: Democrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.\n\n[CNBC]\nหัวข้อ: Here's what the Democratic election rout could mean for the U.S. economy\nเนื้อหา: The biggest forces shaping the economy aren't going to change just because the party in power did.\n\n[MarketWatch]\nหัวข้อ: ‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?\nเนื้อหา: “Sometimes I wonder whether wealthier Americans should trade places with people like me.”\n\n[MarketWatch]\nหัวข้อ: The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nเนื้อหา: The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch]\nหัวข้อ: Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays\nเนื้อหา: Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.\n\n[MarketWatch]\nหัวข้อ: After tech-stock rout, October jobs report could bring relief — or more pain\nเนื้อหา: After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.\n\n[MarketWatch]\nหัวข้อ: This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’\nเนื้อหา: Revolution Medicines’ brand-new treatment brought in far higher sales than expected in its first few weeks on the market.\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Hammack, Barkin favor gradual rate-hike path to lower inflation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Mexico’s central bank cuts key rate to 6.25%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chip selloff drags global stocks lower on AI spending concerns\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Explainer-What is ueno bank and how did it trigger Paraguay’s political crisis?\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US issues determination enabling Cuba sanctions on key sectors\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
