@@ -1,0 +1,294 @@
+{
+  "ts": "2026-11-06T08-48-08Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4079.0,
+      "change": -0.84,
+      "high": 4116.2,
+      "low": 4044.5
+    },
+    "sp500": {
+      "price": 7353.73,
+      "change": -4.36,
+      "high": 7681.29,
+      "low": 7350.35
+    },
+    "dxy": {
+      "price": 101.85,
+      "change": 0.3,
+      "high": 101.98,
+      "low": 101.55
+    },
+    "vix": {
+      "price": 27.15,
+      "change": -3.66,
+      "high": 27.68,
+      "low": 27.11
+    },
+    "btc": {
+      "price": 75617.7,
+      "change": -0.43,
+      "high": 76282.4,
+      "low": 75244.58
+    },
+    "eth": {
+      "price": 2225.98,
+      "change": -0.38,
+      "high": 2246.05,
+      "low": 2212.36
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 344.17,
+        "change": -1.53,
+        "high": 355.38,
+        "low": 342.06
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 535.93,
+        "change": -3.58,
+        "high": 557.62,
+        "low": 532.68
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 181.6,
+        "change": -9.26,
+        "high": 196.25,
+        "low": 181.46
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 260.21,
+        "change": -2.19,
+        "high": 273.23,
+        "low": 252.27
+      },
+      "META": {
+        "name": "Meta",
+        "price": 605.08,
+        "change": -3.96,
+        "high": 634.99,
+        "low": 583.8
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 282.57,
+        "change": -2.2,
+        "high": 295.6,
+        "low": 277.07
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 343.69,
+        "change": -10.77,
+        "high": 374.3,
+        "low": 338.15
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 30.2,
+        "change": -15.22,
+        "high": 35.06,
+        "low": 28.98
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 395.72,
+        "change": -3.34,
+        "high": 415.72,
+        "low": 394.08
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.88,
+        "change": -12.15,
+        "high": 2.11,
+        "low": 1.72
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 45.99,
+        "change": -12.18,
+        "high": 50.83,
+        "low": 43.89
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 19.2,
+        "change": -13.2,
+        "high": 22.09,
+        "low": 18.53
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 4.52,
+        "change": -14.23,
+        "high": 5.16,
+        "low": 4.38
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Employment Change",
+        "country": "CAD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "14.6K",
+        "previous": "-68.3K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "CAD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "6.5%",
+        "previous": "6.5%"
+      },
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "65K",
+        "previous": "29K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-11-06T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.2%",
+        "previous": "4.2%"
+      },
+      {
+        "title": "BOJ Gov Ueda Speaks",
+        "country": "JPY",
+        "date": "2026-11-06T11:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 535.93,
+      "value": 564.304009955,
+      "cost": 495.50994638250006,
+      "gain": 68.79406357249991,
+      "gain_pct": 13.88348792486106
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 181.6,
+      "value": 161.19513344,
+      "cost": 161.5399809584,
+      "gain": -0.3448475184000017,
+      "gain_pct": -0.21347502726820755
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 30.2,
+      "value": 88.46772295999999,
+      "cost": 214.47007443188,
+      "gain": -126.00235147188,
+      "gain_pct": -58.750551472345805
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.2,
+      "value": 95.76252672,
+      "cost": 452.6500120422,
+      "gain": -356.8874853222,
+      "gain_pct": -78.84402426325967
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.52,
+      "value": 27.745296347999997,
+      "cost": 69.8849997615,
+      "gain": -42.1397034135,
+      "gain_pct": -60.298638559508134
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 937.4746894229999,
+      "cost": 1394.05501357648,
+      "gain": -456.5803241534801,
+      "gain_pct": -32.751958832823455
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 725.4991433949999,
+      "current_pct": 77.4,
+      "target_pct": 20,
+      "diff": 57.4,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 211.975546028,
+      "current_pct": 22.6,
+      "target_pct": 50,
+      "diff": -27.4,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 937.4746894229999
+  },
+  "news": "[BBC Business]\nหัวข้อ: Firms told to publish salaries in job adverts ahead of new law\nเนื้อหา: The government argues the change will help jobseekers and could help to prevent pay discrimination.\n\n[BBC Business]\nหัวข้อ: 'I was asked if I was a crier': Your worst job interviews revealed\nเนื้อหา: Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work\n\n[BBC Business]\nหัวข้อ: Interest rates hiked to 4% in first increase in over three years\nเนื้อหา: Most analysts expected the increase from 3.75% to 4%.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: How high will interest rates go?\nเนื้อหา: The BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business]\nหัวข้อ: The engine parts that 'fight the laws of the universe'\nเนื้อหา: Investment has surged into the making of jet turbine blades - an extremely difficult component to make.\n\n[CNBC]\nหัวข้อ: Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections\nเนื้อหา: Oil prices rose Friday as investors weighed the risk of renewed U.S.-Iran military escalation after the midterms, alongside prospects for a diplomatic breakthrough.\n\n[CNBC]\nหัวข้อ: Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble\nเนื้อหา: Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.\n\n[CNBC]\nหัวข้อ: Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy\nเนื้อหา: Bob McNally predicts that both Brent and West Texas Intermediate futures will jump above $100.\n\n[CNBC]\nหัวข้อ: Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge\nเนื้อหา: Here are the most breathtaking statistics from the major stock sell-off on Thursday.\n\n[CNBC]\nหัวข้อ: India as an AI hedge? The country's stocks could see robust inflows as markets globally tank\nเนื้อหา: Over the last month, India's Nifty 50 has gained nearly 9%, while markets with heavy AI exposure, including the U.S., Japan, South Korea and Taiwan are deep in the red.\n\n[MarketWatch]\nหัวข้อ: ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\nเนื้อหา: “Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[MarketWatch]\nหัวข้อ: ‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?\nเนื้อหา: “I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”\n\n[MarketWatch]\nหัวข้อ: Here’s what’s driving Iren’s stock higher after a brutal selloff\nเนื้อหา: Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”\n\n[MarketWatch]\nหัวข้อ: Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years\nเนื้อหา: Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.\n\n[MarketWatch]\nหัวข้อ: Here are the 2027 capital-gains tax rates for each income level\nเนื้อหา: How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.\n\n[Investing.com Gold]\nหัวข้อ: Stocks tumble as AI panic sweeps markets, bonds draw haven demand\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: North Korea’s army of world-class hackers is secret weapon that took down Binance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ to hike in December, seek terminal rate of 2%, says ex-central bank top economist\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korean corporate reforms hit rough patch as Samsung digs in\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Markets fret over growth and inflation, just as tech rout gains speed\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
