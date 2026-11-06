@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-06T19-48-28Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 532.42,
+      "value": 560.6081782699999,
+      "cost": 495.50994638250006,
+      "gain": 65.09823188749988,
+      "gain_pct": 13.137623646660055,
+      "today_change": -0.65
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 187.85,
+      "value": 166.74287344,
+      "cost": 161.5399809584,
+      "gain": 5.202892481600003,
+      "gain_pct": 3.2208079081920027,
+      "today_change": 3.44
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 32.45,
+      "value": 95.05886126,
+      "cost": 214.47007443188,
+      "gain": -119.41121317188,
+      "gain_pct": -55.67733096945765,
+      "today_change": 7.45
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.75,
+      "value": 118.45625050000001,
+      "cost": 452.6500120422,
+      "gain": -334.1937615422,
+      "gain_pct": -73.83049876314672,
+      "today_change": 23.7
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.34,
+      "value": 32.778735066,
+      "cost": 69.8849997615,
+      "gain": -37.106264695499995,
+      "gain_pct": -53.096179183135696,
+      "today_change": 18.14
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 15.96,
+      "value": 66.60045117599999,
+      "cost": 61.19646719899999,
+      "gain": 5.403983977000003,
+      "gain_pct": 8.830548926014325,
+      "today_change": 29.97
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.82,
+      "value": 127.82374234800001,
+      "cost": 61.09909999086,
+      "gain": 66.72464235714001,
+      "gain_pct": 109.20724260606384,
+      "today_change": 6.2
+    },
+    "__total__": {
+      "value": 1168.06909206,
+      "cost": 1516.3505807663398,
+      "gain": -348.2814887063398,
+      "gain_pct": -22.968401445154182
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 727.35105171,
+      "current_pct": 62.3,
+      "target_pct": 20,
+      "diff": 42.3,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 246.29384682600002,
+      "current_pct": 21.1,
+      "target_pct": 50,
+      "diff": -28.9,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1168.06909206
+  },
+  "news": "[BBC Business] AI stocks climb after trillions wiped from market values\nInvestors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.\n\n[BBC Business] Why the US midterms sparked an AI stock selloff\nFears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.\n\n[BBC Business] How does it affect me if share prices fall?\nChanges in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.\n\n[BBC Business] Elon Musk appears to signal the end of the road for Cybertruck\nMusk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.\n\n[CNBC] Data center double-down: Hassett says blue wave won't stop AI build-out\nData centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which he continues despite the midterm results.\n\n[CNBC] Trump says Stephen Miller to replace Susie Wiles as White House chief of staff\nTrump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.\n\n[CNBC] A disturbing employment trend is hiding beneath the latest strong job numbers\nThe average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.\n\n[CNBC] OpenAI bugging suspect Alfozan pleads not guilty\n\n\n[MarketWatch] Cybertruck’s run comes to an end as Musk kills off pricey pet project\nThe Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.\n\n[MarketWatch] My adviser recommended an annuity. Is it the right move in this market environment?\n“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”\n\n[MarketWatch] ‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] You’re fired! But you can keep the laptop and insurance. And here’s $10,000.\nSome tech companies are giving more generous severance packages, but here’s what to keep in mind.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}

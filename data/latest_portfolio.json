@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-05T20-26-16Z",
+  "ts": "2026-11-06T19-48-28Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 535.07,
-      "value": 563.3984785450001,
+      "current_price": 532.42,
+      "value": 560.6081782699999,
       "cost": 495.50994638250006,
-      "gain": 67.88853216250004,
-      "gain_pct": 13.700740551854572,
-      "today_change": -3.73
+      "gain": 65.09823188749988,
+      "gain_pct": 13.137623646660055,
+      "today_change": -0.65
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 183.26,
-      "value": 162.668613184,
+      "current_price": 187.85,
+      "value": 166.74287344,
       "cost": 161.5399809584,
-      "gain": 1.1286322256000005,
-      "gain_pct": 0.698670520390025,
-      "today_change": -8.43
+      "gain": 5.202892481600003,
+      "gain_pct": 3.2208079081920027,
+      "today_change": 3.44
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 30.46,
-      "value": 89.229365608,
+      "current_price": 32.45,
+      "value": 95.05886126,
       "cost": 214.47007443188,
-      "gain": -125.24070882388,
-      "gain_pct": -58.395423769789836,
-      "today_change": -14.49
+      "gain": -119.41121317188,
+      "gain_pct": -55.67733096945765,
+      "today_change": 7.45
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 19.34,
-      "value": 96.460795144,
+      "current_price": 23.75,
+      "value": 118.45625050000001,
       "cost": 452.6500120422,
-      "gain": -356.1892168982,
-      "gain_pct": -78.68976194017928,
-      "today_change": -12.57
+      "gain": -334.1937615422,
+      "gain_pct": -73.83049876314672,
+      "today_change": 23.7
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 4.59,
-      "value": 28.174980141,
+      "current_price": 5.34,
+      "value": 32.778735066,
       "cost": 69.8849997615,
-      "gain": -41.7100196205,
-      "gain_pct": -59.683794466403164,
-      "today_change": -12.9
+      "gain": -37.106264695499995,
+      "gain_pct": -53.096179183135696,
+      "today_change": 18.14
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 12.29,
-      "value": 51.285685773999994,
+      "current_price": 15.96,
+      "value": 66.60045117599999,
       "cost": 61.19646719899999,
-      "gain": -9.910781424999996,
-      "gain_pct": -16.19502216160927,
-      "today_change": -11.39
+      "gain": 5.403983977000003,
+      "gain_pct": 8.830548926014325,
+      "today_change": 29.97
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.29,
-      "value": 122.092220906,
+      "current_price": 11.82,
+      "value": 127.82374234800001,
       "cost": 61.09909999086,
-      "gain": 60.99312091514,
-      "gain_pct": 99.82654560257703,
-      "today_change": -8.06
+      "gain": 66.72464235714001,
+      "gain_pct": 109.20724260606384,
+      "today_change": 6.2
     },
     "__total__": {
-      "value": 1113.3101393020002,
+      "value": 1168.06909206,
       "cost": 1516.3505807663398,
-      "gain": -403.04044146433966,
-      "gain_pct": -26.579634457662777
+      "gain": -348.2814887063398,
+      "gain_pct": -22.968401445154182
     }
   },
   "allocation": {
     "mag7": {
-      "value": 726.0670917290001,
-      "current_pct": 65.2,
+      "value": 727.35105171,
+      "current_pct": 62.3,
       "target_pct": 20,
-      "diff": 45.2,
+      "diff": 42.3,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 213.865140893,
-      "current_pct": 19.2,
+      "value": 246.29384682600002,
+      "current_pct": 21.1,
       "target_pct": 50,
-      "diff": -30.8,
+      "diff": -28.9,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1113.3101393020002
+    "__total__": 1168.06909206
   },
-  "news": "[BBC Business] Interest rates hiked to 4% in first increase in over three years\nMost analysts expected the increase from 3.75% to 4%.\n\n[BBC Business] Faisal Islam: How high will interest rates go?\nThe BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business] Three ways the interest rate rise could affect you\nJob, loans and savings are all affected by the rise in interest rates announced by the Bank of England.\n\n[BBC Business] Shares in Musk's SpaceX plunge as tech and AI stocks fall\nThe market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms\n\n[CNBC] Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nDemocratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC] AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025\nCompanies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.\n\n[CNBC] Wall Street's fear gauge surges the most since April. Why traders think it should be even higher\nFrom its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.\n\n[CNBC] Trump's energy deals are about to face a wave of investigations by Democrats\nDemocrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.\n\n[MarketWatch] The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nThe tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch] Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays\nBloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.\n\n[MarketWatch] After tech-stock rout, October jobs report could bring relief — or more pain\nAfter a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.\n\n[MarketWatch] This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’\nRevolution Medicines’ brand-new treatment brought in far higher sales than expected in its first few weeks on the market.",
+  "news": "[BBC Business] AI stocks climb after trillions wiped from market values\nInvestors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.\n\n[BBC Business] Why the US midterms sparked an AI stock selloff\nFears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.\n\n[BBC Business] How does it affect me if share prices fall?\nChanges in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.\n\n[BBC Business] Elon Musk appears to signal the end of the road for Cybertruck\nMusk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.\n\n[CNBC] Data center double-down: Hassett says blue wave won't stop AI build-out\nData centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which he continues despite the midterm results.\n\n[CNBC] Trump says Stephen Miller to replace Susie Wiles as White House chief of staff\nTrump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.\n\n[CNBC] A disturbing employment trend is hiding beneath the latest strong job numbers\nThe average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.\n\n[CNBC] OpenAI bugging suspect Alfozan pleads not guilty\n\n\n[MarketWatch] Cybertruck’s run comes to an end as Musk kills off pricey pet project\nThe Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.\n\n[MarketWatch] My adviser recommended an annuity. Is it the right move in this market environment?\n“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”\n\n[MarketWatch] ‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] You’re fired! But you can keep the laptop and insurance. And here’s $10,000.\nSome tech companies are giving more generous severance packages, but here’s what to keep in mind.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
