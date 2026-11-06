@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-05T21-08-53Z",
+  "ts": "2026-11-06T00-59-21Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4105.7,
-      "change": 0.8,
-      "high": 4155.8,
-      "low": 4067.0
+      "price": 4103.5,
+      "change": 0.75,
+      "high": 4116.1,
+      "low": 4080.4
     },
     "sp500": {
       "price": 7353.73,
@@ -15,28 +15,28 @@
       "low": 7350.35
     },
     "dxy": {
-      "price": 101.59,
-      "change": 0.08,
-      "high": 101.71,
-      "low": 101.19
+      "price": 101.57,
+      "change": 0.06,
+      "high": 101.57,
+      "low": 101.55
     },
     "vix": {
-      "price": 26.59,
-      "change": 60.08,
-      "high": 28.09,
+      "price": 28.18,
+      "change": 69.66,
+      "high": 28.36,
       "low": 16.7
     },
     "btc": {
-      "price": 75862.79,
-      "change": -5.65,
-      "high": 80794.23,
-      "low": 75616.78
+      "price": 76184.35,
+      "change": 0.0,
+      "high": 76282.4,
+      "low": 75982.81
     },
     "eth": {
-      "price": 2236.1,
-      "change": -7.69,
-      "high": 2434.37,
-      "low": 2238.65
+      "price": 2241.52,
+      "change": 0.0,
+      "high": 2246.05,
+      "low": 2234.65
     },
     "mag7": {
       "AAPL": {
@@ -51,7 +51,7 @@
         "price": 535.93,
         "change": -3.58,
         "high": 557.62,
-        "low": 532.7
+        "low": 532.67
       },
       "NVDA": {
         "name": "Nvidia",
@@ -65,14 +65,14 @@
         "price": 260.21,
         "change": -2.19,
         "high": 273.23,
-        "low": 252.28
+        "low": 252.32
       },
       "META": {
         "name": "Meta",
         "price": 605.08,
         "change": -3.96,
         "high": 634.99,
-        "low": 583.98
+        "low": 583.8
       },
       "GOOGL": {
         "name": "Alphabet",
@@ -95,12 +95,12 @@
         "price": 30.2,
         "change": -15.22,
         "high": 35.01,
-        "low": 28.99
+        "low": 29.0
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 395.37,
-        "change": -3.42,
+        "price": 395.72,
+        "change": -3.34,
         "high": 415.72,
         "low": 394.08
       },
@@ -120,8 +120,8 @@
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 19.19,
-        "change": -13.25,
+        "price": 19.2,
+        "change": -13.2,
         "high": 22.09,
         "low": 18.53
       },
@@ -222,11 +222,11 @@
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 19.19,
-      "value": 95.71265040400002,
+      "current_price": 19.2,
+      "value": 95.76252672,
       "cost": 452.6500120422,
-      "gain": -356.93736163819995,
-      "gain_pct": -78.85504300062254
+      "gain": -356.8874853222,
+      "gain_pct": -78.84402426325967
     },
     "ONDS": {
       "shares": 6.1383399,
@@ -250,10 +250,10 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 937.4248131069999,
+      "value": 937.4746894229999,
       "cost": 1394.05501357648,
-      "gain": -456.6302004694801,
-      "gain_pct": -32.75553661960476
+      "gain": -456.5803241534801,
+      "gain_pct": -32.751958832823455
     }
   },
   "allocation": {
@@ -265,7 +265,7 @@
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 211.925669712,
+      "value": 211.975546028,
       "current_pct": 22.6,
       "target_pct": 50,
       "diff": -27.4,
@@ -285,9 +285,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 937.4248131069999
+    "__total__": 937.4746894229999
   },
-  "news": "[BBC Business]\nหัวข้อ: Interest rates hiked to 4% in first increase in over three years\nเนื้อหา: Most analysts expected the increase from 3.75% to 4%.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: How high will interest rates go?\nเนื้อหา: The BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[BBC Business]\nหัวข้อ: Three ways the interest rate rise could affect you\nเนื้อหา: Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.\n\n[BBC Business]\nหัวข้อ: Shares in Musk's SpaceX plunge as tech and AI stocks fall\nเนื้อหา: The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms\n\n[BBC Business]\nหัวข้อ: Drunk and dangerous e-bike riders face on-the-spot fines under crackdown\nเนื้อหา: A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.\n\n[CNBC]\nหัวข้อ: Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nเนื้อหา: Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC]\nหัวข้อ: AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025\nเนื้อหา: Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.\n\n[CNBC]\nหัวข้อ: Wall Street's fear gauge surges the most since April. Why traders think it should be even higher\nเนื้อหา: From its intraday low to high Thursday, VIX moved more than 11 points, the biggest one-day move since April 9.\n\n[CNBC]\nหัวข้อ: Trump's energy deals are about to face a wave of investigations by Democrats\nเนื้อหา: Democrats are certain to scrutinize the U.S. intervention in Venezuela, administration mineral deals and the cancellation of previously funded energy projects.\n\n[CNBC]\nหัวข้อ: Here's what the Democratic election rout could mean for the U.S. economy\nเนื้อหา: The biggest forces shaping the economy aren't going to change just because the party in power did.\n\n[MarketWatch]\nหัวข้อ: ‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?\nเนื้อหา: “Sometimes I wonder whether wealthier Americans should trade places with people like me.”\n\n[MarketWatch]\nหัวข้อ: The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nเนื้อหา: The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch]\nหัวข้อ: Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays\nเนื้อหา: Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.\n\n[MarketWatch]\nหัวข้อ: After tech-stock rout, October jobs report could bring relief — or more pain\nเนื้อหา: After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.\n\n[MarketWatch]\nหัวข้อ: This pancreatic cancer treatment is on track for ‘one of the best drug launches of all time’\nเนื้อหา: Revolution Medicines’ brand-new treatment brought in far higher sales than expected in its first few weeks on the market.\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Hammack, Barkin favor gradual rate-hike path to lower inflation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Mexico’s central bank cuts key rate to 6.25%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chip selloff drags global stocks lower on AI spending concerns\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Explainer-What is ueno bank and how did it trigger Paraguay’s political crisis?\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US issues determination enabling Cuba sanctions on key sectors\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Major tech stocks plunge as US midterms add to fears of AI slowdown\nเนื้อหา: Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.\n\n[BBC Business]\nหัวข้อ: Firms told to publish salaries in job adverts ahead of new law\nเนื้อหา: The goverment argues the change will help jobseekers and could help to prevent pay discrimination.\n\n[BBC Business]\nหัวข้อ: 'I was asked if I was a crier': Your worst job interviews revealed\nเนื้อหา: Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work\n\n[BBC Business]\nหัวข้อ: Interest rates hiked to 4% in first increase in over three years\nเนื้อหา: Most analysts expected the increase from 3.75% to 4%.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: How high will interest rates go?\nเนื้อหา: The BBC's economics editor views one more interest rate as likely, but thinks that will be all.\n\n[CNBC]\nหัวข้อ: Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge\nเนื้อหา: Here are the most breathtaking statistics from the major stock sell-off on Thursday.\n\n[CNBC]\nหัวข้อ: Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'\nเนื้อหา: Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.\n\n[CNBC]\nหัวข้อ: Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith\nเนื้อหา: The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.\n\n[CNBC]\nหัวข้อ: The October jobs report is out Friday. Here's everything to expect\nเนื้อหา: The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.\n\n[CNBC]\nหัวข้อ: IRS unveils higher capital gains tax brackets for 2027\nเนื้อหา: The IRS has announced higher long-term capital gains brackets for 2027. Here's what investors need to know.\n\n[MarketWatch]\nหัวข้อ: Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years\nเนื้อหา: Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.\n\n[MarketWatch]\nหัวข้อ: Here are the 2027 capital-gains tax rates for each income level\nเนื้อหา: How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.\n\n[MarketWatch]\nหัวข้อ: Tech stocks log worst day since 2020 as carnage comes to the AI trade\nเนื้อหา: The S&amp;P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.\n\n[MarketWatch]\nหัวข้อ: The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.\nเนื้อหา: The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.\n\n[MarketWatch]\nหัวข้อ: How much in Roth conversions can you do in 2027 with the new tax brackets?\nเนื้อหา: The math should actually start with “if” — not “how much.”\n\n[Investing.com Gold]\nหัวข้อ: Japan vigilant to market moves, will focus on boosting economy, PM Takaichi says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asia stocks crumble after AI rout rocks US markets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Texas governor-elect says state will have laws to shield citizens from data centers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-China’s yuan dilemma: too weak abroad and too strong at home\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Lula’s election win dashes US hopes of quick access to Brazil’s rare earths\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
