@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-06T19-48-28Z",
+  "ts": "2026-11-09T22-49-57Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 532.42,
-      "value": 560.6081782699999,
+      "current_price": 545.18,
+      "value": 574.04373733,
       "cost": 495.50994638250006,
-      "gain": 65.09823188749988,
-      "gain_pct": 13.137623646660055,
-      "today_change": -0.65
+      "gain": 78.53379094749994,
+      "gain_pct": 15.849084669407862,
+      "today_change": 2.75
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 187.85,
-      "value": 166.74287344,
+      "current_price": 178.67,
+      "value": 158.594352928,
       "cost": 161.5399809584,
-      "gain": 5.202892481600003,
-      "gain_pct": 3.2208079081920027,
-      "today_change": 3.44
+      "gain": -2.9456280304000018,
+      "gain_pct": -1.823466867411953,
+      "today_change": -4.27
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 32.45,
-      "value": 95.05886126,
+      "current_price": 36.89,
+      "value": 108.06537417199999,
       "cost": 214.47007443188,
-      "gain": -119.41121317188,
-      "gain_pct": -55.67733096945765,
-      "today_change": 7.45
+      "gain": -106.40470025988,
+      "gain_pct": -49.61284251042505,
+      "today_change": 14.1
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.75,
-      "value": 118.45625050000001,
+      "current_price": 26.84,
+      "value": 133.868032144,
       "cost": 452.6500120422,
-      "gain": -334.1937615422,
-      "gain_pct": -73.83049876314672,
-      "today_change": 23.7
+      "gain": -318.7819798982,
+      "gain_pct": -70.42570891801509,
+      "today_change": 13.97
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.34,
-      "value": 32.778735066,
+      "current_price": 5.97,
+      "value": 36.645889202999996,
       "cost": 69.8849997615,
-      "gain": -37.106264695499995,
-      "gain_pct": -53.096179183135696,
-      "today_change": 18.14
+      "gain": -33.2391105585,
+      "gain_pct": -47.562582345191046,
+      "today_change": 11.8
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 15.96,
-      "value": 66.60045117599999,
+      "current_price": 16.86,
+      "value": 70.35611571599999,
       "cost": 61.19646719899999,
-      "gain": 5.403983977000003,
-      "gain_pct": 8.830548926014325,
-      "today_change": 29.97
+      "gain": 9.159648517,
+      "gain_pct": 14.967609955676785,
+      "today_change": 5.64
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.82,
-      "value": 127.82374234800001,
+      "current_price": 12.5,
+      "value": 135.1773925,
       "cost": 61.09909999086,
-      "gain": 66.72464235714001,
-      "gain_pct": 109.20724260606384,
-      "today_change": 6.2
+      "gain": 74.07829250914,
+      "gain_pct": 121.24285385582046,
+      "today_change": 5.22
     },
     "__total__": {
-      "value": 1168.06909206,
+      "value": 1216.750893993,
       "cost": 1516.3505807663398,
-      "gain": -348.2814887063398,
-      "gain_pct": -22.968401445154182
+      "gain": -299.5996867733397,
+      "gain_pct": -19.75794322061899
     }
   },
   "allocation": {
     "mag7": {
-      "value": 727.35105171,
-      "current_pct": 62.3,
+      "value": 732.638090258,
+      "current_pct": 60.2,
       "target_pct": 20,
-      "diff": 42.3,
+      "diff": 40.2,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 246.29384682600002,
-      "current_pct": 21.1,
+      "value": 278.57929551899997,
+      "current_pct": 22.9,
       "target_pct": 50,
-      "diff": -28.9,
+      "diff": -27.1,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1168.06909206
+    "__total__": 1216.750893993
   },
-  "news": "[BBC Business] AI stocks climb after trillions wiped from market values\nInvestors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.\n\n[BBC Business] Why the US midterms sparked an AI stock selloff\nFears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.\n\n[BBC Business] How does it affect me if share prices fall?\nChanges in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.\n\n[BBC Business] Elon Musk appears to signal the end of the road for Cybertruck\nMusk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.\n\n[CNBC] Data center double-down: Hassett says blue wave won't stop AI build-out\nData centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which he continues despite the midterm results.\n\n[CNBC] Trump says Stephen Miller to replace Susie Wiles as White House chief of staff\nTrump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.\n\n[CNBC] A disturbing employment trend is hiding beneath the latest strong job numbers\nThe average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.\n\n[CNBC] OpenAI bugging suspect Alfozan pleads not guilty\n\n\n[MarketWatch] Cybertruck’s run comes to an end as Musk kills off pricey pet project\nThe Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.\n\n[MarketWatch] My adviser recommended an annuity. Is it the right move in this market environment?\n“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”\n\n[MarketWatch] ‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] You’re fired! But you can keep the laptop and insurance. And here’s $10,000.\nSome tech companies are giving more generous severance packages, but here’s what to keep in mind.",
+  "news": "[BBC Business] Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy\nThe share price dropped wiped hundreds of billions of dollars from the value of Nvidia.\n\n[BBC Business] Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond\nJensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.\n\n[BBC Business] Civil servant who secretly held five jobs found guilty of fraud\nKashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.\n\n[BBC Business] How a civil servant got away with juggling five jobs for so long\nKashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.\n\n[CNBC] Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO\nJensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.\n\n[CNBC] Hegseth impeachment articles introduced by Rep. Massie\nThe House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.\n\n[CNBC] A key report for where inflation stood in October comes out Tuesday. Here's what to expect\nThe CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.\n\n[CNBC] 3 unexpected reasons the October jobs report was so strong\nOctober's jobs report blew past economist forecasts. Here are three reasons.\n\n[MarketWatch] As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal\nThe fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.\n\n[MarketWatch] Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.\n“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.\n\n[MarketWatch] ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\n“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch] Are AMD and Broadcom the real winners of the Nvidia spy scandal?\nThe chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
