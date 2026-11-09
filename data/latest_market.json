@@ -1,136 +1,136 @@
 {
-  "ts": "2026-11-09T08-53-58Z",
+  "ts": "2026-11-09T23-29-34Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4107.8,
+      "price": 4154.7,
       "change": 0.0,
-      "high": 4143.3,
-      "low": 4062.5
+      "high": 4156.2,
+      "low": 4143.6
     },
     "sp500": {
-      "price": 7376.86,
-      "change": 0.31,
-      "high": 7444.2,
-      "low": 7369.55
+      "price": 7549.94,
+      "change": 2.35,
+      "high": 7577.39,
+      "low": 7422.24
     },
     "dxy": {
-      "price": 101.89,
+      "price": 101.68,
       "change": 0.0,
       "high": 102.28,
-      "low": 101.86
+      "low": 101.64
     },
     "vix": {
-      "price": 24.29,
-      "change": -5.27,
+      "price": 19.92,
+      "change": -22.31,
       "high": 25.08,
-      "low": 24.29
+      "low": 19.64
     },
     "btc": {
-      "price": 74405.68,
-      "change": -0.24,
+      "price": 75201.43,
+      "change": 0.83,
       "high": 75452.81,
       "low": 73713.2
     },
     "eth": {
-      "price": 2119.89,
-      "change": -0.05,
+      "price": 2132.56,
+      "change": 0.55,
       "high": 2155.51,
       "low": 2084.63
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 342.37,
-        "change": -0.52,
-        "high": 345.79,
-        "low": 338.3
+        "price": 350.69,
+        "change": 2.43,
+        "high": 352.28,
+        "low": 344.78
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 530.61,
-        "change": -0.99,
-        "high": 538.33,
-        "low": 524.47
+        "price": 545.18,
+        "change": 2.75,
+        "high": 548.28,
+        "low": 538.7
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 186.64,
-        "change": 2.78,
-        "high": 194.9,
-        "low": 185.22
+        "price": 178.67,
+        "change": -4.27,
+        "high": 179.91,
+        "low": 170.24
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 259.3,
-        "change": -0.35,
-        "high": 264.18,
-        "low": 258.53
+        "price": 266.93,
+        "change": 2.94,
+        "high": 275.31,
+        "low": 266.92
       },
       "META": {
         "name": "Meta",
-        "price": 610.15,
-        "change": 0.84,
-        "high": 625.6,
-        "low": 606.66
+        "price": 641.37,
+        "change": 5.12,
+        "high": 647.25,
+        "low": 630.0
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 284.78,
-        "change": 0.78,
-        "high": 290.49,
-        "low": 284.59
+        "price": 288.15,
+        "change": 1.18,
+        "high": 296.33,
+        "low": 288.09
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 358.22,
-        "change": 4.23,
-        "high": 363.84,
-        "low": 347.6
+        "price": 378.05,
+        "change": 5.54,
+        "high": 382.2,
+        "low": 360.02
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 32.33,
-        "change": 7.05,
-        "high": 33.16,
-        "low": 27.58
+        "price": 36.89,
+        "change": 14.1,
+        "high": 38.2,
+        "low": 32.26
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 394.15,
-        "change": -0.4,
-        "high": 396.96,
-        "low": 388.0
+        "price": 397.62,
+        "change": 0.88,
+        "high": 399.0,
+        "low": 394.01
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.74,
-        "change": -7.45,
-        "high": 1.98,
-        "low": 1.74
+        "price": 1.88,
+        "change": 8.05,
+        "high": 1.94,
+        "low": 1.66
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 53.07,
-        "change": 15.39,
-        "high": 53.1,
-        "low": 46.51
+        "price": 58.86,
+        "change": 10.91,
+        "high": 59.69,
+        "low": 53.01
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 23.55,
-        "change": 22.66,
-        "high": 24.03,
-        "low": 20.86
+        "price": 26.84,
+        "change": 13.97,
+        "high": 27.73,
+        "low": 22.73
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.34,
-        "change": 18.14,
-        "high": 5.45,
-        "low": 4.6
+        "price": 5.97,
+        "change": 11.8,
+        "high": 6.12,
+        "low": 5.37
       }
     }
   },
@@ -139,8 +139,7 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
-    "upcoming": [
+    "today": [
       {
         "title": "Core CPI m/m",
         "country": "USD",
@@ -157,53 +156,71 @@
         "forecast": "0.3%",
         "previous": "0.6%"
       }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "1.3%"
+      }
     ]
   },
   "pnl": {
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 530.61,
-      "value": 558.702350535,
+      "current_price": 545.18,
+      "value": 574.04373733,
       "cost": 495.50994638250006,
-      "gain": 63.19240415249999,
-      "gain_pct": 12.753004175564971
+      "gain": 78.53379094749994,
+      "gain_pct": 15.849084669407862
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 186.64,
-      "value": 165.668830976,
+      "current_price": 178.67,
+      "value": 158.594352928,
       "cost": 161.5399809584,
-      "gain": 4.128850017600001,
-      "gain_pct": 2.555930731886906
+      "gain": -2.9456280304000018,
+      "gain_pct": -1.823466867411953
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 32.33,
-      "value": 94.707333884,
+      "current_price": 36.89,
+      "value": 108.06537417199999,
       "cost": 214.47007443188,
-      "gain": -119.76274054788,
-      "gain_pct": -55.84123606294502
+      "gain": -106.40470025988,
+      "gain_pct": -49.61284251042505
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.55,
-      "value": 117.45872418,
+      "current_price": 26.84,
+      "value": 133.868032144,
       "cost": 452.6500120422,
-      "gain": -335.1912878622,
-      "gain_pct": -74.05087351040444
+      "gain": -318.7819798982,
+      "gain_pct": -70.42570891801509
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.34,
-      "value": 32.778735066,
+      "current_price": 5.97,
+      "value": 36.645889202999996,
       "cost": 69.8849997615,
-      "gain": -37.106264695499995,
-      "gain_pct": -53.096179183135696
+      "gain": -33.2391105585,
+      "gain_pct": -47.562582345191046
     },
     "ARQQ": {
       "value": "N/A",
@@ -218,25 +235,25 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 969.315974641,
+      "value": 1011.2173857770001,
       "cost": 1394.05501357648,
-      "gain": -424.7390389354799,
-      "gain_pct": -30.467882171005733
+      "gain": -382.83762779947983,
+      "gain_pct": -27.462160680251863
     }
   },
   "allocation": {
     "mag7": {
-      "value": 724.371181511,
-      "current_pct": 74.7,
+      "value": 732.638090258,
+      "current_pct": 72.5,
       "target_pct": 20,
-      "diff": 54.7,
+      "diff": 52.5,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 244.94479313,
-      "current_pct": 25.3,
+      "value": 278.57929551899997,
+      "current_pct": 27.5,
       "target_pct": 50,
-      "diff": -24.7,
+      "diff": -22.5,
       "status": "Underweight"
     },
     "crypto": {
@@ -253,9 +270,9 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 969.315974641
+    "__total__": 1011.2173857770001
   },
-  "news": "[BBC Business]\nหัวข้อ: Jensen Huang: Why a personal scandal for the face of the AI boom has provoked a national security scare\nเนื้อหา: Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.\n\n[BBC Business]\nหัวข้อ: What do we know about Nvidia CEO’s affair with a suspected Chinese spy?\nเนื้อหา: Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?\n\n[BBC Business]\nหัวข้อ: Doing these things now will help you save money at Christmas\nเนื้อหา: Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.\n\n[BBC Business]\nหัวข้อ: Government's EV targets expected to be reduced this week\nเนื้อหา: New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.\n\n[BBC Business]\nหัวข้อ: 'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets\nเนื้อหา: With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.\n\n[CNBC]\nหัวข้อ: Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy\nเนื้อหา: Huang told Nvidia staff in an email that he had an affair and that the company's board has opened an investigation into allegations the woman is a Chinese spy.\n\n[CNBC]\nหัวข้อ: From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses\nเนื้อหา: Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.\n\n[CNBC]\nหัวข้อ: Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike\nเนื้อหา: Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.\n\n[CNBC]\nหัวข้อ: China wholesale inflation hits highest in more than four years as consumer measure slows\nเนื้อหา: The PPI for October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters.\n\n[CNBC]\nหัวข้อ: Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers\nเนื้อหา: Democrats have vowed to investigate both President Donald Trump's White House and businesses that have worked with the administration.\n\n[MarketWatch]\nหัวข้อ: How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims\nเนื้อหา: The Wall Street reaction to the blockbuster Nvidia news is to wonder about who would succeed Jensen Huang if he were to be forced out.\n\n[MarketWatch]\nหัวข้อ: ‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?\nเนื้อหา: “I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”\n\n[MarketWatch]\nหัวข้อ: The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.\nเนื้อหา: The large-cap index is nowhere near as diversified as you think.\n\n[MarketWatch]\nหัวข้อ: I’m second-guessing my adviser: Is an annuity the right move in this market?\nเนื้อหา: “I haven’t committed to the strategy yet and would appreciate some independent perspectives.”\n\n[MarketWatch]\nหัวข้อ: ‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home\nเนื้อหา: “Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[Investing.com Gold]\nหัวข้อ: German exports rise more than expected in September\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rout set off market alarm signals. Here’s what traders are watching\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-Chinese banks boost dollar deposit rates, sources say, as Beijing seeks to smooth yuan rally\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia’s shares slide as chip giant probes CEO over spy claims\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\nเนื้อหา: The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.\n\n[BBC Business]\nหัวข้อ: Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy\nเนื้อหา: The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.\n\n[BBC Business]\nหัวข้อ: Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond\nเนื้อหา: Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.\n\n[BBC Business]\nหัวข้อ: Civil servant who secretly held five jobs found guilty of fraud\nเนื้อหา: Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.\n\n[BBC Business]\nหัวข้อ: How a civil servant got away with juggling five jobs for so long\nเนื้อหา: Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.\n\n[CNBC]\nหัวข้อ: Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO\nเนื้อหา: Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.\n\n[CNBC]\nหัวข้อ: Hegseth impeachment articles introduced by Rep. Massie\nเนื้อหา: The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.\n\n[CNBC]\nหัวข้อ: A key report for where inflation stood in October comes out Tuesday. Here's what to expect\nเนื้อหา: The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.\n\n[CNBC]\nหัวข้อ: 3 unexpected reasons the October jobs report was so strong\nเนื้อหา: October's jobs report blew past economist forecasts. Here are three reasons.\n\n[CNBC]\nหัวข้อ: Skydance outlines its $6 billion in planned cost savings. Here's the breakdown\nเนื้อหา: The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.\n\n[MarketWatch]\nหัวข้อ: Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark\nเนื้อหา: The rocket-launch company just posted a steeper loss than analysts were expecting.\n\n[MarketWatch]\nหัวข้อ: Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’\nเนื้อหา: The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes\n\n[MarketWatch]\nหัวข้อ: As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal\nเนื้อหา: The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.\n\n[MarketWatch]\nหัวข้อ: Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.\nเนื้อหา: “It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[Investing.com Gold]\nหัวข้อ: Trump’s Justice Department has failed to award 75% of anti-trafficking grants, senator finds\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia slides as CEO Huang faces board scrutiny over affair with alleged spy\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks jump as oil tumbles, Nvidia falls amid internal probe\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Broad rebound rally lifts all boats but Nvidia\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BLS will omit 12-month CPI, Core CPI figures from October report\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
