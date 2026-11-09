@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-07T00-09-56Z",
+  "ts": "2026-11-09T08-53-58Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4079.5,
-      "change": -0.83,
-      "high": 4116.2,
-      "low": 4035.6
+      "price": 4107.8,
+      "change": 0.0,
+      "high": 4143.3,
+      "low": 4062.5
     },
     "sp500": {
       "price": 7376.86,
@@ -15,28 +15,28 @@
       "low": 7369.55
     },
     "dxy": {
-      "price": 102.28,
-      "change": 0.72,
-      "high": 102.36,
-      "low": 101.55
+      "price": 101.89,
+      "change": 0.0,
+      "high": 102.28,
+      "low": 101.86
     },
     "vix": {
-      "price": 25.64,
-      "change": -9.01,
-      "high": 27.76,
-      "low": 23.47
+      "price": 24.29,
+      "change": -5.27,
+      "high": 25.08,
+      "low": 24.29
     },
     "btc": {
-      "price": 75825.97,
-      "change": 0.0,
-      "high": 75801.35,
-      "low": 75741.02
+      "price": 74405.68,
+      "change": -0.24,
+      "high": 75452.81,
+      "low": 73713.2
     },
     "eth": {
-      "price": 2237.89,
-      "change": 0.0,
-      "high": 2236.75,
-      "low": 2235.33
+      "price": 2119.89,
+      "change": -0.05,
+      "high": 2155.51,
+      "low": 2084.63
     },
     "mag7": {
       "AAPL": {
@@ -50,8 +50,8 @@
         "name": "Microsoft",
         "price": 530.61,
         "change": -0.99,
-        "high": 538.3,
-        "low": 524.61
+        "high": 538.33,
+        "low": 524.47
       },
       "NVDA": {
         "name": "Nvidia",
@@ -71,8 +71,8 @@
         "name": "Meta",
         "price": 610.15,
         "change": 0.84,
-        "high": 625.55,
-        "low": 606.82
+        "high": 625.6,
+        "low": 606.66
       },
       "GOOGL": {
         "name": "Alphabet",
@@ -101,7 +101,7 @@
         "name": "UnitedHealth",
         "price": 394.15,
         "change": -0.4,
-        "high": 396.92,
+        "high": 396.96,
         "low": 388.0
       },
       "EOSE": {
@@ -140,7 +140,24 @@
   },
   "calendar": {
     "today": [],
-    "upcoming": []
+    "upcoming": [
+      {
+        "title": "Core CPI m/m",
+        "country": "USD",
+        "date": "2026-11-10T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "CPI m/m",
+        "country": "USD",
+        "date": "2026-11-10T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.6%"
+      }
+    ]
   },
   "pnl": {
     "MSFT": {
@@ -238,7 +255,7 @@
     },
     "__total__": 969.315974641
   },
-  "news": "[BBC Business]\nหัวข้อ: AI stocks climb after trillions wiped from market values\nเนื้อหา: Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.\n\n[BBC Business]\nหัวข้อ: Why the US midterms sparked an AI stock selloff\nเนื้อหา: Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.\n\n[BBC Business]\nหัวข้อ: How does it affect me if share prices fall?\nเนื้อหา: Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.\n\n[BBC Business]\nหัวข้อ: Why smoky bacon crisps threaten to reignite rows over EU rules\nเนื้อหา: A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.\n\n[BBC Business]\nหัวข้อ: Elon Musk appears to signal the end of the road for Cybertruck\nเนื้อหา: Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.\n\n[CNBC]\nหัวข้อ: A disturbing employment trend is hiding beneath the latest strong job numbers\nเนื้อหา: The average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.\n\n[CNBC]\nหัวข้อ: Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'\nเนื้อหา: Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.\n\n[CNBC]\nหัวข้อ: Trump says Stephen Miller to replace Susie Wiles as White House chief of staff\nเนื้อหา: Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.\n\n[CNBC]\nหัวข้อ: Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote\nเนื้อหา: Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who, like him, is Black.\n\n[CNBC]\nหัวข้อ: OpenAI bugging suspect Alfozan pleads not guilty\nเนื้อหา: Saudi national Abdulrahman Alfozan is charged with planting a recording device in a conference room at artificial intelligence giant OpenAI.\n\n[MarketWatch]\nหัวข้อ: ‘I have no financial safety net’: I’m 66, rely on Social Security and have just $500 in savings. What hope do I have?\nเนื้อหา: “Sometimes I wonder whether wealthier Americans should trade places with people like me.”\n\n[MarketWatch]\nหัวข้อ: Elon Musk opens the door for a big SpaceX acquisition\nเนื้อหา: The rocket and satellite-internet company is looking to challenge telecom giants.\n\n[MarketWatch]\nหัวข้อ: Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.\nเนื้อหา: AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.\n\n[MarketWatch]\nหัวข้อ: Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?\nเนื้อหา: Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.\n\n[MarketWatch]\nหัวข้อ: ‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?\nเนื้อหา: “Our basic living expenses are covered by $110,000 in annual pensions and Social Security.”\n\n[Investing.com Gold]\nหัวข้อ: IMF’s Georgieva says any slowdown in AI-driven growth would be factor for central banks\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Paraguay ex-president Peña placed under house arrest after impeachment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall Street stocks rally after heavy AI-related selloff\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: EU charges TikTok over harmful algorithmic ’rabbit hole’ effects\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ chief Ueda sees ’some upside risks’ to inflation\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Jensen Huang: Why a personal scandal for the face of the AI boom has provoked a national security scare\nเนื้อหา: Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.\n\n[BBC Business]\nหัวข้อ: What do we know about Nvidia CEO’s affair with a suspected Chinese spy?\nเนื้อหา: Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?\n\n[BBC Business]\nหัวข้อ: Doing these things now will help you save money at Christmas\nเนื้อหา: Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.\n\n[BBC Business]\nหัวข้อ: Government's EV targets expected to be reduced this week\nเนื้อหา: New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.\n\n[BBC Business]\nหัวข้อ: 'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets\nเนื้อหา: With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.\n\n[CNBC]\nหัวข้อ: Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy\nเนื้อหา: Huang told Nvidia staff in an email that he had an affair and that the company's board has opened an investigation into allegations the woman is a Chinese spy.\n\n[CNBC]\nหัวข้อ: From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses\nเนื้อหา: Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.\n\n[CNBC]\nหัวข้อ: Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike\nเนื้อหา: Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.\n\n[CNBC]\nหัวข้อ: China wholesale inflation hits highest in more than four years as consumer measure slows\nเนื้อหา: The PPI for October came in at 5.7%, compared to the 5.3% expected by economists polled by Reuters.\n\n[CNBC]\nหัวข้อ: Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers\nเนื้อหา: Democrats have vowed to investigate both President Donald Trump's White House and businesses that have worked with the administration.\n\n[MarketWatch]\nหัวข้อ: How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims\nเนื้อหา: The Wall Street reaction to the blockbuster Nvidia news is to wonder about who would succeed Jensen Huang if he were to be forced out.\n\n[MarketWatch]\nหัวข้อ: ‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?\nเนื้อหา: “I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”\n\n[MarketWatch]\nหัวข้อ: The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.\nเนื้อหา: The large-cap index is nowhere near as diversified as you think.\n\n[MarketWatch]\nหัวข้อ: I’m second-guessing my adviser: Is an annuity the right move in this market?\nเนื้อหา: “I haven’t committed to the strategy yet and would appreciate some independent perspectives.”\n\n[MarketWatch]\nหัวข้อ: ‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home\nเนื้อหา: “Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[Investing.com Gold]\nหัวข้อ: German exports rise more than expected in September\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rout set off market alarm signals. Here’s what traders are watching\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks bounce as AI, Mideast jitters recede; dollar firm on Fed bets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Exclusive-Chinese banks boost dollar deposit rates, sources say, as Beijing seeks to smooth yuan rally\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia’s shares slide as chip giant probes CEO over spy claims\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
