@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-09T22-49-57Z",
+  "ts": "2026-11-10T20-09-29Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 545.18,
-      "value": 574.04373733,
+      "current_price": 532.57,
+      "value": 560.7661197950001,
       "cost": 495.50994638250006,
-      "gain": 78.53379094749994,
-      "gain_pct": 15.849084669407862,
-      "today_change": 2.75
+      "gain": 65.25617341250006,
+      "gain_pct": 13.169498188463551,
+      "today_change": -2.31
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 178.67,
-      "value": 158.594352928,
+      "current_price": 167.43,
+      "value": 148.617297312,
       "cost": 161.5399809584,
-      "gain": -2.9456280304000018,
-      "gain_pct": -1.823466867411953,
-      "today_change": -4.27
+      "gain": -12.922683646400003,
+      "gain_pct": -7.9996812985435914,
+      "today_change": -6.29
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 36.89,
-      "value": 108.06537417199999,
+      "current_price": 33.28,
+      "value": 97.490258944,
       "cost": 214.47007443188,
-      "gain": -106.40470025988,
-      "gain_pct": -49.61284251042505,
-      "today_change": 14.1
+      "gain": -116.97981548787999,
+      "gain_pct": -54.54365407283669,
+      "today_change": -9.79
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 26.84,
-      "value": 133.868032144,
+      "current_price": 25.07,
+      "value": 125.039924212,
       "cost": 452.6500120422,
-      "gain": -318.7819798982,
-      "gain_pct": -70.42570891801509,
-      "today_change": 13.97
+      "gain": -327.6100878302,
+      "gain_pct": -72.37602543124582,
+      "today_change": -6.59
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.97,
-      "value": 36.645889202999996,
+      "current_price": 5.53,
+      "value": 33.945019647,
       "cost": 69.8849997615,
-      "gain": -33.2391105585,
-      "gain_pct": -47.562582345191046,
-      "today_change": 11.8
+      "gain": -35.939980114499996,
+      "gain_pct": -51.42731664470794,
+      "today_change": -7.37
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 16.86,
-      "value": 70.35611571599999,
+      "current_price": 15.26,
+      "value": 63.67937875599999,
       "cost": 61.19646719899999,
-      "gain": 9.159648517,
-      "gain_pct": 14.967609955676785,
-      "today_change": 5.64
+      "gain": 2.4829115570000013,
+      "gain_pct": 4.057279236276853,
+      "today_change": -9.49
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 12.5,
-      "value": 135.1773925,
+      "current_price": 12.07,
+      "value": 130.527290198,
       "cost": 61.09909999086,
-      "gain": 74.07829250914,
-      "gain_pct": 121.24285385582046,
-      "today_change": 5.22
+      "gain": 69.42819020714,
+      "gain_pct": 113.63209968318024,
+      "today_change": -3.44
     },
     "__total__": {
-      "value": 1216.750893993,
+      "value": 1160.065288864,
       "cost": 1516.3505807663398,
-      "gain": -299.5996867733397,
-      "gain_pct": -19.75794322061899
+      "gain": -356.28529190233985,
+      "gain_pct": -23.49623473763428
     }
   },
   "allocation": {
     "mag7": {
-      "value": 732.638090258,
-      "current_pct": 60.2,
+      "value": 709.3834171070001,
+      "current_pct": 61.2,
       "target_pct": 20,
-      "diff": 40.2,
+      "diff": 41.2,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 278.57929551899997,
-      "current_pct": 22.9,
+      "value": 256.475202803,
+      "current_pct": 22.1,
       "target_pct": 50,
-      "diff": -27.1,
+      "diff": -27.9,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1216.750893993
+    "__total__": 1160.065288864
   },
-  "news": "[BBC Business] Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy\nThe share price dropped wiped hundreds of billions of dollars from the value of Nvidia.\n\n[BBC Business] Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond\nJensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.\n\n[BBC Business] Civil servant who secretly held five jobs found guilty of fraud\nKashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.\n\n[BBC Business] How a civil servant got away with juggling five jobs for so long\nKashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.\n\n[CNBC] Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO\nJensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.\n\n[CNBC] Hegseth impeachment articles introduced by Rep. Massie\nThe House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.\n\n[CNBC] A key report for where inflation stood in October comes out Tuesday. Here's what to expect\nThe CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.\n\n[CNBC] 3 unexpected reasons the October jobs report was so strong\nOctober's jobs report blew past economist forecasts. Here are three reasons.\n\n[MarketWatch] As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal\nThe fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.\n\n[MarketWatch] Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.\n“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.\n\n[MarketWatch] ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\n“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch] Are AMD and Broadcom the real winners of the Nvidia spy scandal?\nThe chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
+  "news": "[BBC Business] Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning\nThe AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.\n\n[BBC Business] Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch\nSales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.\n\n[BBC Business] Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\nThe US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.\n\n[BBC Business] US inflation higher than expected in October - here's what is happening with prices\nPrices rose by 0.4% over the month, driven by increases in shelter, food and energy costs.\n\n[CNBC] Here's the inflation breakdown for October 2026 — in one chart\nThe consumer price index rose 0.4% in October, a reduction from September but a level economists said is still uncomfortably high.\n\n[CNBC] Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem\nThe allegations against Jensen Huang have brought new attention to the Nvidia CEO's potential influence over U.S. policy on chip sales to China.\n\n[CNBC] Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe\nOn Sunday, Huang admitted to having an affair with a woman who has been connected to Chinese intelligence by reports in The New York Times and Financial Times.\n\n[CNBC] Traders bet on a pop for Anthropic's historic IPO\nPerpetual futures traders see Anthropic popping on its IPO\n\n[MarketWatch] An overzealous Fed is quickly becoming the biggest risk to stocks in 2027\nThe Fed remains too sanguine on inflation, and markets too complacent, economist Neil Dutta warns.\n\n[MarketWatch] Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion\nAnthropic could raise up to $63 billion in an IPO expected to take place next week.\n\n[MarketWatch] Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\n“It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[MarketWatch] Corporate America is making a trillion-dollar mistake about retirement\nThe market is dramatically underpricing the economic impact of Americans age 50 and older.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
