@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-10T02-48-51Z",
+  "ts": "2026-11-10T09-00-18Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4123.0,
-      "change": 0.0,
+      "price": 4125.8,
+      "change": 0.27,
       "high": 4156.2,
-      "low": 4122.3
+      "low": 4117.2
     },
     "sp500": {
       "price": 7549.94,
@@ -15,28 +15,28 @@
       "low": 7422.24
     },
     "dxy": {
-      "price": 101.73,
-      "change": 0.0,
+      "price": 101.51,
+      "change": -0.14,
       "high": 101.74,
-      "low": 101.65
+      "low": 101.51
     },
     "vix": {
-      "price": 19.92,
-      "change": -22.31,
-      "high": 25.08,
-      "low": 19.64
+      "price": 19.76,
+      "change": -0.8,
+      "high": 19.86,
+      "low": 19.66
     },
     "btc": {
-      "price": 74836.14,
-      "change": 0.0,
+      "price": 74479.18,
+      "change": -0.99,
       "high": 75317.23,
-      "low": 74738.32
+      "low": 74325.59
     },
     "eth": {
-      "price": 2122.2,
-      "change": 0.0,
+      "price": 2111.51,
+      "change": -0.94,
       "high": 2133.44,
-      "low": 2116.21
+      "low": 2107.31
     },
     "mag7": {
       "AAPL": {
@@ -272,7 +272,7 @@
     },
     "__total__": 1011.2173857770001
   },
-  "news": "[BBC Business]\nหัวข้อ: Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\nเนื้อหา: The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.\n\n[BBC Business]\nหัวข้อ: Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy\nเนื้อหา: The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.\n\n[BBC Business]\nหัวข้อ: Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond\nเนื้อหา: Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.\n\n[BBC Business]\nหัวข้อ: Civil servant who secretly held five jobs found guilty of fraud\nเนื้อหา: Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.\n\n[BBC Business]\nหัวข้อ: How a civil servant got away with juggling five jobs for so long\nเนื้อหา: Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.\n\n[CNBC]\nหัวข้อ: Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO\nเนื้อหา: Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.\n\n[CNBC]\nหัวข้อ: Trump says Jensen Huang told him Monday he didn't know paramour 'was a spy'\nเนื้อหา: President Donald Trump suggested he had only recently learned of allegations that Alice Huang was a Chinese spy.\n\n[CNBC]\nหัวข้อ: Hegseth impeachment articles introduced by Rep. Massie\nเนื้อหา: The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.\n\n[CNBC]\nหัวข้อ: China exports, imports soar past expectations in October — surplus narrows sharply\nเนื้อหา: Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.\n\n[CNBC]\nหัวข้อ: SoftBank Group shares surge 11% as Asian tech stocks track Wall Street rebound\nเนื้อหา: A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.\n\n[MarketWatch]\nหัวข้อ: The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips\nเนื้อหา: ‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research\n\n[MarketWatch]\nหัวข้อ: This retired professor has reinvented himself — as a Taylor Swift scholar\nเนื้อหา: His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.\n\n[MarketWatch]\nหัวข้อ: Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark\nเนื้อหา: The rocket-launch company just posted a steeper loss than analysts were expecting.\n\n[MarketWatch]\nหัวข้อ: Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’\nเนื้อหา: The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes\n\n[MarketWatch]\nหัวข้อ: As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal\nเนื้อหา: The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.\n\n[Investing.com Gold]\nหัวข้อ: Asian stocks climb as sliding oil prices buoy sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia tightens AI oversight rules after OpenAI agent breached government website\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-China seeks high-tech upper hand in industry carrying 80% of global trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank of Japan debated need for faster rate hikes, October summary shows\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump says FBI probing Nvidia CEO Huang as China controversy deepens\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy\nเนื้อหา: The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What Jensen Huang told me about China, national security and persuading Trump\nเนื้อหา: Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.\n\n[BBC Business]\nหัวข้อ: I took Vinted to court to get my money back\nเนื้อหา: The BBC hears from Vinted sellers who describe difficulties accessing money held in their online wallets.\n\n[BBC Business]\nหัวข้อ: How a civil servant got away with juggling five jobs for so long\nเนื้อหา: Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.\n\n[BBC Business]\nหัวข้อ: Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond\nเนื้อหา: Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.\n\n[CNBC]\nหัวข้อ: Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO\nเนื้อหา: Jensen Huang is practically synonymous with Nvidia, the chipmaker he co-founded in 1993 and turned into one of the most valuable companies on the planet.\n\n[CNBC]\nหัวข้อ: Trump’s C-SPAN call marks latest surprise post-midterm appearance\nเนื้อหา: Trump called C-SPAN's new primetime show unannounced after a surprise White House briefing-room and ballroom appearances.\n\n[CNBC]\nหัวข้อ: FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound\nเนื้อหา: The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes.\n\n[CNBC]\nหัวข้อ: Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes\nเนื้อหา: “Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.\n\n[CNBC]\nหัวข้อ: Hegseth impeachment articles introduced by Rep. Massie\nเนื้อหา: The House is likely to vote this week on articles of impeachment against Defense Secretary Pete Hegseth filed by Republican Rep. Thomas Masie.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch]\nหัวข้อ: The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips\nเนื้อหา: ‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research\n\n[MarketWatch]\nหัวข้อ: This retired professor has reinvented himself — as a Taylor Swift scholar\nเนื้อหา: His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.\n\n[MarketWatch]\nหัวข้อ: Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark\nเนื้อหา: The rocket-launch company just posted a steeper loss than analysts were expecting.\n\n[MarketWatch]\nหัวข้อ: Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’\nเนื้อหา: The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes\n\n[Investing.com Gold]\nหัวข้อ: European shares near record high as lower oil prices boost sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US consumer prices expected to have risen at slower pace in October\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump says FBI probing Nvidia CEO Huang as China controversy deepens\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOE’s Lombardelli does not rule out December rate hike, she tells the Guardian\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US extends Vietnam trade probe on intellectual property to end of February\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
