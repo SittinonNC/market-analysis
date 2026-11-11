@@ -1,0 +1,271 @@
+{
+  "ts": "2026-11-11T21-28-57Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3991.4,
+      "change": -0.96,
+      "high": 4074.7,
+      "low": 3989.6
+    },
+    "sp500": {
+      "price": 7619.38,
+      "change": 1.31,
+      "high": 7647.2,
+      "low": 7571.88
+    },
+    "dxy": {
+      "price": 102.94,
+      "change": 0.69,
+      "high": 102.96,
+      "low": 102.21
+    },
+    "vix": {
+      "price": 17.49,
+      "change": -10.12,
+      "high": 18.96,
+      "low": 17.33
+    },
+    "btc": {
+      "price": 74644.72,
+      "change": 1.25,
+      "high": 74636.27,
+      "low": 73264.47
+    },
+    "eth": {
+      "price": 2078.6,
+      "change": 1.39,
+      "high": 2094.22,
+      "low": 2042.18
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 355.63,
+        "change": 2.04,
+        "high": 355.9,
+        "low": 349.33
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 521.12,
+        "change": -2.26,
+        "high": 534.76,
+        "low": 518.5
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 173.73,
+        "change": 2.87,
+        "high": 177.54,
+        "low": 170.77
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 266.17,
+        "change": -1.74,
+        "high": 274.87,
+        "low": 265.62
+      },
+      "META": {
+        "name": "Meta",
+        "price": 628.77,
+        "change": -1.97,
+        "high": 648.45,
+        "low": 628.02
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 293.45,
+        "change": 2.11,
+        "high": 295.74,
+        "low": 289.48
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 390.84,
+        "change": 2.91,
+        "high": 395.43,
+        "low": 386.35
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 36.62,
+        "change": 8.7,
+        "high": 36.9,
+        "low": 33.69
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 402.94,
+        "change": -0.54,
+        "high": 404.74,
+        "low": 396.94
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.99,
+        "change": 14.37,
+        "high": 2.06,
+        "low": 1.84
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 66.15,
+        "change": 5.49,
+        "high": 68.26,
+        "low": 63.2
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 25.86,
+        "change": 3.07,
+        "high": 26.85,
+        "low": 25.68
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.73,
+        "change": 2.87,
+        "high": 5.9,
+        "low": 5.65
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "GDP m/m",
+        "country": "GBP",
+        "date": "2026-11-12T02:00:00-05:00",
+        "impact": "High",
+        "forecast": "0.0%",
+        "previous": "0.1%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "1.3%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 521.12,
+      "value": 548.70991672,
+      "cost": 495.50994638250006,
+      "gain": 53.19997033749996,
+      "gain_pct": 10.736408164132632
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 173.73,
+      "value": 154.209419232,
+      "cost": 161.5399809584,
+      "gain": -7.3305617264000205,
+      "gain_pct": -4.537924099599713
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 36.62,
+      "value": 107.27443757599998,
+      "cost": 214.47007443188,
+      "gain": -107.19563685588001,
+      "gain_pct": -49.98162897077163
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 25.86,
+      "value": 128.98015317600002,
+      "cost": 452.6500120422,
+      "gain": -323.6698588662,
+      "gain_pct": -71.50554517957788
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.73,
+      "value": 35.172687627,
+      "cost": 69.8849997615,
+      "gain": -34.712312134499996,
+      "gain_pct": -49.670619235836625
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 974.346614331,
+      "cost": 1394.05501357648,
+      "gain": -419.70839924548,
+      "gain_pct": -30.107018385788702
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 702.919335952,
+      "current_pct": 72.1,
+      "target_pct": 20,
+      "diff": 52.1,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 271.42727837900003,
+      "current_pct": 27.9,
+      "target_pct": 50,
+      "diff": -22.1,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 974.346614331
+  },
+  "news": "[BBC Business]\nหัวข้อ: Poundland set for more time to secure a rescue deal as emergency talks continue\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: 'Not the answer': Labour MPs speak out against Rosebank as decision looms\nเนื้อหา: There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.\n\n[BBC Business]\nหัวข้อ: Nvidia hires major US law firm to investigate alleged Chinese spy affair\nเนื้อหา: The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.\n\n[BBC Business]\nหัวข้อ: Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning\nเนื้อหา: The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.\n\n[CNBC]\nหัวข้อ: CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report\nเนื้อหา: Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.\n\n[CNBC]\nหัวข้อ: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment\nเนื้อหา: U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.\n\n[CNBC]\nหัวข้อ: Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes\nเนื้อหา: Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.\n\n[CNBC]\nหัวข้อ: Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings\nเนื้อหา: Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.\n\n[CNBC]\nหัวข้อ: Bessent moved to military base amid 'growing threats' from Iran\nเนื้อหา: Bessent's role leading Operation Economic Outcast has made him one of the Trump administration's top targets of Iranian threats, The New York Times reported.\n\n[MarketWatch]\nหัวข้อ: Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble\nเนื้อหา: From a long-term perspective, the past 50 years of strong market gains are the exception rather than the rule\n\n[MarketWatch]\nหัวข้อ: Bloom Energy’s stock is rallying as data-center jitters subside\nเนื้อหา: CoreWeave’s upbeat outlook helped calm nerves around the energy company.\n\n[MarketWatch]\nหัวข้อ: It’s not ‘Medicare for All,’ but ‘Medicare for More.’ What this could mean for workers over 50.\nเนื้อหา: A new bill would lower the Medicare age to 50, expanding coverage to an additional 60 million adults\n\n[MarketWatch]\nหัวข้อ: The trillion-dollar mistake corporate America is making about retirement\nเนื้อหา: The market is dramatically underpricing the economic impact of Americans age 50 and older.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[Investing.com Gold]\nหัวข้อ: Australian companies face ’AI washing’ claims after wave of job cuts, offshoring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks end higher as CoreWeave results ease AI spending worries\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Bank of England’s Greene calls for proactive policy tightening\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil’s central bank chief says policy guidance has negative value\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: JD Vance takes lead on Iran talks, considers direct meeting with Iranian official\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
