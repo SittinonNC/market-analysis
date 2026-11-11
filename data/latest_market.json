@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-11T00-43-25Z",
+  "ts": "2026-11-11T08-40-29Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 4041.4,
-      "change": -1.78,
-      "high": 4049.5,
-      "low": 4038.3
+      "price": 4064.4,
+      "change": 0.85,
+      "high": 4074.7,
+      "low": 4034.1
     },
     "sp500": {
       "price": 7520.93,
@@ -15,28 +15,28 @@
       "low": 7470.43
     },
     "dxy": {
-      "price": 102.22,
-      "change": 0.56,
-      "high": 102.41,
-      "low": 101.49
+      "price": 102.45,
+      "change": 0.22,
+      "high": 102.47,
+      "low": 102.21
     },
     "vix": {
-      "price": 19.46,
-      "change": -2.31,
-      "high": 21.61,
-      "low": 19.29
+      "price": 18.8,
+      "change": -3.39,
+      "high": 18.82,
+      "low": 18.74
     },
     "btc": {
-      "price": 73517.26,
-      "change": 0.0,
-      "high": 73708.88,
-      "low": 73502.34
+      "price": 73629.95,
+      "change": -0.12,
+      "high": 74028.6,
+      "low": 73264.47
     },
     "eth": {
-      "price": 2050.81,
-      "change": 0.0,
-      "high": 2051.94,
-      "low": 2048.72
+      "price": 2054.75,
+      "change": 0.22,
+      "high": 2068.93,
+      "low": 2042.18
     },
     "mag7": {
       "AAPL": {
@@ -50,14 +50,14 @@
         "name": "Microsoft",
         "price": 533.16,
         "change": -2.2,
-        "high": 544.15,
-        "low": 526.36
+        "high": 544.19,
+        "low": 526.37
       },
       "NVDA": {
         "name": "Nvidia",
         "price": 168.89,
         "change": -5.47,
-        "high": 174.65,
+        "high": 174.69,
         "low": 165.89
       },
       "AMZN": {
@@ -86,7 +86,7 @@
         "price": 379.78,
         "change": 0.46,
         "high": 380.0,
-        "low": 370.43
+        "low": 370.4
       }
     },
     "watchlist": {
@@ -115,7 +115,7 @@
         "name": "Rocket Lab",
         "price": 62.71,
         "change": 6.54,
-        "high": 62.9,
+        "high": 63.77,
         "low": 54.96
       },
       "OKLO": {
@@ -255,7 +255,7 @@
     },
     "__total__": 969.3221467349998
   },
-  "news": "[BBC Business]\nหัวข้อ: Poundland hopeful for last-minute rescue deal to stave off collapse\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Stickers and building sets help drive toy sales ahead of Christmas rush\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: Nvidia hires major US law firm to investigate alleged Chinese spy affair\nเนื้อหา: The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.\n\n[BBC Business]\nหัวข้อ: Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning\nเนื้อหา: The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.\n\n[BBC Business]\nหัวข้อ: Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch\nเนื้อหา: Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.\n\n[CNBC]\nหัวข้อ: Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation\nเนื้อหา: Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.\n\n[CNBC]\nหัวข้อ: Hegseth impeachment effort torpedoed in House\nเนื้อหา: GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue wave midterm election.\n\n[CNBC]\nหัวข้อ: White House vows to press ahead with tariffs despite midterm backlash over rising prices\nเนื้อหา: Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.\n\n[CNBC]\nหัวข้อ: CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns\nเนื้อหา: CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.\n\n[CNBC]\nหัวข้อ: Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy\nเนื้อหา: Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch]\nหัวข้อ: Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\nเนื้อหา: “It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: ‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?\nเนื้อหา: “Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”\n\n[MarketWatch]\nหัวข้อ: One reason Children’s Place is filing for bankruptcy? Not enough children.\nเนื้อหา: People might be having fewer children, but that isn’t the only thing to blame for Children’s Place filing for bankruptcy.\n\n[Investing.com Gold]\nหัวข้อ: UK inflation to overshoot Bank of England target for next 4 years, NIESR forecasts\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: CoreWeave targets 2028 profitability as AI demand remains strong\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Paulson calls for gradual rate hikes amid ongoing high inflation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Ortega’s frail return to public revives succession debate in Nicaragua\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed officials open door to a quicker round of rate hikes as inflation worsens\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Poundland hopeful for last-minute rescue deal to stave off collapse\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: Nvidia hires major US law firm to investigate alleged Chinese spy affair\nเนื้อหา: The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.\n\n[BBC Business]\nหัวข้อ: Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning\nเนื้อหา: The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.\n\n[BBC Business]\nหัวข้อ: Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch\nเนื้อหา: Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.\n\n[CNBC]\nหัวข้อ: Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation\nเนื้อหา: Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.\n\n[CNBC]\nหัวข้อ: Bessent reportedly moved to military base over Iranian threats on his life\nเนื้อหา: The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.\n\n[CNBC]\nหัวข้อ: Anthropic sets IPO price range of $70 to $78, looks to start trading  Nov. 19, sources say\nเนื้อหา: Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.\n\n[CNBC]\nหัวข้อ: American soldier arrested on suspicion of spying for Russia\nเนื้อหา: The 41-year-old man is being detained in London under the U.K.'s National Security Act.\n\n[CNBC]\nหัวข้อ: CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns\nเนื้อหา: CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: One reason Children’s Place is filing for bankruptcy? Not enough children.\nเนื้อหา: The chain has been contending with falling birth rates, cautious consumers, stiff competition and $881 million in debt.\n\n[MarketWatch]\nหัวข้อ: CoreWeave’s stock pops as new financing playbook eases debt concerns\nเนื้อหา: A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch]\nหัวข้อ: Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\nเนื้อหา: “It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[Investing.com Gold]\nหัวข้อ: German growth stronger than expected, seen picking up: Bundesbank chief\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Foreign investors pull out $50 billion from Asian equities in October on AI, cash burn woes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Europe’s STOXX 600 near record high as Siemens Energy, CoreWeave outlooks lift sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: German October inflation confirmed at 2.8%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed officials open door to a quicker round of rate hikes as inflation worsens\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

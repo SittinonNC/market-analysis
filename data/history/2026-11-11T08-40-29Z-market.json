@@ -1,0 +1,262 @@
+{
+  "ts": "2026-11-11T08-40-29Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 4064.4,
+      "change": 0.85,
+      "high": 4074.7,
+      "low": 4034.1
+    },
+    "sp500": {
+      "price": 7520.93,
+      "change": -0.38,
+      "high": 7543.92,
+      "low": 7470.43
+    },
+    "dxy": {
+      "price": 102.45,
+      "change": 0.22,
+      "high": 102.47,
+      "low": 102.21
+    },
+    "vix": {
+      "price": 18.8,
+      "change": -3.39,
+      "high": 18.82,
+      "low": 18.74
+    },
+    "btc": {
+      "price": 73629.95,
+      "change": -0.12,
+      "high": 74028.6,
+      "low": 73264.47
+    },
+    "eth": {
+      "price": 2054.75,
+      "change": 0.22,
+      "high": 2068.93,
+      "low": 2042.18
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 348.51,
+        "change": -0.62,
+        "high": 353.87,
+        "low": 346.46
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 533.16,
+        "change": -2.2,
+        "high": 544.19,
+        "low": 526.37
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 168.89,
+        "change": -5.47,
+        "high": 174.69,
+        "low": 165.89
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 270.87,
+        "change": 1.48,
+        "high": 272.88,
+        "low": 266.14
+      },
+      "META": {
+        "name": "Meta",
+        "price": 641.39,
+        "change": 0.0,
+        "high": 647.28,
+        "low": 635.5
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 287.38,
+        "change": -0.27,
+        "high": 292.02,
+        "low": 285.68
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 379.78,
+        "change": 0.46,
+        "high": 380.0,
+        "low": 370.4
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 33.69,
+        "change": -8.67,
+        "high": 36.84,
+        "low": 31.96
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 405.12,
+        "change": 1.89,
+        "high": 406.72,
+        "low": 397.32
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.74,
+        "change": -7.45,
+        "high": 1.91,
+        "low": 1.7
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 62.71,
+        "change": 6.54,
+        "high": 63.77,
+        "low": 54.96
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 25.09,
+        "change": -6.52,
+        "high": 26.62,
+        "low": 24.85
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.57,
+        "change": -6.7,
+        "high": 5.91,
+        "low": 5.45
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": [
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "1.3%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 533.16,
+      "value": 561.38735646,
+      "cost": 495.50994638250006,
+      "gain": 65.87741007749992,
+      "gain_pct": 13.294871386223805
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 168.89,
+      "value": 149.913249376,
+      "cost": 161.5399809584,
+      "gain": -11.626731582399998,
+      "gain_pct": -7.1974328048200835
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 33.69,
+      "value": 98.69131081199998,
+      "cost": 214.47007443188,
+      "gain": -115.77876361988001,
+      "gain_pct": -53.98364500342152
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 25.09,
+      "value": 125.13967684400001,
+      "cost": 452.6500120422,
+      "gain": -327.5103351982,
+      "gain_pct": -72.35398795652006
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.57,
+      "value": 34.190553243000004,
+      "cost": 69.8849997615,
+      "gain": -35.694446518499994,
+      "gain_pct": -51.07597716293368
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 969.3221467349998,
+      "cost": 1394.05501357648,
+      "gain": -424.73286684148013,
+      "gain_pct": -30.467439427072414
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 711.3006058359999,
+      "current_pct": 73.4,
+      "target_pct": 20,
+      "diff": 53.4,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 258.021540899,
+      "current_pct": 26.6,
+      "target_pct": 50,
+      "diff": -23.4,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 969.3221467349998
+  },
+  "news": "[BBC Business]\nหัวข้อ: Poundland hopeful for last-minute rescue deal to stave off collapse\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: Nvidia hires major US law firm to investigate alleged Chinese spy affair\nเนื้อหา: The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.\n\n[BBC Business]\nหัวข้อ: Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning\nเนื้อหา: The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.\n\n[BBC Business]\nหัวข้อ: Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch\nเนื้อหา: Sales of essential goods such as hand sanitiser soar after the government called on households to be prepared for emergencies.\n\n[CNBC]\nหัวข้อ: Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation\nเนื้อหา: Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.\n\n[CNBC]\nหัวข้อ: Bessent reportedly moved to military base over Iranian threats on his life\nเนื้อหา: The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.\n\n[CNBC]\nหัวข้อ: Anthropic sets IPO price range of $70 to $78, looks to start trading  Nov. 19, sources say\nเนื้อหา: Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.\n\n[CNBC]\nหัวข้อ: American soldier arrested on suspicion of spying for Russia\nเนื้อหา: The 41-year-old man is being detained in London under the U.K.'s National Security Act.\n\n[CNBC]\nหัวข้อ: CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns\nเนื้อหา: CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: One reason Children’s Place is filing for bankruptcy? Not enough children.\nเนื้อหา: The chain has been contending with falling birth rates, cautious consumers, stiff competition and $881 million in debt.\n\n[MarketWatch]\nหัวข้อ: CoreWeave’s stock pops as new financing playbook eases debt concerns\nเนื้อหา: A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.\n\n[MarketWatch]\nหัวข้อ: ‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?\nเนื้อหา: “We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”\n\n[MarketWatch]\nหัวข้อ: Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\nเนื้อหา: “It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[Investing.com Gold]\nหัวข้อ: German growth stronger than expected, seen picking up: Bundesbank chief\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Foreign investors pull out $50 billion from Asian equities in October on AI, cash burn woes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Europe’s STOXX 600 near record high as Siemens Energy, CoreWeave outlooks lift sentiment\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: German October inflation confirmed at 2.8%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed officials open door to a quicker round of rate hikes as inflation worsens\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
