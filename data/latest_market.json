@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-12T01-56-44Z",
+  "ts": "2026-11-12T09-01-17Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3990.1,
-      "change": -0.99,
-      "high": 4005.8,
-      "low": 3973.5
+      "price": 3945.5,
+      "change": -1.37,
+      "high": 4005.9,
+      "low": 3943.1
     },
     "sp500": {
       "price": 7619.38,
@@ -15,122 +15,122 @@
       "low": 7571.88
     },
     "dxy": {
-      "price": 102.86,
-      "change": 0.62,
-      "high": 102.9,
+      "price": 102.89,
+      "change": -0.02,
+      "high": 103.08,
       "low": 102.83
     },
     "vix": {
-      "price": 17.49,
-      "change": -10.12,
-      "high": 18.96,
-      "low": 17.33
+      "price": 18.4,
+      "change": 5.2,
+      "high": 18.47,
+      "low": 18.32
     },
     "btc": {
-      "price": 73565.37,
-      "change": 0.0,
+      "price": 73422.36,
+      "change": -0.73,
       "high": 74072.29,
-      "low": 73538.66
+      "low": 73382.59
     },
     "eth": {
-      "price": 2046.05,
-      "change": 0.0,
+      "price": 2045.07,
+      "change": -0.53,
       "high": 2062.07,
-      "low": 2047.42
+      "low": 2039.67
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 355.63,
+        "change": 2.04,
+        "high": 355.91,
+        "low": 349.33
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 521.13,
+        "change": -2.26,
+        "high": 534.76,
+        "low": 518.45
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 173.73,
+        "change": 2.87,
+        "high": 177.54,
+        "low": 170.77
       },
       "AMZN": {
         "name": "Amazon",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 266.17,
+        "change": -1.74,
+        "high": 274.87,
+        "low": 265.62
       },
       "META": {
         "name": "Meta",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 628.77,
+        "change": -1.97,
+        "high": 648.45,
+        "low": 627.97
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 293.45,
+        "change": 2.11,
+        "high": 295.74,
+        "low": 289.48
       },
       "TSLA": {
         "name": "Tesla",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 390.84,
+        "change": 2.91,
+        "high": 395.43,
+        "low": 386.35
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 36.62,
+        "change": 8.7,
+        "high": 36.91,
+        "low": 33.69
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 402.94,
+        "change": -0.54,
+        "high": 404.74,
+        "low": 396.91
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 1.99,
+        "change": 14.37,
+        "high": 2.06,
+        "low": 1.84
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 66.15,
+        "change": 5.49,
+        "high": 68.26,
+        "low": 63.2
       },
       "OKLO": {
         "name": "Oklo",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 25.86,
+        "change": 3.07,
+        "high": 26.85,
+        "low": 25.68
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": NaN,
-        "change": NaN,
-        "high": NaN,
-        "low": NaN
+        "price": 5.73,
+        "change": 2.87,
+        "high": 5.9,
+        "low": 5.65
       }
     }
   },
@@ -172,47 +172,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 521.13,
+      "value": 548.720446155,
       "cost": 495.50994638250006,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": 53.21049977249993,
+      "gain_pct": 10.73853313358619
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 173.73,
+      "value": 154.209419232,
       "cost": 161.5399809584,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -7.3305617264000205,
+      "gain_pct": -4.537924099599713
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 36.62,
+      "value": 107.27443757599998,
       "cost": 214.47007443188,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -107.19563685588001,
+      "gain_pct": -49.98162897077163
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 25.86,
+      "value": 128.98015317600002,
       "cost": 452.6500120422,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -323.6698588662,
+      "gain_pct": -71.50554517957788
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": NaN,
-      "value": NaN,
+      "current_price": 5.73,
+      "value": 35.172687627,
       "cost": 69.8849997615,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -34.712312134499996,
+      "gain_pct": -49.670619235836625
     },
     "ARQQ": {
       "value": "N/A",
@@ -227,44 +227,44 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": NaN,
+      "value": 974.3571437659999,
       "cost": 1394.05501357648,
-      "gain": NaN,
-      "gain_pct": NaN
+      "gain": -419.69786981048003,
+      "gain_pct": -30.10626307592665
     }
   },
   "allocation": {
     "mag7": {
-      "value": NaN,
-      "current_pct": NaN,
+      "value": 702.929865387,
+      "current_pct": 72.1,
       "target_pct": 20,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": 52.1,
+      "status": "Overweight"
     },
     "watchlist": {
-      "value": NaN,
-      "current_pct": NaN,
+      "value": 271.42727837900003,
+      "current_pct": 27.9,
       "target_pct": 50,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -22.1,
+      "status": "Underweight"
     },
     "crypto": {
       "value": 0.0,
-      "current_pct": NaN,
+      "current_pct": 0.0,
       "target_pct": 15,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -15.0,
+      "status": "Underweight"
     },
     "gold": {
       "value": 0.0,
-      "current_pct": NaN,
+      "current_pct": 0.0,
       "target_pct": 15,
-      "diff": NaN,
-      "status": "On Target"
+      "diff": -15.0,
+      "status": "Underweight"
     },
-    "__total__": NaN
+    "__total__": 974.3571437659999
   },
-  "news": "[BBC Business]\nหัวข้อ: Some under-25s should get less benefits, Milburn review to say\nเนื้อหา: The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.\n\n[BBC Business]\nหัวข้อ: Poundland set for more time to secure a rescue deal as emergency talks continue\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: 'Not the answer': Labour MPs speak out against Rosebank as decision looms\nเนื้อหา: There is a growing expectation among senior Labour figures that drilling in the oil field will be given the green light.\n\n[BBC Business]\nหัวข้อ: Nvidia hires major US law firm to investigate alleged Chinese spy affair\nเนื้อหา: The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.\n\n[CNBC]\nหัวข้อ: Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks\nเนื้อหา: The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.\n\n[CNBC]\nหัวข้อ: Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports\nเนื้อหา: Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.\n\n[CNBC]\nหัวข้อ: Feds arrest top official of healthcare company, alleging illegal drug importation\nเนื้อหา: U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.\n\n[CNBC]\nหัวข้อ: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted\nเนื้อหา: Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.\n\n[CNBC]\nหัวข้อ: Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith\nเนื้อหา: Scott Colom will be the first Democrat elected to the Senate from the state since 1982, and Mississippi's first Black senator since Reconstruction.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang\nเนื้อหา: Nvidia’s board of directors reportedly could meet as soon as today to determine the CEO’s fate.\n\n[MarketWatch]\nหัวข้อ: Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang\nเนื้อหา: Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.\n\n[MarketWatch]\nหัวข้อ: Your holiday credit-card bills are going up. What you can do to ease the pain.\nเนื้อหา: The government may have lost a month of inflation data, but don’t expect your credit card’s annual percentage rate to decline because of it.\n\n[MarketWatch]\nหัวข้อ: I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Am I being extravagant?\nเนื้อหา: “I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”\n\n[MarketWatch]\nหัวข้อ: CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade\nเนื้อหา: CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.\n\n[Investing.com Gold]\nหัวข้อ: Japan’s top currency diplomat renews volatility warning as yen nears key 160 level\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s foreign minister says call with Rubio was ’positive and constructive’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Millions of Spaniards stage first general strike in 14 years as anger over housing leads to clashes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan wholesale inflation accelerates, keeps alive BOJ rate-hike view\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks rise on tech gains; Nvidia falls after hours\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: UK economy grows at fastest rate for more than two years\nเนื้อหา: ﻿The UK economy grew by 0.7% in the three months to September, according to official figures.\n\n[BBC Business]\nหัวข้อ: Some under-25s should get fewer benefits, Milburn review to say\nเนื้อหา: The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.\n\n[BBC Business]\nหัวข้อ: Poundland set for more time to secure a rescue deal as emergency talks continue\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: From Paris to DC - why offices are being turned into apartments\nเนื้อหา: Office buildings with low occupancy rates are being transformed into flats.\n\n[CNBC]\nหัวข้อ: Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening\nเนื้อหา: Nvidia's board is meeting days after CEO Jensen Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.\n\n[CNBC]\nหัวข้อ: What we know so far about Nvidia partner Megaspeed’s Asia footprint\nเนื้อหา: Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.\n\n[CNBC]\nหัวข้อ: Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang\nเนื้อหา: The post on X comes amid reports that Nvidia's board is preparing to oust Huang.\n\n[CNBC]\nหัวข้อ: Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith\nเนื้อหา: Scott Colom will be the first Democrat elected to the Senate from the state since 1982, and Mississippi's first Black senator since Reconstruction.\n\n[CNBC]\nหัวข้อ: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted\nเนื้อหา: Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.\n\n[MarketWatch]\nหัวข้อ: Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.\nเนื้อหา: Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?\n\n[MarketWatch]\nหัวข้อ: Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang\nเนื้อหา: Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’\nเนื้อหา: The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang\nเนื้อหา: Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.\n\n[Investing.com Gold]\nหัวข้อ: Europe’s STOXX 600 hits record high on strong earnings, easing Mideast tensions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s Mimura reminds markets of intervention risks as yen nears 160\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK economy expands by most in 2-1/2 years in Q3\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks tumble, Nvidia stings as board to decide CEO’s fate\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Jensen hangs on as Nvidia tumbles\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

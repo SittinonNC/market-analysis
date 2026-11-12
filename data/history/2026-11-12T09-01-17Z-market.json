@@ -1,0 +1,271 @@
+{
+  "ts": "2026-11-12T09-01-17Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3945.5,
+      "change": -1.37,
+      "high": 4005.9,
+      "low": 3943.1
+    },
+    "sp500": {
+      "price": 7619.38,
+      "change": 1.31,
+      "high": 7647.2,
+      "low": 7571.88
+    },
+    "dxy": {
+      "price": 102.89,
+      "change": -0.02,
+      "high": 103.08,
+      "low": 102.83
+    },
+    "vix": {
+      "price": 18.4,
+      "change": 5.2,
+      "high": 18.47,
+      "low": 18.32
+    },
+    "btc": {
+      "price": 73422.36,
+      "change": -0.73,
+      "high": 74072.29,
+      "low": 73382.59
+    },
+    "eth": {
+      "price": 2045.07,
+      "change": -0.53,
+      "high": 2062.07,
+      "low": 2039.67
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 355.63,
+        "change": 2.04,
+        "high": 355.91,
+        "low": 349.33
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 521.13,
+        "change": -2.26,
+        "high": 534.76,
+        "low": 518.45
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 173.73,
+        "change": 2.87,
+        "high": 177.54,
+        "low": 170.77
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 266.17,
+        "change": -1.74,
+        "high": 274.87,
+        "low": 265.62
+      },
+      "META": {
+        "name": "Meta",
+        "price": 628.77,
+        "change": -1.97,
+        "high": 648.45,
+        "low": 627.97
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 293.45,
+        "change": 2.11,
+        "high": 295.74,
+        "low": 289.48
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 390.84,
+        "change": 2.91,
+        "high": 395.43,
+        "low": 386.35
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 36.62,
+        "change": 8.7,
+        "high": 36.91,
+        "low": 33.69
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 402.94,
+        "change": -0.54,
+        "high": 404.74,
+        "low": 396.91
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.99,
+        "change": 14.37,
+        "high": 2.06,
+        "low": 1.84
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 66.15,
+        "change": 5.49,
+        "high": 68.26,
+        "low": 63.2
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 25.86,
+        "change": 3.07,
+        "high": 26.85,
+        "low": 25.68
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.73,
+        "change": 2.87,
+        "high": 5.9,
+        "low": 5.65
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "GDP m/m",
+        "country": "GBP",
+        "date": "2026-11-12T02:00:00-05:00",
+        "impact": "High",
+        "forecast": "0.0%",
+        "previous": "0.1%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.7%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-11-13T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "1.3%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 521.13,
+      "value": 548.720446155,
+      "cost": 495.50994638250006,
+      "gain": 53.21049977249993,
+      "gain_pct": 10.73853313358619
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 173.73,
+      "value": 154.209419232,
+      "cost": 161.5399809584,
+      "gain": -7.3305617264000205,
+      "gain_pct": -4.537924099599713
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 36.62,
+      "value": 107.27443757599998,
+      "cost": 214.47007443188,
+      "gain": -107.19563685588001,
+      "gain_pct": -49.98162897077163
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 25.86,
+      "value": 128.98015317600002,
+      "cost": 452.6500120422,
+      "gain": -323.6698588662,
+      "gain_pct": -71.50554517957788
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.73,
+      "value": 35.172687627,
+      "cost": 69.8849997615,
+      "gain": -34.712312134499996,
+      "gain_pct": -49.670619235836625
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 974.3571437659999,
+      "cost": 1394.05501357648,
+      "gain": -419.69786981048003,
+      "gain_pct": -30.10626307592665
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 702.929865387,
+      "current_pct": 72.1,
+      "target_pct": 20,
+      "diff": 52.1,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 271.42727837900003,
+      "current_pct": 27.9,
+      "target_pct": 50,
+      "diff": -22.1,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 974.3571437659999
+  },
+  "news": "[BBC Business]\nหัวข้อ: UK economy grows at fastest rate for more than two years\nเนื้อหา: ﻿The UK economy grew by 0.7% in the three months to September, according to official figures.\n\n[BBC Business]\nหัวข้อ: Some under-25s should get fewer benefits, Milburn review to say\nเนื้อหา: The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.\n\n[BBC Business]\nหัวข้อ: Poundland set for more time to secure a rescue deal as emergency talks continue\nเนื้อหา: The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.\n\n[BBC Business]\nหัวข้อ: Christmas toy rush being driven by squishies and building sets\nเนื้อหา: A bumper year so far for toy sales comes as debate intensifies over screen time and tech connectivity.\n\n[BBC Business]\nหัวข้อ: From Paris to DC - why offices are being turned into apartments\nเนื้อหา: Office buildings with low occupancy rates are being transformed into flats.\n\n[CNBC]\nหัวข้อ: Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening\nเนื้อหา: Nvidia's board is meeting days after CEO Jensen Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.\n\n[CNBC]\nหัวข้อ: What we know so far about Nvidia partner Megaspeed’s Asia footprint\nเนื้อหา: Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.\n\n[CNBC]\nหัวข้อ: Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang\nเนื้อหา: The post on X comes amid reports that Nvidia's board is preparing to oust Huang.\n\n[CNBC]\nหัวข้อ: Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith\nเนื้อหา: Scott Colom will be the first Democrat elected to the Senate from the state since 1982, and Mississippi's first Black senator since Reconstruction.\n\n[CNBC]\nหัวข้อ: Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted\nเนื้อหา: Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.\n\n[MarketWatch]\nหัวข้อ: Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.\nเนื้อหา: Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?\n\n[MarketWatch]\nหัวข้อ: Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang\nเนื้อหา: Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’\nเนื้อหา: The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang\nเนื้อหา: Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.\n\n[Investing.com Gold]\nหัวข้อ: Europe’s STOXX 600 hits record high on strong earnings, easing Mideast tensions\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s Mimura reminds markets of intervention risks as yen nears 160\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK economy expands by most in 2-1/2 years in Q3\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks tumble, Nvidia stings as board to decide CEO’s fate\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Morning Bid: Jensen hangs on as Nvidia tumbles\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
