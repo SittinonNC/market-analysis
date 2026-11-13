@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-12T20-36-39Z",
+  "ts": "2026-11-13T20-13-37Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 521.92,
-      "value": 549.55227152,
+      "current_price": 524.42,
+      "value": 552.18463027,
       "cost": 495.50994638250006,
-      "gain": 54.042325137499915,
-      "gain_pct": 10.90640572041775,
-      "today_change": 0.15
+      "gain": 56.674683887499896,
+      "gain_pct": 11.437648083808773,
+      "today_change": 0.27
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 163.43,
-      "value": 145.066743712,
+      "current_price": 163.02,
+      "value": 144.70281196800002,
       "cost": 161.5399809584,
-      "gain": -16.473237246400004,
-      "gain_pct": -10.197622377238122,
-      "today_change": -5.93
+      "gain": -16.837168990399988,
+      "gain_pct": -10.422911337804305,
+      "today_change": -1.91
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 34.89,
-      "value": 102.206584572,
+      "current_price": 32.62,
+      "value": 95.556858376,
       "cost": 214.47007443188,
-      "gain": -112.26348985988,
-      "gain_pct": -52.34459406854784,
-      "today_change": -4.72
+      "gain": -118.91321605588,
+      "gain_pct": -55.445132087017214,
+      "today_change": -5.45
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 24.73,
-      "value": 123.344129468,
+      "current_price": 23.7,
+      "value": 118.20686892,
       "cost": 452.6500120422,
-      "gain": -329.3058825742,
-      "gain_pct": -72.75066250158395,
-      "today_change": -4.37
+      "gain": -334.4431431222,
+      "gain_pct": -73.88559244996117,
+      "today_change": -3.07
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.34,
-      "value": 32.778735066,
+      "current_price": 5.11,
+      "value": 31.366916889000002,
       "cost": 69.8849997615,
-      "gain": -37.106264695499995,
-      "gain_pct": -53.096179183135696,
-      "today_change": -6.81
+      "gain": -38.518082872499996,
+      "gain_pct": -55.11638120333772,
+      "today_change": -3.95
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 14.82,
-      "value": 61.843276091999996,
+      "current_price": 14.74,
+      "value": 61.509439244,
       "cost": 61.19646719899999,
-      "gain": 0.6468088930000064,
-      "gain_pct": 1.056938288441879,
-      "today_change": -4.94
+      "gain": 0.3129720450000093,
+      "gain_pct": 0.511421752471887,
+      "today_change": -0.81
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.64,
-      "value": 125.87718789600001,
+      "current_price": 11.62,
+      "value": 125.660904068,
       "cost": 61.09909999086,
-      "gain": 64.77808790514001,
-      "gain_pct": 106.02134551054003,
-      "today_change": -2.59
+      "gain": 64.56180407714,
+      "gain_pct": 105.66735694437071,
+      "today_change": 0.0
     },
     "__total__": {
-      "value": 1140.668928326,
+      "value": 1129.188429735,
       "cost": 1516.3505807663398,
-      "gain": -375.6816524403398,
-      "gain_pct": -24.77538223716551
+      "gain": -387.1621510313398,
+      "gain_pct": -25.532495976997225
     }
   },
   "allocation": {
     "mag7": {
-      "value": 694.619015232,
-      "current_pct": 60.9,
+      "value": 696.887442238,
+      "current_pct": 61.7,
       "target_pct": 20,
-      "diff": 40.9,
+      "diff": 41.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 258.329449106,
-      "current_pct": 22.6,
+      "value": 245.13064418500002,
+      "current_pct": 21.7,
       "target_pct": 50,
-      "diff": -27.4,
+      "diff": -28.3,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1140.668928326
+    "__total__": 1129.188429735
   },
-  "news": "[BBC Business] The rise and fall of Jensen Huang - how the tech superstar became mired in scandal\nWithin days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.\n\n[BBC Business] Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?\nChief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.\n\n[BBC Business] Faisal Islam: Why the UK economy is surprisingly resilient\nThe UK is seeing impressive growth, but will it last?\n\n[BBC Business] UK economy grows at fastest rate for more than two years\n﻿The UK economy grew by 0.7% in the three months to September, according to official figures.\n\n[CNBC] Alice Huang tied to Nvidia’s biggest Chinese competitor\nThe woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.\n\n[CNBC] Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips\nNvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.\n\n[CNBC] Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation\nThe retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.\n\n[CNBC] Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees\nInterim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication\n\n[MarketWatch] I’m 17 and will be a first-generation college student. Is law school worth being $200,000 in debt?\n“I‘’m considering a pre-law track … I’m just a bit hesitant because of how expensive law school is.”\n\n[MarketWatch] The S&P 500 is shrugging off Nvidia’s selloff. Here’s what’s keeping the rest of the market afloat.\nInvestors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.\n\n[MarketWatch] Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years\nThe Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.\n\n[MarketWatch] The bond market now has an even bigger fear than AI fallout\nCarnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+  "news": "[BBC Business] Why is Microsoft's outage lasting so long and will emails be lost?\nMicrosoft says it is continuing to restore services including Outlook and Teams following a global outage.\n\n[BBC Business] How a sex scandal at Nvidia is putting pressure on the White House\nJensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.\n\n[BBC Business] Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal\nScott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".\n\n[BBC Business] The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nExperts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[CNBC] Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker\nJensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family’s financial ties to the chipmaker.\n\n[CNBC] Microsoft apologizes for massive outage that took down Outlook and other 365 services\nA Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.\n\n[CNBC] Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC\nSpeculation has swirled around who Nvidia's board will select to permanently succeed Huang.\n\n[CNBC] Hassett denies report he's leaving White House: 'Not true'\nNational Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.\n\n[MarketWatch] Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’\nHere’s what might be coming for Social Security, Medicare and long-term care.\n\n[MarketWatch] My husband inherited $500,000, but he refuses to spend it on our home. Should I be worried?\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] Budget airlines are going upscale with first-class seats and faster wifi\nForget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.\n\n[MarketWatch] Medicare at age 50? What ‘Medicare for more’ could mean for American workers.\nIt’s not “Medicare for All,” but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }

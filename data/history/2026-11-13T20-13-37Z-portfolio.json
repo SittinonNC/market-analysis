@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-13T20-13-37Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 524.42,
+      "value": 552.18463027,
+      "cost": 495.50994638250006,
+      "gain": 56.674683887499896,
+      "gain_pct": 11.437648083808773,
+      "today_change": 0.27
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 163.02,
+      "value": 144.70281196800002,
+      "cost": 161.5399809584,
+      "gain": -16.837168990399988,
+      "gain_pct": -10.422911337804305,
+      "today_change": -1.91
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 32.62,
+      "value": 95.556858376,
+      "cost": 214.47007443188,
+      "gain": -118.91321605588,
+      "gain_pct": -55.445132087017214,
+      "today_change": -5.45
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.7,
+      "value": 118.20686892,
+      "cost": 452.6500120422,
+      "gain": -334.4431431222,
+      "gain_pct": -73.88559244996117,
+      "today_change": -3.07
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.11,
+      "value": 31.366916889000002,
+      "cost": 69.8849997615,
+      "gain": -38.518082872499996,
+      "gain_pct": -55.11638120333772,
+      "today_change": -3.95
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 14.74,
+      "value": 61.509439244,
+      "cost": 61.19646719899999,
+      "gain": 0.3129720450000093,
+      "gain_pct": 0.511421752471887,
+      "today_change": -0.81
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 11.62,
+      "value": 125.660904068,
+      "cost": 61.09909999086,
+      "gain": 64.56180407714,
+      "gain_pct": 105.66735694437071,
+      "today_change": 0.0
+    },
+    "__total__": {
+      "value": 1129.188429735,
+      "cost": 1516.3505807663398,
+      "gain": -387.1621510313398,
+      "gain_pct": -25.532495976997225
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 696.887442238,
+      "current_pct": 61.7,
+      "target_pct": 20,
+      "diff": 41.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 245.13064418500002,
+      "current_pct": 21.7,
+      "target_pct": 50,
+      "diff": -28.3,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1129.188429735
+  },
+  "news": "[BBC Business] Why is Microsoft's outage lasting so long and will emails be lost?\nMicrosoft says it is continuing to restore services including Outlook and Teams following a global outage.\n\n[BBC Business] How a sex scandal at Nvidia is putting pressure on the White House\nJensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.\n\n[BBC Business] Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal\nScott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".\n\n[BBC Business] The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nExperts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[CNBC] Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker\nJensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family’s financial ties to the chipmaker.\n\n[CNBC] Microsoft apologizes for massive outage that took down Outlook and other 365 services\nA Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.\n\n[CNBC] Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC\nSpeculation has swirled around who Nvidia's board will select to permanently succeed Huang.\n\n[CNBC] Hassett denies report he's leaving White House: 'Not true'\nNational Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.\n\n[MarketWatch] Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’\nHere’s what might be coming for Social Security, Medicare and long-term care.\n\n[MarketWatch] My husband inherited $500,000, but he refuses to spend it on our home. Should I be worried?\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] Budget airlines are going upscale with first-class seats and faster wifi\nForget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.\n\n[MarketWatch] Medicare at age 50? What ‘Medicare for more’ could mean for American workers.\nIt’s not “Medicare for All,” but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
