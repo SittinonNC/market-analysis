@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-12T21-31-11Z",
+  "ts": "2026-11-13T01-15-00Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3878.2,
-      "change": -3.06,
-      "high": 4005.9,
-      "low": 3857.1
+      "price": 3894.1,
+      "change": -2.66,
+      "high": 3896.8,
+      "low": 3879.1
     },
     "sp500": {
       "price": 7592.4,
@@ -17,8 +17,8 @@
     "dxy": {
       "price": 103.18,
       "change": 0.26,
-      "high": 103.24,
-      "low": 102.8
+      "high": 103.22,
+      "low": 103.17
     },
     "vix": {
       "price": 18.7,
@@ -27,110 +27,110 @@
       "low": 17.38
     },
     "btc": {
-      "price": 71518.91,
-      "change": -3.31,
-      "high": 74072.29,
-      "low": 71261.95
+      "price": 70824.74,
+      "change": 0.0,
+      "high": 71386.0,
+      "low": 70726.32
     },
     "eth": {
-      "price": 2018.83,
-      "change": -1.8,
-      "high": 2062.07,
-      "low": 1988.48
+      "price": 2007.01,
+      "change": 0.0,
+      "high": 2017.34,
+      "low": 2002.85
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 354.88,
-        "change": -0.21,
-        "high": 359.37,
-        "low": 354.41
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 523.0,
-        "change": 0.36,
-        "high": 529.61,
-        "low": 520.02
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 166.19,
-        "change": -4.34,
-        "high": 167.14,
-        "low": 148.8
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 267.44,
-        "change": 0.48,
-        "high": 273.6,
-        "low": 267.21
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "META": {
         "name": "Meta",
-        "price": 623.61,
-        "change": -0.82,
-        "high": 630.28,
-        "low": 619.0
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 298.7,
-        "change": 1.79,
-        "high": 302.56,
-        "low": 293.8
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 397.45,
-        "change": 1.69,
-        "high": 401.22,
-        "low": 385.2
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 34.5,
-        "change": -5.79,
-        "high": 36.46,
-        "low": 34.45
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 405.13,
-        "change": 0.54,
-        "high": 406.19,
-        "low": 400.0
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.81,
-        "change": -9.05,
-        "high": 1.96,
-        "low": 1.8
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 64.07,
-        "change": -3.14,
-        "high": 66.7,
-        "low": 63.69
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 24.45,
-        "change": -5.45,
-        "high": 25.43,
-        "low": 23.81
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 5.32,
-        "change": -7.16,
-        "high": 5.66,
-        "low": 5.2
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     }
   },
@@ -163,47 +163,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 523.0,
-      "value": 550.6894505,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 495.50994638250006,
-      "gain": 55.17950411749996,
-      "gain_pct": 11.135902421402683
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 166.19,
-      "value": 147.516625696,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 161.5399809584,
-      "gain": -14.023355262400003,
-      "gain_pct": -8.681043032938895
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 34.5,
-      "value": 101.0641206,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 214.47007443188,
-      "gain": -113.40595383188,
-      "gain_pct": -52.877285622381784
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 24.45,
-      "value": 121.94759262000001,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 452.6500120422,
-      "gain": -330.70241942219997,
-      "gain_pct": -73.05918714774474
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.32,
-      "value": 32.655968268,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 69.8849997615,
-      "gain": -37.229031493499996,
-      "gain_pct": -53.271848924022834
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ARQQ": {
       "value": "N/A",
@@ -218,44 +218,44 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 953.8737576840001,
+      "value": NaN,
       "cost": 1394.05501357648,
-      "gain": -440.18125589247984,
-      "gain_pct": -31.57560150823494
+      "gain": NaN,
+      "gain_pct": NaN
     }
   },
   "allocation": {
     "mag7": {
-      "value": 698.206076196,
-      "current_pct": 73.2,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 20,
-      "diff": 53.2,
-      "status": "Overweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "watchlist": {
-      "value": 255.667681488,
-      "current_pct": 26.8,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 50,
-      "diff": -23.2,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "crypto": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "gold": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
-    "__total__": 953.8737576840001
+    "__total__": NaN
   },
-  "news": "[BBC Business]\nหัวข้อ: The rise and fall of Jensen Huang - how the tech superstar became mired in scandal\nเนื้อหา: Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.\n\n[BBC Business]\nหัวข้อ: Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?\nเนื้อหา: Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why the UK economy is surprisingly resilient\nเนื้อหา: The UK is seeing impressive growth, but will it last?\n\n[BBC Business]\nหัวข้อ: UK economy grows at fastest rate for more than two years\nเนื้อหา: ﻿The UK economy grew by 0.7% in the three months to September, according to official figures.\n\n[BBC Business]\nหัวข้อ: Poundland gets more time to secure a rescue deal as emergency talks continue\nเนื้อหา: A deadline to secure a buyer was set to expire at midnight, but the retailer now has an extra 10 days to find a buyer.\n\n[CNBC]\nหัวข้อ: Alice Huang tied to Nvidia’s biggest Chinese competitor\nเนื้อหา: The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.\n\n[CNBC]\nหัวข้อ: Microsoft outage hits Outlook. AWS and Google users also report issues\nเนื้อหา: Amazon Web Services and Google users also reported outages on Thursday\n\n[CNBC]\nหัวข้อ: Trump says ‘we don’t need a deal with Iran’\nเนื้อหา: Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.\n\n[CNBC]\nหัวข้อ: Cerebras surges 13% after beating on quarterly revenue and announcing Microsoft deal\nเนื้อหา: Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.\n\n[CNBC]\nหัวข้อ: Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year\nเนื้อหา: Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.\n\n[MarketWatch]\nหัวข้อ: I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?\nเนื้อหา: “He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”\n\n[MarketWatch]\nหัวข้อ: The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.\nเนื้อหา: Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.\n\n[MarketWatch]\nหัวข้อ: The bond market now has an even bigger fear than AI fallout\nเนื้อหา: Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher\n\n[MarketWatch]\nหัวข้อ: I’m 17 and will be a first-generation college student. Is law school worth being $200,000 in debt?\nเนื้อหา: “I‘’m considering a pre-law track … I’m just a bit hesitant because of how expensive law school is.”\n\n[MarketWatch]\nหัวข้อ: Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years\nเนื้อหา: The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.\n\n[Investing.com Gold]\nหัวข้อ: Fed has time to calibrate rate hikes, Daly says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US handled $12 billion of Venezuela’s oil revenues, report says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand home prices fall in October amid cost pressures\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US existing-home sales hit 16-year low as rates and affordability weigh on market\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US starts 2027 fiscal year with record October budget deficit of $404 billion\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil\nเนื้อหา: US lawmakers now want to question him over whether one of his alleged relationships was with a Chinese spy.\n\n[BBC Business]\nหัวข้อ: Microsoft struggling to restore service as global outage affects Outlook and Teams\nเนื้อหา: Services including Teams, Outlook and Microsoft's AI software Copilot have been affected by \"connectivity problems\".\n\n[BBC Business]\nหัวข้อ: The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nเนื้อหา: Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[BBC Business]\nหัวข้อ: Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?\nเนื้อหา: Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why the UK economy is surprisingly resilient\nเนื้อหา: The UK is seeing impressive growth, but will it last?\n\n[CNBC]\nหัวข้อ: Alice Huang tied to Nvidia’s biggest Chinese competitor\nเนื้อหา: The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.\n\n[CNBC]\nหัวข้อ: Widespread Microsoft outage takes down Outlook and other 365 services\nเนื้อหา: A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.\n\n[CNBC]\nหัวข้อ: IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money\nเนื้อหา: The IRS has announced higher 401(k) contribution limits for 2027. Here’s what retirement savers need to know.\n\n[CNBC]\nหัวข้อ: Trump says ‘we don’t need a deal with Iran’\nเนื้อหา: Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.\n\n[CNBC]\nหัวข้อ: Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal\nเนื้อหา: Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.\n\n[MarketWatch]\nหัวข้อ: Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.\nเนื้อหา: As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy\n\n[MarketWatch]\nหัวข้อ: Opening trading-card packs has become a $2 billion market\nเนื้อหา: Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.\n\n[MarketWatch]\nหัวข้อ: Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes\nเนื้อหา: Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.\n\n[MarketWatch]\nหัวข้อ: ‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.\nเนื้อหา: “We have $2 million saved in our retirement accounts and a house worth $1.3 million.”\n\n[MarketWatch]\nหัวข้อ: Am I overpaying for health insurance? How to answer the key question this open-enrollment season.\nเนื้อหา: More people want to understand the fine print on plans this year, financial planners say.\n\n[Investing.com Gold]\nหัวข้อ: Wall Street ends lower as Nvidia CEO resigns; US yields up\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Treasury bought yen in July; Fed made no solo FX interventions in Q3\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Weathering the Nvidia storm\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed has time to calibrate rate hikes, Daly says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US handled $12 billion of Venezuela’s oil revenues, report says\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
