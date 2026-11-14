@@ -1,0 +1,245 @@
+{
+  "ts": "2026-11-14T00-56-06Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3887.6,
+      "change": 0.06,
+      "high": 3927.2,
+      "low": 3871.1
+    },
+    "sp500": {
+      "price": 7561.67,
+      "change": -0.4,
+      "high": 7621.78,
+      "low": 7499.4
+    },
+    "dxy": {
+      "price": 103.41,
+      "change": 0.23,
+      "high": 103.44,
+      "low": 103.06
+    },
+    "vix": {
+      "price": 19.3,
+      "change": 3.21,
+      "high": 20.92,
+      "low": 17.64
+    },
+    "btc": {
+      "price": 68228.42,
+      "change": 0.0,
+      "high": 68360.71,
+      "low": 68128.52
+    },
+    "eth": {
+      "price": 1929.33,
+      "change": 0.0,
+      "high": 1933.09,
+      "low": 1926.48
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 356.27,
+        "change": 0.39,
+        "high": 360.83,
+        "low": 355.76
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 523.88,
+        "change": 0.17,
+        "high": 526.42,
+        "low": 513.82
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 162.85,
+        "change": -2.01,
+        "high": 170.0,
+        "low": 158.39
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 266.66,
+        "change": -0.29,
+        "high": 269.94,
+        "low": 263.91
+      },
+      "META": {
+        "name": "Meta",
+        "price": 641.69,
+        "change": 2.9,
+        "high": 643.91,
+        "low": 624.83
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 295.77,
+        "change": -0.98,
+        "high": 304.97,
+        "low": 293.44
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 390.22,
+        "change": -1.82,
+        "high": 404.4,
+        "low": 385.83
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 32.6,
+        "change": -5.51,
+        "high": 34.5,
+        "low": 31.34
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 407.46,
+        "change": 0.58,
+        "high": 408.51,
+        "low": 400.5
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.91,
+        "change": 5.52,
+        "high": 1.92,
+        "low": 1.73
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 61.53,
+        "change": -3.96,
+        "high": 64.46,
+        "low": 59.76
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.92,
+        "change": -2.17,
+        "high": 24.54,
+        "low": 22.85
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.16,
+        "change": -3.01,
+        "high": 5.32,
+        "low": 5.02
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 523.88,
+      "value": 551.61604078,
+      "cost": 495.50994638250006,
+      "gain": 56.10609439749999,
+      "gain_pct": 11.32289973331633
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 162.85,
+      "value": 144.55191344,
+      "cost": 161.5399809584,
+      "gain": -16.988067518400015,
+      "gain_pct": -10.516323833648839
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 32.6,
+      "value": 95.49827048,
+      "cost": 214.47007443188,
+      "gain": -118.97180395187999,
+      "gain_pct": -55.47244960259844
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.92,
+      "value": 119.30414787200002,
+      "cost": 452.6500120422,
+      "gain": -333.3458641702,
+      "gain_pct": -73.64318022797768
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.16,
+      "value": 31.673833884,
+      "cost": 69.8849997615,
+      "gain": -38.211165877499994,
+      "gain_pct": -54.677206851119884
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 942.6442064560001,
+      "cost": 1394.05501357648,
+      "gain": -451.41080712047983,
+      "gain_pct": -32.38113293408523
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 696.1679542200001,
+      "current_pct": 73.9,
+      "target_pct": 20,
+      "diff": 53.9,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 246.47625223600002,
+      "current_pct": 26.1,
+      "target_pct": 50,
+      "diff": -23.9,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 942.6442064560001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption\nเนื้อหา: Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.\n\n[BBC Business]\nหัวข้อ: Why is Microsoft's outage lasting so long and will emails be lost?\nเนื้อหา: Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.\n\n[BBC Business]\nหัวข้อ: How a sex scandal at Nvidia is putting pressure on the White House\nเนื้อหา: Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.\n\n[BBC Business]\nหัวข้อ: Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal\nเนื้อหา: Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".\n\n[BBC Business]\nหัวข้อ: The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nเนื้อหา: Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[CNBC]\nหัวข้อ: FAA grounds departing flights nationwide, citing air traffic communication system outage\nเนื้อหา: The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, \"due to extraordinary circumstances and for reasons of safety.\"\n\n[CNBC]\nหัวข้อ: Nvidia is done with Jensen Huang. The fallout in Washington is just beginning\nเนื้อหา: The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.\n\n[CNBC]\nหัวข้อ: Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials\nเนื้อหา: Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.\n\n[CNBC]\nหัวข้อ: Microsoft apologizes for massive outage that took down Outlook and other 365 services\nเนื้อหา: A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.\n\n[CNBC]\nหัวข้อ: SpaceX launches Starship in key test flight of massive rocket\nเนื้อหา: The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.\n\n[MarketWatch]\nหัวข้อ: FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed so far\nเนื้อหา: Agency cites “extraordinary circumstances,” while Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking options.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: 4 expert tips for signing up for Medicare\nเนื้อหา: A day in the life of a Medicare counselor\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?\nเนื้อหา: Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.\n\n[MarketWatch]\nหัวข้อ: Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.\nเนื้อหา: It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Jefferson says he is taking his policy cues from inflation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Paraguay widens ueno bank probe with fresh charge against ex-president Peña\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rockets to top of worries about financial system in latest Fed survey\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US SEC proposes scaling back rules on executive pay disclosure\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar set for best week in two months, yen weakens toward 160\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
