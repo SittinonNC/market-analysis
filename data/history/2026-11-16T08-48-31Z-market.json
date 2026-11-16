@@ -1,0 +1,311 @@
+{
+  "ts": "2026-11-16T08-48-31Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3861.3,
+      "change": 0.0,
+      "high": 3904.3,
+      "low": 3835.2
+    },
+    "sp500": {
+      "price": 7561.67,
+      "change": -0.4,
+      "high": 7621.78,
+      "low": 7499.4
+    },
+    "dxy": {
+      "price": 103.44,
+      "change": 0.0,
+      "high": 103.49,
+      "low": 103.36
+    },
+    "vix": {
+      "price": 20.02,
+      "change": 3.73,
+      "high": 20.1,
+      "low": 19.92
+    },
+    "btc": {
+      "price": 64501.92,
+      "change": -1.23,
+      "high": 65363.44,
+      "low": 64254.11
+    },
+    "eth": {
+      "price": 1808.39,
+      "change": -1.48,
+      "high": 1837.16,
+      "low": 1804.77
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 356.27,
+        "change": 0.39,
+        "high": 360.83,
+        "low": 355.75
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 523.88,
+        "change": 0.17,
+        "high": 526.42,
+        "low": 513.82
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 162.85,
+        "change": -2.01,
+        "high": 170.0,
+        "low": 158.39
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 266.66,
+        "change": -0.29,
+        "high": 270.05,
+        "low": 263.91
+      },
+      "META": {
+        "name": "Meta",
+        "price": 641.69,
+        "change": 2.9,
+        "high": 643.91,
+        "low": 624.79
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 295.77,
+        "change": -0.98,
+        "high": 304.97,
+        "low": 293.44
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 390.22,
+        "change": -1.82,
+        "high": 404.4,
+        "low": 385.83
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 32.6,
+        "change": -5.51,
+        "high": 34.5,
+        "low": 31.34
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 407.46,
+        "change": 0.58,
+        "high": 408.51,
+        "low": 400.45
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.91,
+        "change": 5.52,
+        "high": 1.92,
+        "low": 1.73
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 61.53,
+        "change": -3.96,
+        "high": 64.46,
+        "low": 59.76
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.92,
+        "change": -2.17,
+        "high": 24.58,
+        "low": 22.85
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 5.16,
+        "change": -3.01,
+        "high": 5.32,
+        "low": 5.02
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "title": "Median CPI y/y",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "2.0%",
+        "previous": "1.9%"
+      },
+      {
+        "title": "Trimmed CPI y/y",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "1.9%",
+        "previous": "1.8%"
+      },
+      {
+        "title": "Fed Chairman Warsh Speaks",
+        "country": "USD",
+        "date": "2026-11-16T12:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "RBA Gov Bullock Speaks",
+        "country": "AUD",
+        "date": "2026-11-16T17:50:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.9%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "0.8%"
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-11-18T14:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 523.88,
+      "value": 551.61604078,
+      "cost": 495.50994638250006,
+      "gain": 56.10609439749999,
+      "gain_pct": 11.32289973331633
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 162.85,
+      "value": 144.55191344,
+      "cost": 161.5399809584,
+      "gain": -16.988067518400015,
+      "gain_pct": -10.516323833648839
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 32.6,
+      "value": 95.49827048,
+      "cost": 214.47007443188,
+      "gain": -118.97180395187999,
+      "gain_pct": -55.47244960259844
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.92,
+      "value": 119.30414787200002,
+      "cost": 452.6500120422,
+      "gain": -333.3458641702,
+      "gain_pct": -73.64318022797768
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 5.16,
+      "value": 31.673833884,
+      "cost": 69.8849997615,
+      "gain": -38.211165877499994,
+      "gain_pct": -54.677206851119884
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 942.6442064560001,
+      "cost": 1394.05501357648,
+      "gain": -451.41080712047983,
+      "gain_pct": -32.38113293408523
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 696.1679542200001,
+      "current_pct": 73.9,
+      "target_pct": 20,
+      "diff": 53.9,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 246.47625223600002,
+      "current_pct": 26.1,
+      "target_pct": 50,
+      "diff": -23.9,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 942.6442064560001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Cut National Insurance for under-25s to create jobs, Milburn report to say\nเนื้อหา: The report being launched this week will suggest gradually reducing employment costs over five years.\n\n[BBC Business]\nหัวข้อ: Investors sue chip giant Intel after 29% stock plunge\nเนื้อหา: A proposed class action says Intel hid the impact of slowing sales, inflating its shares.\n\n[BBC Business]\nหัวข้อ: Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says\nเนื้อหา: The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.\n\n[BBC Business]\nหัวข้อ: UK will have 'voice' but no vote on EU food rules in Brexit reset\nเนื้อหา: EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.\n\n[BBC Business]\nหัวข้อ: Gas starts flowing from Jackdaw after government green light\nเนื้อหา: Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.\n\n[CNBC]\nหัวข้อ: Tech world's calls for Jensen Huang to return to Nvidia are growing\nเนื้อหา: Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.\n\n[CNBC]\nหัวข้อ: China confirms Xi-Trump-Putin historic summit. What will be on the agenda?\nเนื้อหา: The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.\n\n[CNBC]\nหัวข้อ: Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot\nเนื้อหา: Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.\n\n[CNBC]\nหัวข้อ: AI is reshaping banking jobs – but its ability to drive profits remains unclear\nเนื้อหา: Europe's banks are using AI to cut routine work, redeploy staff and hire more technical talent.\n\n[CNBC]\nหัวข้อ: China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates\nเนื้อหา: A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.\n\n[MarketWatch]\nหัวข้อ: Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil\nเนื้อหา: Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.\n\n[MarketWatch]\nหัวข้อ: My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?\nเนื้อหา: “I’m torn between respecting my brother’s wishes and being fair to my sister.”\n\n[MarketWatch]\nหัวข้อ: A big chunk of your 401(k) is likely invested in Nvidia\nเนื้อหา: The scandal at the computer-chip giant is exactly what’s wrong with the S&amp;P 500.\n\n[MarketWatch]\nหัวข้อ: ‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?\nเนื้อหา: “I know older people can easily feel patronized, and I don’t want that to happen.”\n\n[MarketWatch]\nหัวข้อ: Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\nเนื้อหา: “It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[Investing.com Gold]\nหัวข้อ: BOJ chief Ueda tells government panel wage growth ’quite strong’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Take Five: Huang’s exit, Anthropic’s entrance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Global banks set to enter 2027 on strong footing, Moody’s report says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: For investors, a truly safe haven is hard to find\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hawkish BOJ policymaker Takata calls for swift hike in rates to ’good’ position\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}

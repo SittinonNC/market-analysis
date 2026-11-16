@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-14T00-56-06Z",
+  "ts": "2026-11-16T08-48-31Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3887.6,
-      "change": 0.06,
-      "high": 3927.2,
-      "low": 3871.1
+      "price": 3861.3,
+      "change": 0.0,
+      "high": 3904.3,
+      "low": 3835.2
     },
     "sp500": {
       "price": 7561.67,
@@ -15,28 +15,28 @@
       "low": 7499.4
     },
     "dxy": {
-      "price": 103.41,
-      "change": 0.23,
-      "high": 103.44,
-      "low": 103.06
+      "price": 103.44,
+      "change": 0.0,
+      "high": 103.49,
+      "low": 103.36
     },
     "vix": {
-      "price": 19.3,
-      "change": 3.21,
-      "high": 20.92,
-      "low": 17.64
+      "price": 20.02,
+      "change": 3.73,
+      "high": 20.1,
+      "low": 19.92
     },
     "btc": {
-      "price": 68228.42,
-      "change": 0.0,
-      "high": 68360.71,
-      "low": 68128.52
+      "price": 64501.92,
+      "change": -1.23,
+      "high": 65363.44,
+      "low": 64254.11
     },
     "eth": {
-      "price": 1929.33,
-      "change": 0.0,
-      "high": 1933.09,
-      "low": 1926.48
+      "price": 1808.39,
+      "change": -1.48,
+      "high": 1837.16,
+      "low": 1804.77
     },
     "mag7": {
       "AAPL": {
@@ -44,7 +44,7 @@
         "price": 356.27,
         "change": 0.39,
         "high": 360.83,
-        "low": 355.76
+        "low": 355.75
       },
       "MSFT": {
         "name": "Microsoft",
@@ -64,7 +64,7 @@
         "name": "Amazon",
         "price": 266.66,
         "change": -0.29,
-        "high": 269.94,
+        "high": 270.05,
         "low": 263.91
       },
       "META": {
@@ -72,7 +72,7 @@
         "price": 641.69,
         "change": 2.9,
         "high": 643.91,
-        "low": 624.83
+        "low": 624.79
       },
       "GOOGL": {
         "name": "Alphabet",
@@ -102,7 +102,7 @@
         "price": 407.46,
         "change": 0.58,
         "high": 408.51,
-        "low": 400.5
+        "low": 400.45
       },
       "EOSE": {
         "name": "Eos Energy",
@@ -122,7 +122,7 @@
         "name": "Oklo",
         "price": 23.92,
         "change": -2.17,
-        "high": 24.54,
+        "high": 24.58,
         "low": 22.85
       },
       "ONDS": {
@@ -139,8 +139,74 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [],
-    "upcoming": []
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.1%"
+      },
+      {
+        "title": "Median CPI y/y",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "2.0%",
+        "previous": "1.9%"
+      },
+      {
+        "title": "Trimmed CPI y/y",
+        "country": "CAD",
+        "date": "2026-11-16T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "1.9%",
+        "previous": "1.8%"
+      },
+      {
+        "title": "Fed Chairman Warsh Speaks",
+        "country": "USD",
+        "date": "2026-11-16T12:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "RBA Gov Bullock Speaks",
+        "country": "AUD",
+        "date": "2026-11-16T17:50:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.9%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.2%",
+        "previous": "0.8%"
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-11-18T14:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
   },
   "pnl": {
     "MSFT": {
@@ -238,7 +304,7 @@
     },
     "__total__": 942.6442064560001
   },
-  "news": "[BBC Business]\nหัวข้อ: Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption\nเนื้อหา: Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.\n\n[BBC Business]\nหัวข้อ: Why is Microsoft's outage lasting so long and will emails be lost?\nเนื้อหา: Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.\n\n[BBC Business]\nหัวข้อ: How a sex scandal at Nvidia is putting pressure on the White House\nเนื้อหา: Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.\n\n[BBC Business]\nหัวข้อ: Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal\nเนื้อหา: Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".\n\n[BBC Business]\nหัวข้อ: The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nเนื้อหา: Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[CNBC]\nหัวข้อ: FAA grounds departing flights nationwide, citing air traffic communication system outage\nเนื้อหา: The Federal Aviation Administration issued a nationwide ground stop on Friday afternoon, \"due to extraordinary circumstances and for reasons of safety.\"\n\n[CNBC]\nหัวข้อ: Nvidia is done with Jensen Huang. The fallout in Washington is just beginning\nเนื้อหา: The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.\n\n[CNBC]\nหัวข้อ: Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials\nเนื้อหา: Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.\n\n[CNBC]\nหัวข้อ: Microsoft apologizes for massive outage that took down Outlook and other 365 services\nเนื้อหา: A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.\n\n[CNBC]\nหัวข้อ: SpaceX launches Starship in key test flight of massive rocket\nเนื้อหา: The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.\n\n[MarketWatch]\nหัวข้อ: FAA declares rare nationwide ground stop on flights, with more than 10,000 delayed so far\nเนื้อหา: Agency cites “extraordinary circumstances,” while Homeland Security Secretary Mullin says no indication of attack. Reduced flights amid fuel-cost surge may curtail rebooking options.\n\n[MarketWatch]\nหัวข้อ: ‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?\nเนื้อหา: There is already a demographic ‘run’ on Social Security.\n\n[MarketWatch]\nหัวข้อ: 4 expert tips for signing up for Medicare\nเนื้อหา: A day in the life of a Medicare counselor\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?\nเนื้อหา: Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.\n\n[MarketWatch]\nหัวข้อ: Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.\nเนื้อหา: It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.\n\n[Investing.com Gold]\nหัวข้อ: Fed’s Jefferson says he is taking his policy cues from inflation\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Paraguay widens ueno bank probe with fresh charge against ex-president Peña\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI rockets to top of worries about financial system in latest Fed survey\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US SEC proposes scaling back rules on executive pay disclosure\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar set for best week in two months, yen weakens toward 160\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Cut National Insurance for under-25s to create jobs, Milburn report to say\nเนื้อหา: The report being launched this week will suggest gradually reducing employment costs over five years.\n\n[BBC Business]\nหัวข้อ: Investors sue chip giant Intel after 29% stock plunge\nเนื้อหา: A proposed class action says Intel hid the impact of slowing sales, inflating its shares.\n\n[BBC Business]\nหัวข้อ: Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says\nเนื้อหา: The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.\n\n[BBC Business]\nหัวข้อ: UK will have 'voice' but no vote on EU food rules in Brexit reset\nเนื้อหา: EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.\n\n[BBC Business]\nหัวข้อ: Gas starts flowing from Jackdaw after government green light\nเนื้อหา: Ministers last month announced the Jackdaw gas field, which lies 150 miles east of Aberdeen, had been approved after years of uncertainty.\n\n[CNBC]\nหัวข้อ: Tech world's calls for Jensen Huang to return to Nvidia are growing\nเนื้อหา: Calls for Jensen Huang's return as Nvidia CEO are growing, with tech executives and major shareholders backing a potential comeback following his resignation.\n\n[CNBC]\nหัวข้อ: China confirms Xi-Trump-Putin historic summit. What will be on the agenda?\nเนื้อหา: The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.\n\n[CNBC]\nหัวข้อ: Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot\nเนื้อหา: Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.\n\n[CNBC]\nหัวข้อ: AI is reshaping banking jobs – but its ability to drive profits remains unclear\nเนื้อหา: Europe's banks are using AI to cut routine work, redeploy staff and hire more technical talent.\n\n[CNBC]\nหัวข้อ: China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates\nเนื้อหา: A deepening reliance on external demand leaves China more exposed to shocks abroad as domestic momentum fades, analysts say.\n\n[MarketWatch]\nหัวข้อ: Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil\nเนื้อหา: Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.\n\n[MarketWatch]\nหัวข้อ: My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?\nเนื้อหา: “I’m torn between respecting my brother’s wishes and being fair to my sister.”\n\n[MarketWatch]\nหัวข้อ: A big chunk of your 401(k) is likely invested in Nvidia\nเนื้อหา: The scandal at the computer-chip giant is exactly what’s wrong with the S&amp;P 500.\n\n[MarketWatch]\nหัวข้อ: ‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?\nเนื้อหา: “I know older people can easily feel patronized, and I don’t want that to happen.”\n\n[MarketWatch]\nหัวข้อ: Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?\nเนื้อหา: “It would be a less drastic step than selling the home now and splitting the proceeds.”\n\n[Investing.com Gold]\nหัวข้อ: BOJ chief Ueda tells government panel wage growth ’quite strong’\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Take Five: Huang’s exit, Anthropic’s entrance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Global banks set to enter 2027 on strong footing, Moody’s report says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: For investors, a truly safe haven is hard to find\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hawkish BOJ policymaker Takata calls for swift hike in rates to ’good’ position\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
