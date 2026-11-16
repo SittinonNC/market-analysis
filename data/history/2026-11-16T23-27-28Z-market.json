@@ -1,0 +1,271 @@
+{
+  "ts": "2026-11-16T23-27-28Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3855.1,
+      "change": 0.0,
+      "high": 3862.6,
+      "low": 3854.4
+    },
+    "sp500": {
+      "price": 7416.59,
+      "change": -1.92,
+      "high": 7515.6,
+      "low": 7400.15
+    },
+    "dxy": {
+      "price": 103.59,
+      "change": 0.0,
+      "high": 103.64,
+      "low": 103.33
+    },
+    "vix": {
+      "price": 22.91,
+      "change": 18.7,
+      "high": 24.52,
+      "low": 19.84
+    },
+    "btc": {
+      "price": 65145.55,
+      "change": -0.24,
+      "high": 65463.96,
+      "low": 63845.93
+    },
+    "eth": {
+      "price": 1823.25,
+      "change": -0.67,
+      "high": 1856.03,
+      "low": 1785.68
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 352.78,
+        "change": -0.98,
+        "high": 357.1,
+        "low": 351.31
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 517.99,
+        "change": -1.12,
+        "high": 527.95,
+        "low": 516.83
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 156.14,
+        "change": -4.12,
+        "high": 163.0,
+        "low": 155.01
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 257.75,
+        "change": -3.34,
+        "high": 262.92,
+        "low": 256.68
+      },
+      "META": {
+        "name": "Meta",
+        "price": 626.41,
+        "change": -2.38,
+        "high": 640.7,
+        "low": 620.14
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 283.72,
+        "change": -4.07,
+        "high": 294.13,
+        "low": 282.96
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 379.74,
+        "change": -2.69,
+        "high": 389.8,
+        "low": 375.63
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 28.58,
+        "change": -12.33,
+        "high": 32.04,
+        "low": 28.3
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 412.02,
+        "change": 1.12,
+        "high": 415.19,
+        "low": 409.03
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.71,
+        "change": -10.47,
+        "high": 1.89,
+        "low": 1.71
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 57.37,
+        "change": -6.76,
+        "high": 61.9,
+        "low": 57.16
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.03,
+        "change": -3.72,
+        "high": 24.14,
+        "low": 22.54
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 4.71,
+        "change": -8.72,
+        "high": 4.88,
+        "low": 4.69
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.9%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.1%",
+        "previous": "0.8%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-11-18T14:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 517.99,
+      "value": 545.414203565,
+      "cost": 495.50994638250006,
+      "gain": 49.90425718249992,
+      "gain_pct": 10.071292725167059
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 156.14,
+      "value": 138.595859776,
+      "cost": 161.5399809584,
+      "gain": -22.94412118240001,
+      "gain_pct": -14.203369993158915
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 28.58,
+      "value": 83.722103384,
+      "cost": 214.47007443188,
+      "gain": -130.74797104788001,
+      "gain_pct": -60.96327023442527
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.03,
+      "value": 114.865155748,
+      "cost": 452.6500120422,
+      "gain": -337.7848562942,
+      "gain_pct": -74.6238478532745
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.71,
+      "value": 28.911580929,
+      "cost": 69.8849997615,
+      "gain": -40.9734188325,
+      "gain_pct": -58.629776021080374
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 911.508903402,
+      "cost": 1394.05501357648,
+      "gain": -482.54611017447996,
+      "gain_pct": -34.614567249860315
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 684.010063341,
+      "current_pct": 75.0,
+      "target_pct": 20,
+      "diff": 55.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 227.49884006099998,
+      "current_pct": 25.0,
+      "target_pct": 50,
+      "diff": -25.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 911.508903402
+  },
+  "news": "[BBC Business]\nหัวข้อ: California sues OpenAI over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges OpenAI misled and endangered the public\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[BBC Business]\nหัวข้อ: Create more jobs for under-25s by cutting National Insurance, key report urges\nเนื้อหา: Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?\nเนื้อหา: EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.\n\n[BBC Business]\nหัวข้อ: Customers report service outages at major US banks\nเนื้อหา: Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase says temporary software bug is affecting consumer banking\nเนื้อหา: CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC]\nหัวข้อ: Aschenbrenner’s Situational Awareness made AI bets again before October rout\nเนื้อหา: Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.\n\n[CNBC]\nหัวข้อ: CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off\nเนื้อหา: There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.\n\n[CNBC]\nหัวข้อ: Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding\nเนื้อหา: Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.\n\n[MarketWatch]\nหัวข้อ: United Airlines suffers system outage amid lingering FAA ground-stop delays\nเนื้อหา: United Airlines reported a system outage Monday evening, as the airline industry is still recovering from disruptions caused by a nationwide ground stop ordered by the Federal Aviation Administration last week.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[MarketWatch]\nหัวข้อ: U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball\nเนื้อหา: The dollar recently climbed to its strongest level in a year and a half.\n\n[MarketWatch]\nหัวข้อ: Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks\nเนื้อหา: Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.\n\n[Investing.com Gold]\nหัวข้อ: Chile central bank holds bank capital requirement at 1%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI jitters slam Wall Street\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US to curb China’s access to AI chips as Trump heads to Asia\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: EU’s Albuquerque calls for cross-border bank mergers to take on US, China\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand central bank warns global risks rising, says system can withstand shocks\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
