@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-13T20-13-37Z",
+  "ts": "2026-11-16T22-41-49Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 524.42,
-      "value": 552.18463027,
+      "current_price": 517.99,
+      "value": 545.414203565,
       "cost": 495.50994638250006,
-      "gain": 56.674683887499896,
-      "gain_pct": 11.437648083808773,
-      "today_change": 0.27
+      "gain": 49.90425718249992,
+      "gain_pct": 10.071292725167059,
+      "today_change": -1.12
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 163.02,
-      "value": 144.70281196800002,
+      "current_price": 156.14,
+      "value": 138.595859776,
       "cost": 161.5399809584,
-      "gain": -16.837168990399988,
-      "gain_pct": -10.422911337804305,
-      "today_change": -1.91
+      "gain": -22.94412118240001,
+      "gain_pct": -14.203369993158915,
+      "today_change": -4.12
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 32.62,
-      "value": 95.556858376,
+      "current_price": 28.58,
+      "value": 83.722103384,
       "cost": 214.47007443188,
-      "gain": -118.91321605588,
-      "gain_pct": -55.445132087017214,
-      "today_change": -5.45
+      "gain": -130.74797104788001,
+      "gain_pct": -60.96327023442527,
+      "today_change": -12.33
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 23.7,
-      "value": 118.20686892,
+      "current_price": 23.03,
+      "value": 114.865155748,
       "cost": 452.6500120422,
-      "gain": -334.4431431222,
-      "gain_pct": -73.88559244996117,
-      "today_change": -3.07
+      "gain": -337.7848562942,
+      "gain_pct": -74.6238478532745,
+      "today_change": -3.72
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 5.11,
-      "value": 31.366916889000002,
+      "current_price": 4.71,
+      "value": 28.911580929,
       "cost": 69.8849997615,
-      "gain": -38.518082872499996,
-      "gain_pct": -55.11638120333772,
-      "today_change": -3.95
+      "gain": -40.9734188325,
+      "gain_pct": -58.629776021080374,
+      "today_change": -8.72
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 14.74,
-      "value": 61.509439244,
+      "current_price": 13.45,
+      "value": 56.12632006999999,
       "cost": 61.19646719899999,
-      "gain": 0.3129720450000093,
-      "gain_pct": 0.511421752471887,
-      "today_change": -0.81
+      "gain": -5.070147128999999,
+      "gain_pct": -8.285032390044321,
+      "today_change": -8.88
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.62,
-      "value": 125.660904068,
+      "current_price": 11.12,
+      "value": 120.253808368,
       "cost": 61.09909999086,
-      "gain": 64.56180407714,
-      "gain_pct": 105.66735694437071,
-      "today_change": 0.0
+      "gain": 59.15470837714,
+      "gain_pct": 96.81764279013788,
+      "today_change": -3.22
     },
     "__total__": {
-      "value": 1129.188429735,
+      "value": 1087.88903184,
       "cost": 1516.3505807663398,
-      "gain": -387.1621510313398,
-      "gain_pct": -25.532495976997225
+      "gain": -428.4615489263399,
+      "gain_pct": -28.256100822660823
     }
   },
   "allocation": {
     "mag7": {
-      "value": 696.887442238,
-      "current_pct": 61.7,
+      "value": 684.010063341,
+      "current_pct": 62.9,
       "target_pct": 20,
-      "diff": 41.7,
+      "diff": 42.9,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 245.13064418500002,
-      "current_pct": 21.7,
+      "value": 227.49884006099998,
+      "current_pct": 20.9,
       "target_pct": 50,
-      "diff": -28.3,
+      "diff": -29.1,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1129.188429735
+    "__total__": 1087.88903184
   },
-  "news": "[BBC Business] Why is Microsoft's outage lasting so long and will emails be lost?\nMicrosoft says it is continuing to restore services including Outlook and Teams following a global outage.\n\n[BBC Business] How a sex scandal at Nvidia is putting pressure on the White House\nJensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.\n\n[BBC Business] Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal\nScott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".\n\n[BBC Business] The rise of 'housefishing' - when does using AI go from enhancing to misleading?\nExperts warn that using AI to enhance property images can go too far and mislead prospective buyers.\n\n[CNBC] Lutnick faces questions over Nvidia spy scandal. His sons’ firm has deep ties to the chipmaker\nJensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family’s financial ties to the chipmaker.\n\n[CNBC] Microsoft apologizes for massive outage that took down Outlook and other 365 services\nA Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.\n\n[CNBC] Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC\nSpeculation has swirled around who Nvidia's board will select to permanently succeed Huang.\n\n[CNBC] Hassett denies report he's leaving White House: 'Not true'\nNational Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks.\n\n[MarketWatch] Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’\nHere’s what might be coming for Social Security, Medicare and long-term care.\n\n[MarketWatch] My husband inherited $500,000, but he refuses to spend it on our home. Should I be worried?\n“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”\n\n[MarketWatch] Budget airlines are going upscale with first-class seats and faster wifi\nForget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.\n\n[MarketWatch] Medicare at age 50? What ‘Medicare for more’ could mean for American workers.\nIt’s not “Medicare for All,” but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
+  "news": "[BBC Business] Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nA number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[BBC Business] Create more jobs for under-25s by cutting National Insurance, key report urges\nSome parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.\n\n[BBC Business] Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?\nEU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.\n\n[BBC Business] Intel sued by investors after PC sales slump hits share price\nA proposed class action claims the firm hid the impact of slowing PC sales from shareholders.\n\n[CNBC] Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nTrump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC] JPMorgan Chase says temporary software bug is affecting consumer banking\nCNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC] Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding\nBerkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.\n\n[CNBC] United Airlines reports system outage affecting departing flights\nUnited Airlines said Monday that a widespread system outage was affecting departing flights.\n\n[MarketWatch] Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks\nBerkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.\n\n[MarketWatch] ‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?\n“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”\n\n[MarketWatch] The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.\nThe regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.\n\n[MarketWatch] ‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?\n“I know older people can easily feel patronized, and I don’t want that to happen.”",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
