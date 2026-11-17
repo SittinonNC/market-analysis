@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-16T23-27-28Z",
+  "ts": "2026-11-17T03-00-00Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3855.1,
+      "price": 3867.8,
       "change": 0.0,
-      "high": 3862.6,
-      "low": 3854.4
+      "high": 3875.9,
+      "low": 3845.9
     },
     "sp500": {
       "price": 7416.59,
@@ -15,10 +15,10 @@
       "low": 7400.15
     },
     "dxy": {
-      "price": 103.59,
+      "price": 103.58,
       "change": 0.0,
-      "high": 103.64,
-      "low": 103.33
+      "high": 103.7,
+      "low": 103.57
     },
     "vix": {
       "price": 22.91,
@@ -27,23 +27,23 @@
       "low": 19.84
     },
     "btc": {
-      "price": 65145.55,
-      "change": -0.24,
-      "high": 65463.96,
-      "low": 63845.93
+      "price": 64438.13,
+      "change": 0.0,
+      "high": 64828.38,
+      "low": 64363.2
     },
     "eth": {
-      "price": 1823.25,
-      "change": -0.67,
-      "high": 1856.03,
-      "low": 1785.68
+      "price": 1812.89,
+      "change": 0.0,
+      "high": 1823.38,
+      "low": 1811.65
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
         "price": 352.78,
         "change": -0.98,
-        "high": 357.1,
+        "high": 357.13,
         "low": 351.31
       },
       "MSFT": {
@@ -51,13 +51,13 @@
         "price": 517.99,
         "change": -1.12,
         "high": 527.95,
-        "low": 516.83
+        "low": 516.82
       },
       "NVDA": {
         "name": "Nvidia",
         "price": 156.14,
         "change": -4.12,
-        "high": 163.0,
+        "high": 163.2,
         "low": 155.01
       },
       "AMZN": {
@@ -78,7 +78,7 @@
         "name": "Alphabet",
         "price": 283.72,
         "change": -4.07,
-        "high": 294.13,
+        "high": 294.14,
         "low": 282.96
       },
       "TSLA": {
@@ -109,7 +109,7 @@
         "price": 1.71,
         "change": -10.47,
         "high": 1.89,
-        "low": 1.71
+        "low": 1.7
       },
       "RKLB": {
         "name": "Rocket Lab",
@@ -129,7 +129,7 @@
         "name": "Ondas Holdings",
         "price": 4.71,
         "change": -8.72,
-        "high": 4.88,
+        "high": 4.89,
         "low": 4.69
       }
     }
@@ -264,7 +264,7 @@
     },
     "__total__": 911.508903402
   },
-  "news": "[BBC Business]\nหัวข้อ: California sues OpenAI over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges OpenAI misled and endangered the public\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[BBC Business]\nหัวข้อ: Create more jobs for under-25s by cutting National Insurance, key report urges\nเนื้อหา: Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?\nเนื้อหา: EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.\n\n[BBC Business]\nหัวข้อ: Customers report service outages at major US banks\nเนื้อหา: Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase says temporary software bug is affecting consumer banking\nเนื้อหา: CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC]\nหัวข้อ: Aschenbrenner’s Situational Awareness made AI bets again before October rout\nเนื้อหา: Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.\n\n[CNBC]\nหัวข้อ: CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off\nเนื้อหา: There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.\n\n[CNBC]\nหัวข้อ: Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding\nเนื้อหา: Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.\n\n[MarketWatch]\nหัวข้อ: United Airlines suffers system outage amid lingering FAA ground-stop delays\nเนื้อหา: United Airlines reported a system outage Monday evening, as the airline industry is still recovering from disruptions caused by a nationwide ground stop ordered by the Federal Aviation Administration last week.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[MarketWatch]\nหัวข้อ: U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball\nเนื้อหา: The dollar recently climbed to its strongest level in a year and a half.\n\n[MarketWatch]\nหัวข้อ: Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks\nเนื้อหา: Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.\n\n[Investing.com Gold]\nหัวข้อ: Chile central bank holds bank capital requirement at 1%\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI jitters slam Wall Street\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US to curb China’s access to AI chips as Trump heads to Asia\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: EU’s Albuquerque calls for cross-border bank mergers to take on US, China\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: New Zealand central bank warns global risks rising, says system can withstand shocks\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: 'Complete system reset' needed to get 440,000 young people into work, says major review\nเนื้อหา: Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.\n\n[BBC Business]\nหัวข้อ: California sues OpenAI over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges OpenAI misled and endangered the public\n\n[BBC Business]\nหัวข้อ: Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs\nเนื้อหา: How many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[BBC Business]\nหัวข้อ: We couldn't afford a house alone, so we bought one with strangers\nเนื้อหา: People who can't afford to get on the housing ladder are buying homes with people they don't know.\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means\nเนื้อหา: Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.\n\n[CNBC]\nหัวข้อ: Aschenbrenner’s Situational Awareness made AI bets again before October rout\nเนื้อหา: Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase says temporary software bug is affecting consumer banking\nเนื้อหา: CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC]\nหัวข้อ: CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off\nเนื้อหา: There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.\n\n[MarketWatch]\nหัวข้อ: I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\nเนื้อหา: “If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[MarketWatch]\nหัวข้อ: United Airlines resolves system outage that delayed flights Monday\nเนื้อหา: The outage came just days after an FAA ground stop disrupted air travel nationally.\n\n[MarketWatch]\nหัวข้อ: Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir\nเนื้อหา: Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[Investing.com Gold]\nหัวข้อ: US dollar hits 19-month peak on Fed hike bets; Aussie dips\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asia shares stumble on tech weakness ahead of Nvidia earnings\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA minutes reveal hawkish bias as inflation risks remain tilted to upside\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA board judges fifth rate hike needed to provide policy assurance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chile central bank holds bank capital requirement at 1%\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

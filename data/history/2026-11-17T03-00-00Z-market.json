@@ -1,0 +1,271 @@
+{
+  "ts": "2026-11-17T03-00-00Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3867.8,
+      "change": 0.0,
+      "high": 3875.9,
+      "low": 3845.9
+    },
+    "sp500": {
+      "price": 7416.59,
+      "change": -1.92,
+      "high": 7515.6,
+      "low": 7400.15
+    },
+    "dxy": {
+      "price": 103.58,
+      "change": 0.0,
+      "high": 103.7,
+      "low": 103.57
+    },
+    "vix": {
+      "price": 22.91,
+      "change": 18.7,
+      "high": 24.52,
+      "low": 19.84
+    },
+    "btc": {
+      "price": 64438.13,
+      "change": 0.0,
+      "high": 64828.38,
+      "low": 64363.2
+    },
+    "eth": {
+      "price": 1812.89,
+      "change": 0.0,
+      "high": 1823.38,
+      "low": 1811.65
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 352.78,
+        "change": -0.98,
+        "high": 357.13,
+        "low": 351.31
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 517.99,
+        "change": -1.12,
+        "high": 527.95,
+        "low": 516.82
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 156.14,
+        "change": -4.12,
+        "high": 163.2,
+        "low": 155.01
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 257.75,
+        "change": -3.34,
+        "high": 262.92,
+        "low": 256.68
+      },
+      "META": {
+        "name": "Meta",
+        "price": 626.41,
+        "change": -2.38,
+        "high": 640.7,
+        "low": 620.14
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 283.72,
+        "change": -4.07,
+        "high": 294.14,
+        "low": 282.96
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 379.74,
+        "change": -2.69,
+        "high": 389.8,
+        "low": 375.63
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 28.58,
+        "change": -12.33,
+        "high": 32.04,
+        "low": 28.3
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 412.02,
+        "change": 1.12,
+        "high": 415.19,
+        "low": 409.03
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.71,
+        "change": -10.47,
+        "high": 1.89,
+        "low": 1.7
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 57.37,
+        "change": -6.76,
+        "high": 61.9,
+        "low": 57.16
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 23.03,
+        "change": -3.72,
+        "high": 24.14,
+        "low": 22.54
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 4.71,
+        "change": -8.72,
+        "high": 4.89,
+        "low": 4.69
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.9%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-11-17T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.1%",
+        "previous": "0.8%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-11-18T14:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 517.99,
+      "value": 545.414203565,
+      "cost": 495.50994638250006,
+      "gain": 49.90425718249992,
+      "gain_pct": 10.071292725167059
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 156.14,
+      "value": 138.595859776,
+      "cost": 161.5399809584,
+      "gain": -22.94412118240001,
+      "gain_pct": -14.203369993158915
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 28.58,
+      "value": 83.722103384,
+      "cost": 214.47007443188,
+      "gain": -130.74797104788001,
+      "gain_pct": -60.96327023442527
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 23.03,
+      "value": 114.865155748,
+      "cost": 452.6500120422,
+      "gain": -337.7848562942,
+      "gain_pct": -74.6238478532745
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.71,
+      "value": 28.911580929,
+      "cost": 69.8849997615,
+      "gain": -40.9734188325,
+      "gain_pct": -58.629776021080374
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 911.508903402,
+      "cost": 1394.05501357648,
+      "gain": -482.54611017447996,
+      "gain_pct": -34.614567249860315
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 684.010063341,
+      "current_pct": 75.0,
+      "target_pct": 20,
+      "diff": 55.0,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 227.49884006099998,
+      "current_pct": 25.0,
+      "target_pct": 50,
+      "diff": -25.0,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 911.508903402
+  },
+  "news": "[BBC Business]\nหัวข้อ: 'Complete system reset' needed to get 440,000 young people into work, says major review\nเนื้อหา: Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.\n\n[BBC Business]\nหัวข้อ: California sues OpenAI over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges OpenAI misled and endangered the public\n\n[BBC Business]\nหัวข้อ: Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs\nเนื้อหา: How many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[BBC Business]\nหัวข้อ: We couldn't afford a house alone, so we bought one with strangers\nเนื้อหา: People who can't afford to get on the housing ladder are buying homes with people they don't know.\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means\nเนื้อหา: Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.\n\n[CNBC]\nหัวข้อ: Aschenbrenner’s Situational Awareness made AI bets again before October rout\nเนื้อหา: Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase says temporary software bug is affecting consumer banking\nเนื้อหา: CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC]\nหัวข้อ: CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off\nเนื้อหา: There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.\n\n[MarketWatch]\nหัวข้อ: I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\nเนื้อหา: “If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[MarketWatch]\nหัวข้อ: United Airlines resolves system outage that delayed flights Monday\nเนื้อหา: The outage came just days after an FAA ground stop disrupted air travel nationally.\n\n[MarketWatch]\nหัวข้อ: Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir\nเนื้อหา: Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[Investing.com Gold]\nหัวข้อ: US dollar hits 19-month peak on Fed hike bets; Aussie dips\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asia shares stumble on tech weakness ahead of Nvidia earnings\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA minutes reveal hawkish bias as inflation risks remain tilted to upside\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA board judges fifth rate hike needed to provide policy assurance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chile central bank holds bank capital requirement at 1%\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
