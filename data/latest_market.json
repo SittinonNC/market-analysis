@@ -1,11 +1,11 @@
 {
-  "ts": "2026-11-17T03-00-00Z",
+  "ts": "2026-11-17T09-55-56Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3867.8,
-      "change": 0.0,
-      "high": 3875.9,
+      "price": 3868.3,
+      "change": 0.4,
+      "high": 3889.6,
       "low": 3845.9
     },
     "sp500": {
@@ -15,28 +15,28 @@
       "low": 7400.15
     },
     "dxy": {
-      "price": 103.58,
-      "change": 0.0,
+      "price": 103.49,
+      "change": -0.06,
       "high": 103.7,
-      "low": 103.57
+      "low": 103.43
     },
     "vix": {
-      "price": 22.91,
-      "change": 18.7,
-      "high": 24.52,
-      "low": 19.84
+      "price": 23.95,
+      "change": 4.54,
+      "high": 24.19,
+      "low": 23.0
     },
     "btc": {
-      "price": 64438.13,
-      "change": 0.0,
-      "high": 64828.38,
-      "low": 64363.2
+      "price": 64326.05,
+      "change": -0.82,
+      "high": 64998.25,
+      "low": 64135.3
     },
     "eth": {
-      "price": 1812.89,
-      "change": 0.0,
-      "high": 1823.38,
-      "low": 1811.65
+      "price": 1812.0,
+      "change": -0.4,
+      "high": 1839.71,
+      "low": 1806.76
     },
     "mag7": {
       "AAPL": {
@@ -139,34 +139,8 @@
     "rating": "N/A"
   },
   "calendar": {
-    "today": [
-      {
-        "title": "Core Retail Sales m/m",
-        "country": "USD",
-        "date": "2026-11-17T08:30:00-05:00",
-        "impact": "High",
-        "forecast": "0.4%",
-        "previous": "0.9%"
-      },
-      {
-        "title": "Retail Sales m/m",
-        "country": "USD",
-        "date": "2026-11-17T08:30:00-05:00",
-        "impact": "High",
-        "forecast": "0.1%",
-        "previous": "0.8%"
-      }
-    ],
-    "upcoming": [
-      {
-        "title": "FOMC Meeting Minutes",
-        "country": "USD",
-        "date": "2026-11-18T14:00:00-05:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
-      }
-    ]
+    "today": [],
+    "upcoming": []
   },
   "pnl": {
     "MSFT": {
@@ -264,7 +238,7 @@
     },
     "__total__": 911.508903402
   },
-  "news": "[BBC Business]\nหัวข้อ: 'Complete system reset' needed to get 440,000 young people into work, says major review\nเนื้อหา: Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.\n\n[BBC Business]\nหัวข้อ: California sues OpenAI over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges OpenAI misled and endangered the public\n\n[BBC Business]\nหัวข้อ: Aged 16-24 and looking for work? Use our look-up to find out which areas have the most jobs\nเนื้อหา: How many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[BBC Business]\nหัวข้อ: We couldn't afford a house alone, so we bought one with strangers\nเนื้อหา: People who can't afford to get on the housing ladder are buying homes with people they don't know.\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means\nเนื้อหา: Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.\n\n[CNBC]\nหัวข้อ: Aschenbrenner’s Situational Awareness made AI bets again before October rout\nเนื้อหา: Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.\n\n[CNBC]\nหัวข้อ: JPMorgan Chase says temporary software bug is affecting consumer banking\nเนื้อหา: CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.\n\n[CNBC]\nหัวข้อ: CNBC's The China Connection newsletter: As Nike and Lululemon struggle in China, Xiaohongshu is helping local brands take off\nเนื้อหา: There's one formula for success behind the rise of trendy new Chinese fashion brands, according to Euromonitor International.\n\n[MarketWatch]\nหัวข้อ: I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\nเนื้อหา: “If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[MarketWatch]\nหัวข้อ: United Airlines resolves system outage that delayed flights Monday\nเนื้อหา: The outage came just days after an FAA ground stop disrupted air travel nationally.\n\n[MarketWatch]\nหัวข้อ: Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir\nเนื้อหา: Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[Investing.com Gold]\nหัวข้อ: US dollar hits 19-month peak on Fed hike bets; Aussie dips\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asia shares stumble on tech weakness ahead of Nvidia earnings\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA minutes reveal hawkish bias as inflation risks remain tilted to upside\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA board judges fifth rate hike needed to provide policy assurance\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Chile central bank holds bank capital requirement at 1%\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Where has the most jobs for 16-24 year-olds? Use our look-up to find out\nเนื้อหา: How many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[BBC Business]\nหัวข้อ: OpenAI sued by California over Hugging Face attack\nเนื้อหา: Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.\n\n[BBC Business]\nหัวข้อ: We couldn't afford a house alone, so we bought one with strangers\nเนื้อหา: People who can't afford to get on the housing ladder are buying homes with someone they don't know.\n\n[BBC Business]\nหัวข้อ: Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss\nเนื้อหา: A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.\n\n[BBC Business]\nหัวข้อ: Create more jobs for under-25s by cutting National Insurance, key report urges\nเนื้อหา: Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.\n\n[CNBC]\nหัวข้อ: Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC\nเนื้อหา: The U.S. Commerce Department is making moves to tighten export controls.\n\n[CNBC]\nหัวข้อ: South Korea will suspend all aircraft operation for 35 minutes and markets will open late. Here’s why\nเนื้อหา: South Korea will suspend aircraft takeoffs and landings nationwide for 35 minutes on Thursday to minimize noise during a college entrance exam.\n\n[CNBC]\nหัวข้อ: Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz\nเนื้อหา: Iran has ratcheted up threats against U.S. forces as a third American aircraft carrier arrived in the Gulf, stoking fears of a resumption of military tensions.\n\n[CNBC]\nหัวข้อ: Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access\nเนื้อหา: Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.\n\n[CNBC]\nหัวข้อ: Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means\nเนื้อหา: Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.\n\n[MarketWatch]\nหัวข้อ: Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents\nเนื้อหา: Deutsche Bank saw as much as €3.8 billion ($4.2 billion) of its market cap wiped away after a team of media organizations wrote about a trove of 15 million leaked documents.\n\n[MarketWatch]\nหัวข้อ: I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\nเนื้อหา: “If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[MarketWatch]\nหัวข้อ: United Airlines resolves system outage that delayed flights Monday\nเนื้อหา: The outage came just days after an FAA ground stop disrupted air travel nationally.\n\n[MarketWatch]\nหัวข้อ: Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir\nเนื้อหา: Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.\n\n[MarketWatch]\nหัวข้อ: Do Amazon’s Black Friday deals really save you money? A new report casts doubt.\nเนื้อหา: Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.\n\n[Investing.com Gold]\nหัวข้อ: Canada’s annual inflation rate held steady at 3.1% in October\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US to curb China’s access to AI chips as Trump heads to Asia\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia earnings in focus amid Huang exit fallout - what’s moving markets\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia’s David Jones debts top $300 million as retailer seeks buyers\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK pay growth slows as job vacancies hit lowest since 2021\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
