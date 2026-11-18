@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-17T21-28-15Z",
+  "ts": "2026-11-18T21-02-27Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 506.24,
-      "value": 533.04211744,
+      "current_price": 508.29,
+      "value": 535.2006516150001,
       "cost": 495.50994638250006,
-      "gain": 37.53217105749991,
-      "gain_pct": 7.574453617229233,
-      "today_change": -2.27
+      "gain": 39.69070523250002,
+      "gain_pct": 8.010072355209898,
+      "today_change": 0.4
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 155.46,
-      "value": 137.992265664,
+      "current_price": 150.96,
+      "value": 133.99789286400002,
       "cost": 161.5399809584,
-      "gain": -23.547715294400007,
-      "gain_pct": -14.577019976536981,
-      "today_change": -0.44
+      "gain": -27.542088094399986,
+      "gain_pct": -17.04970369006832,
+      "today_change": -2.89
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 27.59,
-      "value": 80.822002532,
+      "current_price": 25.49,
+      "value": 74.67027345199999,
       "cost": 214.47007443188,
-      "gain": -133.64807189988,
-      "gain_pct": -62.31548725569604,
-      "today_change": -3.46
+      "gain": -139.79980097988,
+      "gain_pct": -65.18382639172498,
+      "today_change": -7.61
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 22.37,
-      "value": 111.57331889200002,
+      "current_price": 21.8,
+      "value": 108.73036888000001,
       "cost": 452.6500120422,
-      "gain": -341.07669315019996,
-      "gain_pct": -75.35108451922493,
-      "today_change": -2.87
+      "gain": -343.9196431622,
+      "gain_pct": -75.97915254890941,
+      "today_change": -2.55
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 4.39,
-      "value": 26.947312161,
+      "current_price": 4.42,
+      "value": 27.131462358,
       "cost": 69.8849997615,
-      "gain": -42.9376876005,
-      "gain_pct": -61.44049187527448,
-      "today_change": -6.79
+      "gain": -42.7535374035,
+      "gain_pct": -61.176987263943786,
+      "today_change": 0.68
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 12.35,
-      "value": 51.53606341,
+      "current_price": 12.53,
+      "value": 52.28719631799999,
       "cost": 61.19646719899999,
-      "gain": -9.660403788999993,
-      "gain_pct": -15.785884759631768,
-      "today_change": -8.18
+      "gain": -8.909270880999998,
+      "gain_pct": -14.558472553699284,
+      "today_change": 1.46
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.03,
-      "value": 119.280531142,
+      "current_price": 11.02,
+      "value": 119.172389228,
       "cost": 61.09909999086,
-      "gain": 58.18143115114,
-      "gain_pct": 95.22469424237599,
-      "today_change": -0.81
+      "gain": 58.07328923714,
+      "gain_pct": 95.04769995929132,
+      "today_change": -0.09
     },
     "__total__": {
-      "value": 1061.1936112409999,
+      "value": 1051.190234715,
       "cost": 1516.3505807663398,
-      "gain": -455.15696952533995,
-      "gain_pct": -30.016605348303475
+      "gain": -465.16034605133973,
+      "gain_pct": -30.67630612283968
     }
   },
   "allocation": {
     "mag7": {
-      "value": 671.034383104,
-      "current_pct": 63.2,
+      "value": 669.1985444790001,
+      "current_pct": 63.7,
       "target_pct": 20,
-      "diff": 43.2,
+      "diff": 43.7,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 219.34263358500004,
-      "current_pct": 20.7,
+      "value": 210.53210469,
+      "current_pct": 20.0,
       "target_pct": 50,
-      "diff": -29.3,
+      "diff": -30.0,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1061.1936112409999
+    "__total__": 1051.190234715
   },
-  "news": "[BBC Business] Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him\nHuang says he has had an \"outpouring\" of calls from investors and others calling for him to return.\n\n[BBC Business] We can't afford to hire under-25s, say firms. Will Milburn plans help?\nThe proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.\n\n[BBC Business] Where are the most jobs for 18-24 year-olds?\nHow many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[BBC Business] Speed camera fault may have allowed drivers to escape fines\nThe Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.\n\n[CNBC] Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything\nMajor outages showcase the risks of interconnected tech in the age of AI.\n\n[CNBC] Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices\nHomebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials. That caused more builder price cuts.\n\n[CNBC] Wall Street's fear gauge is surging again and this time it's not just about AI jitters\nVIX up four days in a row as options traders show fear unseen since April\n\n[CNBC] U.S. officially loses measles elimination status amid ongoing outbreaks\nThe director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.\n\n[MarketWatch] Why Salesforce’s stock led the S&P 500’s decliners amid tech jitters\nA series of technology outages has investors concerned that software companies could prove “particularly vulnerable” to AI misuse, an analyst says.\n\n[MarketWatch] ‘Can I pick your brain?’ and other terrible things to say in a networking email\nHiring for white-collar jobs usually dips in November and December, so try sending “cold emails” to your network instead.\n\n[MarketWatch] ‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?\n“I know older people can easily feel patronized, and I don’t want that to happen.”\n\n[MarketWatch] Summit Therapeutics’ stock tumbles again as FDA recommends new trial for lung-cancer drug\nThe U.S. regulator’s disclosure was more extensive than what the biotech company had announced Sunday.",
+  "news": "[BBC Business] Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again\nEnergy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.\n\n[BBC Business] Heating bills, chocolate and cat food: What the inflation figures mean for you\nPrices are rising at their fastest pace for a year in the UK, and higher energy costs are on the way.\n\n[BBC Business] The seven Anthropic founders who are about to become multi-billionaires\nThe AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.\n\n[BBC Business] Nvidia says it won't reinstate Huang as it reports soaring sales\nThe AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.\n\n[CNBC] Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say\nAnthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.\n\n[CNBC] Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit\nNvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.\n\n[CNBC] Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show\nThe Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.\n\n[CNBC] Investigators make progress in hunt for cause of FAA ground stop\nEngineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.\n\n[MarketWatch] Google turns to a volcano and rock-melting technology in a wild new bid to power AI\nGoogle’s agreement with Quaise is “a bet on a first-of-a-kind technology,” according to a Bernstein analyst.\n\n[MarketWatch] ‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?\nTempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.\n\n[MarketWatch] Fed minutes show growing unease about the outlook for inflation\nThe minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.\n\n[MarketWatch] Grand Theft Callout: ‘GTA 6’ fans are missing work to play — and some companies are making the game’s release a holiday\nAfter waiting 13 years for this videogame, almost one-fifth of workers are said to be taking Thursday off to play ‘Grand Theft Auto VI’ when it drops",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
