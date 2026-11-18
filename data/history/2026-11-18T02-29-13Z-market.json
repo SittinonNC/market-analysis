@@ -1,0 +1,286 @@
+{
+  "ts": "2026-11-18T02-29-13Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3802.1,
+      "change": -1.32,
+      "high": 3859.3,
+      "low": 3793.3
+    },
+    "sp500": {
+      "price": 7340.53,
+      "change": -1.03,
+      "high": 7415.37,
+      "low": 7288.34
+    },
+    "dxy": {
+      "price": 103.59,
+      "change": 0.04,
+      "high": 103.71,
+      "low": 103.59
+    },
+    "vix": {
+      "price": 25.46,
+      "change": 11.13,
+      "high": 27.73,
+      "low": 22.36
+    },
+    "btc": {
+      "price": 64526.67,
+      "change": 0.0,
+      "high": 64884.81,
+      "low": 64236.59
+    },
+    "eth": {
+      "price": 1808.93,
+      "change": 0.0,
+      "high": 1823.06,
+      "low": 1800.62
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "META": {
+        "name": "Meta",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI y/y",
+        "country": "GBP",
+        "date": "2026-11-18T02:00:00-05:00",
+        "impact": "High",
+        "forecast": "3.6%",
+        "previous": "3.5%"
+      },
+      {
+        "title": "BOE Gov Bailey Speaks",
+        "country": "GBP",
+        "date": "2026-11-18T10:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-11-18T14:00:00-05:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "Employment Change",
+        "country": "AUD",
+        "date": "2026-11-18T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "25.5K",
+        "previous": "-39.3K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "AUD",
+        "date": "2026-11-18T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.7%",
+        "previous": "4.7%"
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 495.50994638250006,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 161.5399809584,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 214.47007443188,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 452.6500120422,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 69.8849997615,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": NaN,
+      "cost": 1394.05501357648,
+      "gain": NaN,
+      "gain_pct": NaN
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 20,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "watchlist": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 50,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "__total__": NaN
+  },
+  "news": "[BBC Business]\nหัวข้อ: Nvidia says it won't reinstate Huang as firm reports bumper results\nเนื้อหา: The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.\n\n[BBC Business]\nหัวข้อ: Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him\nเนื้อหา: Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.\n\n[BBC Business]\nหัวข้อ: Government backs welfare shake-up to prevent 'lost generation'\nเนื้อหา: Ex-minister Alan Milburn has set out plans to divert spending from benefits towards job support.\n\n[BBC Business]\nหัวข้อ: We can't afford to hire under-25s, say firms. Will Milburn plans help?\nเนื้อหา: The proposal to cut employers' National Insurance costs is \"essential\" to tackling the Neet problem, one business group says.\n\n[BBC Business]\nหัวข้อ: Where are the most jobs for 18-24 year-olds?\nเนื้อหา: How many jobs are there where you live and in which sectors are you most likely to find an opening?\n\n[CNBC]\nหัวข้อ: China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin\nเนื้อหา: \n\n[CNBC]\nหัวข้อ: Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything\nเนื้อหา: Major outages showcase the risks of interconnected tech in the age of AI.\n\n[CNBC]\nหัวข้อ: Three things to watch as Trump, Xi and Putin meet in China\nเนื้อหา: U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.\n\n[CNBC]\nหัวข้อ: LeBron James sues startup over viral AI ad allegedly exploiting his likeness\nเนื้อหา: LeBron James sued an AI-powered sports betting startup over alleged unauthorized use of his likeness.\n\n[CNBC]\nหัวข้อ: OpenAI bugging case defendant Alfozan set for trial in January\nเนื้อหา: Abdulrahman Alfozan has been held without bail since his arrest in October, after prosecutors said he planted a listening device in an OpenAI conference room.\n\n[MarketWatch]\nหัวข้อ: CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing\nเนื้อหา: Nvidia interim CEO Colette Kress said neoclouds are “increasingly important,” but added the company will take “a very strong look” at the customers it helps with financing.\n\n[MarketWatch]\nหัวข้อ: Medicare Part B premiums rise due higher healthcare spending\nเนื้อหา: The premiums will increase by $6.50, to $209.40 a month.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock rises as blowout numbers help ease CEO transition fears\nเนื้อหา: Nvidia’s revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high.\n\n[MarketWatch]\nหัวข้อ: My husband is happily retired at 64 and thinks I should keep working. Is he being fair?\nเนื้อหา: “I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”\n\n[MarketWatch]\nหัวข้อ: I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\nเนื้อหา: “If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[Investing.com Gold]\nหัวข้อ: Bank of Japan governor says central bank should keep raising rates\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Dollar holds near 19-month high as data supports case for US rate hikes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: AI trade unwind continues, but Nvidia beats\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Williams still favors tighter monetary policy, but says now is not the time for ’dramatic action’\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
