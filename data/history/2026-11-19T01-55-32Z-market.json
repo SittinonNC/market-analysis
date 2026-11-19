@@ -1,0 +1,245 @@
+{
+  "ts": "2026-11-19T01-55-32Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3753.7,
+      "change": -2.86,
+      "high": 3759.4,
+      "low": 3727.4
+    },
+    "sp500": {
+      "price": 7323.63,
+      "change": -0.23,
+      "high": 7367.68,
+      "low": 7285.76
+    },
+    "dxy": {
+      "price": 103.8,
+      "change": 0.3,
+      "high": 103.83,
+      "low": 103.77
+    },
+    "vix": {
+      "price": 24.56,
+      "change": -3.53,
+      "high": 26.26,
+      "low": 23.45
+    },
+    "btc": {
+      "price": 62689.94,
+      "change": 0.0,
+      "high": 63210.61,
+      "low": 62382.48
+    },
+    "eth": {
+      "price": 1774.07,
+      "change": 0.0,
+      "high": 1787.01,
+      "low": 1765.2
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "META": {
+        "name": "Meta",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 495.50994638250006,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 161.5399809584,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 214.47007443188,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 452.6500120422,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 69.8849997615,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": NaN,
+      "cost": 1394.05501357648,
+      "gain": NaN,
+      "gain_pct": NaN
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 20,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "watchlist": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 50,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "__total__": NaN
+  },
+  "news": "[BBC Business]\nหัวข้อ: Claude-maker Anthropic poised for more than $1.4tn stock market debut\nเนื้อหา: Anthropic started just five years ago an is now one of the biggest names in artificial intelligence.\n\n[BBC Business]\nหัวข้อ: Can Anthropic's record-breaking IPO stop the AI bubble bursting?\nเนื้อหา: Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.\n\n[BBC Business]\nหัวข้อ: The seven Anthropic founders who are about to become multi-billionaires\nเนื้อหา: The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.\n\n[BBC Business]\nหัวข้อ: McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'\nเนื้อหา: A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.\n\n[BBC Business]\nหัวข้อ: Gilts v kilts: What is happening with Scottish government bonds?\nเนื้อหา: MSPs have heard both the pros and cons of the government's plan to launch its first ever bond to the market?\n\n[CNBC]\nหัวข้อ: Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX\nเนื้อหา: Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.\n\n[CNBC]\nหัวข้อ: Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit\nเนื้อหา: Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.\n\n[CNBC]\nหัวข้อ: Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings\nเนื้อหา: Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.\n\n[CNBC]\nหัวข้อ: Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access\nเนื้อหา: Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.\n\n[CNBC]\nหัวข้อ: CEO turned informant: How the FDA built a case against executives promising cheap medications\nเนื้อหา: The FDA's unprecedented criminal case against an alternative funding program hinged on the cooperation of a peer CEO, according to a court record.\n\n[MarketWatch]\nหัวข้อ: Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings\nเนื้อหา: The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”\n\n[MarketWatch]\nหัวข้อ: ‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?\nเนื้อหา: “Our financial and healthcare situation has become increasingly concerning.”\n\n[MarketWatch]\nหัวข้อ: ‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?\nเนื้อหา: Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.\n\n[MarketWatch]\nหัวข้อ: What the ‘death cross’ in small-cap stocks means for the rest of the market\nเนื้อหา: The negative chart pattern confirms weakness in the Russell 2000 and in overall market breadth.\n\n[MarketWatch]\nหัวข้อ: How copper’s plunge could hurt the AI buildout\nเนื้อหา: The world might not be able to mine enough copper to meet AI’s demand for years to come.\n\n[Investing.com Gold]\nหัวข้อ: Arizona says it is investigating OpenAI, other firms over possible rogue agents\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: BOJ Governor Ueda says financial conditions loose despite rate hikes\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Barr says rate rises likely lie ahead for economy\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump weighs fresh military strikes on Iran, NYT reports\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
