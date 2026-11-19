@@ -1,94 +1,94 @@
 {
-  "ts": "2026-11-18T21-02-27Z",
+  "ts": "2026-11-19T21-07-26Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 508.29,
-      "value": 535.2006516150001,
+      "current_price": 498.3,
+      "value": 524.68174605,
       "cost": 495.50994638250006,
-      "gain": 39.69070523250002,
-      "gain_pct": 8.010072355209898,
-      "today_change": 0.4
+      "gain": 29.171799667499954,
+      "gain_pct": 5.887227871099343,
+      "today_change": -1.97
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 150.96,
-      "value": 133.99789286400002,
+      "current_price": 145.98,
+      "value": 129.577453632,
       "cost": 161.5399809584,
-      "gain": -27.542088094399986,
-      "gain_pct": -17.04970369006832,
-      "today_change": -2.89
+      "gain": -31.96252732640002,
+      "gain_pct": -19.786140333043033,
+      "today_change": -3.3
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 25.49,
-      "value": 74.67027345199999,
+      "current_price": 25.55,
+      "value": 74.84603713999999,
       "cost": 214.47007443188,
-      "gain": -139.79980097988,
-      "gain_pct": -65.18382639172498,
-      "today_change": -7.61
+      "gain": -139.62403729188,
+      "gain_pct": -65.1018738449813,
+      "today_change": 0.24
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 21.8,
-      "value": 108.73036888000001,
+      "current_price": 20.84,
+      "value": 103.94224254400001,
       "cost": 452.6500120422,
-      "gain": -343.9196431622,
-      "gain_pct": -75.97915254890941,
-      "today_change": -2.55
+      "gain": -348.7077694982,
+      "gain_pct": -77.03695133574642,
+      "today_change": -4.4
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 4.42,
-      "value": 27.131462358,
+      "current_price": 4.23,
+      "value": 25.965177777000005,
       "cost": 69.8849997615,
-      "gain": -42.7535374035,
-      "gain_pct": -61.176987263943786,
-      "today_change": 0.68
+      "gain": -43.91982198449999,
+      "gain_pct": -62.84584980237153,
+      "today_change": -4.3
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 12.53,
-      "value": 52.28719631799999,
+      "current_price": 12.61,
+      "value": 52.621033166,
       "cost": 61.19646719899999,
-      "gain": -8.909270880999998,
-      "gain_pct": -14.558472553699284,
-      "today_change": 1.46
+      "gain": -8.575434032999993,
+      "gain_pct": -14.012956017729278,
+      "today_change": 0.64
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 11.02,
-      "value": 119.172389228,
+      "current_price": 10.47,
+      "value": 113.22458395800001,
       "cost": 61.09909999086,
-      "gain": 58.07328923714,
-      "gain_pct": 95.04769995929132,
-      "today_change": -0.09
+      "gain": 52.12548396714001,
+      "gain_pct": 85.31301438963524,
+      "today_change": -4.99
     },
     "__total__": {
-      "value": 1051.190234715,
+      "value": 1024.858274267,
       "cost": 1516.3505807663398,
-      "gain": -465.16034605133973,
-      "gain_pct": -30.67630612283968
+      "gain": -491.49230649933975,
+      "gain_pct": -32.41284124750012
     }
   },
   "allocation": {
     "mag7": {
-      "value": 669.1985444790001,
-      "current_pct": 63.7,
+      "value": 654.259199682,
+      "current_pct": 63.8,
       "target_pct": 20,
-      "diff": 43.7,
+      "diff": 43.8,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 210.53210469,
+      "value": 204.753457461,
       "current_pct": 20.0,
       "target_pct": 50,
       "diff": -30.0,
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1051.190234715
+    "__total__": 1024.858274267
   },
-  "news": "[BBC Business] Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again\nEnergy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.\n\n[BBC Business] Heating bills, chocolate and cat food: What the inflation figures mean for you\nPrices are rising at their fastest pace for a year in the UK, and higher energy costs are on the way.\n\n[BBC Business] The seven Anthropic founders who are about to become multi-billionaires\nThe AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.\n\n[BBC Business] Nvidia says it won't reinstate Huang as it reports soaring sales\nThe AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.\n\n[CNBC] Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say\nAnthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.\n\n[CNBC] Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit\nNvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.\n\n[CNBC] Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show\nThe Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.\n\n[CNBC] Investigators make progress in hunt for cause of FAA ground stop\nEngineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.\n\n[MarketWatch] Google turns to a volcano and rock-melting technology in a wild new bid to power AI\nGoogle’s agreement with Quaise is “a bet on a first-of-a-kind technology,” according to a Bernstein analyst.\n\n[MarketWatch] ‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?\nTempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.\n\n[MarketWatch] Fed minutes show growing unease about the outlook for inflation\nThe minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.\n\n[MarketWatch] Grand Theft Callout: ‘GTA 6’ fans are missing work to play — and some companies are making the game’s release a holiday\nAfter waiting 13 years for this videogame, almost one-fifth of workers are said to be taking Thursday off to play ‘Grand Theft Auto VI’ when it drops",
+  "news": "[BBC Business] Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?\nAnthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.\n\n[BBC Business] The seven Anthropic founders who are about to become multi-billionaires\nThe AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.\n\n[BBC Business] McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'\nA former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.\n\n[BBC Business] Viagogo may have broken law on hidden fees, watchdog provisionally finds\nThe UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.\n\n[CNBC] AMD dives on short-seller report of alleged China exposure\nAMD was slumping after a short-seller alleged that its firmware showed up at a blacklisted Chinese company. The company said it complies with U.S. law.\n\n[CNBC] Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access\nKash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.\n\n[CNBC] Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says\nMembers of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.\n\n[CNBC] Congress passes bill to protect older investors from financial fraud\nBoth chambers of Congress have now approved the Financial Exploitation Prevention Act of 2025, which is aimed at protecting vulnerable investors from fraud.\n\n[MarketWatch] ‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch\nThe late-night comedy sketch does the impossible by making female caregivers feel seen.\n\n[MarketWatch] Rising healthcare costs push Medicare Part B premiums higher\nThe premiums will increase by $6.50, to $209.40 a month.\n\n[MarketWatch] ‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?\nTempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.\n\n[MarketWatch] Nvidia’s stock falls further. It has lost $611 billion in six trading days.\nThere are only 23 companies in the world with a market capitalization of $611 billion or higher",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
