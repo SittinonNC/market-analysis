@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-19T22-20-31Z",
+  "ts": "2026-11-20T01-48-46Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3627.9,
-      "change": -3.05,
-      "high": 3759.5,
-      "low": 3620.7
+      "price": 3577.3,
+      "change": -4.4,
+      "high": 3638.1,
+      "low": 3573.8
     },
     "sp500": {
       "price": 7175.83,
@@ -15,10 +15,10 @@
       "low": 7173.63
     },
     "dxy": {
-      "price": 103.93,
-      "change": 0.07,
-      "high": 103.97,
-      "low": 103.59
+      "price": 103.9,
+      "change": 0.04,
+      "high": 103.91,
+      "low": 103.86
     },
     "vix": {
       "price": 28.44,
@@ -27,110 +27,110 @@
       "low": 21.84
     },
     "btc": {
-      "price": 61813.48,
-      "change": -1.86,
-      "high": 63985.29,
-      "low": 61456.16
+      "price": 62031.3,
+      "change": 0.0,
+      "high": 62437.7,
+      "low": 61904.76
     },
     "eth": {
-      "price": 1747.94,
-      "change": -1.51,
-      "high": 1811.7,
-      "low": 1736.3
+      "price": 1754.7,
+      "change": 0.0,
+      "high": 1764.04,
+      "low": 1750.0
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 349.21,
-        "change": -0.92,
-        "high": 355.28,
-        "low": 346.47
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 498.3,
-        "change": -1.97,
-        "high": 526.49,
-        "low": 498.16
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 145.98,
-        "change": -3.3,
-        "high": 158.13,
-        "low": 145.71
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 257.37,
-        "change": -3.87,
-        "high": 274.0,
-        "low": 256.75
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "META": {
         "name": "Meta",
-        "price": 596.22,
-        "change": -3.27,
-        "high": 630.01,
-        "low": 595.79
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 272.66,
-        "change": -3.46,
-        "high": 295.43,
-        "low": 272.36
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 374.41,
-        "change": -2.43,
-        "high": 393.6,
-        "low": 370.81
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 25.55,
-        "change": 0.24,
-        "high": 28.47,
-        "low": 25.39
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 330.48,
-        "change": -5.55,
-        "high": 353.6,
-        "low": 324.67
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.36,
-        "change": -8.11,
-        "high": 1.55,
-        "low": 1.35
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 50.99,
-        "change": -3.92,
-        "high": 56.83,
-        "low": 50.45
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 20.84,
-        "change": -4.4,
-        "high": 22.89,
-        "low": 20.78
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 4.23,
-        "change": -4.3,
-        "high": 4.71,
-        "low": 4.21
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     }
   },
@@ -146,47 +146,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 498.3,
-      "value": 524.68174605,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 495.50994638250006,
-      "gain": 29.171799667499954,
-      "gain_pct": 5.887227871099343
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 145.98,
-      "value": 129.577453632,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 161.5399809584,
-      "gain": -31.96252732640002,
-      "gain_pct": -19.786140333043033
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 25.55,
-      "value": 74.84603713999999,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 214.47007443188,
-      "gain": -139.62403729188,
-      "gain_pct": -65.1018738449813
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 20.84,
-      "value": 103.94224254400001,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 452.6500120422,
-      "gain": -348.7077694982,
-      "gain_pct": -77.03695133574642
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 4.23,
-      "value": 25.965177777000005,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 69.8849997615,
-      "gain": -43.91982198449999,
-      "gain_pct": -62.84584980237153
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ARQQ": {
       "value": "N/A",
@@ -201,44 +201,44 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 859.0126571430001,
+      "value": NaN,
       "cost": 1394.05501357648,
-      "gain": -535.0423564334799,
-      "gain_pct": -38.380289961499905
+      "gain": NaN,
+      "gain_pct": NaN
     }
   },
   "allocation": {
     "mag7": {
-      "value": 654.259199682,
-      "current_pct": 76.2,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 20,
-      "diff": 56.2,
-      "status": "Overweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "watchlist": {
-      "value": 204.753457461,
-      "current_pct": 23.8,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 50,
-      "diff": -26.2,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "crypto": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "gold": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
-    "__total__": 859.0126571430001
+    "__total__": NaN
   },
-  "news": "[BBC Business]\nหัวข้อ: Anthropic becomes one of world's most valuable public companies in stock market debut\nเนื้อหา: Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.\n\n[BBC Business]\nหัวข้อ: Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?\nเนื้อหา: Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.\n\n[BBC Business]\nหัวข้อ: The seven Anthropic founders who are about to become multi-billionaires\nเนื้อหา: The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.\n\n[BBC Business]\nหัวข้อ: McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'\nเนื้อหา: A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.\n\n[BBC Business]\nหัวข้อ: Viagogo may have broken law on hidden fees, watchdog provisionally finds\nเนื้อหา: The UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.\n\n[CNBC]\nหัวข้อ: AMD dives on short-seller report of alleged China exposure\nเนื้อหา: AMD closed down over 7% after a short-seller alleged that its firmware showed up at a blacklisted Chinese company. The company said it complies with U.S. law.\n\n[CNBC]\nหัวข้อ: Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says\nเนื้อหา: Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.\n\n[CNBC]\nหัวข้อ: Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access\nเนื้อหา: Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.\n\n[CNBC]\nหัวข้อ: Intuit to sell Mailchimp to Bending Spoons for $3.68 billion\nเนื้อหา: Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.\n\n[CNBC]\nหัวข้อ: Congress passes bill to protect older investors from financial fraud\nเนื้อหา: Both chambers of Congress have now approved the Financial Exploitation Prevention Act of 2025, which is aimed at protecting vulnerable investors from fraud.\n\n[MarketWatch]\nหัวข้อ: We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?\nเนื้อหา: “We have a house worth $450,000. Our combined annual income is $125,000.”\n\n[MarketWatch]\nหัวข้อ: Anthropic’s stock surges in its debut — and the rest of the market dives anyway\nเนื้อหา: All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025\n\n[MarketWatch]\nหัวข้อ: Markets are sending troubling signals about the state of the economy\nเนื้อหา: A number of recession trades have started to emerge, even as economic data has largely held up.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock falls further. It has lost $669 billion in six trading days.\nเนื้อหา: There are only 20 companies in the world with a market capitalization of $669 billion or higher\n\n[MarketWatch]\nหัวข้อ: Why Micron, Broadcom and other AI stocks gave up their gains Thursday\nเนื้อหา: The Anthropic enthusiasm has faded while China concerns have intensified.\n\n[Investing.com Gold]\nหัวข้อ: AI surge could strain US capacity and overheat economy, Fed’s Goolsbee says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Barr warns rule changes may weaken financial oversight\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Barr worried regulation changes may increase financial sector risks\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Judge blocks Trump’s transgender-related limits on HIV funding\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Fed tells regional staff to expect lower pay increases in 2027, Bloomberg News reports\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Anthropic becomes one of world's most valuable public companies in stock market debut\nเนื้อหา: Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.\n\n[BBC Business]\nหัวข้อ: California targets Nvidia in China AI chip probe\nเนื้อหา: The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.\n\n[BBC Business]\nหัวข้อ: Tens of thousands of UK fridges secured from hackers in secret nationwide operation\nเนื้อหา: Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.\n\n[BBC Business]\nหัวข้อ: Airbnb's divisive new house rules come into force\nเนื้อหา: New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.\n\n[BBC Business]\nหัวข้อ: Fish and eggs al desko? The dos and don'ts of the lunch break\nเนื้อหา: What is acceptable to eat at your desk, without annoying your colleagues?\n\n[CNBC]\nหัวข้อ: AMD dives on short seller report of alleged China exposure\nเนื้อหา: AMD closed down over 7% after a short seller alleged that its firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.\n\n[CNBC]\nหัวข้อ: California attorney general issues Nvidia subpoena in probe of China chip diversion\nเนื้อหา: The investigation by California Attorney General Rob Bonta comes on the heels of the resignation of Nvidia CEO Jensen Huang.\n\n[CNBC]\nหัวข้อ: Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says\nเนื้อหา: Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.\n\n[CNBC]\nหัวข้อ: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices\nเนื้อหา: The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.\n\n[CNBC]\nหัวข้อ: Anthropic was supposed to save the AI trade. What went wrong?\nเนื้อหา: Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.\n\n[MarketWatch]\nหัวข้อ: I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?\nเนื้อหา: “We have a house worth $450,000. Our combined annual income is $125,000.”\n\n[MarketWatch]\nหัวข้อ: My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?\nเนื้อหา: “Hotel rooms can cost as much as $400 per night.”\n\n[MarketWatch]\nหัวข้อ: After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead\nเนื้อหา: Retail investors showed up, but Anthropic has so far failed to provide a broad lift to the technology sector.\n\n[MarketWatch]\nหัวข้อ: These were the only stocks that rose amid the stock market’s wipeout Thursday\nเนื้อหา: All 11 sectors of the S&amp;P 500 declined — 10 of them by more than 1% — but cybersecurity stocks bucked the weakness.\n\n[MarketWatch]\nหัวข้อ: Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies\nเนื้อหา: TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.\n\n[Investing.com Gold]\nหัวข้อ: Analysis-BOJ’s ambiguity on rate hike path could tempt yen bears\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: UK GfK consumer sentiment edges up after October slump\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Japan’s core inflation accelerates in October, cementing rate hike expectations\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Record profits but record outflows: ’Sell Korea’ trade stalks Seoul market\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Paulson says understanding, not guidance, drives effective communication\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
