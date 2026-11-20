@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-20T20-52-51Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 483.91,
+      "value": 509.52988908500004,
+      "cost": 495.50994638250006,
+      "gain": 14.019942702499975,
+      "gain_pct": 2.8293968274206005,
+      "today_change": -2.89
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 127.6,
+      "value": 113.26265984,
+      "cost": 161.5399809584,
+      "gain": -48.27732111840001,
+      "gain_pct": -29.885679589644404,
+      "today_change": -12.59
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 23.08,
+      "value": 67.61043198399999,
+      "cost": 214.47007443188,
+      "gain": -146.85964244788,
+      "gain_pct": -68.47558701926295,
+      "today_change": -9.67
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.92,
+      "value": 99.35362147200001,
+      "cost": 452.6500120422,
+      "gain": -353.29639057019995,
+      "gain_pct": -78.0506751731319,
+      "today_change": -4.41
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.8,
+      "value": 23.32569162,
+      "cost": 69.8849997615,
+      "gain": -46.5593081415,
+      "gain_pct": -66.62274923144487,
+      "today_change": -10.17
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 10.94,
+      "value": 45.652188964,
+      "cost": 61.19646719899999,
+      "gain": -15.544278234999993,
+      "gain_pct": -25.40061370610296,
+      "today_change": -13.24
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 9.69,
+      "value": 104.789514666,
+      "cost": 61.09909999086,
+      "gain": 43.690414675140005,
+      "gain_pct": 71.50746030903204,
+      "today_change": -7.45
+    },
+    "__total__": {
+      "value": 963.5239976309999,
+      "cost": 1516.3505807663398,
+      "gain": -552.8265831353399,
+      "gain_pct": -36.45770246983056
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 622.792548925,
+      "current_pct": 64.6,
+      "target_pct": 20,
+      "diff": 44.6,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 190.28974507599997,
+      "current_pct": 19.7,
+      "target_pct": 50,
+      "diff": -30.3,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 963.5239976309999
+  },
+  "news": "[BBC Business] Anthropic shares fall after blockbuster opening as wider tech sell-off continues\nOther tech companies have also taken a hit as share markets broadly slump.\n\n[BBC Business] Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow\nThe trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.\n\n[BBC Business] Trump threatens ban on US firms building AI data centres overseas\nThe US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.\n\n[BBC Business] Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch\nPeople stocking up on long-life food drove retail sales higher October, according to official data.\n\n[CNBC] Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'\nTrump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.\n\n[CNBC] Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis\nOnce the most valuable company in the world, Nvidia now ranks third behind Apple and Microsoft.\n\n[CNBC] A massive bearish trade just happened in the chip stocks\nOptions traders place big bets that semiconductor stocks have further to fall\n\n[CNBC] The bull market has a new problem. The 'smart money' is selling\nCompanies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the test.\n\n[MarketWatch] ‘GTA 6’ has taken over. Is it too late to buy the developer’s stock?\nAlso in Weekend Reads: Full coverage of the Anthropic IPO, the “death cross” for small-cap stocks and advice from The Moneyist.\n\n[MarketWatch] My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?\n“We have $2.9 million in retirement accounts. That includes some money that we inherited about 10 years ago.”\n\n[MarketWatch] I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?\n“If I die before my husband, he will receive a lifetime pension equal to 50%–66% of my monthly benefit.”\n\n[MarketWatch] I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?\n“We have a house worth $450,000. Our combined annual income is $125,000.”",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}
