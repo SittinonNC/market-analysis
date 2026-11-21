@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-20T21-54-19Z",
+  "ts": "2026-11-21T01-36-51Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3526.7,
-      "change": -4.31,
+      "price": 3539.0,
+      "change": -3.98,
       "high": 3638.1,
       "low": 3502.9
     },
@@ -15,8 +15,8 @@
       "low": 6882.66
     },
     "dxy": {
-      "price": 103.9,
-      "change": 0.0,
+      "price": 103.84,
+      "change": -0.06,
       "high": 103.95,
       "low": 103.58
     },
@@ -27,110 +27,110 @@
       "low": 26.94
     },
     "btc": {
-      "price": 58893.19,
-      "change": -4.86,
-      "high": 62437.7,
-      "low": 57950.42
+      "price": 58801.76,
+      "change": 0.0,
+      "high": 59081.54,
+      "low": 58790.24
     },
     "eth": {
-      "price": 1616.04,
-      "change": -7.93,
-      "high": 1764.04,
-      "low": 1587.02
+      "price": 1617.14,
+      "change": 0.0,
+      "high": 1624.2,
+      "low": 1616.65
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
-        "price": 342.56,
-        "change": -1.9,
-        "high": 354.3,
-        "low": 340.56
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "MSFT": {
         "name": "Microsoft",
-        "price": 484.52,
-        "change": -2.77,
-        "high": 503.8,
-        "low": 481.03
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "NVDA": {
         "name": "Nvidia",
-        "price": 125.53,
-        "change": -14.01,
-        "high": 143.73,
-        "low": 124.5
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "AMZN": {
         "name": "Amazon",
-        "price": 246.82,
-        "change": -4.1,
-        "high": 259.97,
-        "low": 245.31
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "META": {
         "name": "Meta",
-        "price": 560.84,
-        "change": -5.93,
-        "high": 588.69,
-        "low": 558.68
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "GOOGL": {
         "name": "Alphabet",
-        "price": 265.29,
-        "change": -2.7,
-        "high": 283.14,
-        "low": 264.22
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "TSLA": {
         "name": "Tesla",
-        "price": 345.82,
-        "change": -7.64,
-        "high": 373.88,
-        "low": 344.33
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     },
     "watchlist": {
       "ASTS": {
         "name": "AST SpaceMobile",
-        "price": 23.27,
-        "change": -8.92,
-        "high": 25.95,
-        "low": 22.72
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "UNH": {
         "name": "UnitedHealth",
-        "price": 339.85,
-        "change": 2.84,
-        "high": 347.45,
-        "low": 338.24
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "EOSE": {
         "name": "Eos Energy",
-        "price": 1.19,
-        "change": -12.5,
-        "high": 1.39,
-        "low": 1.16
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "RKLB": {
         "name": "Rocket Lab",
-        "price": 45.42,
-        "change": -10.92,
-        "high": 50.67,
-        "low": 45.1
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "OKLO": {
         "name": "Oklo",
-        "price": 19.85,
-        "change": -4.75,
-        "high": 21.82,
-        "low": 19.63
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       },
       "ONDS": {
         "name": "Ondas Holdings",
-        "price": 3.76,
-        "change": -11.11,
-        "high": 4.2,
-        "low": 3.73
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
       }
     }
   },
@@ -146,47 +146,47 @@
     "MSFT": {
       "shares": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 484.52,
-      "value": 510.17218462,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 495.50994638250006,
-      "gain": 14.662238237499935,
-      "gain_pct": 2.959019964088003
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "NVDA": {
       "shares": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 125.53,
-      "value": 111.42524835200001,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 161.5399809584,
-      "gain": -50.1147326064,
-      "gain_pct": -31.02311409786882
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ASTS": {
       "shares": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 23.27,
-      "value": 68.167016996,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 214.47007443188,
-      "gain": -146.30305743588,
-      "gain_pct": -68.21607062124127
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "OKLO": {
       "shares": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 19.85,
-      "value": 99.00448726000002,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 452.6500120422,
-      "gain": -353.64552478219997,
-      "gain_pct": -78.1278063346721
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ONDS": {
       "shares": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 3.76,
-      "value": 23.080158024,
+      "current_price": NaN,
+      "value": NaN,
       "cost": 69.8849997615,
-      "gain": -46.8048417375,
-      "gain_pct": -66.97408871321915
+      "gain": NaN,
+      "gain_pct": NaN
     },
     "ARQQ": {
       "value": "N/A",
@@ -201,44 +201,44 @@
       "gain_pct": "N/A"
     },
     "__total__": {
-      "value": 811.849095252,
+      "value": NaN,
       "cost": 1394.05501357648,
-      "gain": -582.20591832448,
-      "gain_pct": -41.763482262498194
+      "gain": NaN,
+      "gain_pct": NaN
     }
   },
   "allocation": {
     "mag7": {
-      "value": 621.597432972,
-      "current_pct": 76.6,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 20,
-      "diff": 56.6,
-      "status": "Overweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "watchlist": {
-      "value": 190.25166228,
-      "current_pct": 23.4,
+      "value": NaN,
+      "current_pct": NaN,
       "target_pct": 50,
-      "diff": -26.6,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "crypto": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
     "gold": {
       "value": 0.0,
-      "current_pct": 0.0,
+      "current_pct": NaN,
       "target_pct": 15,
-      "diff": -15.0,
-      "status": "Underweight"
+      "diff": NaN,
+      "status": "On Target"
     },
-    "__total__": 811.849095252
+    "__total__": NaN
   },
-  "news": "[BBC Business]\nหัวข้อ: Anthropic shares fall after blockbuster opening as wider tech sell-off continues\nเนื้อหา: Other tech companies have also taken a hit as share markets broadly slump.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow\nเนื้อหา: The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.\n\n[BBC Business]\nหัวข้อ: Trump threatens ban on US firms building AI data centres overseas\nเนื้อหา: The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.\n\n[BBC Business]\nหัวข้อ: Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch\nเนื้อหา: People stocking up on long-life food drove retail sales higher October, according to official data.\n\n[BBC Business]\nหัวข้อ: Should AI be judging our credit worthiness?\nเนื้อหา: Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?\n\n[CNBC]\nหัวข้อ: Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis\nเนื้อหา: Once the most valuable company in the world, Nvidia now ranks third behind Apple and Microsoft.\n\n[CNBC]\nหัวข้อ: A massive bearish trade just happened in the chip stocks\nเนื้อหา: Options traders place big bets that semiconductor stocks have further to fall\n\n[CNBC]\nหัวข้อ: Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'\nเนื้อหา: Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.\n\n[CNBC]\nหัวข้อ: Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor\nเนื้อหา: Cybersecurity companies have been hunting for acquisitions in the AI era.\n\n[CNBC]\nหัวข้อ: Trump says he still has confidence in Lutnick\nเนื้อหา: President Donald Trump, when asked by CNBC's Eamon Javers, said he has not lost confidence in Commerce Secretary Howard Lutnick.\n\n[MarketWatch]\nหัวข้อ: Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock\nเนื้อหา: ‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.\n\n[MarketWatch]\nหัวข้อ: The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings\nเนื้อหา: A looming oversupply problem could weigh on the stock over the next year\n\n[MarketWatch]\nหัวข้อ: Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag\nเนื้อหา: Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.\n\n[MarketWatch]\nหัวข้อ: One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak\nเนื้อหา: Travelers preparing for Thanksgiving trips will find cheaper gasoline prices at the pump after months of elevated fuel prices.\n\n[MarketWatch]\nหัวข้อ: Anthropic’s stock sees dramatic slide but manages to stay above its IPO price\nเนื้อหา: Anthropic’s inability to hold its opening stock price has been seen as “bad for the rest of tech.”\n\n[Investing.com Gold]\nหัวข้อ: Anthropic’s post-debut stumble delivers reality check for AI trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia’s accounting is a focus of US SEC investigation, sources say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: FCC approves 71 firms to import tech gear despite China ban\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI tech rout prompts US investors to rush into value stocks\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Paulson open to back-to-back rate hikes at steady pace\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Tech stock sell-off drags markets down as Anthropic shares slide\nเนื้อหา: Pressures weighed on US markets, with the S&amp;P 500 and the Dow Jones Industrial Average pushed into correction territory.\n\n[BBC Business]\nหัวข้อ: UK to explore even closer ties with EU after agreeing deal, says Burnham\nเนื้อหา: The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow\nเนื้อหา: The trade deal is unlikely lower food prices for shoppers, but should boost the economy more than other post-Brexit agreements.\n\n[BBC Business]\nหัวข้อ: Trump threatens ban on US firms building AI data centres overseas\nเนื้อหา: The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.\n\n[BBC Business]\nหัวข้อ: GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history\nเนื้อหา: The mammoth figure surpasses every video game launch and single-day film box office record.\n\n[CNBC]\nหัวข้อ: Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis\nเนื้อหา: Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.\n\n[CNBC]\nหัวข้อ: A massive bearish trade just happened in the chip stocks\nเนื้อหา: Options traders place big bets that semiconductor stocks have further to fall\n\n[CNBC]\nหัวข้อ: Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor\nเนื้อหา: Cybersecurity companies have been hunting for acquisitions in the AI era.\n\n[CNBC]\nหัวข้อ: The bull market has a new problem. The 'smart money' is selling\nเนื้อหา: Companies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the test.\n\n[CNBC]\nหัวข้อ: Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'\nเนื้อหา: Trump spoke at the White House after meeting with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit in China.\n\n[MarketWatch]\nหัวข้อ: Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020\nเนื้อหา: All 11 S&amp;P 500 sectors finished more than 1% lower this week for the first time since April 2025.\n\n[MarketWatch]\nหัวข้อ: Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade\nเนื้อหา: A major semiconductor index just posted its worst weekly performance in 25 years.\n\n[MarketWatch]\nหัวข้อ: These stocks were crushed the most this week as the tech wreck accelerated\nเนื้อหา: 94% of stocks in the S&amp;P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock clinches a stretch of weekly losses not seen since 2008\nเนื้อหา: One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.\n\n[MarketWatch]\nหัวข้อ: Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock\nเนื้อหา: ‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.\n\n[Investing.com Gold]\nหัวข้อ: Anthropic’s post-debut stumble delivers reality check for AI trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Tech leads global stocks rout, Treasury yields fall\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI tech rout prompts US investors to rush into value stocks\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US Treasury sanctions Iranian ’trustees’ collecting oil revenues\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nvidia’s accounting is a focus of US SEC investigation, sources say\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
