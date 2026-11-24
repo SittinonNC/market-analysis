@@ -1,0 +1,287 @@
+{
+  "ts": "2026-11-24T01-46-11Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3675.5,
+      "change": 0.0,
+      "high": 3676.1,
+      "low": 3618.5
+    },
+    "sp500": {
+      "price": 7237.17,
+      "change": 4.73,
+      "high": 7295.6,
+      "low": 7152.66
+    },
+    "dxy": {
+      "price": 104.22,
+      "change": 0.0,
+      "high": 104.32,
+      "low": 104.18
+    },
+    "vix": {
+      "price": 26.62,
+      "change": -25.83,
+      "high": 35.08,
+      "low": 15.39
+    },
+    "btc": {
+      "price": 61339.5,
+      "change": 0.0,
+      "high": 61502.66,
+      "low": 61057.52
+    },
+    "eth": {
+      "price": 1713.1,
+      "change": 0.0,
+      "high": 1718.79,
+      "low": 1703.78
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "META": {
+        "name": "Meta",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": NaN,
+        "change": NaN,
+        "high": NaN,
+        "low": NaN
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.8%"
+      },
+      {
+        "title": "CPI y/y",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.7%",
+        "previous": "4.3%"
+      },
+      {
+        "title": "Trimmed Mean CPI m/m",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "3.5%",
+        "previous": "3.4%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 495.50994638250006,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 161.5399809584,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 214.47007443188,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 452.6500120422,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": NaN,
+      "value": NaN,
+      "cost": 69.8849997615,
+      "gain": NaN,
+      "gain_pct": NaN
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": NaN,
+      "cost": 1394.05501357648,
+      "gain": NaN,
+      "gain_pct": NaN
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 20,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "watchlist": {
+      "value": NaN,
+      "current_pct": NaN,
+      "target_pct": 50,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": NaN,
+      "target_pct": 15,
+      "diff": NaN,
+      "status": "On Target"
+    },
+    "__total__": NaN
+  },
+  "news": "[BBC Business]\nหัวข้อ: Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why Jensen Huang proved too big to fire\nเนื้อหา: Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.\n\n[BBC Business]\nหัวข้อ: Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns\nเนื้อหา: The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.\n\n[BBC Business]\nหัวข้อ: How important are Nvidia and Jensen Huang to the US economy?\nเนื้อหา: The Nvidia chief executive has been at the centre of the artificial intelligence boom.\n\n[BBC Business]\nหัวข้อ: The rise and fall and rise again of Jensen Huang\nเนื้อหา: Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.\n\n[CNBC]\nหัวข้อ: Nvidia surge: What investors should do with the stock and the AI trade now\nเนื้อหา: The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.\n\n[CNBC]\nหัวข้อ: Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China\nเนื้อหา: Treasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course\n\n[CNBC]\nหัวข้อ: Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits\nเนื้อหา: Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.\n\n[CNBC]\nหัวข้อ: Trump sealed deal for Nvidia to rehire Jensen Huang as CEO\nเนื้อหา: President Trump said his administration gave Nvidia's board assurance that Jensen Huang would not be a national security threat if he was reinstated as CEO.\n\n[CNBC]\nหัวข้อ: Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'\nเนื้อหา: Congress members of both parties are sharply questioning President Donald Trump's conclusion that Jensen Huang poses no national security risk leading Nvidia.\n\n[MarketWatch]\nหัวข้อ: I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?\nเนื้อหา: “My wife stopped working outside the home in 1970.”\n\n[MarketWatch]\nหัวข้อ: HPE just posted its strongest growth ever — but its stock is sinking\nเนื้อหา: HPE boosted its financial forecast on Monday in the face of strong AI demand.\n\n[MarketWatch]\nหัวข้อ: The newest addition to the S&P 500 is a maker of viral ice-cream machines\nเนื้อหา: SharkNinja will join the S&amp;P 500, replacing AES.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock is surging again. What to know before chasing the AI rally.\nเนื้อหา: Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility\n\n[MarketWatch]\nหัวข้อ: U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm\nเนื้อหา: Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.\n\n[Investing.com Gold]\nหัวข้อ: Asian stocks rally as Huang’s Nvidia return revives AI trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia’s Pauline Hanson faces biggest test as debt and anger align in state vote\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korea’s central bank seen raising rates on Thursday, once more next quarter - Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Singapore raises 2026 growth forecast after 6.1% Q3 expansion\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Fed’s Williams says inflation still too high, signals more rate hikes possible\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
