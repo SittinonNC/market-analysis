@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-24T04-52-20Z",
+  "ts": "2026-11-24T11-51-41Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3629.9,
-      "change": 0.0,
+      "price": 3629.1,
+      "change": -0.61,
       "high": 3676.7,
-      "low": 3618.5
+      "low": 3606.4
     },
     "sp500": {
       "price": 7237.17,
@@ -15,26 +15,26 @@
       "low": 7152.66
     },
     "dxy": {
-      "price": 104.29,
-      "change": 0.0,
-      "high": 104.32,
-      "low": 104.18
+      "price": 104.0,
+      "change": -0.31,
+      "high": 104.4,
+      "low": 104.0
     },
     "vix": {
-      "price": 26.62,
-      "change": -25.83,
-      "high": 35.08,
-      "low": 15.39
+      "price": 28.84,
+      "change": 8.34,
+      "high": 29.22,
+      "low": 26.26
     },
     "btc": {
-      "price": 60346.18,
-      "change": 0.0,
+      "price": 60307.38,
+      "change": -1.48,
       "high": 61502.66,
-      "low": 59587.18
+      "low": 59496.98
     },
     "eth": {
-      "price": 1698.71,
-      "change": 0.0,
+      "price": 1699.41,
+      "change": -0.55,
       "high": 1718.79,
       "low": 1672.38
     },
@@ -280,7 +280,7 @@
     },
     "__total__": 868.6075743150001
   },
-  "news": "[BBC Business]\nหัวข้อ: Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why Jensen Huang proved too big to fire\nเนื้อหา: Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.\n\n[BBC Business]\nหัวข้อ: Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns\nเนื้อหา: The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.\n\n[BBC Business]\nหัวข้อ: How important are Nvidia and Jensen Huang to the US economy?\nเนื้อหา: The Nvidia chief executive has been at the centre of the artificial intelligence boom.\n\n[BBC Business]\nหัวข้อ: The rise and fall and rise again of Jensen Huang\nเนื้อหา: Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.\n\n[CNBC]\nหัวข้อ: Nvidia surge: What investors should do with the stock and the AI trade now\nเนื้อหา: The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.\n\n[CNBC]\nหัวข้อ: U.S. court orders to proceed with planned ammunition detonation in Iowa\nเนื้อหา: A U.S. court cleared the Army to detonate degraded explosives at an Iowa ammunition plant amid public concern over contamination and health risks.\n\n[CNBC]\nหัวข้อ: Trump sealed deal for Nvidia to rehire Jensen Huang as CEO\nเนื้อหา: President Trump said his administration gave Nvidia's board assurance that Jensen Huang would not be a national security threat if he was reinstated as CEO.\n\n[CNBC]\nหัวข้อ: China has changed tactics but is still thwarting India's rise, a U.S. panel says\nเนื้อหา: China is increasingly focused on containing India economically rather than through military actions.\n\n[CNBC]\nหัวข้อ: U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy\nเนื้อหา: The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.\n\n[MarketWatch]\nหัวข้อ: I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?\nเนื้อหา: “My wife stopped working outside the home in 1970.”\n\n[MarketWatch]\nหัวข้อ: HPE just posted its strongest growth ever — but its stock is sinking\nเนื้อหา: HPE boosted its financial forecast on Monday in the face of strong AI demand.\n\n[MarketWatch]\nหัวข้อ: The newest addition to the S&P 500 is a maker of viral ice-cream machines\nเนื้อหา: SharkNinja will join the S&amp;P 500, replacing AES.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock is surging again. What to know before chasing the AI rally.\nเนื้อหา: Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility\n\n[MarketWatch]\nหัวข้อ: U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm\nเนื้อหา: Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.\n\n[Investing.com Gold]\nหัวข้อ: US chip curbs won’t impact Malaysia’s China ties, PM says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks rally as Huang’s Nvidia return revives AI trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia’s Pauline Hanson faces biggest test as debt and anger align in state vote\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korea’s central bank seen raising rates on Thursday, once more next quarter - Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Singapore raises 2026 growth forecast after 6.1% Q3 expansion\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: The shake-up facing renters as a new kind of landlord emerges\nเนื้อหา: Companies building flats that they then rent out could usher in big changes for renters.\n\n[BBC Business]\nหัวข้อ: BBC secret filming shows dog breeder selling sick puppies for £2k each\nเนื้อหา: The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.\n\n[BBC Business]\nหัวข้อ: Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why Jensen Huang proved too big to fire\nเนื้อหา: Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.\n\n[BBC Business]\nหัวข้อ: I pay £250 a month for someone else to do my life admin - it's worth it\nเนื้อหา: Busy mothers on both sides of the Atlantic are paying companies to handle their to-do lists.\n\n[CNBC]\nหัวข้อ: Six key questions raised by Jensen Huang's return to Nvidia\nเนื้อหา: As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.\n\n[CNBC]\nหัวข้อ: Fed's John Williams indicates higher interest rates likely 'over time' to address inflation\nเนื้อหา: The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.\n\n[CNBC]\nหัวข้อ: Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\nเนื้อหา: Sanofi faces a revenue drop towards the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.\n\n[CNBC]\nหัวข้อ: Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China\nเนื้อหา: Treasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course\n\n[CNBC]\nหัวข้อ: Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions\nเนื้อหา: Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.\n\n[MarketWatch]\nหัวข้อ: The ‘epic’ buying of retail investors paid off after Nvidia’s 31% stock surge, says strategist\nเนื้อหา: Retail investors who bought shares in the chip giant last week saw an average gain of 11% on Monday.\n\n[MarketWatch]\nหัวข้อ: A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\nเนื้อหา: “Retirement is a financial status, not an age.”\n\n[MarketWatch]\nหัวข้อ: I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?\nเนื้อหา: “Given my age, I never make a major new purchase without thinking about the future.”\n\n[MarketWatch]\nหัวข้อ: Zendaya and Tom Holland buy a home on 1 acre in London for $10 million\nเนื้อหา: Tom Holland and Zendaya may make London their primary residence after splashing out $10 million on a palatial pad across the pond.\n\n[MarketWatch]\nหัวข้อ: Here’s your chance to bid on Alex Trebek’s former $6.45 million California ranch and winery\nเนื้อหา: A sprawling California ranch where Alex Trebek helped run a winery is heading to auction, giving buyers a chance to purchase nearly 578 acres of the Central Coast once owned by the longtime “Jeopardy!” host.\n\n[Investing.com Gold]\nหัวข้อ: AI boom looms over Warsh’s Fed as inflation worries grow\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Anthropic breaks below $83 IPO price as debut rally unravels\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Wall St futures dip as chip stocks cool after Nvidia-fueled rally\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: US envoy ’not certain’ military aid to Israel will end this year as Trump promised\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil lower house approves government-backed fiscal package\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
