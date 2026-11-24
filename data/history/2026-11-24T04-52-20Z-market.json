@@ -1,0 +1,287 @@
+{
+  "ts": "2026-11-24T04-52-20Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3629.9,
+      "change": 0.0,
+      "high": 3676.7,
+      "low": 3618.5
+    },
+    "sp500": {
+      "price": 7237.17,
+      "change": 4.73,
+      "high": 7295.6,
+      "low": 7152.66
+    },
+    "dxy": {
+      "price": 104.29,
+      "change": 0.0,
+      "high": 104.32,
+      "low": 104.18
+    },
+    "vix": {
+      "price": 26.62,
+      "change": -25.83,
+      "high": 35.08,
+      "low": 15.39
+    },
+    "btc": {
+      "price": 60346.18,
+      "change": 0.0,
+      "high": 61502.66,
+      "low": 59587.18
+    },
+    "eth": {
+      "price": 1698.71,
+      "change": 0.0,
+      "high": 1718.79,
+      "low": 1672.38
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 349.08,
+        "change": 1.9,
+        "high": 352.6,
+        "low": 345.44
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 492.5,
+        "change": 1.65,
+        "high": 509.15,
+        "low": 492.02
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 165.05,
+        "change": 31.48,
+        "high": 171.5,
+        "low": 156.93
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 255.39,
+        "change": 3.47,
+        "high": 262.48,
+        "low": 251.25
+      },
+      "META": {
+        "name": "Meta",
+        "price": 597.6,
+        "change": 6.55,
+        "high": 602.46,
+        "low": 579.78
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 282.1,
+        "change": 6.34,
+        "high": 285.14,
+        "low": 275.36
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 385.46,
+        "change": 11.46,
+        "high": 393.83,
+        "low": 371.95
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 25.67,
+        "change": 10.31,
+        "high": 27.4,
+        "low": 25.02
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 336.08,
+        "change": -1.11,
+        "high": 336.96,
+        "low": 319.13
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.27,
+        "change": 6.72,
+        "high": 1.39,
+        "low": 1.25
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 49.63,
+        "change": 9.27,
+        "high": 52.22,
+        "low": 48.28
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 20.77,
+        "change": 4.63,
+        "high": 22.6,
+        "low": 20.74
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 4.03,
+        "change": 7.18,
+        "high": 4.43,
+        "low": 4.02
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "CPI m/m",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.4%",
+        "previous": "0.8%"
+      },
+      {
+        "title": "CPI y/y",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "4.7%",
+        "previous": "4.3%"
+      },
+      {
+        "title": "Trimmed Mean CPI m/m",
+        "country": "AUD",
+        "date": "2026-11-24T19:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "3.5%",
+        "previous": "3.4%"
+      }
+    ]
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 492.5,
+      "value": 518.57467375,
+      "cost": 495.50994638250006,
+      "gain": 23.064727367499927,
+      "gain_pct": 4.654745588032156
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 165.05,
+      "value": 146.50471792000002,
+      "cost": 161.5399809584,
+      "gain": -15.03526303839999,
+      "gain_pct": -9.307456240366829
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 25.67,
+      "value": 75.197564516,
+      "cost": 214.47007443188,
+      "gain": -139.27250991588,
+      "gain_pct": -64.93796875149393
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 20.77,
+      "value": 103.593108332,
+      "cost": 452.6500120422,
+      "gain": -349.0569037102,
+      "gain_pct": -77.11408249728665
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.03,
+      "value": 24.737509797,
+      "cost": 69.8849997615,
+      "gain": -45.1474899645,
+      "gain_pct": -64.60254721124285
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 868.6075743150001,
+      "cost": 1394.05501357648,
+      "gain": -525.4474392614799,
+      "gain_pct": -37.692016035538835
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 665.07939167,
+      "current_pct": 76.6,
+      "target_pct": 20,
+      "diff": 56.6,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 203.528182645,
+      "current_pct": 23.4,
+      "target_pct": 50,
+      "diff": -26.6,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 868.6075743150001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[BBC Business]\nหัวข้อ: Faisal Islam: Why Jensen Huang proved too big to fire\nเนื้อหา: Huang's role at the centre of his company's journey to lynchpin of AI proved crucial.\n\n[BBC Business]\nหัวข้อ: Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns\nเนื้อหา: The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.\n\n[BBC Business]\nหัวข้อ: How important are Nvidia and Jensen Huang to the US economy?\nเนื้อหา: The Nvidia chief executive has been at the centre of the artificial intelligence boom.\n\n[BBC Business]\nหัวข้อ: The rise and fall and rise again of Jensen Huang\nเนื้อหา: Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return.\n\n[CNBC]\nหัวข้อ: Nvidia surge: What investors should do with the stock and the AI trade now\nเนื้อหา: The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.\n\n[CNBC]\nหัวข้อ: U.S. court orders to proceed with planned ammunition detonation in Iowa\nเนื้อหา: A U.S. court cleared the Army to detonate degraded explosives at an Iowa ammunition plant amid public concern over contamination and health risks.\n\n[CNBC]\nหัวข้อ: Trump sealed deal for Nvidia to rehire Jensen Huang as CEO\nเนื้อหา: President Trump said his administration gave Nvidia's board assurance that Jensen Huang would not be a national security threat if he was reinstated as CEO.\n\n[CNBC]\nหัวข้อ: China has changed tactics but is still thwarting India's rise, a U.S. panel says\nเนื้อหา: China is increasingly focused on containing India economically rather than through military actions.\n\n[CNBC]\nหัวข้อ: U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy\nเนื้อหา: The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.\n\n[MarketWatch]\nหัวข้อ: I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?\nเนื้อหา: “My wife stopped working outside the home in 1970.”\n\n[MarketWatch]\nหัวข้อ: HPE just posted its strongest growth ever — but its stock is sinking\nเนื้อหา: HPE boosted its financial forecast on Monday in the face of strong AI demand.\n\n[MarketWatch]\nหัวข้อ: The newest addition to the S&P 500 is a maker of viral ice-cream machines\nเนื้อหา: SharkNinja will join the S&amp;P 500, replacing AES.\n\n[MarketWatch]\nหัวข้อ: Nvidia’s stock is surging again. What to know before chasing the AI rally.\nเนื้อหา: Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility\n\n[MarketWatch]\nหัวข้อ: U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm\nเนื้อหา: Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.\n\n[Investing.com Gold]\nหัวข้อ: US chip curbs won’t impact Malaysia’s China ties, PM says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Asian stocks rally as Huang’s Nvidia return revives AI trade\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australia’s Pauline Hanson faces biggest test as debt and anger align in state vote\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: South Korea’s central bank seen raising rates on Thursday, once more next quarter - Reuters poll\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Singapore raises 2026 growth forecast after 6.1% Q3 expansion\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
