@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-24T00-31-37Z",
+  "ts": "2026-11-24T22-52-12Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 492.5,
-      "value": 518.57467375,
+      "current_price": 496.13,
+      "value": 522.396858655,
       "cost": 495.50994638250006,
-      "gain": 23.064727367499927,
-      "gain_pct": 4.654745588032156,
-      "today_change": 1.65
+      "gain": 26.8869122724999,
+      "gain_pct": 5.426109499675921,
+      "today_change": 0.74
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 165.05,
-      "value": 146.50471792000002,
+      "current_price": 155.38,
+      "value": 137.921254592,
       "cost": 161.5399809584,
-      "gain": -15.03526303839999,
-      "gain_pct": -9.307456240366829,
-      "today_change": 31.48
+      "gain": -23.61872636640001,
+      "gain_pct": -14.620978798110876,
+      "today_change": -5.86
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 25.67,
-      "value": 75.197564516,
+      "current_price": 23.6,
+      "value": 69.13371728,
       "cost": 214.47007443188,
-      "gain": -139.27250991588,
-      "gain_pct": -64.93796875149393,
-      "today_change": 10.31
+      "gain": -145.33635715188,
+      "gain_pct": -67.76533161415102,
+      "today_change": -8.06
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 20.77,
-      "value": 103.593108332,
+      "current_price": 19.2,
+      "value": 95.76252672,
       "cost": 452.6500120422,
-      "gain": -349.0569037102,
-      "gain_pct": -77.11408249728665,
-      "today_change": 4.63
+      "gain": -356.8874853222,
+      "gain_pct": -78.84402426325967,
+      "today_change": -7.56
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 4.03,
-      "value": 24.737509797,
+      "current_price": 3.89,
+      "value": 23.878142211,
       "cost": 69.8849997615,
-      "gain": -45.1474899645,
-      "gain_pct": -64.60254721124285,
-      "today_change": 7.18
+      "gain": -46.0068575505,
+      "gain_pct": -65.83223539745279,
+      "today_change": -3.47
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 11.5,
-      "value": 47.9890469,
+      "current_price": 9.95,
+      "value": 41.52095796999999,
       "cost": 61.19646719899999,
-      "gain": -13.207420298999992,
-      "gain_pct": -21.581997954312982,
-      "today_change": 4.83
+      "gain": -19.675509229,
+      "gain_pct": -32.15138083873168,
+      "today_change": -13.48
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 10.53,
-      "value": 113.873435442,
+      "current_price": 10.95,
+      "value": 118.41539583,
       "cost": 61.09909999086,
-      "gain": 52.774335451140004,
-      "gain_pct": 86.37498008814316,
-      "today_change": 8.67
+      "gain": 57.31629583914,
+      "gain_pct": 93.80873997769872,
+      "today_change": 3.99
     },
     "__total__": {
-      "value": 1030.470056657,
+      "value": 1009.0288532579999,
       "cost": 1516.3505807663398,
-      "gain": -485.88052410933983,
-      "gain_pct": -32.04275648865999
+      "gain": -507.3217275083399,
+      "gain_pct": -33.45675689667672
     }
   },
   "allocation": {
     "mag7": {
-      "value": 665.07939167,
-      "current_pct": 64.5,
+      "value": 660.3181132469999,
+      "current_pct": 65.4,
       "target_pct": 20,
-      "diff": 44.5,
+      "diff": 45.4,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 203.528182645,
-      "current_pct": 19.8,
+      "value": 188.774386211,
+      "current_pct": 18.7,
       "target_pct": 50,
-      "diff": -30.2,
+      "diff": -31.3,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1030.470056657
+    "__total__": 1009.0288532579999
   },
-  "news": "[BBC Business] Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'\nNvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[BBC Business] Faisal Islam: Why Jensen Huang proved too big to fire\nHuang's role at the centre of his company's journey to lynchpin of AI proved crucial.\n\n[BBC Business] Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns\nThe jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 6.5%.\n\n[BBC Business] How important are Nvidia and Jensen Huang to the US economy?\nThe Nvidia chief executive has been at the centre of the artificial intelligence boom.\n\n[CNBC] Nvidia surge: What investors should do with the stock and the AI trade now\nThe market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.\n\n[CNBC] Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China\nTreasury Secretary Scott Bessent was becoming the face of an emerging harder line on Nvidia— until he reversed course\n\n[CNBC] Nvidia partner and supplier stocks in Asia jump after Jensen Huang's return\nInvestors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.\n\n[CNBC] Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'\nCongress members of both parties are sharply questioning President Donald Trump's conclusion that Jensen Huang poses no national security risk leading Nvidia.\n\n[MarketWatch] The newest addition to the S&P 500 is a maker of viral ice-cream machines\nSharkNinja will join the S&amp;P 500, replacing AES.\n\n[MarketWatch] Nvidia’s stock is surging again. What to know before chasing the AI rally.\nJensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility\n\n[MarketWatch] U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm\nJensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.\n\n[MarketWatch] Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday\nShares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+  "news": "[BBC Business] Faisal Islam: Fears over the AI boom haven't gone away\nThere were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it\n\n[BBC Business] US attorney general dodges questions about Nvidia investigation\nNvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.\n\n[BBC Business] Huawei found guilty of stealing trade secrets but acquitted of racketeering\nThe verdict follows a months-long trial in New York.\n\n[BBC Business] Will I get the £100 energy payment and when will I receive it?\nHere is what you need to know about the payment that millions will receive from January.\n\n[CNBC] Jensen Huang tells staff that Nvidia doesn't need a succession plan\nNvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC] Trump wanted Jensen Huang back. Now, the president is all alone in Washington\nRepublicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.\n\n[CNBC] Dell earnings beat on AI strength, company authorizes $25 billion buyback\nThe company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.\n\n[CNBC] Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\nSanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.\n\n[MarketWatch] Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nSteeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch] 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nLuxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[MarketWatch] Anthropic’s stock just broke below its IPO price for the first time\nShares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.\n\n[MarketWatch] HPE just posted its strongest growth ever — but its stock is sinking\nHPE boosted its financial forecast on Monday in the face of strong AI demand.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
