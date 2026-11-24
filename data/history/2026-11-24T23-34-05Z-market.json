@@ -1,0 +1,262 @@
+{
+  "ts": "2026-11-24T23-34-05Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3560.0,
+      "change": -2.5,
+      "high": 3562.0,
+      "low": 3554.6
+    },
+    "sp500": {
+      "price": 7201.09,
+      "change": -0.5,
+      "high": 7223.95,
+      "low": 7138.93
+    },
+    "dxy": {
+      "price": 103.85,
+      "change": -0.45,
+      "high": 104.4,
+      "low": 103.75
+    },
+    "vix": {
+      "price": 26.36,
+      "change": -0.98,
+      "high": 32.38,
+      "low": 25.98
+    },
+    "btc": {
+      "price": 59831.32,
+      "change": -2.25,
+      "high": 61502.66,
+      "low": 59261.06
+    },
+    "eth": {
+      "price": 1678.23,
+      "change": -1.79,
+      "high": 1718.79,
+      "low": 1664.87
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 354.07,
+        "change": 1.43,
+        "high": 354.37,
+        "low": 345.88
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 496.13,
+        "change": 0.74,
+        "high": 501.8,
+        "low": 488.43
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 155.38,
+        "change": -5.86,
+        "high": 159.92,
+        "low": 150.5
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 252.29,
+        "change": -1.21,
+        "high": 255.56,
+        "low": 250.53
+      },
+      "META": {
+        "name": "Meta",
+        "price": 589.82,
+        "change": -1.3,
+        "high": 600.32,
+        "low": 584.26
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 279.05,
+        "change": -1.08,
+        "high": 281.39,
+        "low": 276.05
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 384.68,
+        "change": -0.2,
+        "high": 390.09,
+        "low": 375.5
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 23.6,
+        "change": -8.06,
+        "high": 25.18,
+        "low": 22.52
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 341.88,
+        "change": 1.73,
+        "high": 346.45,
+        "low": 329.55
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.24,
+        "change": -2.36,
+        "high": 1.28,
+        "low": 1.19
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 45.98,
+        "change": -7.35,
+        "high": 48.8,
+        "low": 44.57
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 19.2,
+        "change": -7.56,
+        "high": 20.39,
+        "low": 18.88
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 3.89,
+        "change": -3.47,
+        "high": 3.99,
+        "low": 3.8
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "3.5%",
+        "previous": "3.4%"
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 496.13,
+      "value": 522.396858655,
+      "cost": 495.50994638250006,
+      "gain": 26.8869122724999,
+      "gain_pct": 5.426109499675921
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 155.38,
+      "value": 137.921254592,
+      "cost": 161.5399809584,
+      "gain": -23.61872636640001,
+      "gain_pct": -14.620978798110876
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 23.6,
+      "value": 69.13371728,
+      "cost": 214.47007443188,
+      "gain": -145.33635715188,
+      "gain_pct": -67.76533161415102
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.2,
+      "value": 95.76252672,
+      "cost": 452.6500120422,
+      "gain": -356.8874853222,
+      "gain_pct": -78.84402426325967
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.89,
+      "value": 23.878142211,
+      "cost": 69.8849997615,
+      "gain": -46.0068575505,
+      "gain_pct": -65.83223539745279
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 849.0924994579999,
+      "cost": 1394.05501357648,
+      "gain": -544.96251411848,
+      "gain_pct": -39.09189442390557
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 660.3181132469999,
+      "current_pct": 77.8,
+      "target_pct": 20,
+      "diff": 57.8,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 188.774386211,
+      "current_pct": 22.2,
+      "target_pct": 50,
+      "diff": -27.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 849.0924994579999
+  },
+  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Fears over the AI boom haven't gone away\nเนื้อหา: There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it\n\n[BBC Business]\nหัวข้อ: US attorney general dodges questions about Nvidia investigation\nเนื้อหา: Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.\n\n[BBC Business]\nหัวข้อ: Huawei found guilty of stealing trade secrets but acquitted of racketeering\nเนื้อหา: The verdict follows a months-long trial in New York.\n\n[BBC Business]\nหัวข้อ: Will I get the £100 energy payment and when will I receive it?\nเนื้อหา: Here is what you need to know about the payment that millions will receive from January.\n\n[BBC Business]\nหัวข้อ: Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Trump wanted Jensen Huang back. Now, the president is all alone in Washington\nเนื้อหา: Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.\n\n[CNBC]\nหัวข้อ: Dell earnings beat on AI strength, company authorizes $25 billion buyback\nเนื้อหา: The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.\n\n[CNBC]\nหัวข้อ: Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\nเนื้อหา: Sanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.\n\n[CNBC]\nหัวข้อ: Saudi national charged in OpenAI bugging to be released on $1 million bond\nเนื้อหา: Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.\n\n[MarketWatch]\nหัวข้อ: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nเนื้อหา: Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[MarketWatch]\nหัวข้อ: Anthropic’s stock just broke below its IPO price for the first time\nเนื้อหา: Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.\n\n[MarketWatch]\nหัวข้อ: HPE just posted its strongest growth ever — but its stock is sinking\nเนื้อหา: HPE boosted its financial forecast on Monday in the face of strong AI demand.\n\n[MarketWatch]\nหัวข้อ: How much more are richest Americans spending on the holidays compared to everyone else?\nเนื้อหา: Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”\n\n[Investing.com Gold]\nหัวข้อ: Venezuela reveals $237.5 billion debt pile in key step towards restructuring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s Huawei convicted in sprawling US criminal trial over Iran business\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hackers breach unclassified CIA and ODNI intelligence system, reports say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Nvidia bounce fades\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq, S&P 500 slip following Monday’s Nvidia-fueled rally\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
