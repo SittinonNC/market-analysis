@@ -1,0 +1,262 @@
+{
+  "ts": "2026-11-25T03-36-13Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3552.4,
+      "change": -2.71,
+      "high": 3573.9,
+      "low": 3532.4
+    },
+    "sp500": {
+      "price": 7201.09,
+      "change": -0.5,
+      "high": 7223.95,
+      "low": 7138.93
+    },
+    "dxy": {
+      "price": 103.92,
+      "change": -0.38,
+      "high": 103.92,
+      "low": 103.81
+    },
+    "vix": {
+      "price": 26.36,
+      "change": -0.98,
+      "high": 32.38,
+      "low": 25.98
+    },
+    "btc": {
+      "price": 59443.57,
+      "change": 0.0,
+      "high": 59745.65,
+      "low": 58902.68
+    },
+    "eth": {
+      "price": 1662.3,
+      "change": 0.0,
+      "high": 1677.65,
+      "low": 1649.89
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 354.07,
+        "change": 1.43,
+        "high": 354.4,
+        "low": 345.88
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 496.13,
+        "change": 0.74,
+        "high": 501.82,
+        "low": 488.43
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 155.38,
+        "change": -5.86,
+        "high": 159.92,
+        "low": 150.5
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 252.29,
+        "change": -1.21,
+        "high": 255.56,
+        "low": 250.53
+      },
+      "META": {
+        "name": "Meta",
+        "price": 589.82,
+        "change": -1.3,
+        "high": 600.32,
+        "low": 584.26
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 279.05,
+        "change": -1.08,
+        "high": 281.78,
+        "low": 276.03
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 384.68,
+        "change": -0.2,
+        "high": 390.09,
+        "low": 375.5
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 23.6,
+        "change": -8.06,
+        "high": 25.27,
+        "low": 22.52
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 341.88,
+        "change": 1.73,
+        "high": 346.46,
+        "low": 329.5
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.24,
+        "change": -2.36,
+        "high": 1.28,
+        "low": 1.19
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 45.98,
+        "change": -7.35,
+        "high": 48.81,
+        "low": 44.57
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 19.2,
+        "change": -7.56,
+        "high": 20.39,
+        "low": 18.87
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 3.89,
+        "change": -3.47,
+        "high": 3.99,
+        "low": 3.8
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "0.3%",
+        "previous": "0.3%"
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "High",
+        "forecast": "3.5%",
+        "previous": "3.4%"
+      }
+    ],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 496.13,
+      "value": 522.396858655,
+      "cost": 495.50994638250006,
+      "gain": 26.8869122724999,
+      "gain_pct": 5.426109499675921
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 155.38,
+      "value": 137.921254592,
+      "cost": 161.5399809584,
+      "gain": -23.61872636640001,
+      "gain_pct": -14.620978798110876
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 23.6,
+      "value": 69.13371728,
+      "cost": 214.47007443188,
+      "gain": -145.33635715188,
+      "gain_pct": -67.76533161415102
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.2,
+      "value": 95.76252672,
+      "cost": 452.6500120422,
+      "gain": -356.8874853222,
+      "gain_pct": -78.84402426325967
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.89,
+      "value": 23.878142211,
+      "cost": 69.8849997615,
+      "gain": -46.0068575505,
+      "gain_pct": -65.83223539745279
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 849.0924994579999,
+      "cost": 1394.05501357648,
+      "gain": -544.96251411848,
+      "gain_pct": -39.09189442390557
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 660.3181132469999,
+      "current_pct": 77.8,
+      "target_pct": 20,
+      "diff": 57.8,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 188.774386211,
+      "current_pct": 22.2,
+      "target_pct": 50,
+      "diff": -27.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 849.0924994579999
+  },
+  "news": "[BBC Business]\nหัวข้อ: Households braced for soaring energy bills with new price cap to be announced\nเนื้อหา: Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.\n\n[BBC Business]\nหัวข้อ: US preparing to unveil new tariffs on global trading partners\nเนื้อหา: The new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business]\nหัวข้อ: What will the energy cap changes mean for my bills?\nเนื้อหา: Regulator Ofgem is raising the cap affecting the energy bills of millions of households.\n\n[BBC Business]\nหัวข้อ: Trump's Nvidia intervention ties his political fortunes to the AI boom\nเนื้อหา: The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.\n\n[BBC Business]\nหัวข้อ: 'I only use the washing machine on a Sunday' - how we're keeping our energy bills down\nเนื้อหา: The BBC speaks to three people about steps they take to keep their energy bills under control.\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11\nเนื้อหา: This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.\n\n[CNBC]\nหัวข้อ: U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets\nเนื้อหา: Huawei was found guilty of bank fraud, money laundering and trade secret theft conspiracy in a U.S. trial.\n\n[CNBC]\nหัวข้อ: Trump open to pardoning Jensen Huang if needed: NY Post\nเนื้อหา: Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.\n\n[CNBC]\nหัวข้อ: SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names\nเนื้อหา: Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.\n\n[MarketWatch]\nหัวข้อ: I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?\nเนื้อหา: “Given my age, I never make a major new purchase without thinking about the future.”\n\n[MarketWatch]\nหัวข้อ: Dell’s stock rises as the AI boom helps sales more than double\nเนื้อหา: Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”\n\n[MarketWatch]\nหัวข้อ: My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?\nเนื้อหา: “He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”\n\n[MarketWatch]\nหัวข้อ: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nเนื้อหา: Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[Investing.com Gold]\nหัวข้อ: Japan’s key services inflation gauge hits 36-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Venezuela reveals $237.5 billion debt pile in key step towards restructuring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australian inflation heats up in October, core hits two-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks retreat as AI rebound stumbles, tariff threats loom\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA’s Jacobs says Aussie financial conditions restrictive as inflation accelerates\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}

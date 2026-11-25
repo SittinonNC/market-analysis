@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-24T23-34-05Z",
+  "ts": "2026-11-25T03-36-13Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3560.0,
-      "change": -2.5,
-      "high": 3562.0,
-      "low": 3554.6
+      "price": 3552.4,
+      "change": -2.71,
+      "high": 3573.9,
+      "low": 3532.4
     },
     "sp500": {
       "price": 7201.09,
@@ -15,10 +15,10 @@
       "low": 7138.93
     },
     "dxy": {
-      "price": 103.85,
-      "change": -0.45,
-      "high": 104.4,
-      "low": 103.75
+      "price": 103.92,
+      "change": -0.38,
+      "high": 103.92,
+      "low": 103.81
     },
     "vix": {
       "price": 26.36,
@@ -27,30 +27,30 @@
       "low": 25.98
     },
     "btc": {
-      "price": 59831.32,
-      "change": -2.25,
-      "high": 61502.66,
-      "low": 59261.06
+      "price": 59443.57,
+      "change": 0.0,
+      "high": 59745.65,
+      "low": 58902.68
     },
     "eth": {
-      "price": 1678.23,
-      "change": -1.79,
-      "high": 1718.79,
-      "low": 1664.87
+      "price": 1662.3,
+      "change": 0.0,
+      "high": 1677.65,
+      "low": 1649.89
     },
     "mag7": {
       "AAPL": {
         "name": "Apple",
         "price": 354.07,
         "change": 1.43,
-        "high": 354.37,
+        "high": 354.4,
         "low": 345.88
       },
       "MSFT": {
         "name": "Microsoft",
         "price": 496.13,
         "change": 0.74,
-        "high": 501.8,
+        "high": 501.82,
         "low": 488.43
       },
       "NVDA": {
@@ -78,8 +78,8 @@
         "name": "Alphabet",
         "price": 279.05,
         "change": -1.08,
-        "high": 281.39,
-        "low": 276.05
+        "high": 281.78,
+        "low": 276.03
       },
       "TSLA": {
         "name": "Tesla",
@@ -94,15 +94,15 @@
         "name": "AST SpaceMobile",
         "price": 23.6,
         "change": -8.06,
-        "high": 25.18,
+        "high": 25.27,
         "low": 22.52
       },
       "UNH": {
         "name": "UnitedHealth",
         "price": 341.88,
         "change": 1.73,
-        "high": 346.45,
-        "low": 329.55
+        "high": 346.46,
+        "low": 329.5
       },
       "EOSE": {
         "name": "Eos Energy",
@@ -115,7 +115,7 @@
         "name": "Rocket Lab",
         "price": 45.98,
         "change": -7.35,
-        "high": 48.8,
+        "high": 48.81,
         "low": 44.57
       },
       "OKLO": {
@@ -123,7 +123,7 @@
         "price": 19.2,
         "change": -7.56,
         "high": 20.39,
-        "low": 18.88
+        "low": 18.87
       },
       "ONDS": {
         "name": "Ondas Holdings",
@@ -255,7 +255,7 @@
     },
     "__total__": 849.0924994579999
   },
-  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Fears over the AI boom haven't gone away\nเนื้อหา: There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it\n\n[BBC Business]\nหัวข้อ: US attorney general dodges questions about Nvidia investigation\nเนื้อหา: Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.\n\n[BBC Business]\nหัวข้อ: Huawei found guilty of stealing trade secrets but acquitted of racketeering\nเนื้อหา: The verdict follows a months-long trial in New York.\n\n[BBC Business]\nหัวข้อ: Will I get the £100 energy payment and when will I receive it?\nเนื้อหา: Here is what you need to know about the payment that millions will receive from January.\n\n[BBC Business]\nหัวข้อ: Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang\nเนื้อหา: Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Trump wanted Jensen Huang back. Now, the president is all alone in Washington\nเนื้อหา: Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.\n\n[CNBC]\nหัวข้อ: Dell earnings beat on AI strength, company authorizes $25 billion buyback\nเนื้อหา: The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.\n\n[CNBC]\nหัวข้อ: Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\nเนื้อหา: Sanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.\n\n[CNBC]\nหัวข้อ: Saudi national charged in OpenAI bugging to be released on $1 million bond\nเนื้อหา: Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.\n\n[MarketWatch]\nหัวข้อ: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nเนื้อหา: Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[MarketWatch]\nหัวข้อ: Anthropic’s stock just broke below its IPO price for the first time\nเนื้อหา: Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.\n\n[MarketWatch]\nหัวข้อ: HPE just posted its strongest growth ever — but its stock is sinking\nเนื้อหา: HPE boosted its financial forecast on Monday in the face of strong AI demand.\n\n[MarketWatch]\nหัวข้อ: How much more are richest Americans spending on the holidays compared to everyone else?\nเนื้อหา: Most households are getting “squeezed by rising costs of everyday goods,” according to Teneo, but upper-income households “are showing resilience.”\n\n[Investing.com Gold]\nหัวข้อ: Venezuela reveals $237.5 billion debt pile in key step towards restructuring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s Huawei convicted in sprawling US criminal trial over Iran business\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Hackers breach unclassified CIA and ODNI intelligence system, reports say\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trading Day: Nvidia bounce fades\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq, S&P 500 slip following Monday’s Nvidia-fueled rally\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Households braced for soaring energy bills with new price cap to be announced\nเนื้อหา: Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.\n\n[BBC Business]\nหัวข้อ: US preparing to unveil new tariffs on global trading partners\nเนื้อหา: The new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business]\nหัวข้อ: What will the energy cap changes mean for my bills?\nเนื้อหา: Regulator Ofgem is raising the cap affecting the energy bills of millions of households.\n\n[BBC Business]\nหัวข้อ: Trump's Nvidia intervention ties his political fortunes to the AI boom\nเนื้อหา: The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.\n\n[BBC Business]\nหัวข้อ: 'I only use the washing machine on a Sunday' - how we're keeping our energy bills down\nเนื้อหา: The BBC speaks to three people about steps they take to keep their energy bills under control.\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11\nเนื้อหา: This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.\n\n[CNBC]\nหัวข้อ: U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets\nเนื้อหา: Huawei was found guilty of bank fraud, money laundering and trade secret theft conspiracy in a U.S. trial.\n\n[CNBC]\nหัวข้อ: Trump open to pardoning Jensen Huang if needed: NY Post\nเนื้อหา: Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.\n\n[CNBC]\nหัวข้อ: SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names\nเนื้อหา: Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.\n\n[MarketWatch]\nหัวข้อ: I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?\nเนื้อหา: “Given my age, I never make a major new purchase without thinking about the future.”\n\n[MarketWatch]\nหัวข้อ: Dell’s stock rises as the AI boom helps sales more than double\nเนื้อหา: Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”\n\n[MarketWatch]\nหัวข้อ: My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?\nเนื้อหา: “He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”\n\n[MarketWatch]\nหัวข้อ: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nเนื้อหา: Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[Investing.com Gold]\nหัวข้อ: Japan’s key services inflation gauge hits 36-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Venezuela reveals $237.5 billion debt pile in key step towards restructuring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australian inflation heats up in October, core hits two-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks retreat as AI rebound stumbles, tariff threats loom\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA’s Jacobs says Aussie financial conditions restrictive as inflation accelerates\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
