@@ -1,0 +1,115 @@
+{
+  "ts": "2026-11-25T22-05-08Z",
+  "kind": "portfolio",
+  "pnl": {
+    "MSFT": {
+      "qty": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 489.93,
+      "value": 515.868608955,
+      "cost": 495.50994638250006,
+      "gain": 20.358662572499952,
+      "gain_pct": 4.108628438466186,
+      "today_change": -1.25
+    },
+    "NVDA": {
+      "qty": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 149.3,
+      "value": 132.52441312000002,
+      "cost": 161.5399809584,
+      "gain": -29.01556783839999,
+      "gain_pct": -17.96184923772655,
+      "today_change": -3.91
+    },
+    "ASTS": {
+      "qty": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 26.02,
+      "value": 76.22285269599999,
+      "cost": 214.47007443188,
+      "gain": -138.24722173588,
+      "gain_pct": -64.45991222882243,
+      "today_change": 10.25
+    },
+    "OKLO": {
+      "qty": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.47,
+      "value": 97.109187252,
+      "cost": 452.6500120422,
+      "gain": -355.54082479019996,
+      "gain_pct": -78.54651835446175,
+      "today_change": 1.41
+    },
+    "ONDS": {
+      "qty": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.9,
+      "value": 23.93952561,
+      "cost": 69.8849997615,
+      "gain": -45.945474151499994,
+      "gain_pct": -65.74440052700922,
+      "today_change": 0.26
+    },
+    "ARQQ": {
+      "qty": 4.1729606,
+      "avg_cost": 14.665,
+      "current_price": 11.09,
+      "value": 46.278133053999994,
+      "cost": 61.19646719899999,
+      "gain": -14.918334144999996,
+      "gain_pct": -24.37777020115922,
+      "today_change": 11.46
+    },
+    "ABCL": {
+      "qty": 10.8141914,
+      "avg_cost": 5.6499,
+      "current_price": 10.59,
+      "value": 114.522286926,
+      "cost": 61.09909999086,
+      "gain": 53.42318693514001,
+      "gain_pct": 87.43694578665111,
+      "today_change": -3.29
+    },
+    "__total__": {
+      "value": 1006.4650076130001,
+      "cost": 1516.3505807663398,
+      "gain": -509.8855731533397,
+      "gain_pct": -33.62583690215303
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 648.3930220750001,
+      "current_pct": 64.4,
+      "target_pct": 20,
+      "diff": 44.4,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 197.271565558,
+      "current_pct": 19.6,
+      "target_pct": 50,
+      "diff": -30.4,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 1006.4650076130001
+  },
+  "news": "[BBC Business] Poundland collapses putting 11,000 jobs at risk\nThe discount chain has fallen into administration after its owners failed to find a buyer.\n\n[BBC Business] What's gone wrong at Poundland?\nPoundland has collapse into administration. Why?\n\n[BBC Business] US announces new tariffs on host of countries including China\nThe new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business] US stocks fall further as fears over AI intensify\nAll three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.\n\n[CNBC] Vance says he was assured Jensen Huang was not under DOJ investigation\nWhether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.\n\n[CNBC] SpaceX wins FCC approval to deploy 1 million orbital data center satellites\nSpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.\n\n[CNBC] Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike\nAlan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?\n\n[CNBC] Macy's postpones Thanksgiving Day Parade due to severe weather\nMacy's announced on Wednesday that the annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.\n\n[MarketWatch] Nvidia’s stock has given back more than half of Monday’s rally as dip buyers cash in\nBased on where retail investors bought Nvidia’s stock on the dip last week, their gains are nearly all gone, according to Vanda Research.\n\n[MarketWatch] Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’\nSpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.\n\n[MarketWatch] HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters\nPC maker’s ‘low-quality’ beat is enough to propel its shares amid the tech rout.\n\n[MarketWatch] How to spot ‘bogus boutiques’ and other Black Friday shopping scams\nAI tools have made it even easier for scammers to create fake storefronts and misleading product listings.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+}

@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-24T22-52-12Z",
+  "ts": "2026-11-25T22-05-08Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 496.13,
-      "value": 522.396858655,
+      "current_price": 489.93,
+      "value": 515.868608955,
       "cost": 495.50994638250006,
-      "gain": 26.8869122724999,
-      "gain_pct": 5.426109499675921,
-      "today_change": 0.74
+      "gain": 20.358662572499952,
+      "gain_pct": 4.108628438466186,
+      "today_change": -1.25
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 155.38,
-      "value": 137.921254592,
+      "current_price": 149.3,
+      "value": 132.52441312000002,
       "cost": 161.5399809584,
-      "gain": -23.61872636640001,
-      "gain_pct": -14.620978798110876,
-      "today_change": -5.86
+      "gain": -29.01556783839999,
+      "gain_pct": -17.96184923772655,
+      "today_change": -3.91
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 23.6,
-      "value": 69.13371728,
+      "current_price": 26.02,
+      "value": 76.22285269599999,
       "cost": 214.47007443188,
-      "gain": -145.33635715188,
-      "gain_pct": -67.76533161415102,
-      "today_change": -8.06
+      "gain": -138.24722173588,
+      "gain_pct": -64.45991222882243,
+      "today_change": 10.25
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 19.2,
-      "value": 95.76252672,
+      "current_price": 19.47,
+      "value": 97.109187252,
       "cost": 452.6500120422,
-      "gain": -356.8874853222,
-      "gain_pct": -78.84402426325967,
-      "today_change": -7.56
+      "gain": -355.54082479019996,
+      "gain_pct": -78.54651835446175,
+      "today_change": 1.41
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 3.89,
-      "value": 23.878142211,
+      "current_price": 3.9,
+      "value": 23.93952561,
       "cost": 69.8849997615,
-      "gain": -46.0068575505,
-      "gain_pct": -65.83223539745279,
-      "today_change": -3.47
+      "gain": -45.945474151499994,
+      "gain_pct": -65.74440052700922,
+      "today_change": 0.26
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 9.95,
-      "value": 41.52095796999999,
+      "current_price": 11.09,
+      "value": 46.278133053999994,
       "cost": 61.19646719899999,
-      "gain": -19.675509229,
-      "gain_pct": -32.15138083873168,
-      "today_change": -13.48
+      "gain": -14.918334144999996,
+      "gain_pct": -24.37777020115922,
+      "today_change": 11.46
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 10.95,
-      "value": 118.41539583,
+      "current_price": 10.59,
+      "value": 114.522286926,
       "cost": 61.09909999086,
-      "gain": 57.31629583914,
-      "gain_pct": 93.80873997769872,
-      "today_change": 3.99
+      "gain": 53.42318693514001,
+      "gain_pct": 87.43694578665111,
+      "today_change": -3.29
     },
     "__total__": {
-      "value": 1009.0288532579999,
+      "value": 1006.4650076130001,
       "cost": 1516.3505807663398,
-      "gain": -507.3217275083399,
-      "gain_pct": -33.45675689667672
+      "gain": -509.8855731533397,
+      "gain_pct": -33.62583690215303
     }
   },
   "allocation": {
     "mag7": {
-      "value": 660.3181132469999,
-      "current_pct": 65.4,
+      "value": 648.3930220750001,
+      "current_pct": 64.4,
       "target_pct": 20,
-      "diff": 45.4,
+      "diff": 44.4,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 188.774386211,
-      "current_pct": 18.7,
+      "value": 197.271565558,
+      "current_pct": 19.6,
       "target_pct": 50,
-      "diff": -31.3,
+      "diff": -30.4,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1009.0288532579999
+    "__total__": 1006.4650076130001
   },
-  "news": "[BBC Business] Faisal Islam: Fears over the AI boom haven't gone away\nThere were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it\n\n[BBC Business] US attorney general dodges questions about Nvidia investigation\nNvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.\n\n[BBC Business] Huawei found guilty of stealing trade secrets but acquitted of racketeering\nThe verdict follows a months-long trial in New York.\n\n[BBC Business] Will I get the £100 energy payment and when will I receive it?\nHere is what you need to know about the payment that millions will receive from January.\n\n[CNBC] Jensen Huang tells staff that Nvidia doesn't need a succession plan\nNvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC] Trump wanted Jensen Huang back. Now, the president is all alone in Washington\nRepublicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.\n\n[CNBC] Dell earnings beat on AI strength, company authorizes $25 billion buyback\nThe company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.\n\n[CNBC] Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years\nSanofi faces a revenue drop toward the end of the decade as top-selling drugs lose exclusivity and open up for generic drugmakers to compete.\n\n[MarketWatch] Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nSteeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch] 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nLuxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[MarketWatch] Anthropic’s stock just broke below its IPO price for the first time\nShares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.\n\n[MarketWatch] HPE just posted its strongest growth ever — but its stock is sinking\nHPE boosted its financial forecast on Monday in the face of strong AI demand.",
+  "news": "[BBC Business] Poundland collapses putting 11,000 jobs at risk\nThe discount chain has fallen into administration after its owners failed to find a buyer.\n\n[BBC Business] What's gone wrong at Poundland?\nPoundland has collapse into administration. Why?\n\n[BBC Business] US announces new tariffs on host of countries including China\nThe new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business] US stocks fall further as fears over AI intensify\nAll three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.\n\n[CNBC] Vance says he was assured Jensen Huang was not under DOJ investigation\nWhether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.\n\n[CNBC] SpaceX wins FCC approval to deploy 1 million orbital data center satellites\nSpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.\n\n[CNBC] Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike\nAlan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?\n\n[CNBC] Macy's postpones Thanksgiving Day Parade due to severe weather\nMacy's announced on Wednesday that the annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.\n\n[MarketWatch] Nvidia’s stock has given back more than half of Monday’s rally as dip buyers cash in\nBased on where retail investors bought Nvidia’s stock on the dip last week, their gains are nearly all gone, according to Vanda Research.\n\n[MarketWatch] Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’\nSpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.\n\n[MarketWatch] HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters\nPC maker’s ‘low-quality’ beat is enough to propel its shares amid the tech rout.\n\n[MarketWatch] How to spot ‘bogus boutiques’ and other Black Friday shopping scams\nAI tools have made it even easier for scammers to create fake storefronts and misleading product listings.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
