@@ -1,12 +1,12 @@
 {
-  "ts": "2026-11-25T03-36-13Z",
+  "ts": "2026-11-25T10-43-34Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3552.4,
-      "change": -2.71,
+      "price": 3559.8,
+      "change": -0.06,
       "high": 3573.9,
-      "low": 3532.4
+      "low": 3511.3
     },
     "sp500": {
       "price": 7201.09,
@@ -15,28 +15,28 @@
       "low": 7138.93
     },
     "dxy": {
-      "price": 103.92,
-      "change": -0.38,
-      "high": 103.92,
+      "price": 103.96,
+      "change": 0.14,
+      "high": 104.1,
       "low": 103.81
     },
     "vix": {
-      "price": 26.36,
-      "change": -0.98,
-      "high": 32.38,
-      "low": 25.98
+      "price": 29.35,
+      "change": 11.34,
+      "high": 29.71,
+      "low": 27.63
     },
     "btc": {
-      "price": 59443.57,
-      "change": 0.0,
+      "price": 58909.96,
+      "change": -1.4,
       "high": 59745.65,
-      "low": 58902.68
+      "low": 58631.27
     },
     "eth": {
-      "price": 1662.3,
-      "change": 0.0,
+      "price": 1644.73,
+      "change": -1.96,
       "high": 1677.65,
-      "low": 1649.89
+      "low": 1635.77
     },
     "mag7": {
       "AAPL": {
@@ -255,7 +255,7 @@
     },
     "__total__": 849.0924994579999
   },
-  "news": "[BBC Business]\nหัวข้อ: Households braced for soaring energy bills with new price cap to be announced\nเนื้อหา: Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.\n\n[BBC Business]\nหัวข้อ: US preparing to unveil new tariffs on global trading partners\nเนื้อหา: The new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business]\nหัวข้อ: What will the energy cap changes mean for my bills?\nเนื้อหา: Regulator Ofgem is raising the cap affecting the energy bills of millions of households.\n\n[BBC Business]\nหัวข้อ: Trump's Nvidia intervention ties his political fortunes to the AI boom\nเนื้อหา: The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.\n\n[BBC Business]\nหัวข้อ: 'I only use the washing machine on a Sunday' - how we're keeping our energy bills down\nเนื้อหา: The BBC speaks to three people about steps they take to keep their energy bills under control.\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11\nเนื้อหา: This has been the second attack by the Iran-backed group in six days on the tower, although the previous attack did not cause any casualties.\n\n[CNBC]\nหัวข้อ: U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets\nเนื้อหา: Huawei was found guilty of bank fraud, money laundering and trade secret theft conspiracy in a U.S. trial.\n\n[CNBC]\nหัวข้อ: Trump open to pardoning Jensen Huang if needed: NY Post\nเนื้อหา: Trump said he would be willing to pardon Jensen Huang if needed and argued that the Nvidia CEO should not have to invoke the Fifth Amendment before Congress.\n\n[CNBC]\nหัวข้อ: SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names\nเนื้อหา: Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.\n\n[MarketWatch]\nหัวข้อ: I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?\nเนื้อหา: “Given my age, I never make a major new purchase without thinking about the future.”\n\n[MarketWatch]\nหัวข้อ: Dell’s stock rises as the AI boom helps sales more than double\nเนื้อหา: Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”\n\n[MarketWatch]\nหัวข้อ: My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?\nเนื้อหา: “He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”\n\n[MarketWatch]\nหัวข้อ: Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows\nเนื้อหา: Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[Investing.com Gold]\nหัวข้อ: Japan’s key services inflation gauge hits 36-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Venezuela reveals $237.5 billion debt pile in key step towards restructuring\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Australian inflation heats up in October, core hits two-year high\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Stocks retreat as AI rebound stumbles, tariff threats loom\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: RBA’s Jacobs says Aussie financial conditions restrictive as inflation accelerates\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Energy bills to rise by 26% from January after gas prices surge\nเนื้อหา: A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.\n\n[BBC Business]\nหัวข้อ: Energy bills will soar - here's how you can ease the pain\nเนื้อหา: Household energy bills are about to increase but there are ways to keep a lid on your expenditure.\n\n[BBC Business]\nหัวข้อ: US preparing to unveil plan for new tariffs on global trading partners\nเนื้อหา: The new levies would hit many of America's biggest trading partners, including China and the EU.\n\n[BBC Business]\nหัวข้อ: What will the energy cap changes mean for my bills?\nเนื้อหา: Regulator Ofgem is raising the cap affecting the energy bills of millions of households.\n\n[BBC Business]\nหัวข้อ: Trump's rescue of Nvidia's Huang brings political risks\nเนื้อหา: The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.\n\n[CNBC]\nหัวข้อ: AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze\nเนื้อหา: Big Tech could find it increasingly tough to secure funding from debt markets critical to the AI build-out, as lenders become pickier over corporate bonds.\n\n[CNBC]\nหัวข้อ: Budget carrier Norse Atlantic falls 81% after warning its finances are ‘critical’ amid soaring fuel costs\nเนื้อหา: The Norwegian low-cost carrier said its situation is dependent on securing financing for its short-term liquidity needs.\n\n[CNBC]\nหัวข้อ: Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation\nเนื้อหา: Ukraine’s foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was “inevitable.”\n\n[CNBC]\nหัวข้อ: Jensen Huang tells staff that Nvidia doesn't need a succession plan\nเนื้อหา: Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.\n\n[CNBC]\nหัวข้อ: Dell earnings beat on AI strength, company authorizes $25 billion buyback\nเนื้อหา: The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.\n\n[MarketWatch]\nหัวข้อ: This strategist’s bond-trading model is outperforming by a wide margin. The Fed slowing the economy is a good thing, he argues\nเนื้อหา: Inflation and nominal growth have been way too high for too long, argues Michael Darda. Rather than criticizing the Fed for being hawkish, markets should applaud it and recommend it goes as far as necessary to slow demand.\n\n[MarketWatch]\nหัวข้อ: Kylie Jenner again relists concrete mansion in L.A. for $38 million\nเนื้อหา: Kylie Jenner’s fortress-like home is back on the market, this time with a fresh set of listing images—some of which have been enhanced by AI.\n\n[MarketWatch]\nหัวข้อ: I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?\nเนื้อหา: “I was paralyzed during the market downturn.”\n\n[MarketWatch]\nหัวข้อ: NBA star Kevin Durant lists Arizona mansion for $13.9 million, a year after trade to Houston\nเนื้อหา: Houston Rockets star Kevin Durant has listed his sprawling Arizona property for $13.9 million—just three years after he picked up the palatial pad.\n\n[MarketWatch]\nหัวข้อ: I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?\nเนื้อหา: “Given my age, I never make a major new purchase without thinking about the future.”\n\n[Investing.com Gold]\nหัวข้อ: Risk-off mood lifts dollar ahead of inflation data\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Nasdaq futures slide over 2% on fresh US tariff concerns; inflation data in focus\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Eurozone bond yields edge down as AI-fueled stock ructions drive haven demand\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China’s Huawei convicted in sprawling US criminal trial over Iran business\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: AI jitters spark \"wild\" stock moves; PCE data ahead - what’s moving markets\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
