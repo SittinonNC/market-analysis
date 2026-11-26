@@ -1,0 +1,245 @@
+{
+  "ts": "2026-11-26T10-15-18Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3600.3,
+      "change": 1.82,
+      "high": 3634.7,
+      "low": 3578.8
+    },
+    "sp500": {
+      "price": 7182.78,
+      "change": -0.25,
+      "high": 7199.31,
+      "low": 6970.11
+    },
+    "dxy": {
+      "price": 103.76,
+      "change": 0.09,
+      "high": 103.84,
+      "low": 103.67
+    },
+    "vix": {
+      "price": 26.87,
+      "change": -5.02,
+      "high": 27.29,
+      "low": 26.59
+    },
+    "btc": {
+      "price": 60865.9,
+      "change": 0.81,
+      "high": 61040.95,
+      "low": 60324.98
+    },
+    "eth": {
+      "price": 1702.13,
+      "change": 0.67,
+      "high": 1708.44,
+      "low": 1682.35
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 355.58,
+        "change": 0.43,
+        "high": 356.75,
+        "low": 345.13
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 489.93,
+        "change": -1.25,
+        "high": 493.44,
+        "low": 477.39
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 149.3,
+        "change": -3.91,
+        "high": 150.37,
+        "low": 141.17
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 244.43,
+        "change": -3.12,
+        "high": 246.56,
+        "low": 235.96
+      },
+      "META": {
+        "name": "Meta",
+        "price": 609.89,
+        "change": 3.4,
+        "high": 611.06,
+        "low": 567.75
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 273.1,
+        "change": -2.13,
+        "high": 273.62,
+        "low": 262.73
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 380.14,
+        "change": -1.18,
+        "high": 383.73,
+        "low": 357.64
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 26.02,
+        "change": 10.25,
+        "high": 26.67,
+        "low": 22.5
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 346.19,
+        "change": 1.26,
+        "high": 348.04,
+        "low": 334.8
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.27,
+        "change": 2.42,
+        "high": 1.29,
+        "low": 1.11
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 47.02,
+        "change": 2.26,
+        "high": 48.16,
+        "low": 42.12
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 19.47,
+        "change": 1.41,
+        "high": 19.58,
+        "low": 17.28
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 3.9,
+        "change": 0.26,
+        "high": 4.12,
+        "low": 3.48
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 489.93,
+      "value": 515.868608955,
+      "cost": 495.50994638250006,
+      "gain": 20.358662572499952,
+      "gain_pct": 4.108628438466186
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 149.3,
+      "value": 132.52441312000002,
+      "cost": 161.5399809584,
+      "gain": -29.01556783839999,
+      "gain_pct": -17.96184923772655
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 26.02,
+      "value": 76.22285269599999,
+      "cost": 214.47007443188,
+      "gain": -138.24722173588,
+      "gain_pct": -64.45991222882243
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.47,
+      "value": 97.109187252,
+      "cost": 452.6500120422,
+      "gain": -355.54082479019996,
+      "gain_pct": -78.54651835446175
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.9,
+      "value": 23.93952561,
+      "cost": 69.8849997615,
+      "gain": -45.945474151499994,
+      "gain_pct": -65.74440052700922
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 845.6645876330001,
+      "cost": 1394.05501357648,
+      "gain": -548.3904259434798,
+      "gain_pct": -39.33778944179338
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 648.3930220750001,
+      "current_pct": 76.7,
+      "target_pct": 20,
+      "diff": 56.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 197.271565558,
+      "current_pct": 23.3,
+      "target_pct": 50,
+      "diff": -26.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 845.6645876330001
+  },
+  "news": "[BBC Business]\nหัวข้อ: New UK-EU treaty has 10-year termination clause\nเนื้อหา: Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.\n\n[BBC Business]\nหัวข้อ: Car finance compensation payments explained\nเนื้อหา: Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.\n\n[BBC Business]\nหัวข้อ: UK signs £8bn deal to ensure submarines are 'warfighting ready'\nเนื้อหา: The deal will allow \"work around the clock to get our submarines back out to sea\" , Wes Streeting says.\n\n[BBC Business]\nหัวข้อ: Poundland collapses putting 11,000 jobs at risk\nเนื้อหา: The discount chain has fallen into administration after its owners failed to find a buyer.\n\n[BBC Business]\nหัวข้อ: What's gone wrong at Poundland?\nเนื้อหา: Poundland has collapse into administration. Why?\n\n[CNBC]\nหัวข้อ: SpaceX, Musk pledge to donate a share each to active Trump Accounts\nเนื้อหา: SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.\n\n[CNBC]\nหัวข้อ: U.S. tariff-hike threats pile pressure on partners to sign trade deals\nเนื้อหา: The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.\n\n[CNBC]\nหัวข้อ: Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'\nเนื้อหา: Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.\n\n[CNBC]\nหัวข้อ: Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse\nเนื้อหา: Norse Atlantic has suspended all flights and said it may it have to file for bankruptcy, a day after it warned its financial position was \"critical.\"\n\n[CNBC]\nหัวข้อ: Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing\nเนื้อหา: Goldman Sachs Alternatives' inaugural survey of high-net-worth investors found they're increasingly looking to alternatives amid turbulent markets.\n\n[MarketWatch]\nหัวข้อ: The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank\nเนื้อหา: Deutsche Bank sees the benchmark index reaching 9,000 points by the end of 2027 as focus shifts from capital expenditure to monetization from artificial intelligence.\n\n[MarketWatch]\nหัวข้อ: Is the stock market open for Thanksgiving? The answer might surprise you.\nเนื้อหา: The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.\n\n[MarketWatch]\nหัวข้อ: We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance\nเนื้อหา: Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?\n\n[MarketWatch]\nหัวข้อ: Why this stock-market selloff is probably going to get worse before it gets better\nเนื้อหา: Monday’s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.\n\n[MarketWatch]\nหัวข้อ: A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\nเนื้อหา: “Retirement is a financial status, not an age.”\n\n[Investing.com Gold]\nหัวข้อ: Euro zone corporate loan growth quickens to 4.5% in October, ECB says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: European stocks rally as tech and banks rebound, tariff fears ease\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China, Japan, South Korea and ASEAN launch talks on digital payments across borders\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Spain’s economic gains miss voters’ wallets as Sanchez seeks reelection\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Trump’s new tariffs aim to prise global trade from China’s grip\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
