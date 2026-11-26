@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-26T10-15-18Z",
+  "ts": "2026-11-26T23-09-17Z",
   "kind": "market",
   "prices": {
     "gold": {
-      "price": 3600.3,
-      "change": 1.82,
+      "price": 3593.4,
+      "change": 1.63,
       "high": 3634.7,
       "low": 3578.8
     },
@@ -15,28 +15,28 @@
       "low": 6970.11
     },
     "dxy": {
-      "price": 103.76,
-      "change": 0.09,
+      "price": 103.75,
+      "change": 0.08,
       "high": 103.84,
-      "low": 103.67
+      "low": 103.62
     },
     "vix": {
-      "price": 26.87,
-      "change": -5.02,
-      "high": 27.29,
-      "low": 26.59
+      "price": 26.8,
+      "change": -5.27,
+      "high": 27.54,
+      "low": 26.57
     },
     "btc": {
-      "price": 60865.9,
-      "change": 0.81,
+      "price": 60365.52,
+      "change": -0.02,
       "high": 61040.95,
-      "low": 60324.98
+      "low": 60040.08
     },
     "eth": {
-      "price": 1702.13,
-      "change": 0.67,
+      "price": 1687.2,
+      "change": -0.21,
       "high": 1708.44,
-      "low": 1682.35
+      "low": 1672.77
     },
     "mag7": {
       "AAPL": {
@@ -238,7 +238,7 @@
     },
     "__total__": 845.6645876330001
   },
-  "news": "[BBC Business]\nหัวข้อ: New UK-EU treaty has 10-year termination clause\nเนื้อหา: Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.\n\n[BBC Business]\nหัวข้อ: Car finance compensation payments explained\nเนื้อหา: Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.\n\n[BBC Business]\nหัวข้อ: UK signs £8bn deal to ensure submarines are 'warfighting ready'\nเนื้อหา: The deal will allow \"work around the clock to get our submarines back out to sea\" , Wes Streeting says.\n\n[BBC Business]\nหัวข้อ: Poundland collapses putting 11,000 jobs at risk\nเนื้อหา: The discount chain has fallen into administration after its owners failed to find a buyer.\n\n[BBC Business]\nหัวข้อ: What's gone wrong at Poundland?\nเนื้อหา: Poundland has collapse into administration. Why?\n\n[CNBC]\nหัวข้อ: SpaceX, Musk pledge to donate a share each to active Trump Accounts\nเนื้อหา: SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.\n\n[CNBC]\nหัวข้อ: U.S. tariff-hike threats pile pressure on partners to sign trade deals\nเนื้อหา: The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.\n\n[CNBC]\nหัวข้อ: Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'\nเนื้อหา: Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.\n\n[CNBC]\nหัวข้อ: Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse\nเนื้อหา: Norse Atlantic has suspended all flights and said it may it have to file for bankruptcy, a day after it warned its financial position was \"critical.\"\n\n[CNBC]\nหัวข้อ: Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing\nเนื้อหา: Goldman Sachs Alternatives' inaugural survey of high-net-worth investors found they're increasingly looking to alternatives amid turbulent markets.\n\n[MarketWatch]\nหัวข้อ: The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank\nเนื้อหา: Deutsche Bank sees the benchmark index reaching 9,000 points by the end of 2027 as focus shifts from capital expenditure to monetization from artificial intelligence.\n\n[MarketWatch]\nหัวข้อ: Is the stock market open for Thanksgiving? The answer might surprise you.\nเนื้อหา: The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.\n\n[MarketWatch]\nหัวข้อ: We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance\nเนื้อหา: Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?\n\n[MarketWatch]\nหัวข้อ: Why this stock-market selloff is probably going to get worse before it gets better\nเนื้อหา: Monday’s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.\n\n[MarketWatch]\nหัวข้อ: A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\nเนื้อหา: “Retirement is a financial status, not an age.”\n\n[Investing.com Gold]\nหัวข้อ: Euro zone corporate loan growth quickens to 4.5% in October, ECB says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: European stocks rally as tech and banks rebound, tariff fears ease\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: China, Japan, South Korea and ASEAN launch talks on digital payments across borders\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Spain’s economic gains miss voters’ wallets as Sanchez seeks reelection\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Analysis-Trump’s new tariffs aim to prise global trade from China’s grip\nเนื้อหา: ",
+  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Why Trump's new tariffs are less of a threat\nเนื้อหา: Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.\n\n[BBC Business]\nหัวข้อ: Millions of people to see average monthly mortgage payments rise by £100\nเนื้อหา: More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.\n\n[BBC Business]\nหัวข้อ: Simon Jack: Is Poundland's US owner to blame for its collapse?\nเนื้อหา: Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.\n\n[BBC Business]\nหัวข้อ: New boss appointed to lead Travelodge\nเนื้อหา: The new CEO will lead the Thame-based company from 1 December following Jo Boydell's resignation.\n\n[BBC Business]\nหัวข้อ: When will Poundland shops close? Five key questions answered\nเนื้อหา: Why is Poundland closing down, and what will happen to staff and suppliers?\n\n[CNBC]\nหัวข้อ: Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher\nเนื้อหา: President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"\n\n[CNBC]\nหัวข้อ: Semiconductor chips are the new oil. Here's why\nเนื้อหา: Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.\n\n[CNBC]\nหัวข้อ: Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs\nเนื้อหา: ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.\n\n[CNBC]\nหัวข้อ: Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike\nเนื้อหา: Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?\n\n[CNBC]\nหัวข้อ: Even the price of toys is on the rise. How Americans are scaling back holiday plans\nเนื้อหา: U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.\n\n[MarketWatch]\nหัวข้อ: ‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?\nเนื้อหา: “Our financial and healthcare situation has become increasingly concerning.”\n\n[MarketWatch]\nหัวข้อ: I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?\nเนื้อหา: “We have a house worth $450,000. Our combined annual income is $125,000.”\n\n[MarketWatch]\nหัวข้อ: I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?\nเนื้อหา: Doing nothing and maintaining an even temperament is often the work of gods.\n\n[MarketWatch]\nหัวข้อ: A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\nเนื้อหา: “Retirement is a financial status, not an age.”\n\n[MarketWatch]\nหัวข้อ: I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?\nเนื้อหา: “My wife stopped working outside the home in 1970.”\n\n[Investing.com Gold]\nหัวข้อ: U.S. retailers offer Thanksgiving deals even as meal costs, turkey prices rise\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: European stocks end higher on easing tariff fears, ECB leadership continuity\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Euro countries pick Spain’s De Cos as ECB chief, Costa says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Germany must prepare for two more difficult years with Trump, DIW’s Fratzscher says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump demands probe of GDP data released before midterms\nเนื้อหา: ",
   "truth_posts": "",
   "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"

@@ -1,0 +1,245 @@
+{
+  "ts": "2026-11-26T23-09-17Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3593.4,
+      "change": 1.63,
+      "high": 3634.7,
+      "low": 3578.8
+    },
+    "sp500": {
+      "price": 7182.78,
+      "change": -0.25,
+      "high": 7199.31,
+      "low": 6970.11
+    },
+    "dxy": {
+      "price": 103.75,
+      "change": 0.08,
+      "high": 103.84,
+      "low": 103.62
+    },
+    "vix": {
+      "price": 26.8,
+      "change": -5.27,
+      "high": 27.54,
+      "low": 26.57
+    },
+    "btc": {
+      "price": 60365.52,
+      "change": -0.02,
+      "high": 61040.95,
+      "low": 60040.08
+    },
+    "eth": {
+      "price": 1687.2,
+      "change": -0.21,
+      "high": 1708.44,
+      "low": 1672.77
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 355.58,
+        "change": 0.43,
+        "high": 356.75,
+        "low": 345.13
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 489.93,
+        "change": -1.25,
+        "high": 493.44,
+        "low": 477.39
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 149.3,
+        "change": -3.91,
+        "high": 150.37,
+        "low": 141.17
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 244.43,
+        "change": -3.12,
+        "high": 246.56,
+        "low": 235.96
+      },
+      "META": {
+        "name": "Meta",
+        "price": 609.89,
+        "change": 3.4,
+        "high": 611.06,
+        "low": 567.75
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 273.1,
+        "change": -2.13,
+        "high": 273.62,
+        "low": 262.73
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 380.14,
+        "change": -1.18,
+        "high": 383.73,
+        "low": 357.64
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 26.02,
+        "change": 10.25,
+        "high": 26.67,
+        "low": 22.5
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 346.19,
+        "change": 1.26,
+        "high": 348.04,
+        "low": 334.8
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.27,
+        "change": 2.42,
+        "high": 1.29,
+        "low": 1.11
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 47.02,
+        "change": 2.26,
+        "high": 48.16,
+        "low": 42.12
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 19.47,
+        "change": 1.41,
+        "high": 19.58,
+        "low": 17.28
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 3.9,
+        "change": 0.26,
+        "high": 4.12,
+        "low": 3.48
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 489.93,
+      "value": 515.868608955,
+      "cost": 495.50994638250006,
+      "gain": 20.358662572499952,
+      "gain_pct": 4.108628438466186
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 149.3,
+      "value": 132.52441312000002,
+      "cost": 161.5399809584,
+      "gain": -29.01556783839999,
+      "gain_pct": -17.96184923772655
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 26.02,
+      "value": 76.22285269599999,
+      "cost": 214.47007443188,
+      "gain": -138.24722173588,
+      "gain_pct": -64.45991222882243
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 19.47,
+      "value": 97.109187252,
+      "cost": 452.6500120422,
+      "gain": -355.54082479019996,
+      "gain_pct": -78.54651835446175
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 3.9,
+      "value": 23.93952561,
+      "cost": 69.8849997615,
+      "gain": -45.945474151499994,
+      "gain_pct": -65.74440052700922
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 845.6645876330001,
+      "cost": 1394.05501357648,
+      "gain": -548.3904259434798,
+      "gain_pct": -39.33778944179338
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 648.3930220750001,
+      "current_pct": 76.7,
+      "target_pct": 20,
+      "diff": 56.7,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 197.271565558,
+      "current_pct": 23.3,
+      "target_pct": 50,
+      "diff": -26.7,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 845.6645876330001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Why Trump's new tariffs are less of a threat\nเนื้อหา: Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.\n\n[BBC Business]\nหัวข้อ: Millions of people to see average monthly mortgage payments rise by £100\nเนื้อหา: More people face higher mortgage repayments when they roll off a fixed deal than previously estimated.\n\n[BBC Business]\nหัวข้อ: Simon Jack: Is Poundland's US owner to blame for its collapse?\nเนื้อหา: Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.\n\n[BBC Business]\nหัวข้อ: New boss appointed to lead Travelodge\nเนื้อหา: The new CEO will lead the Thame-based company from 1 December following Jo Boydell's resignation.\n\n[BBC Business]\nหัวข้อ: When will Poundland shops close? Five key questions answered\nเนื้อหา: Why is Poundland closing down, and what will happen to staff and suppliers?\n\n[CNBC]\nหัวข้อ: Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher\nเนื้อหา: President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"\n\n[CNBC]\nหัวข้อ: Semiconductor chips are the new oil. Here's why\nเนื้อหา: Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.\n\n[CNBC]\nหัวข้อ: Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs\nเนื้อหา: ETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.\n\n[CNBC]\nหัวข้อ: Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike\nเนื้อหา: Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?\n\n[CNBC]\nหัวข้อ: Even the price of toys is on the rise. How Americans are scaling back holiday plans\nเนื้อหา: U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.\n\n[MarketWatch]\nหัวข้อ: ‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?\nเนื้อหา: “Our financial and healthcare situation has become increasingly concerning.”\n\n[MarketWatch]\nหัวข้อ: I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?\nเนื้อหา: “We have a house worth $450,000. Our combined annual income is $125,000.”\n\n[MarketWatch]\nหัวข้อ: I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?\nเนื้อหา: Doing nothing and maintaining an even temperament is often the work of gods.\n\n[MarketWatch]\nหัวข้อ: A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\nเนื้อหา: “Retirement is a financial status, not an age.”\n\n[MarketWatch]\nหัวข้อ: I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?\nเนื้อหา: “My wife stopped working outside the home in 1970.”\n\n[Investing.com Gold]\nหัวข้อ: U.S. retailers offer Thanksgiving deals even as meal costs, turkey prices rise\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: European stocks end higher on easing tariff fears, ECB leadership continuity\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Euro countries pick Spain’s De Cos as ECB chief, Costa says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Germany must prepare for two more difficult years with Trump, DIW’s Fratzscher says\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Trump demands probe of GDP data released before midterms\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
