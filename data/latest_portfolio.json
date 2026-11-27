@@ -1,97 +1,97 @@
 {
-  "ts": "2026-11-26T22-03-52Z",
+  "ts": "2026-11-27T21-46-16Z",
   "kind": "portfolio",
   "pnl": {
     "MSFT": {
       "qty": 1.0529435,
       "avg_cost": 470.595,
-      "current_price": 489.93,
-      "value": 515.868608955,
+      "current_price": 492.85,
+      "value": 518.9432039750001,
       "cost": 495.50994638250006,
-      "gain": 20.358662572499952,
-      "gain_pct": 4.108628438466186,
-      "today_change": -1.25
+      "gain": 23.433257592500013,
+      "gain_pct": 4.729119518906918,
+      "today_change": 0.6
     },
     "NVDA": {
       "qty": 0.8876384,
       "avg_cost": 181.9885,
-      "current_price": 149.3,
-      "value": 132.52441312000002,
+      "current_price": 150.49,
+      "value": 133.580702816,
       "cost": 161.5399809584,
-      "gain": -29.01556783839999,
-      "gain_pct": -17.96184923772655,
-      "today_change": -3.91
+      "gain": -27.959278142399995,
+      "gain_pct": -17.307961766814934,
+      "today_change": 0.8
     },
     "ASTS": {
       "qty": 2.9293948,
       "avg_cost": 73.2131,
-      "current_price": 26.02,
-      "value": 76.22285269599999,
+      "current_price": 26.85,
+      "value": 78.65425038,
       "cost": 214.47007443188,
-      "gain": -138.24722173588,
-      "gain_pct": -64.45991222882243,
-      "today_change": 10.25
+      "gain": -135.81582405187999,
+      "gain_pct": -63.32623533220148,
+      "today_change": 3.19
     },
     "OKLO": {
       "qty": 4.9876316,
       "avg_cost": 90.7545,
-      "current_price": 19.47,
-      "value": 97.109187252,
+      "current_price": 20.85,
+      "value": 103.99211886000002,
       "cost": 452.6500120422,
-      "gain": -355.54082479019996,
-      "gain_pct": -78.54651835446175,
-      "today_change": 1.41
+      "gain": -348.6578931822,
+      "gain_pct": -77.02593259838355,
+      "today_change": 7.09
     },
     "ONDS": {
       "qty": 6.1383399,
       "avg_cost": 11.385,
-      "current_price": 3.9,
-      "value": 23.93952561,
+      "current_price": 4.1,
+      "value": 25.167193589999997,
       "cost": 69.8849997615,
-      "gain": -45.945474151499994,
-      "gain_pct": -65.74440052700922,
-      "today_change": 0.26
+      "gain": -44.7178061715,
+      "gain_pct": -63.98770311813791,
+      "today_change": 5.13
     },
     "ARQQ": {
       "qty": 4.1729606,
       "avg_cost": 14.665,
-      "current_price": 11.09,
-      "value": 46.278133053999994,
+      "current_price": 13.77,
+      "value": 57.461667461999994,
       "cost": 61.19646719899999,
-      "gain": -14.918334144999996,
-      "gain_pct": -24.37777020115922,
-      "today_change": 11.46
+      "gain": -3.734799736999996,
+      "gain_pct": -6.102966246164331,
+      "today_change": 24.17
     },
     "ABCL": {
       "qty": 10.8141914,
       "avg_cost": 5.6499,
-      "current_price": 10.59,
-      "value": 114.522286926,
+      "current_price": 10.82,
+      "value": 117.00955094800001,
       "cost": 61.09909999086,
-      "gain": 53.42318693514001,
-      "gain_pct": 87.43694578665111,
-      "today_change": -3.29
+      "gain": 55.910450957140014,
+      "gain_pct": 91.50781429759822,
+      "today_change": 2.17
     },
     "__total__": {
-      "value": 1006.4650076130001,
+      "value": 1034.8086880310002,
       "cost": 1516.3505807663398,
-      "gain": -509.8855731533397,
-      "gain_pct": -33.62583690215303
+      "gain": -481.5418927353396,
+      "gain_pct": -31.756633251129557
     }
   },
   "allocation": {
     "mag7": {
-      "value": 648.3930220750001,
-      "current_pct": 64.4,
+      "value": 652.5239067910001,
+      "current_pct": 63.1,
       "target_pct": 20,
-      "diff": 44.4,
+      "diff": 43.1,
       "status": "Overweight"
     },
     "watchlist": {
-      "value": 197.271565558,
-      "current_pct": 19.6,
+      "value": 207.81356283000002,
+      "current_pct": 20.1,
       "target_pct": 50,
-      "diff": -30.4,
+      "diff": -29.9,
       "status": "Underweight"
     },
     "crypto": {
@@ -108,8 +108,8 @@
       "diff": -15.0,
       "status": "Underweight"
     },
-    "__total__": 1006.4650076130001
+    "__total__": 1034.8086880310002
   },
-  "news": "[BBC Business] Faisal Islam: Why Trump's new tariffs are less of a threat\nOther countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.\n\n[BBC Business] Millions of people to see average monthly mortgage payments rise by £100\nMore people face higher mortgage repayments when they roll off a fixed deal than previously estimated.\n\n[BBC Business] Simon Jack: Is Poundland's US owner to blame for its collapse?\nPoundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.\n\n[BBC Business] New boss appointed to lead Travelodge\nThe new CEO will lead the Thame-based company from 1 December following Jo Boydell's resignation.\n\n[CNBC] Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher\nPresident Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"\n\n[CNBC] Semiconductor chips are the new oil. Here's why\nSemiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand.\n\n[CNBC] Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs\nETF Action founding partner Mike Akins and GraniteShares CEO Will Rhind react to Nvidia's sharp losses and latest comeback.\n\n[CNBC] Even the price of toys is on the rise. How Americans are scaling back holiday plans\nU.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.\n\n[MarketWatch] ‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?\n“Our financial and healthcare situation has become increasingly concerning.”\n\n[MarketWatch] I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?\n“We have a house worth $450,000. Our combined annual income is $125,000.”\n\n[MarketWatch] I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?\nDoing nothing and maintaining an even temperament is often the work of gods.\n\n[MarketWatch] A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?\n“Retirement is a financial status, not an age.”",
+  "news": "[BBC Business] Faisal Islam: Why Trump's new tariffs are less of a threat\nOther countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.\n\n[BBC Business] From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale\nNetworks of plumbers and electricians are scamming people on a large scale, the BBC reveals.\n\n[BBC Business] UK to pay 'participation' fee to deliver EU deals\nDetails of the contribution towards EU running costs have been revealed in new legal documents.\n\n[BBC Business] Asia made a big AI bet on Nvidia. What happens now?\nAsian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.\n\n[CNBC] Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher\nPresident Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"\n\n[CNBC] The S&P 500 is in a correction. Bear markets and recessions don't always follow\nThe November sell-off has so far pushed the S&amp;P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.\n\n[CNBC] AI shopping agents are having a moment, but Amazon and a growing number of sites threaten to stunt their growth\nAI shopping agents from OpenAI, Meta, Google and Instinct promise to help users shop, but they're hitting roadblocks at Amazon and other retailers.\n\n[CNBC] Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding\nBudget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.\n\n[MarketWatch] These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia\nNvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.\n\n[MarketWatch] Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest\nMedicare Advantage is starting to lose its all-in-one benefit.\n\n[MarketWatch] The warnings behind this week’s stock-market rally\nAlso in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.\n\n[MarketWatch] Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?\nSome countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
   "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
 }
