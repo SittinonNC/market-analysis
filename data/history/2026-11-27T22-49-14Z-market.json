@@ -1,0 +1,245 @@
+{
+  "ts": "2026-11-27T22-49-14Z",
+  "kind": "market",
+  "prices": {
+    "gold": {
+      "price": 3668.5,
+      "change": 3.75,
+      "high": 3712.8,
+      "low": 3578.8
+    },
+    "sp500": {
+      "price": 7297.49,
+      "change": 1.6,
+      "high": 7304.1,
+      "low": 7211.46
+    },
+    "dxy": {
+      "price": 104.01,
+      "change": 0.33,
+      "high": 104.06,
+      "low": 103.64
+    },
+    "vix": {
+      "price": 23.81,
+      "change": -11.16,
+      "high": 27.52,
+      "low": 23.81
+    },
+    "btc": {
+      "price": 59768.79,
+      "change": -1.2,
+      "high": 62085.71,
+      "low": 59007.89
+    },
+    "eth": {
+      "price": 1657.3,
+      "change": -1.8,
+      "high": 1744.08,
+      "low": 1640.96
+    },
+    "mag7": {
+      "AAPL": {
+        "name": "Apple",
+        "price": 358.54,
+        "change": 0.83,
+        "high": 359.5,
+        "low": 355.64
+      },
+      "MSFT": {
+        "name": "Microsoft",
+        "price": 492.85,
+        "change": 0.6,
+        "high": 500.46,
+        "low": 488.83
+      },
+      "NVDA": {
+        "name": "Nvidia",
+        "price": 150.49,
+        "change": 0.8,
+        "high": 151.98,
+        "low": 145.39
+      },
+      "AMZN": {
+        "name": "Amazon",
+        "price": 254.12,
+        "change": 3.96,
+        "high": 255.27,
+        "low": 248.45
+      },
+      "META": {
+        "name": "Meta",
+        "price": 628.96,
+        "change": 3.13,
+        "high": 636.62,
+        "low": 620.8
+      },
+      "GOOGL": {
+        "name": "Alphabet",
+        "price": 274.96,
+        "change": 0.68,
+        "high": 279.52,
+        "low": 270.03
+      },
+      "TSLA": {
+        "name": "Tesla",
+        "price": 400.0,
+        "change": 5.22,
+        "high": 401.18,
+        "low": 384.66
+      }
+    },
+    "watchlist": {
+      "ASTS": {
+        "name": "AST SpaceMobile",
+        "price": 26.85,
+        "change": 3.19,
+        "high": 26.89,
+        "low": 24.66
+      },
+      "UNH": {
+        "name": "UnitedHealth",
+        "price": 351.41,
+        "change": 1.51,
+        "high": 353.56,
+        "low": 349.0
+      },
+      "EOSE": {
+        "name": "Eos Energy",
+        "price": 1.38,
+        "change": 8.66,
+        "high": 1.4,
+        "low": 1.29
+      },
+      "RKLB": {
+        "name": "Rocket Lab",
+        "price": 50.88,
+        "change": 8.21,
+        "high": 50.95,
+        "low": 47.47
+      },
+      "OKLO": {
+        "name": "Oklo",
+        "price": 20.85,
+        "change": 7.09,
+        "high": 20.89,
+        "low": 19.52
+      },
+      "ONDS": {
+        "name": "Ondas Holdings",
+        "price": 4.1,
+        "change": 5.13,
+        "high": 4.17,
+        "low": 3.99
+      }
+    }
+  },
+  "fear_greed": {
+    "score": "N/A",
+    "rating": "N/A"
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "pnl": {
+    "MSFT": {
+      "shares": 1.0529435,
+      "avg_cost": 470.595,
+      "current_price": 492.85,
+      "value": 518.9432039750001,
+      "cost": 495.50994638250006,
+      "gain": 23.433257592500013,
+      "gain_pct": 4.729119518906918
+    },
+    "NVDA": {
+      "shares": 0.8876384,
+      "avg_cost": 181.9885,
+      "current_price": 150.49,
+      "value": 133.580702816,
+      "cost": 161.5399809584,
+      "gain": -27.959278142399995,
+      "gain_pct": -17.307961766814934
+    },
+    "ASTS": {
+      "shares": 2.9293948,
+      "avg_cost": 73.2131,
+      "current_price": 26.85,
+      "value": 78.65425038,
+      "cost": 214.47007443188,
+      "gain": -135.81582405187999,
+      "gain_pct": -63.32623533220148
+    },
+    "OKLO": {
+      "shares": 4.9876316,
+      "avg_cost": 90.7545,
+      "current_price": 20.85,
+      "value": 103.99211886000002,
+      "cost": 452.6500120422,
+      "gain": -348.6578931822,
+      "gain_pct": -77.02593259838355
+    },
+    "ONDS": {
+      "shares": 6.1383399,
+      "avg_cost": 11.385,
+      "current_price": 4.1,
+      "value": 25.167193589999997,
+      "cost": 69.8849997615,
+      "gain": -44.7178061715,
+      "gain_pct": -63.98770311813791
+    },
+    "ARQQ": {
+      "value": "N/A",
+      "cost": 61.19646719899999,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "ABCL": {
+      "value": "N/A",
+      "cost": 61.09909999086,
+      "gain": "N/A",
+      "gain_pct": "N/A"
+    },
+    "__total__": {
+      "value": 860.3374696210001,
+      "cost": 1394.05501357648,
+      "gain": -533.7175439554799,
+      "gain_pct": -38.285256948806875
+    }
+  },
+  "allocation": {
+    "mag7": {
+      "value": 652.5239067910001,
+      "current_pct": 75.8,
+      "target_pct": 20,
+      "diff": 55.8,
+      "status": "Overweight"
+    },
+    "watchlist": {
+      "value": 207.81356283000002,
+      "current_pct": 24.2,
+      "target_pct": 50,
+      "diff": -25.8,
+      "status": "Underweight"
+    },
+    "crypto": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "gold": {
+      "value": 0.0,
+      "current_pct": 0.0,
+      "target_pct": 15,
+      "diff": -15.0,
+      "status": "Underweight"
+    },
+    "__total__": 860.3374696210001
+  },
+  "news": "[BBC Business]\nหัวข้อ: Faisal Islam: Why Trump's new tariffs are less of a threat\nเนื้อหา: Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.\n\n[BBC Business]\nหัวข้อ: From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale\nเนื้อหา: Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.\n\n[BBC Business]\nหัวข้อ: UK to pay 'participation' fee to deliver EU deals\nเนื้อหา: Details of the contribution towards EU running costs have been revealed in new legal documents.\n\n[BBC Business]\nหัวข้อ: Asia made a big AI bet on Nvidia. What happens now?\nเนื้อหา: Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.\n\n[BBC Business]\nหัวข้อ: My self-care ritual is a meal at a fancy restaurant - on my own\nเนื้อหา: Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.\n\n[CNBC]\nหัวข้อ: Inflation has shoppers hunting for value. That bodes well for Black Friday\nเนื้อหา: Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.\n\n[CNBC]\nหัวข้อ: Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher\nเนื้อหา: President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"\n\n[CNBC]\nหัวข้อ: The S&P 500 is in a correction. Bear markets and recessions don't always follow\nเนื้อหา: The November sell-off has so far pushed the S&amp;P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.\n\n[CNBC]\nหัวข้อ: Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding\nเนื้อหา: Budget carrier Norse Atlantic filed for bankruptcy Friday, saying it failed to secure funding after soaring fuel costs strained the company's operations.\n\n[CNBC]\nหัวข้อ: Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support\nเนื้อหา: Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support.\n\n[MarketWatch]\nหัวข้อ: These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia\nเนื้อหา: Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.\n\n[MarketWatch]\nหัวข้อ: Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest\nเนื้อหา: Medicare Advantage is starting to lose its all-in-one benefit.\n\n[MarketWatch]\nหัวข้อ: The warnings behind this week’s stock-market rally\nเนื้อหา: Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.\n\n[MarketWatch]\nหัวข้อ: Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?\nเนื้อหา: Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.\n\n[MarketWatch]\nหัวข้อ: 12 days of sardines and Croc charms: Are Advent calendars getting out of control?\nเนื้อหา: Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.\n\n[Investing.com Gold]\nหัวข้อ: S&P lifts South Africa ratings on improving fiscal position\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Volatile stock market confronts jobs data, rate view as next tests\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazil central bank to offer $2 billion in dollar auctions Monday\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: S&P revises France outlook to ’negative’ on mounting budget pressures, weak growth\nเนื้อหา: \n\n[Investing.com Gold]\nหัวข้อ: Brazilian markets rally after Lula taps Bradesco chairman for finance chief\nเนื้อหา: ",
+  "truth_posts": "",
+  "ff_news": "• Forex News - the fastest breaking news, useful Forex analysis, and Forex industry news, submitted from quality Forex news sources around the world.",
+  "analysis": "⚠️ การวิเคราะห์ AI ไม่สำเร็จ: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}\n\nกรุณาดูข้อมูลราคาด้านบนและวิเคราะห์เองครับ"
+}
